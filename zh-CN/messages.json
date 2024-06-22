@@ -1,0 +1,3162 @@
+{
+   "options__title": {
+      "message": "PuryFi - 选项",
+      "description": "PuryFi - Options",
+      "status": null
+   },
+   "censor-type__normal": {
+      "message": "正常",
+      "description": "Normal",
+      "status": null
+   },
+   "censor-type__bar": {
+      "message": "条形",
+      "description": "Bar",
+      "status": null
+   },
+   "censor-type__pixel": {
+      "message": "像素",
+      "description": "Pixel",
+      "status": null
+   },
+   "censor-type__blur": {
+      "message": "模糊",
+      "description": "Blur",
+      "status": null
+   },
+   "censor-type__triangle": {
+      "message": "三角",
+      "description": "Triangle",
+      "status": null
+   },
+   "censor-type__box": {
+      "message": "方块",
+      "description": "Box",
+      "status": null
+   },
+   "censor-type__glitch": {
+      "message": "故障",
+      "description": "Glitch",
+      "status": null
+   },
+   "censor-type__sticker": {
+      "message": "贴纸",
+      "description": "Sticker",
+      "status": null
+   },
+   "censor-type__sobel": {
+      "message": "索贝尔",
+      "description": "Sobel",
+      "status": null
+   },
+   "censor-type__splatter": {
+      "message": "飞溅",
+      "description": "Splatter",
+      "status": null
+   },
+   "censor-type__random": {
+      "message": "随机",
+      "description": "Random",
+      "status": null
+   },
+   "options__login__login": {
+      "message": "登录",
+      "description": "Login",
+      "status": null
+   },
+   "options__login__remember-me": {
+      "message": "记住我",
+      "description": "Remember Me",
+      "status": null
+   },
+   "options__login__register": {
+      "message": "注册",
+      "description": "Register",
+      "status": null
+   },
+   "options__login__forgot-password": {
+      "message": "我忘记了密码",
+      "description": "I forgot my password",
+      "status": null
+   },
+   "options__login__not-connected": {
+      "message": "未连接到Patreon",
+      "description": "Not connected to Patreon",
+      "status": null
+   },
+   "options__sidebar__settings": {
+      "message": "设置",
+      "description": "Settings",
+      "status": null
+   },
+   "options__sidebar__content": {
+      "message": "内容",
+      "description": "Content",
+      "status": null
+   },
+   "options__sidebar__censor": {
+      "message": "审查",
+      "description": "Censor",
+      "status": null
+   },
+   "options__sidebar__file-types": {
+      "message": "文件类型",
+      "description": "File Types",
+      "status": null
+   },
+   "options__sidebar__advanced": {
+      "message": "高级",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__content__header": {
+      "message": "内容",
+      "description": "Content",
+      "status": null
+   },
+   "options__content__description": {
+      "message": "确定要审查的内容：",
+      "description": "Determine which content to censor:",
+      "status": null
+   },
+   "options__content__experimental-content": {
+      "message": "实验性内容",
+      "description": "Experimental Content",
+      "status": null
+   },
+   "labels__face": {
+      "message": "脸",
+      "description": "Face",
+      "status": null
+   },
+   "labels__eye": {
+      "message": "眼睛",
+      "description": "Eye",
+      "status": null
+   },
+   "labels__armpit-exposed": {
+      "message": "腋窝",
+      "description": "Armpit",
+      "status": null
+   },
+   "labels__armpit-covered": {
+      "message": "腋窝已遮盖",
+      "description": "Armpit Covered",
+      "status": null
+   },
+   "labels__nipple-exposed": {
+      "message": "乳头",
+      "description": "Nipple",
+      "status": null
+   },
+   "labels__nipple-covered": {
+      "message": "乳头已遮盖",
+      "description": "Nipple Covered",
+      "status": null
+   },
+   "labels__breast-exposed": {
+      "message": "乳房",
+      "description": "Breast",
+      "status": null
+   },
+   "labels__breast-covered": {
+      "message": "乳房已遮盖",
+      "description": "Breast Covered",
+      "status": null
+   },
+   "labels__belly-exposed": {
+      "message": "腹部",
+      "description": "Belly",
+      "status": null
+   },
+   "labels__belly-covered": {
+      "message": "腹部已遮盖",
+      "description": "Belly Covered",
+      "status": null
+   },
+   "labels__hand-exposed": {
+      "message": "手",
+      "description": "Hand",
+      "status": null
+   },
+   "labels__hand-covered": {
+      "message": "手已遮盖",
+      "description": "Hand Covered",
+      "status": null
+   },
+   "labels__buttocks-exposed": {
+      "message": "臀部",
+      "description": "Buttocks",
+      "status": null
+   },
+   "labels__buttocks-covered": {
+      "message": "臀部已遮盖",
+      "description": "Buttocks Covered",
+      "status": null
+   },
+   "labels__anus-exposed": {
+      "message": "肛门",
+      "description": "Anus",
+      "status": null
+   },
+   "labels__anus-covered": {
+      "message": "肛门已遮盖",
+      "description": "Anus Covered",
+      "status": null
+   },
+   "labels__genitalia-exposed": {
+      "message": "生殖器",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitalia-covered": {
+      "message": "生殖器已遮盖",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "labels__feet-exposed": {
+      "message": "脚",
+      "description": "Foot",
+      "status": null
+   },
+   "labels__feet-covered": {
+      "message": "脚已遮盖",
+      "description": "Foot Covered",
+      "status": null
+   },
+   "options__filetypes__header": {
+      "message": "文件类型",
+      "description": "File Types",
+      "status": null
+   },
+   "options__filetypes__description": {
+      "message": "确定要处理的文件类型及方式：",
+      "description": "Determine which file types to process and how:",
+      "status": null
+   },
+   "options__filetypes__gif__thumb": {
+      "message": "缩略图",
+      "description": "Thumb",
+      "status": null
+   },
+   "options__filetypes__gif__frames": {
+      "message": "帧",
+      "description": "Frames",
+      "status": null
+   },
+   "options__filetypes__image__width-min": {
+      "message": "宽度 (最小)",
+      "description": "Width (Min)",
+      "status": null
+   },
+   "options__filetypes__image__height-min": {
+      "message": "高度 (最小)",
+      "description": "Height (Min)",
+      "status": null
+   },
+   "options__filetypes__image__height-max": {
+      "message": "高度 (最大)",
+      "description": "Height (Max)",
+      "status": null
+   },
+   "options__filetypes__image__width-max": {
+      "message": "宽度 (最大)",
+      "description": "Width (Max)",
+      "status": null
+   },
+   "options__filetypes__image__file-size-min": {
+      "message": "文件大小 (最小)",
+      "description": "File Size (Min)",
+      "status": null
+   },
+   "options__filetypes__image__file-size-max": {
+      "message": "文件大小 (最大)",
+      "description": "File Size (Max)",
+      "status": null
+   },
+   "options__filetypes__image__filetype-output": {
+      "message": "输出文件类型",
+      "description": "Output File Type",
+      "status": null
+   },
+   "options__filetypes__gif__thumbnail-fallback": {
+      "message": "缩略图回退",
+      "description": "Thumbnail Fallback",
+      "status": null
+   },
+   "options__filetypes__gif__thumbnail-fallback__description": {
+      "message": "如果 GIF 超过最大文件大小或帧数，则审查并显示缩略图。小于最小文件大小的 GIF 仍然会被忽略。",
+      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
+      "status": null
+   },
+   "options__filetypes__gif__processing-mode": {
+      "message": "处理模式",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__gif__sync-slow": {
+      "message": "同步 (慢)",
+      "description": "Sync (slow)",
+      "status": null
+   },
+   "options__filetypes__gif__sync-fast": {
+      "message": "异步 (快)",
+      "description": "Async (fast)",
+      "status": null
+   },
+   "options__filetypes__gif__processing-mode__description": {
+      "message": "通过异步处理所有帧来减少处理时间，但如果处理足够大的 GIF，则存在浏览器冻结或崩溃的风险。",
+      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
+      "status": null
+   },
+   "options__filetypes__gif__frame-skipping": {
+      "message": "AI 帧跳过",
+      "description": "AI Frame Skipping",
+      "status": null
+   },
+   "options__filetypes__gif__frame-skipping__description": {
+      "message": "通过在运行 AI 后跳过设置数量的帧来减少处理时间。未运行 AI 的帧中的检测结果是从运行 AI 的帧中推断出来的。",
+      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
+      "status": null
+   },
+   "options__filetypes__gif__detection-extending": {
+      "message": "检测扩展",
+      "description": "Detection Extending",
+      "status": null
+   },
+   "options__filetypes__gif__detection-extending__description": {
+      "message": "通过将所有检测结果扩展到设置数量的前后帧来弥补 AI 短暂未能检测到身体部位的情况。",
+      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
+      "status": null
+   },
+   "options__filetypes__gif__detection-similarity": {
+      "message": "检测相似度阈值",
+      "description": "Detection Similarity Threshold",
+      "status": null
+   },
+   "options__filetypes__gif__detection-similarity__description": {
+      "message": "设置两个不同帧中检测到的位置和大小的相似程度，以便假设它们检测到相同的身体部位。此信息用于推断未运行 AI 的帧中的检测结果。",
+      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "status": null
+   },
+   "options__filetypes__gif__frames-max": {
+      "message": "帧 (最大)",
+      "description": "Frames (Max)",
+      "status": null
+   },
+   "options__filetypes__video__auto-overlay": {
+      "message": "自动覆盖视频",
+      "description": "Automatically Overlay Videos",
+      "status": null
+   },
+   "options__filetypes__video__auto-overlay__description": {
+      "message": "在视频上创建审查叠加层。由于帧是实时处理的，因此产生的 FPS 将很大程度上取决于您的硬件性能。请注意，这不会审查实际的视频。",
+      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
+      "status": null
+   },
+   "options__general__note": {
+      "message": "注意：",
+      "description": "Note:",
+      "status": null
+   },
+   "options__filetypes__video__note__description": {
+      "message": "建议使用上下文菜单按需创建叠加层，而不是启用此选项，因为生成不必要的叠加层可能会非常浪费资源！",
+      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
+      "status": null
+   },
+   "options__filetypes__video__note__account": {
+      "message": "不起作用？",
+      "description": "Not Working?",
+      "status": null
+   },
+   "options__filetypes__video__note__account__description": {
+      "message": "此功能需要免费的 PuryFi 帐户，请登录！",
+      "description": "This feature requires a free PuryFi account, so please, login!",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode": {
+      "message": "处理模式：",
+      "description": "Processing Mode:",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__stable": {
+      "message": "稳定",
+      "description": "Stable",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__overdrive": {
+      "message": "超频",
+      "description": "Overdrive",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__fps-limit": {
+      "message": "FPS 限制",
+      "description": "FPS-Limit",
+      "status": null
+   },
+   "options__filetypes__video__gif-export": {
+      "message": "GIF 导出",
+      "description": "GIF-Export",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__size-limit": {
+      "message": "GIF 大小限制",
+      "description": "GIF Size Limit",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__size-limit__description": {
+      "message": "将导出的 GIF 的图像大小限制为最大高度或宽度，同时保持纵横比。值可以设置为 0 以禁用 GIF 的缩小。",
+      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__cache-memory": {
+      "message": "缓存内存",
+      "description": "Cache Memory",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__cache-memory__description": {
+      "message": "定义视频叠加层允许缓存的帧数。影响您可以一次从给定视频中最多导出多少帧。值可以设置为 0 以禁用所有帧缓存 (GIF 导出需要帧缓存)。",
+      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
+      "status": null
+   },
+   "options__censor__header": {
+      "message": "审查",
+      "description": "Censor",
+      "status": null
+   },
+   "options__censor__description": {
+      "message": "确定最终审查结果：",
+      "description": "Determine the resulting censor:",
+      "status": null
+   },
+   "popup__censor__mode": {
+      "message": "审查模式",
+      "description": "Censor Mode",
+      "status": null
+   },
+   "options__censor__modes": {
+      "message": "审查模式",
+      "description": "Censor Modes",
+      "status": null
+   },
+   "options__censor__modes__shape": {
+      "message": "形状",
+      "description": "Shape",
+      "status": null
+   },
+   "options__censor__modes__shape__square": {
+      "message": "◼ 方形",
+      "description": "◼ Square",
+      "status": null
+   },
+   "options__censor__modes__shape__circle": {
+      "message": "● 圆形",
+      "description": "● Circle",
+      "status": null
+   },
+   "options__censor__modes__shape__ellipse": {
+      "message": "⬬ 椭圆",
+      "description": "⬬ Ellipse",
+      "status": null
+   },
+   "options__censor__modes__shape__line": {
+      "message": "▬ 线",
+      "description": "▬ Line",
+      "status": null
+   },
+   "options__censor__modes__shape__heart": {
+      "message": "❤ 心形",
+      "description": "❤ Heart",
+      "status": null
+   },
+   "options__censor__modes__rounding": {
+      "message": "圆度",
+      "description": "Rounding",
+      "status": null
+   },
+   "options__censor__modes__scale": {
+      "message": "缩放",
+      "description": "Scale",
+      "status": null
+   },
+   "options__censor__modes__feathering": {
+      "message": "羽化",
+      "description": "Feathering",
+      "status": null
+   },
+   "options__censor__modes__mode": {
+      "message": "模式",
+      "description": "Mode",
+      "status": null
+   },
+   "options__censor__modes__paint": {
+      "message": "涂抹",
+      "description": "Paint",
+      "status": null
+   },
+   "options__censor__modes__erase": {
+      "message": "擦除",
+      "description": "Erase",
+      "status": null
+   },
+   "options__censor__modes__color": {
+      "message": "颜色",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__modes__opacity": {
+      "message": "不透明度",
+      "description": "Opacity",
+      "status": null
+   },
+   "options__censor__modes__border-width": {
+      "message": "边框宽度",
+      "description": "Border Width",
+      "status": null
+   },
+   "options__censor__modes__border-color": {
+      "message": "边框颜色",
+      "description": "Border Color",
+      "status": null
+   },
+   "options__censor__cluster": {
+      "message": "聚类",
+      "description": "Cluster",
+      "status": null
+   },
+   "options__censor__caption": {
+      "message": "标题",
+      "description": "Caption",
+      "status": null
+   },
+   "options__censor__word-wall": {
+      "message": "词墙",
+      "description": "Word Wall",
+      "status": null
+   },
+   "options__censor__general": {
+      "message": "通用",
+      "description": "General",
+      "status": null
+   },
+   "options__censor__extras": {
+      "message": "额外",
+      "description": "Extras",
+      "status": null
+   },
+   "options__censor__modes__type": {
+      "message": "类型",
+      "description": "Type",
+      "status": null
+   },
+   "options__censor__modes__pixel__mosaic": {
+      "message": "马赛克",
+      "description": "Mosaic",
+      "status": null
+   },
+   "options__censor__modes__pixel__hexagon": {
+      "message": "六边形",
+      "description": "Hexagon",
+      "status": null
+   },
+   "options__censor__modes__pixel__glitch": {
+      "message": "故障效果",
+      "description": "Glitch",
+      "status": null
+   },
+   "options__censor__modes__pixel__halftone": {
+      "message": "半色调",
+      "description": "Halftone",
+      "status": null
+   },
+   "options__censor__modes__strength": {
+      "message": "强度",
+      "description": "Strength",
+      "status": null
+   },
+   "options__censor__modes__density": {
+      "message": "密度",
+      "description": "Density",
+      "status": null
+   },
+   "options__censor__modes__channel-colors": {
+      "message": "通道颜色",
+      "description": "Channel Colors",
+      "status": null
+   },
+   "options__censor__modes__grayscale": {
+      "message": "灰度",
+      "description": "Grayscale",
+      "status": null
+   },
+   "options__censor__modes__sampling": {
+      "message": "精准采样",
+      "description": "Accurate Sampling",
+      "status": null
+   },
+   "options__censor__modes__scale-width-detection": {
+      "message": "随检测缩放",
+      "description": "Scale With Detection",
+      "status": null
+   },
+   "options__censor__modes__color-mode": {
+      "message": "颜色模式",
+      "description": "Color Mode",
+      "status": null
+   },
+   "options__censor__modes__color-mode__cmyk": {
+      "message": "CMYK",
+      "description": "CMYK",
+      "status": null
+   },
+   "options__censor__modes__color-mode__simple": {
+      "message": "简单",
+      "description": "Simple",
+      "status": null
+   },
+   "options__censor__modes__grid-width": {
+      "message": "网格宽度",
+      "description": "Grid Width",
+      "status": null
+   },
+   "options__censor__modes__grid-color": {
+      "message": "网格颜色",
+      "description": "Grid Color",
+      "status": null
+   },
+   "options__censor__modes__background-color": {
+      "message": "背景颜色",
+      "description": "Background Color",
+      "status": null
+   },
+   "options__censor__modes__vertext-count": {
+      "message": "顶点数量",
+      "description": "Vertex Count",
+      "status": null
+   },
+   "options__censor__modes__threshold": {
+      "message": "阈值",
+      "description": "Threshold",
+      "status": null
+   },
+   "options__censor__modes__accuracy": {
+      "message": "准确度",
+      "description": "Accuracy",
+      "status": null
+   },
+   "options__censor__modes__blurring": {
+      "message": "模糊",
+      "description": "Blurring",
+      "status": null
+   },
+   "options__censor__modes__line-join": {
+      "message": "线条连接",
+      "description": "Line Join",
+      "status": null
+   },
+   "options__censor__modes__line-join__miter": {
+      "message": "斜接",
+      "description": "Miter",
+      "status": null
+   },
+   "options__censor__modes__line-join__round": {
+      "message": "圆角",
+      "description": "Round",
+      "status": null
+   },
+   "options__censor__modes__line-join__bevel": {
+      "message": "斜角",
+      "description": "Bevel",
+      "status": null
+   },
+   "options__censor__modes__fill-color-mode": {
+      "message": "填充颜色模式",
+      "description": "Fill Color Mode",
+      "status": null
+   },
+   "options__censor__modes__auto": {
+      "message": "自动",
+      "description": "Auto",
+      "status": null
+   },
+   "options__censor__modes__custom": {
+      "message": "自定义",
+      "description": "Custom",
+      "status": null
+   },
+   "options__censor__modes__fill-color": {
+      "message": "填充颜色",
+      "description": "Fill Color",
+      "status": null
+   },
+   "options__censor__modes__transparent-color": {
+      "message": "透明颜色",
+      "description": "Transparent Color",
+      "status": null
+   },
+   "options__censor__modes__gradients": {
+      "message": "渐变",
+      "description": "Gradients",
+      "status": null
+   },
+   "options__censor__modes__gradient-stops": {
+      "message": "渐变停止",
+      "description": "Gradient Stops",
+      "status": null
+   },
+   "options__censor__modes__stroke-color-mode": {
+      "message": "描边颜色模式",
+      "description": "Stroke Color Mode",
+      "status": null
+   },
+   "options__censor__modes__stroke-color": {
+      "message": "描边颜色",
+      "description": "Stroke Color",
+      "status": null
+   },
+   "options__censor__modes__stroke-width": {
+      "message": "描边宽度",
+      "description": "Stroke Width",
+      "status": null
+   },
+   "options__censor__modes__box__display": {
+      "message": "显示",
+      "description": "Display",
+      "status": null
+   },
+   "options__censor__modes__box__name-score": {
+      "message": "名称和分数",
+      "description": "Name & Score",
+      "status": null
+   },
+   "options__censor__modes__box__name": {
+      "message": "名称",
+      "description": "Name",
+      "status": null
+   },
+   "options__censor__modes__box__score": {
+      "message": "分数",
+      "description": "Score",
+      "status": null
+   },
+   "options__censor__modes__box__nothing": {
+      "message": "无",
+      "description": "Nothing",
+      "status": null
+   },
+   "options__censor__modes__glitch__chromatic-aberration": {
+      "message": "色差",
+      "description": "Chr. Aberration",
+      "status": null
+   },
+   "options__censor__modes__glitch__multiple-panels": {
+      "message": "多面板",
+      "description": "Multiple Panels",
+      "status": null
+   },
+   "options__censor__modes__glitch__color-intensity": {
+      "message": "颜色强度",
+      "description": "Color Intensity",
+      "status": null
+   },
+   "options__censor__modes__glitch__shift-intensity": {
+      "message": "偏移强度",
+      "description": "Shift Intensity",
+      "status": null
+   },
+   "options__censor__modes__glitch__horizontal-shift": {
+      "message": "水平偏移",
+      "description": "Horizontal Shift",
+      "status": null
+   },
+   "options__censor__modes__glitch__vertical-shift": {
+      "message": "垂直偏移",
+      "description": "Vertical Shift",
+      "status": null
+   },
+   "options__censor__modes__amount": {
+      "message": "数量",
+      "description": "Amount",
+      "status": null
+   },
+   "options__censor__modes__glitch__min-size": {
+      "message": "最小尺寸",
+      "description": "Min. Size",
+      "status": null
+   },
+   "options__censor__modes__glitch__max-size": {
+      "message": "最大尺寸",
+      "description": "Max. Size",
+      "status": null
+   },
+   "options__censor__modes__glitch__scatter": {
+      "message": "分散",
+      "description": "Scatter",
+      "status": null
+   },
+   "options__censor__modes__glitch__split-chance": {
+      "message": "分裂几率",
+      "description": "Split Chance",
+      "status": null
+   },
+   "options__censor__modes__glitch__border": {
+      "message": "边框",
+      "description": "Border",
+      "status": null
+   },
+   "options__censor__modes__glitch__gradient": {
+      "message": "渐变",
+      "description": "Gradient",
+      "status": null
+   },
+   "labels__armpit": {
+      "message": "腋窝",
+      "description": "Armpit",
+      "status": null
+   },
+   "labels__nipple": {
+      "message": "乳头",
+      "description": "Nipple",
+      "status": null
+   },
+   "labels__breast": {
+      "message": "乳房",
+      "description": "Breast",
+      "status": null
+   },
+   "labels__belly": {
+      "message": "腹部",
+      "description": "Belly",
+      "status": null
+   },
+   "labels__hand": {
+      "message": "手",
+      "description": "Hand",
+      "status": null
+   },
+   "labels__buttocks": {
+      "message": "臀部",
+      "description": "Buttocks",
+      "status": null
+   },
+   "labels__anus": {
+      "message": "肛门",
+      "description": "Anus",
+      "status": null
+   },
+   "labels__genitalia": {
+      "message": "生殖器",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitalia-short": {
+      "message": "生殖器",
+      "description": "Gen.",
+      "status": "manual"
+   },
+   "labels__feet": {
+      "message": "脚",
+      "description": "Foot",
+      "status": null
+   },
+   "options__censor__modes__sticker__name": {
+      "message": "名称",
+      "description": "Name",
+      "status": null
+   },
+   "options__censor__modes__sticker__groups": {
+      "message": "组",
+      "description": "Groups",
+      "status": null
+   },
+   "options__censor__modes__sticker__weight": {
+      "message": "权重",
+      "description": "Weight",
+      "status": null
+   },
+   "options__censor__modes__sticker__delete": {
+      "message": "删除",
+      "description": "Delete",
+      "status": null
+   },
+   "options__censor__modes__sticker__pick-mode": {
+      "message": "草稿模式",
+      "description": "Pick Mode",
+      "status": null
+   },
+   "options__censor__modes__sticker__per-body-part": {
+      "message": "每个身体部位",
+      "description": "Per Body Part",
+      "status": null
+   },
+   "options__censor__modes__sticker__Per-detection": {
+      "message": "每次检测",
+      "description": "Per Detection",
+      "status": null
+   },
+   "options__censor__modes__sticker__pick-single-source": {
+      "message": "草稿单一来源",
+      "description": "Pick Single Source",
+      "status": null
+   },
+   "options__censor__modes__sticker__enabled-sources": {
+      "message": "启用来源",
+      "description": "Enabled Sources",
+      "status": null
+   },
+   "options__censor__modes__sticker__entries-description": {
+      "message": "- 条目是用分号分隔的集合或组名称",
+      "description": "- Entries are collection or group names separated by semicolons",
+      "status": null
+   },
+   "options__censor__modes__sticker__create-collection": {
+      "message": "创建集合",
+      "description": "Create Collection",
+      "status": null
+   },
+   "options__censor__modes__sticker__create": {
+      "message": "创建",
+      "description": "Create",
+      "status": null
+   },
+   "options__censor__modes__sticker__delete-collection": {
+      "message": "删除",
+      "description": "Delete",
+      "status": null
+   },
+   "options__censor__modes__sticker__import-collection": {
+      "message": "导入",
+      "description": "Import",
+      "status": null
+   },
+   "options__censor__modes__sticker__export-collection": {
+      "message": "导出",
+      "description": "Export",
+      "status": null
+   },
+   "options__censor__modes__sticker__reset-all": {
+      "message": "全部重置",
+      "description": "Reset All",
+      "status": null
+   },
+   "options__censor__modes__sobel__inverted-color": {
+      "message": "反转颜色",
+      "description": "Inverted Color",
+      "status": null
+   },
+   "options__censor__modes__splatter__recursions": {
+      "message": "递归",
+      "description": "Recursions",
+      "status": null
+   },
+   "options__censor__modes__splatter__color-pool": {
+      "message": "颜色池",
+      "description": "Color Pool",
+      "status": null
+   },
+   "options__censor__modes__splatter__centering": {
+      "message": "居中",
+      "description": "Centering",
+      "status": null
+   },
+   "options__censor__modes__splatter__size": {
+      "message": "大小",
+      "description": "Size",
+      "status": null
+   },
+   "options__censor__modes__splatter__sub-size": {
+      "message": "子大小",
+      "description": "Sub Size",
+      "status": null
+   },
+   "options__censor__modes__splatter__sub-amount": {
+      "message": "子数量",
+      "description": "Sub Amount",
+      "status": null
+   },
+   "options__censor__modes__splatter__rainbow": {
+      "message": "彩虹",
+      "description": "Rainbow",
+      "status": null
+   },
+   "options__censor__modes__random": {
+      "message": "随机",
+      "description": "Random",
+      "status": null
+   },
+   "options__censor__modes__super-random": {
+      "message": "超级随机",
+      "description": "Super Random",
+      "status": null
+   },
+   "options__censor__none": {
+      "message": "无",
+      "description": "None",
+      "status": null
+   },
+   "censor-type__black": {
+      "message": "黑色",
+      "description": "Black",
+      "status": null
+   },
+   "censor-type__mixed": {
+      "message": "混合",
+      "description": "Mixed",
+      "status": null
+   },
+   "options__censor__mixed-mode__content": {
+      "message": "内容",
+      "description": "Content",
+      "status": null
+   },
+   "options__censor__reverse": {
+      "message": "反转",
+      "description": "Reverse",
+      "status": null
+   },
+   "options__censor__censor-extras": {
+      "message": "额外审查",
+      "description": "Censor Extras",
+      "status": null
+   },
+   "options__censor__cluster__only-matching-content": {
+      "message": "仅匹配内容",
+      "description": "Only Matching Content",
+      "status": null
+   },
+   "options__censor__cluster__max-distance": {
+      "message": "最大距离",
+      "description": "Max. Distance",
+      "status": null
+   },
+   "options__censor__modes__cutout": {
+      "message": "裁剪",
+      "description": "Cutout",
+      "status": null
+   },
+   "options__censor__caption__color": {
+      "message": "颜色",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__caption__font": {
+      "message": "字体",
+      "description": "Font",
+      "status": null
+   },
+   "options__censor__caption__style": {
+      "message": "样式",
+      "description": "Style",
+      "status": null
+   },
+   "options__censor__caption__padding": {
+      "message": "填充",
+      "description": "Padding",
+      "status": null
+   },
+   "options__censor__word-wall__pick-mode": {
+      "message": "草稿模式：",
+      "description": "Pick Mode:",
+      "status": null
+   },
+   "options__censor__word-wall__single": {
+      "message": "单个",
+      "description": "Single",
+      "status": null
+   },
+   "options__censor__word-wall__multiple": {
+      "message": "多个",
+      "description": "Multiple",
+      "status": null
+   },
+   "options__censor__word-wall__all": {
+      "message": "全部",
+      "description": "All",
+      "status": null
+   },
+   "options__censor__word-wall__word-pool": {
+      "message": "词池",
+      "description": "Word Pool",
+      "status": null
+   },
+   "options__censor__word-wall__word-pool__description": {
+      "message": "- 条目以换行符分隔",
+      "description": "- Entries are separated by new lines",
+      "status": null
+   },
+   "options__censor__word-wall__color": {
+      "message": "颜色",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__word-wall__font": {
+      "message": "字体",
+      "description": "Font",
+      "status": null
+   },
+   "options__censor__word-wall__style": {
+      "message": "样式",
+      "description": "Style",
+      "status": null
+   },
+   "options__censor__word-wall__size": {
+      "message": "大小",
+      "description": "Size",
+      "status": null
+   },
+   "options__censor__word-wall__spacing": {
+      "message": "间距",
+      "description": "Spacing",
+      "status": null
+   },
+   "options__censor__word-wall__line-height": {
+      "message": "行高",
+      "description": "Line Height",
+      "status": null
+   },
+   "options__censor__word-wall__line-offset": {
+      "message": "行偏移",
+      "description": "Line Offset",
+      "status": null
+   },
+   "options__censor__word-wall__angle": {
+      "message": "角度",
+      "description": "Angle",
+      "status": null
+   },
+   "options__censor__reverse__censor": {
+      "message": "审查",
+      "description": "Censor",
+      "status": null
+   },
+   "options__censor__reverse__all-images": {
+      "message": "所有图片",
+      "description": "all images",
+      "status": null
+   },
+   "options__censor__reverse__images-with-content": {
+      "message": "包含内容的图片",
+      "description": "images with content",
+      "status": null
+   },
+   "options__censor__reverse__images-with-censor-content": {
+      "message": "包含要审查内容的图片",
+      "description": "images with content to censor",
+      "status": null
+   },
+   "options__advanced__header": {
+      "message": "高级",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__advanced__description": {
+      "message": "高级和其他设置：",
+      "description": "Advanced and miscellaneous settings:",
+      "status": null
+   },
+   "options__advanced__extension-icon": {
+      "message": "扩展图标",
+      "description": "Extension Icon",
+      "status": null
+   },
+   "options__advanced__classic": {
+      "message": "经典",
+      "description": "Classic",
+      "status": null
+   },
+   "options__advanced__modern": {
+      "message": "现代",
+      "description": "Modern",
+      "status": null
+   },
+   "options__advanced__minimalistic": {
+      "message": "简约",
+      "description": "Minimalistic",
+      "status": null
+   },
+   "options__advanced__advanced-options": {
+      "message": "高级选项",
+      "description": "Advanced Options",
+      "status": null
+   },
+   "options__advanced__pre-scaling": {
+      "message": "预缩放",
+      "description": "Pre-Scaling",
+      "status": null
+   },
+   "options__advanced__pre-scaling__description": {
+      "message": "在处理之前再次缩小图片。测试表明，在批量处理大图像时，输出相当，同时略微提高了速度，并节省了大量内存。",
+      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
+      "status": null
+   },
+   "options__advanced__pre-scaling__description__note": {
+      "message": "当批量转换器或视频覆盖遇到内存问题时，强烈建议启用此选项。",
+      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
+      "status": null
+   },
+   "options__advanced__prefer-edited-detections": {
+      "message": "优先使用编辑过的检测",
+      "description": "Prefer Edited Detections",
+      "status": null
+   },
+   "options__advanced__prefer-edited-detections__description": {
+      "message": "在运行模型之前，查找用户是否已使用编辑器编辑并保存了图像的检测，如果是，则优先使用这些检测，而不是模型检测。",
+      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+      "status": null
+   },
+   "options__advanced__base64_support": {
+      "message": "Base64 支持",
+      "description": "Base64 Support",
+      "status": null
+   },
+   "options__advanced__base64_support__description": {
+      "message": "还会扫描网页中 Base64 编码的图片进行审查，因为 Firefox 扩展 API 无法检测到这些图片。",
+      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
+      "status": null
+   },
+   "options__advanced__ai-warmup": {
+      "message": "AI 预热",
+      "description": "AI Warm-Up",
+      "status": null
+   },
+   "options__advanced__ai-warmup__description": {
+      "message": "当 Firefox 启动时初始化 AI。此时您的浏览器可能会短暂冻结。",
+      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+      "status": null
+   },
+   "options__advanced__sfw-icons": {
+      "message": "SFW 图标",
+      "description": "SFW Icons",
+      "status": null
+   },
+   "options__advanced__sfw-icons__description": {
+      "message": "审查扩展中所有图标的裸露内容，例如身体部位图标。",
+      "description": "Censors nudity across all icons in the extension, such as in the body part icons.",
+      "status": null
+   },
+   "options__advanced__theme": {
+      "message": "主题",
+      "description": "Theme",
+      "status": null
+   },
+   "options__advanced__theme__teal": {
+      "message": "青色",
+      "description": "Teal",
+      "status": null
+   },
+   "options__advanced__theme__blue": {
+      "message": "蓝色",
+      "description": "Blue",
+      "status": null
+   },
+   "options__advanced__theme__purple": {
+      "message": "紫色",
+      "description": "Purple",
+      "status": null
+   },
+   "options__advanced__theme__pink": {
+      "message": "粉色",
+      "description": "Pink",
+      "status": null
+   },
+   "options__advanced__theme__amoled": {
+      "message": "AMOLED",
+      "description": "Amoled",
+      "status": null
+   },
+   "options__advanced__theme__cyberpunk": {
+      "message": "赛博朋克",
+      "description": "Cyberpunk",
+      "status": null
+   },
+   "options__advanced__theme__pink-doll": {
+      "message": "粉色娃娃",
+      "description": "Pink Doll",
+      "status": null
+   },
+   "options__advanced__theme__retro-wave": {
+      "message": "复古浪潮",
+      "description": "Retro Wave",
+      "status": null
+   },
+   "options__advanced__theme__accent-color": {
+      "message": "强调色：",
+      "description": "Accent Color:",
+      "status": null
+   },
+   "options__advanced__theme__main-bg-color": {
+      "message": "主背景颜色：",
+      "description": "Main BG Color:",
+      "status": null
+   },
+   "options__advanced__theme__secondary-bg-color": {
+      "message": "次背景颜色：",
+      "description": "Secondary BG Color:",
+      "status": null
+   },
+   "options__advanced__theme__text-color": {
+      "message": "文字颜色：",
+      "description": "Text Color:",
+      "status": null
+   },
+   "options__white-black-list__header": {
+      "message": "白名单和黑名单",
+      "description": "Whitelist & Blacklist",
+      "status": null
+   },
+   "options__white-black-list__description": {
+      "message": "将某些网页列入白名单或黑名单：",
+      "description": "Whitelist or blacklist certain webpages:",
+      "status": null
+   },
+   "options__white-black-list__whitelist": {
+      "message": "白名单",
+      "description": "Whitelist",
+      "status": null
+   },
+   "options__white-black-list__blacklist": {
+      "message": "黑名单",
+      "description": "Blacklist",
+      "status": null
+   },
+   "options__white-black-list__whitelist__description": {
+      "message": "- 以下网页禁用扩展程序",
+      "description": "- Disable the extension for the following webpages",
+      "status": null
+   },
+   "options__white-black-list__blacklist__description": {
+      "message": "- 仅对以下网页启用扩展程序",
+      "description": "- Enable the extension only for the following webpages",
+      "status": null
+   },
+   "options__white-black-list__text": {
+      "message": "文本",
+      "description": "text",
+      "status": null
+   },
+   "options__white-black-list__regex": {
+      "message": "正则表达式",
+      "description": "regex",
+      "status": null
+   },
+   "options__white-black-list__lock-info-whitelist": {
+      "message": "您的扩展程序已锁定！您可以从白名单中删除条目，但不能添加条目。",
+      "description": "Your extension is locked! You may remove entries from the whitelist, but not add them.",
+      "status": null
+   },
+   "options__white-black-list__lock-info-blacklist": {
+      "message": "您的扩展程序已锁定！您可以将条目添加到黑名单，但不能删除条目。",
+      "description": "Your extension is locked! You may add entries to the blacklist, but not remove them.",
+      "status": null
+   },
+   "options__settings__header": {
+      "message": "设置",
+      "description": "Settings",
+      "status": null
+   },
+   "options__settings__description": {
+      "message": "管理您的设置集合：",
+      "description": "Manage your settings collections:",
+      "status": null
+   },
+   "options__settings__import-settings": {
+      "message": "导入设置",
+      "description": "Import Settings",
+      "status": null
+   },
+   "options__settings__remote-control": {
+      "message": "远程控制",
+      "description": "Remote Control",
+      "status": null
+   },
+   "options__settings__subscribe": {
+      "message": "订阅",
+      "description": "Subscribe",
+      "status": null
+   },
+   "options__settings__unsubscribe": {
+      "message": "取消订阅",
+      "description": "Unsubscribe",
+      "status": null
+   },
+   "options__settings__lock-subscription": {
+      "message": "锁定订阅",
+      "description": "Lock Subscription",
+      "status": null
+   },
+   "options__settings__send-statistics-data": {
+      "message": "发送统计数据",
+      "description": "Send Statistics Data",
+      "status": null
+   },
+   "options__settings__allow-older-settings": {
+      "message": "允许旧版设置",
+      "description": "Allow Older Settings",
+      "status": null
+   },
+   "options__settings__auto-update": {
+      "message": "自动更新：",
+      "description": "Auto Update:",
+      "status": null
+   },
+   "options__settings__periodic": {
+      "message": "定期：",
+      "description": "Periodic:",
+      "status": null
+   },
+   "options__settings__minutes": {
+      "message": "分钟",
+      "description": "Minutes",
+      "status": null
+   },
+   "options__settings__on-start": {
+      "message": "启动时：",
+      "description": "On Start:",
+      "status": null
+   },
+   "options__settings__manual": {
+      "message": "手动：",
+      "description": "Manual:",
+      "status": null
+   },
+   "options__settings__cloud-settings": {
+      "message": "云端设置",
+      "description": "Cloud Settings",
+      "status": null
+   },
+   "options__settings__import": {
+      "message": "导入",
+      "description": "Import",
+      "status": null
+   },
+   "options__settings__local-data-mismatch": {
+      "message": "本地数据不匹配",
+      "description": "Local Data Mismatch",
+      "status": null
+   },
+   "options__settings__clear-cloud-data": {
+      "message": "清除云端数据",
+      "description": "Clear Cloud Data",
+      "status": null
+   },
+   "options__settings__last-updated": {
+      "message": "上次更新时间：",
+      "description": "Last Updated:",
+      "status": null
+   },
+   "options__settings__last-pinged": {
+      "message": "上次检查",
+      "description": "Last Checked:",
+      "status": null
+   },
+   "options__settings__local-file": {
+      "message": "本地文件",
+      "description": "Local File",
+      "status": null
+   },
+   "options__settings__manage-settings": {
+      "message": "管理设置",
+      "description": "Manage Settings",
+      "status": null
+   },
+   "options__settings__stored-settings": {
+      "message": "已存储的设置",
+      "description": "Stored Settings",
+      "status": null
+   },
+   "options__settings__save": {
+      "message": "保存",
+      "description": "Save",
+      "status": null
+   },
+   "options__settings__load": {
+      "message": "加载",
+      "description": "Load",
+      "status": null
+   },
+   "options__settings__save-configuration": {
+      "message": "保存配置中",
+      "description": "Saving Configuration",
+      "status": null
+   },
+   "options__settings__extension": {
+      "message": "扩展程序：",
+      "description": "Extension:",
+      "status": null
+   },
+   "options__settings__lock": {
+      "message": "锁定：",
+      "description": "Lock:",
+      "status": null
+   },
+   "options__settings__content": {
+      "message": "内容",
+      "description": "Content",
+      "status": null
+   },
+   "options__settings__censor": {
+      "message": "审查",
+      "description": "Censor",
+      "status": null
+   },
+   "options__settings__enabled-censor": {
+      "message": "已启用审查",
+      "description": "Enabled Censor",
+      "status": null
+   },
+   "options__settings__file-types": {
+      "message": "文件类型",
+      "description": "File Types",
+      "status": null
+   },
+   "options__settings__enabled-types": {
+      "message": "已启用类型",
+      "description": "Enabled Types",
+      "status": null
+   },
+   "options__settings__video": {
+      "message": "视频",
+      "description": "Video",
+      "status": null
+   },
+   "options__settings__oom": {
+      "message": "内存不足",
+      "description": "OOM",
+      "status": null
+   },
+   "options__settings__wb-list": {
+      "message": "白/黑名单",
+      "description": "W/B List",
+      "status": null
+   },
+   "options__settings__advanced": {
+      "message": "高级",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__settings__icons": {
+      "message": "图标",
+      "description": "Icons",
+      "status": null
+   },
+   "options__settings__pre-scaling": {
+      "message": "预缩放",
+      "description": "Pre-Scaling",
+      "status": null
+   },
+   "options__settings__prefer-edited-detections": {
+      "message": "优先使用编辑过的检测",
+      "description": "Prefer Edited Detections",
+      "status": null
+   },
+   "options__settings__base64_support": {
+      "message": "Base64支持",
+      "description": "Base64 Support",
+      "status": null
+   },
+   "options__settings__ai-warm-up": {
+      "message": "AI预热",
+      "description": "AI Warm-Up",
+      "status": null
+   },
+   "options__settings__theme": {
+      "message": "主题",
+      "description": "Theme",
+      "status": null
+   },
+   "options__help__header": {
+      "message": "帮助",
+      "description": "Help",
+      "status": null
+   },
+   "options__help__find-us": {
+      "message": "在以下位置找到我们",
+      "description": "Find us on",
+      "status": null
+   },
+   "options__help__cache": {
+      "message": "缓存",
+      "description": "Cache",
+      "status": null
+   },
+   "options__help__images": {
+      "message": "图像",
+      "description": "Images",
+      "status": null
+   },
+   "options__help__size": {
+      "message": "大小",
+      "description": "Size",
+      "status": null
+   },
+   "options__help__reset-cache": {
+      "message": "重置缓存",
+      "description": "Reset Cache",
+      "status": null
+   },
+   "options__help__storage": {
+      "message": "存储",
+      "description": "Storage",
+      "status": null
+   },
+   "options__help__total-synced": {
+      "message": "总共已同步",
+      "description": "Total Synced",
+      "status": null
+   },
+   "options__help__total-local": {
+      "message": "本地总数",
+      "description": "Total Local",
+      "status": null
+   },
+   "options__help__stickers": {
+      "message": "贴纸",
+      "description": "Stickers",
+      "status": null
+   },
+   "options__help__edited-detections": {
+      "message": "编辑过的检测",
+      "description": "Edited Detections",
+      "status": null
+   },
+   "options__help__lock-timer-logs": {
+      "message": "锁定计时器日志",
+      "description": "Lock Timer Logs",
+      "status": null
+   },
+   "options__help__oom": {
+      "message": "内存不足",
+      "description": "OOM",
+      "status": null
+   },
+   "options__help__oom-containers": {
+      "message": "内存不足容器",
+      "description": "OOM Containers",
+      "status": null
+   },
+   "options__help__oom-hashes": {
+      "message": "内存不足哈希",
+      "description": "OOM Hashes",
+      "status": null
+   },
+   "options__help__ai-model": {
+      "message": "AI模型",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__help__backend": {
+      "message": "后端",
+      "description": "Backend",
+      "status": null
+   },
+   "options__help__tensors": {
+      "message": "张量",
+      "description": "Tensors",
+      "status": null
+   },
+   "options__help__bytes": {
+      "message": "字节",
+      "description": "Bytes",
+      "status": null
+   },
+   "options__help__gpu-bytes": {
+      "message": "GPU字节",
+      "description": "GPU Bytes",
+      "status": null
+   },
+   "options__help__data-buffers": {
+      "message": "数据缓冲区",
+      "description": "Data Buffers",
+      "status": null
+   },
+   "options__help__stable": {
+      "message": "稳定",
+      "description": "Stable",
+      "status": null
+   },
+   "options__help__error": {
+      "message": "错误",
+      "description": "Error",
+      "status": null
+   },
+   "options__help__debugging": {
+      "message": "调试",
+      "description": "Debugging",
+      "status": null
+   },
+   "options__help__debug": {
+      "message": "调试",
+      "description": "Debug",
+      "status": null
+   },
+   "options__help__default-settings": {
+      "message": "默认设置",
+      "description": "Default Settings",
+      "status": null
+   },
+   "options__help__restore-defaults": {
+      "message": "恢复默认值",
+      "description": "Restore Defaults",
+      "status": null
+   },
+   "options__help__restore-defaults__description": {
+      "message": "不会删除任何本地数据，如贴纸或存储的设置。",
+      "description": "Will not delete any local data such as stickers or stored settings.",
+      "status": null
+   },
+   "options__oom__header": {
+      "message": "仅显示一次模式",
+      "description": "Only Once Mode",
+      "status": null
+   },
+   "options__oom__description": {
+      "message": "图像仅显示一次：",
+      "description": "Display images only once:",
+      "status": null
+   },
+   "options__oom__modes__mode": {
+      "message": "模式",
+      "description": "Mode",
+      "status": null
+   },
+   "options__oom__modes__full-block": {
+      "message": "完全遮挡",
+      "description": "Full Block",
+      "status": null
+   },
+   "options__oom__modes__see-trough": {
+      "message": "半透明",
+      "description": "See-Through",
+      "status": null
+   },
+   "options__oom__modes__borderless": {
+      "message": "无边框",
+      "description": "Borderless",
+      "status": null
+   },
+   "options__oom__modes__thumbnail": {
+      "message": "缩略图",
+      "description": "Thumbnail",
+      "status": null
+   },
+   "options__oom__modes__grid": {
+      "message": "网格",
+      "description": "Grid",
+      "status": null
+   },
+   "options__oom__modes__strong-blur": {
+      "message": "强模糊",
+      "description": "Strong Blur",
+      "status": null
+   },
+   "options__oom__modes__box-tease": {
+      "message": "盒子预览",
+      "description": "Box Tease",
+      "status": null
+   },
+   "options__oom__modes__reset-data": {
+      "message": "清除数据",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__oom__mode-settings": {
+      "message": "模式设置",
+      "description": "Mode Settings",
+      "status": null
+   },
+   "options__oom__transparency": {
+      "message": "透明度",
+      "description": "Transparency",
+      "status": null
+   },
+   "options__oom__distance": {
+      "message": "距离",
+      "description": "Distance",
+      "status": null
+   },
+   "options__oom__border-radius": {
+      "message": "边框圆角",
+      "description": "Border Radius",
+      "status": null
+   },
+   "options__oom__thumbnail-blur": {
+      "message": "缩略图模糊",
+      "description": "Thumbnail Blur",
+      "status": null
+   },
+   "options__oom__grid": {
+      "message": "网格",
+      "description": "Grid",
+      "status": null
+   },
+   "options__oom__grid__custom": {
+      "message": "自定义",
+      "description": "Custom",
+      "status": null
+   },
+   "options__oom__grid__fence": {
+      "message": "栅栏",
+      "description": "Fence",
+      "status": null
+   },
+   "options__oom__grid__black-and-white": {
+      "message": "黑白",
+      "description": "Black & White",
+      "status": null
+   },
+   "options__oom__grid__wasp": {
+      "message": "蜂巢",
+      "description": "Wasp",
+      "status": null
+   },
+   "options__oom__grid__purple": {
+      "message": "紫色",
+      "description": "Purple",
+      "status": null
+   },
+   "options__oom__grayscale": {
+      "message": "灰度",
+      "description": "Grayscale",
+      "status": null
+   },
+   "options__oom__reveal-faces": {
+      "message": "显示面部",
+      "description": "Reveal Faces",
+      "status": null
+   },
+   "options__oom__image-settings": {
+      "message": "图像设置",
+      "description": "Image Settings",
+      "status": null
+   },
+   "options__oom__hash-precision": {
+      "message": "哈希精度",
+      "description": "Hash Precision",
+      "status": null
+   },
+   "options__oom__min-width": {
+      "message": "最小宽度",
+      "description": "Min. Width",
+      "status": null
+   },
+   "options__oom__min-height": {
+      "message": "最小高度",
+      "description": "Min. Height",
+      "status": null
+   },
+   "options__oom__triggers": {
+      "message": "触发器",
+      "description": "Triggers",
+      "status": null
+   },
+   "labels__mouth": {
+      "message": "嘴",
+      "description": "Mouth",
+      "status": null
+   },
+   "labels__gentials": {
+      "message": "生殖器",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__gentials-covered": {
+      "message": "生殖器遮盖",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "options__oom__lock-settings": {
+      "message": "锁定设置",
+      "description": "Lock Settings",
+      "status": null
+   },
+   "options__oom__date-time-format": {
+      "message": "日期时间格式:",
+      "description": "Date Time Format:",
+      "status": null
+   },
+   "options__none": {
+      "message": "无",
+      "description": "None",
+      "status": null
+   },
+   "options__oom__local": {
+      "message": "本地",
+      "description": "Local",
+      "status": null
+   },
+   "options__oom__block-message": {
+      "message": "遮挡信息",
+      "description": "Block Message",
+      "status": null
+   },
+   "options__oom__list-image-content": {
+      "message": "列出图像内容",
+      "description": "List Image Content",
+      "status": null
+   },
+   "options__oom__timer": {
+      "message": "计时器",
+      "description": "Timer",
+      "status": null
+   },
+   "options__oom__auto-refresh": {
+      "message": "自动刷新",
+      "description": "Auto Refresh",
+      "status": null
+   },
+   "options__oom__min-duration": {
+      "message": "最短持续时间:",
+      "description": "Min. Duration:",
+      "status": null
+   },
+   "options__oom__days": {
+      "message": "天",
+      "description": "Days",
+      "status": null
+   },
+   "options__oom__hours": {
+      "message": "小时",
+      "description": "Hours",
+      "status": null
+   },
+   "options__oom__mins": {
+      "message": "分钟",
+      "description": "Mins",
+      "status": null
+   },
+   "options__oom__secs": {
+      "message": "秒",
+      "description": "Secs",
+      "status": null
+   },
+   "options__oom__max-duration": {
+      "message": "最长持续时间:",
+      "description": "Max. Duration:",
+      "status": null
+   },
+   "options__oom__animation": {
+      "message": "动画",
+      "description": "Animation",
+      "status": null
+   },
+   "options__oom__none": {
+      "message": "无",
+      "description": "None",
+      "status": null
+   },
+   "options__oom__progress-bar": {
+      "message": "进度条",
+      "description": "Progress Bar",
+      "status": null
+   },
+   "options__oom__darken": {
+      "message": "变暗",
+      "description": "Darken",
+      "status": null
+   },
+   "options__oom__blur": {
+      "message": "模糊",
+      "description": "Blur",
+      "status": null
+   },
+   "options__batch-converter__header": {
+      "message": "批量转换",
+      "description": "Batch-Converter",
+      "status": null
+   },
+   "options__batch-converter__description": {
+      "message": "审查本地文件或文件夹:",
+      "description": "Censor local files or folders:",
+      "status": null
+   },
+   "options__batch-converter": {
+      "message": "批量转换",
+      "description": "Batch Converter",
+      "status": null
+   },
+   "options__batch-converter__multiple-files": {
+      "message": "多个文件",
+      "description": "Multiple Files",
+      "status": null
+   },
+   "options__general__or": {
+      "message": "或者",
+      "description": "OR",
+      "status": null
+   },
+   "options__batch-converter__folder": {
+      "message": "文件夹",
+      "description": "Folder",
+      "status": null
+   },
+   "options__batch-converter__files-selected": {
+      "message": "已选文件:",
+      "description": "Files selected:",
+      "status": null
+   },
+   "options__batch-converter__total-images": {
+      "message": "图像总数:",
+      "description": "Total images:",
+      "status": null
+   },
+   "options__batch-converter__total-size": {
+      "message": "总大小:",
+      "description": "Total size:",
+      "status": null
+   },
+   "options__batch-converter__estimated-time": {
+      "message": "预计时间:",
+      "description": "Estimated time:",
+      "status": null
+   },
+   "options__batch-converter__estimated-time-left": {
+      "message": "剩余时间:",
+      "description": "Est. time left:",
+      "status": null
+   },
+   "options__batch-converter__average": {
+      "message": "平均:",
+      "description": "Average:",
+      "status": null
+   },
+   "options__batch-converter__start": {
+      "message": "开始",
+      "description": "Start",
+      "status": null
+   },
+   "options__statistics__header": {
+      "message": "统计",
+      "description": "Statistics",
+      "status": null
+   },
+   "options__statistics__description": {
+      "message": "数据与信息:",
+      "description": "Data & Information:",
+      "status": null
+   },
+   "options__statistics__detection-statistics": {
+      "message": "检测统计",
+      "description": "Detection Statistics",
+      "status": null
+   },
+   "options__statistics__average-duration": {
+      "message": "平均时长:",
+      "description": "Average Duration:",
+      "status": null
+   },
+   "options__statistics__ai": {
+      "message": "人工智能:",
+      "description": "AI:",
+      "status": null
+   },
+   "options__statistics__painting": {
+      "message": "绘图:",
+      "description": "Painting:",
+      "status": null
+   },
+   "options__statistics__files": {
+      "message": "文件",
+      "description": "Files",
+      "status": null
+   },
+   "options__statistics__content": {
+      "message": "内容",
+      "description": "Content",
+      "status": null
+   },
+   "options__statistics__average-frame-count": {
+      "message": "平均帧数",
+      "description": "Avg. Frame Count",
+      "status": null
+   },
+   "options__statistics__average-processing-time": {
+      "message": "平均处理时间",
+      "description": "Avg. Processing Time",
+      "status": null
+   },
+   "options__statistics__thumbnails": {
+      "message": "缩略图",
+      "description": "Thumbnails",
+      "status": null
+   },
+   "options__statistics__scanned-images": {
+      "message": "已扫描图像",
+      "description": "Scanned Images",
+      "status": null
+   },
+   "options__statistics__processed-images": {
+      "message": "已处理图像",
+      "description": "Processed Images",
+      "status": null
+   },
+   "options__statistics__videos": {
+      "message": "视频",
+      "description": "Videos",
+      "status": null
+   },
+   "options__statistics__video-frames": {
+      "message": "视频帧",
+      "description": "Video Frames",
+      "status": null
+   },
+   "options__statistics__local-files": {
+      "message": "本地文件",
+      "description": "Local Files",
+      "status": null
+   },
+   "options__statistics__batch-files": {
+      "message": "批处理文件",
+      "description": "Batch Files",
+      "status": null
+   },
+   "options__statistics__oom-images": {
+      "message": "OOM-图像",
+      "description": "OOM-Images",
+      "status": null
+   },
+   "options__statistics__reset-data": {
+      "message": "重置数据",
+      "description": "Reset Data",
+      "status": null
+   },
+   "options__security__header": {
+      "message": "安全",
+      "description": "Security",
+      "status": null
+   },
+   "options__security__description": {
+      "message": "锁定和解锁扩展程序：",
+      "description": "Lock & unlock the extension:",
+      "status": null
+   },
+   "options__security__lock": {
+      "message": "锁定",
+      "description": "Lock",
+      "status": null
+   },
+   "options__security__password": {
+      "message": "密码",
+      "description": "Password",
+      "status": null
+   },
+   "options__security__password-confirmation": {
+      "message": "确认密码",
+      "description": "Password Confirmation",
+      "status": null
+   },
+   "options__security__timer": {
+      "message": "计时器",
+      "description": "Timer",
+      "status": null
+   },
+   "options__security__days": {
+      "message": "天",
+      "description": "Days",
+      "status": null
+   },
+   "options__security__hours": {
+      "message": "小时",
+      "description": "Hours",
+      "status": null
+   },
+   "options__security__minutes": {
+      "message": "分钟",
+      "description": "Minutes",
+      "status": null
+   },
+   "options__security__timer-mode": {
+      "message": "计时器模式",
+      "description": "Timer Mode",
+      "status": null
+   },
+   "options__security__duration": {
+      "message": "持续时间",
+      "description": "Duration",
+      "status": null
+   },
+   "options__security__date": {
+      "message": "日期",
+      "description": "Date",
+      "status": null
+   },
+   "options__security__timer-plus": {
+      "message": "计时器+",
+      "description": "Timer+",
+      "status": null
+   },
+   "options__security__timer-plus__description": {
+      "message": "当查看特定内容时增加或减少锁定时间：",
+      "description": "Increase or Decrease the lock duration when certain content is viewed:",
+      "status": null
+   },
+   "labels__genitals": {
+      "message": "生殖器",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitals-covered": {
+      "message": "生殖器遮盖",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "options__security__timer-plus__min-size": {
+      "message": "最小尺寸",
+      "description": "Min. Size",
+      "status": null
+   },
+   "options__security__optional-locks": {
+      "message": "可选锁定",
+      "description": "Optional Locks",
+      "status": null
+   },
+   "options__security__quick-settings": {
+      "message": "快速设置",
+      "description": "Quick Settings",
+      "status": null
+   },
+   "options__security__enabled-censor": {
+      "message": "启用审查",
+      "description": "Enabled Censor",
+      "status": null
+   },
+   "options__security__video": {
+      "message": "视频",
+      "description": "Video",
+      "status": null
+   },
+   "options__security__editor": {
+      "message": "编辑器",
+      "description": "Editor",
+      "status": null
+   },
+   "options__security__lock-me": {
+      "message": "锁定我！",
+      "description": "LOCK ME!",
+      "status": null
+   },
+   "options__security__locked": {
+      "message": "已锁定！",
+      "description": "Locked!",
+      "status": null
+   },
+   "options__security__add-time": {
+      "message": "增加时间",
+      "description": "Add Time",
+      "status": null
+   },
+   "options__security__time-to-add": {
+      "message": "要增加的时间",
+      "description": "Time to Add",
+      "status": null
+   },
+   "options__security__seconds": {
+      "message": "秒",
+      "description": "Seconds",
+      "status": null
+   },
+   "options__security__submit": {
+      "message": "提交",
+      "description": "Submit",
+      "status": null
+   },
+   "options__security__timer-plus__logs": {
+      "message": "日志",
+      "description": "Logs",
+      "status": null
+   },
+   "options__security__enter-password": {
+      "message": "请输入您的密码。",
+      "description": "Enter your password.",
+      "status": null
+   },
+   "options__security__emergency-unlock": {
+      "message": "需要立即解锁？",
+      "description": "Need to unlock now?",
+      "status": null
+   },
+   "options__security__emergency-unlock__description": {
+      "message": "你可以通过成为 Patreon 来紧急解锁自己：",
+      "description": "You can emergency unlock yourself by becoming a Patreon:",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__1": {
+      "message": "<b>1.</b> 加入我们相关的 <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> 等级。完成后，你可以随意取消或降级你的会员资格。",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__2": {
+      "message": "<b>2.</b> 将你的 <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi 账户</a>绑定到你的 Patreon。",
+      "description": "<b>2.</b> Bind your <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi account</a> to your Patreon.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__3": {
+      "message": "<b>3.</b> 最后，用你的账户登录扩展程序并在这里解锁。",
+      "description": "<b>3.</b> Finally, login with your account in the extension and unlock here.",
+      "status": null
+   },
+   "options__security__emergency-unlock__button": {
+      "message": "紧急解锁",
+      "description": "Emergency Unlock",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt": {
+      "message": "或者，如果这是你第一次需要紧急解锁，你可以在我们的 Discord 服务器上联系我们：",
+      "description": "Alternatively, you can reach us on our Discord server if this is your first time requiring an emergency unlock:",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__1": {
+      "message": "<b>1.</b> 加入我们的 <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> 服务器并联系一位管理员。",
+      "description": "<b>1.</b> Join our <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> server and get in contact with a moderator.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__2": {
+      "message": "<b>2.</b> 提供以下安全令牌：${0}",
+      "description": "<b>2.</b> Provide them with the following security token: ${0}",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__3": {
+      "message": "<b>3.</b> 最后，在此输入你收到的解锁令牌。",
+      "description": "<b>3.</b> Finally, enter here the unlock token you'll receive.",
+      "status": null
+   },
+   "options__cloud__header": {
+      "message": "云端",
+      "description": "Cloud",
+      "status": null
+   },
+   "options__cloud__header__description": {
+      "message": "管理您的云端数据：",
+      "description": "Manage your cloud data:",
+      "status": null
+   },
+   "options__cloud__stored-settings": {
+      "message": "已存储的设置",
+      "description": "Stored settings",
+      "status": null
+   },
+   "options__cloud__identifier": {
+      "message": "标识符",
+      "description": "Identifier",
+      "status": null
+   },
+   "options__cloud__name": {
+      "message": "名称",
+      "description": "Name",
+      "status": null
+   },
+   "options__cloud__version": {
+      "message": "版本",
+      "description": "Version",
+      "status": null
+   },
+   "options__cloud__downloads": {
+      "message": "下载",
+      "description": "Downloads",
+      "status": null
+   },
+   "options__cloud__content": {
+      "message": "内容",
+      "description": "Content",
+      "status": null
+   },
+   "options__cloud__delete": {
+      "message": "删除",
+      "description": "Delete",
+      "status": null
+   },
+   "options__cloud__remote-control": {
+      "message": "远程控制",
+      "description": "Remote Control",
+      "status": null
+   },
+   "options__cloud__settings": {
+      "message": "设置",
+      "description": "Settings",
+      "status": null
+   },
+   "options__cloud__subscribe": {
+      "message": "订阅",
+      "description": "Subs.",
+      "status": null
+   },
+   "options__cloud__user-subscriptions": {
+      "message": "用户订阅",
+      "description": "User Subscriptions",
+      "status": null
+   },
+   "options__cloud__user": {
+      "message": "用户",
+      "description": "User",
+      "status": null
+   },
+   "options__cloud__subscription-date": {
+      "message": "订阅日期",
+      "description": "Subscription Date",
+      "status": null
+   },
+   "options__cloud__info": {
+      "message": "信息",
+      "description": "Info",
+      "status": null
+   },
+   "options__cloud__kick": {
+      "message": "踢出",
+      "description": "Kick",
+      "status": null
+   },
+   "options__sidebar__oom": {
+      "message": "仅一次模式",
+      "description": "Only Once Mode",
+      "status": null
+   },
+   "options__sidebar__security": {
+      "message": "安全",
+      "description": "Security",
+      "status": null
+   },
+   "options__sidebar__white-black-list": {
+      "message": "白名单和黑名单",
+      "description": "Whitelist & Blacklist",
+      "status": null
+   },
+   "options__sidebar__cloud-remote": {
+      "message": "云端和远程",
+      "description": "Cloud & Remote",
+      "status": null
+   },
+   "options__sidebar__tools": {
+      "message": "工具：",
+      "description": "Tools:",
+      "status": null
+   },
+   "options__sidebar__batch-converter": {
+      "message": "批量转换器",
+      "description": "Batch Converter",
+      "status": null
+   },
+   "options__sidebar__gallery-viewer": {
+      "message": "图库查看器",
+      "description": "Gallery Viewer",
+      "status": null
+   },
+   "options__sidebar__editor": {
+      "message": "编辑器",
+      "description": "Editor",
+      "status": null
+   },
+   "options__sidebar__other": {
+      "message": "其他：",
+      "description": "Other:",
+      "status": null
+   },
+   "options__sidebar__statistics": {
+      "message": "统计",
+      "description": "Statistics",
+      "status": null
+   },
+   "options__sidebar__help": {
+      "message": "帮助",
+      "description": "Help",
+      "status": null
+   },
+   "tooltip__experimental-content-label": {
+      "message": "此内容是实验性的，当前<b>未</b>被AI模型检测到。只能通过编辑器分配给图像。",
+      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "status": null
+   },
+   "tooltip__cluster-only-matching-content": {
+      "message": "仅合并相同内容的检测。",
+      "description": "Only joins detections of the same content.",
+      "status": null
+   },
+   "tooltip__cluster-max-distance": {
+      "message": "为了合并检测，检测之间的最大距离，以检测大小决定的单位来测量。",
+      "description": "The maximum distance there can be between detections in order to still join them, measured in an unit determined by the size of the detections.",
+      "status": null
+   },
+   "tooltip__censor-mode-feathering": {
+      "message": "平滑效果区域边缘的程度。",
+      "description": "How much to smoothen the edges of the effect area.",
+      "status": null
+   },
+   "tooltip__pixel-density": {
+      "message": "半色调像素绘制的密集程度。",
+      "description": "How closely together to paint the halftone pixels.",
+      "status": null
+   },
+   "tooltip__pixel-channel-colors": {
+      "message": "限制像素的通道颜色数量。",
+      "description": "The number of channel colors to which to limit the pixels.",
+      "status": null
+   },
+   "tooltip__pixel-accurate-sampling": {
+      "message": "在确定每个像素的颜色或大小时，考虑覆盖的整个区域的颜色，而不仅仅是区域中心的颜色。",
+      "description": "Considers the color of the entire area covered by each pixel when determining its color or size, instead of just the color at the very center of the area.",
+      "status": null
+   },
+   "tooltip__pixel-detection-size-aware": {
+      "message": "根据检测大小调整效果的强度。",
+      "description": "Scales the strength of the effect according to the detection size",
+      "status": null
+   },
+   "tooltip__triangle-threshold": {
+      "message": "效果区域内的细节必须通过的阈值，较高的阈值排除较小的细节。",
+      "description": "The threshold details in the effect area must pass in order to be captured, where a higher threshold excludes smaller details.",
+      "status": null
+   },
+   "tooltip__triangle-accuracy": {
+      "message": "沿效果区域内捕获的细节准确追踪三角形的程度。",
+      "description": "How accurately the triangles are traced along the captured details in the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-blurring": {
+      "message": "在三角化之前模糊效果区域的程度。",
+      "description": "How much to blur the effect area prior to triangulazing it.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-width": {
+      "message": "在根据图像大小进行缩放之前的描边宽度，其中1024px x 1024px的图像大小不会进行缩放。",
+      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
+      "status": null
+   },
+   "tooltip__triangle-gradients": {
+      "message": "在顶点之间创建颜色渐变。",
+      "description": "Creates color gradients between vertices.",
+      "status": null
+   },
+   "tooltip__triangle-gradient-stops": {
+      "message": "沿颜色渐变路径采样颜色的次数。",
+      "description": "The number of times to Samples a color along the path of a color gradient.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-min-size": {
+      "message": "相对于效果区域大小的最小面板大小。",
+      "description": "The minimum possible panel size relative to the effect area size.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-max-size": {
+      "message": "相对于效果区域大小的最大面板大小。",
+      "description": "The maximum possible panel size relative to the effect area size.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-scatter": {
+      "message": "面板可移动的最大距离，以效果区域的高度或宽度为单位测量。",
+      "description": "The maximum possible distance a panel can be shifted by, measured in the height or width of the effect area.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-split-chance": {
+      "message": "面板一次分裂为两个更小面板的概率。",
+      "description": "The chance for a panel to be split once into two smaller ones.",
+      "status": null
+   },
+   "tooltip__sticker-pick-single-source": {
+      "message": "从单个集合或组中起草所有贴纸。",
+      "description": "Picks a single collection or group from which all stickers are then picked.",
+      "status": null
+   },
+   "tooltip__sobel-inverted-color": {
+      "message": "反转Sobel效果的黑白颜色。",
+      "description": "Inverts the black and white of the sobel effect.",
+      "status": null
+   },
+   "tooltip__splatter-recursions": {
+      "message": "递归生成子溅射的次数。",
+      "description": "The number of times to recursively generate sub splatters.",
+      "status": null
+   },
+   "tooltip__splatter-color-pool": {
+      "message": "从中抽取所有可能的溅射颜色以及确定每种颜色被抽取概率的权重。",
+      "description": "All the possible splatter colors from which to pick along with weights determining how likely each is to be picked.",
+      "status": null
+   },
+   "tooltip__random-mode-random": {
+      "message": "根据权重起草一个随机的审查模式。",
+      "description": "Picks a random censor mode according to the weights.",
+      "status": null
+   },
+   "tooltip__random-mode-super-random": {
+      "message": "根据权重起草一个随机的审查模式，并且还随机化其配置以实现最大随机性。",
+      "description": "Picks a random censor mode according to the weights and also randomizes its configuration for maximum randomness.",
+      "status": null
+   },
+   "tooltip__clustering": {
+      "message": "将足够接近的检测合并为一个。",
+      "description": "Joins into one detections that are close enough together.",
+      "status": null
+   },
+   "tooltip__reverse-mode": {
+      "message": "不是审查检测内容，而是审查图像中的其他内容。",
+      "description": "Instead of censoring the detections, censors everything else in the image.",
+      "status": null
+   },
+   "tooltip__word-wall": {
+      "message": "用单词墙覆盖所有审查效果。",
+      "description": "Overlays all censor effects with a word wall.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-single": {
+      "message": "从词汇池中起草一个条目。",
+      "description": "Picks a single entry from the word pool.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-multiple": {
+      "message": "从词汇池中随机起草多个条目，并按随机顺序排列。",
+      "description": "Picks a random number of entries from the word pool in a random order.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-all": {
+      "message": "从词汇池中起草所有条目，并按随机顺序排列。",
+      "description": "Picks all entries from the word pool in a random order.",
+      "status": null
+   },
+   "tooltip__oom-list-detections": {
+      "message": "列出每个被屏蔽图像上检测到的所有内容。",
+      "description": "Lists all detected content on each blocked image.",
+      "status": null
+   },
+   "tooltip__overlay-unsupported": {
+      "message": "视频覆盖中不支持此模式。",
+      "description": "Mode not supported in video overlays.",
+      "status": null
+   },
+   "tooltip__bar-type__paint": {
+      "message": "[绘画]: ",
+      "description": "[Paint]: ",
+      "status": null
+   },
+   "tooltip__bar-type__paint__description": {
+      "message": "用指定的颜色绘制效果区域。",
+      "description": "Paint the effect area with the given color.",
+      "status": null
+   },
+   "tooltip__bar-type__erase": {
+      "message": "[擦除]: ",
+      "description": "[Erase]: ",
+      "status": null
+   },
+   "tooltip__bar-type__erase__description": {
+      "message": "用指定的不透明度擦除效果区域。",
+      "description": "Erase the effect area at the given opacity.",
+      "status": null
+   },
+   "tooltip__bar-type__note": {
+      "message": "注意: ",
+      "description": "NOTE: ",
+      "status": null
+   },
+   "tooltip__bar-type__note__description": {
+      "message": "在不支持透明度的输出文件类型（如JPEG）上，擦除可能无法按预期工作。",
+      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__auto": {
+      "message": "[自动]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__auto__description": {
+      "message": "从效果区域采样填充颜色。",
+      "description": "Samples the fill color from the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__custom": {
+      "message": "[自定义]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__custom__description": {
+      "message": "使用自定义填充颜色。",
+      "description": "Uses a custom fill color.",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-body-part": {
+      "message": "[按身体部位]: ",
+      "description": "[Per Body Part]: ",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-body-part__description": {
+      "message": "为每个身体部位的所有检测选择贴纸。",
+      "description": "Picks a sticker for all detections of each body part.",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-detection": {
+      "message": "[按检测]: ",
+      "description": "[Per Detection]: ",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-detection__description": {
+      "message": "为每次检测选择贴纸。",
+      "description": "Picks a sticker for each detection.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__auto": {
+      "message": "[자동]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__auto__description": {
+      "message": "효과 영역에서 선 색상을 샘플링합니다.",
+      "description": "Samples the stroke color from the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__custom": {
+      "message": "[사용자 지정]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__custom__description": {
+      "message": "사용자 지정 선 색상을 사용합니다.",
+      "description": "Uses a custom stroke color.",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__auto": {
+      "message": "[自动]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__auto__description": {
+      "message": "从效果区域采样喷溅颜色。",
+      "description": "Samples the splatter color from the effect area.",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__custom": {
+      "message": "[自定义]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__custom__description": {
+      "message": "从自定义颜色池中选择喷溅颜色。",
+      "description": "Picks a splatter color from a pool of custom colors.",
+      "status": null
+   },
+   "tooltip__mixed-entries__description__1": {
+      "message": "可以进行审查的每个部分的审查模式和预设。",
+      "description": "The censor modes and preset for each section that can be censored.",
+      "status": null
+   },
+   "tooltip__mixed-entries__description__2": {
+      "message": "使用 Shift/Ctrl + 单击可同时选择多个条目进行编辑。",
+      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
+      "status": null
+   },
+   "on-add-caption-tag__count-limit-error": {
+      "message": "请移除一些标签以添加更多！",
+      "description": "Remove some tags to add more!",
+      "status": null
+   },
+   "on-add-caption-entry__count-limit-error": {
+      "message": "请移除一些条目以添加更多！",
+      "description": "Remove some entries to add more!",
+      "status": null
+   },
+   "on-assign-caption-tags__no-entries-selected-error": {
+      "message": "请选择一些条目以分配标签！",
+      "description": "Select some entries to assign tags to!",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__cutout": {
+      "message": "[切割]: ",
+      "description": "[Cutout]: ",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__cutout__description": {
+      "message": "创建文字的切割。",
+      "description": "Creates a cutout of the text.",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__paint": {
+      "message": "[绘画]: ",
+      "description": "[Paint]: ",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__paint__description": {
+      "message": "以自定义颜色绘制文字。",
+      "description": "Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__oom__description__1": {
+      "message": "在图片被浏览一次后永久阻止它们。",
+      "description": "Permanently blocks images after they've been viewed once.",
+      "status": null
+   },
+   "tooltip__oom__description__2": {
+      "message": "这是通过计算和比较图像哈希值来实现的，这意味着一旦图像被阻止，它在整个网络上的任何其他出现也将从此被阻止。",
+      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+      "status": null
+   },
+   "tooltip__remote-control__description": {
+      "message": "允许您远程控制其他用户的扩展程序。",
+      "description": "Allows you to remotely control other users extensions.",
+      "status": null
+   },
+   "tooltip__remote-control__description__1": {
+      "message": "<b>1.</b> 创建一个新的遥控器。",
+      "description": "<b>1.</b> Create a new remote control.",
+      "status": null
+   },
+   "tooltip__remote-control__description__2": {
+      "message": "<b>2.</b> 将一个云设置ID绑定到您的遥控器。",
+      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
+      "status": null
+   },
+   "tooltip__remote-control__description__3": {
+      "message": "<b>3.</b> 让要远程控制的用户从设置页面订阅您的遥控器。",
+      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
+      "status": null
+   },
+   "tooltip__remote-control__description__4": {
+      "message": "<b>4.</b> 随时随地更改绑定的设置，所有订阅者将自动更新！",
+      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "status": null
+   },
+   "tooltip__remote-lock": {
+      "message": "您的订阅已被锁定！",
+      "description": "Your subscription is locked!",
+      "status": null
+   },
+   "tooltip__remote-lock__description": {
+      "message": "解锁它的<b>唯一</b>方法是向远程所有者请求，或向我们Discord服务器的工作人员请求，或者如果这些选项不可取，加入我们相关的<b>Patreon层级</b>，这允许您自己解锁。",
+      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "status": null
+   },
+   "tooltip__remote-identifier": {
+      "message": "让要远程控制的用户在设置页面粘贴此内容。",
+      "description": "Have the users to be remotely controlled paste this over at the settings page.",
+      "status": null
+   },
+   "tooltip__patreon-cache": {
+      "message": "您的Patreon奖励将在${0}天后过期。",
+      "description": "Your Patreon rewards will expire in ${0} days.",
+      "status": null
+   },
+   "tooltip__patreon-cache__description": {
+      "message": "如果您仍然是Patreon订阅者，请在此处刷新您的账户状态，或者如果这不起作用，请重新绑定您的账户到Patreon。",
+      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
+      "status": null
+   },
+   "tooltip__timer-mode__duration": {
+      "message": "[持续时间]: ",
+      "description": "[Duration]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__duration__description": {
+      "message": "锁定时，将计时器设置为指定的持续时间。",
+      "description": "Upon locking, set the timer to the duration specified.",
+      "status": null
+   },
+   "tooltip__timer-mode__date": {
+      "message": "[日期]: ",
+      "description": "[Date]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__date__description": {
+      "message": "锁定时，将计时器设置为指定日期前的剩余时间。",
+      "description": "Upon locking, set the timer to the time remaining until the specified date.",
+      "status": null
+   },
+   "tooltip__timer-mode__stable": {
+      "message": "[稳定]: ",
+      "description": "[Stable]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__stable__description": {
+      "message": "等待最新帧处理完毕后再处理新帧。",
+      "description": "Waits until the latest frame has been processed before processing a new frame.",
+      "status": null
+   },
+   "tooltip__timer-mode__overdrive": {
+      "message": "[超速]: ",
+      "description": "[Overdrive]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__overdrive__description": {
+      "message": "一次处理多个帧，直到达到硬件限制或特定的fps率。",
+      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+      "status": null
+   },
+   "popup__timer-container__locked-until": {
+      "message": "锁定至：",
+      "description": "Locked until:",
+      "status": null
+   },
+   "popup__reverse-mode": {
+      "message": "反向模式：",
+      "description": "Reverse Mode:",
+      "status": null
+   },
+   "options__censor__word-wall__shadow-size": {
+      "message": "阴影大小",
+      "description": "Shadow Size",
+      "status": null
+   },
+   "options__censor__caption__shadow-color": {
+      "message": "阴影颜色",
+      "description": "Shadow Color",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__add-tag": {
+      "message": "添加标签",
+      "description": "Add Tag",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__assign-tags": {
+      "message": "分配标签",
+      "description": "Assign Tags",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__add-entry": {
+      "message": "添加条目",
+      "description": "Add Entry",
+      "status": null
+   },
+   "on-save-caption-config__storage-quota-exceeded-error": {
+      "message": "无法保存更改：字幕的存储配额已超出！",
+      "description": "Changes could not be saved: Storage quota for Caption exceeded!",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__assign-tags-help": {
+      "message": "点击标签以分配或取消分配",
+      "description": "Click tags to assign or unassign",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__1": {
+      "message": "你确定吗?",
+      "description": "Are you sure?",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__2": {
+      "message": "你真的确定吗?",
+      "description": "But are you really sure?",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__3": {
+      "message": "嗯... 好吧。",
+      "description": "Hmmm... Ok then.",
+      "status": null
+   },
+   "on-settings-save__no-name-error": {
+      "message": "必须输入设置名称！",
+      "description": "A settings name must be entered!",
+      "status": null
+   },
+   "on-settings-save__forbidden-name-chars-error": {
+      "message": "设置名称 ${0} 包含禁止字符！",
+      "description": "The settings name ${0} contains forbidden characters!",
+      "status": null
+   },
+   "on-settings-upload__no-user-error": {
+      "message": "必须登录才能将设置上传到云端！",
+      "description": "You must login to upload settings to the cloud!",
+      "status": null
+   },
+   "on-settings-upload__success": {
+      "message": "设置 ${0} 成功上传到云端！<br/><br/>使用以下ID共享您的设置:",
+      "description": "Settings ${0} successfully uploaded to the cloud!<br/><br/>Share your settings with the following ID:",
+      "status": null
+   },
+   "on-create-sticker-collection__db-error": {
+      "message": "无法保存贴纸集，可能超过了255MB的限制！",
+      "description": "The sticker collection couldn't be saved, likely as it exceeded the 255 MB limit!",
+      "status": null
+   },
+   "on-create-sticker-collection__no-name-error": {
+      "message": "必须输入集合名称！",
+      "description": "A collection name must be entered!",
+      "status": null
+   },
+   "on-create-sticker-collection__forbidden-name-chars-error": {
+      "message": "集合名称 ${0} 包含禁止字符！",
+      "description": "The collection name of ${0} contains forbidden characters!",
+      "status": null
+   },
+   "on-create-sticker-collection__duplicate-name-error": {
+      "message": "名称为 ${0} 的集合已经存在！",
+      "description": "A collection by the name of ${0} already exists!",
+      "status": null
+   },
+   "on-create-sticker-collection__corrupted-error": {
+      "message": "此集合的内容已损坏！",
+      "description": "The contents of this collection are corrupted!",
+      "status": null
+   },
+   "on-font-input-change__not-available-error": {
+      "message": "输入的字体在此设备上不可用！",
+      "description": "The entered font is not available on this device!",
+      "status": null
+   },
+   "on-restore-defaults__confirm": {
+      "message": "所有配置将被其默认值覆盖。<br/><br/>以下项目不受影响:",
+      "description": "All of your configurations will be overriden by their defaults.<br/><br/>The following will not be affected:",
+      "status": null
+   },
+   "on-disable-experimental-content__confirm": {
+      "message": "整个设置中的所有实验性内容值将被重置。",
+      "description": "All values set for experimental content across your configurations will be reset.",
+      "status": null
+   },
+   "on-clear-oom-data__confirm": {
+      "message": "所有OOM数据将被清除，包括查看和屏蔽的图像。",
+      "description": "All of your OOM data will be cleared, including what images have been viewed and blocked.",
+      "status": null
+   },
+   "on-delete-remote__confirm": {
+      "message": "ID为 ${0} 的远程控制将被删除。",
+      "description": "Your remote control by the ID of ${0} will be deleted.",
+      "status": null
+   },
+   "on-unsubscribe-from-remote__error": {
+      "message": "继续操作将仍然取消本地的订阅。",
+      "description": "Proceeding will still unsubscribe you locally.",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not__easily__reversable__warning": {
+      "message": "此操作不易逆转，您无法自行完成！",
+      "description": "This action is not easily reversable nor can it be done so on your own!",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__confirm": {
+      "message": "这将<b>删除</b>您取消远程控制订阅的能力。<br/><br/>唯一的方式是请求远程控制所有者或我们的Discord服务器的工作人员。<br/><br/>请注意，任何登录您PuryFi帐户的其他设备都将受此远程控制的影响，直到取消订阅。",
+      "description": "This will <b>remove</b> your ability to cancel your remote control subscription.<br/><br/>Your <b>only</b> way to do so will be by requesting so from either the remote control owner, or from staff at our Discord server.<br/><br/>Also note that any other devices that log into your PuryFi account will be subject to this remote control until unsubscribed.",
+      "status": null
+   },
+   "on-subscribe-to-remote__confirm": {
+      "message": "您将订阅ID为 ${0} 的远程控制",
+      "description": "You will be subscribed to the remote control with an ID of ${0}",
+      "status": null
+   },
+   "on-subscribe-to-remote__lock-subscription-warning": {
+      "message": "您的订阅将被锁定。您将无法自行取消订阅！",
+      "description": "Your subscription will be locked. You won't be able to unsubscribe on your own!",
+      "status": null
+   },
+   "on-unsubscribe-other-from-remote__confirm": {
+      "message": "用户 ${0} 将从您的远程控制中取消订阅",
+      "description": "User ${0} will be unsubscribed from your remote",
+      "status": null
+   },
+   "on-delete-settings__confirm": {
+      "message": "您的设置 ${0} 将被删除。",
+      "description": "Your settings ${0} will be deleted.",
+      "status": null
+   },
+   "on-save-settings__duplicate-name-error": {
+      "message": "名称为 ${0} 的设置已经存在！",
+      "description": "Settings by the name of ${0} already exist!",
+      "status": null
+   },
+   "on-delete-cloud-settings__confirm": {
+      "message": "ID为 ${0} 的云设置将被删除。",
+      "description": "Your cloud settings with an ID of ${0} will be deleted.",
+      "status": null
+   },
+   "on-reset-all-sticker-collections__confirm": {
+      "message": "所有导入的贴纸集将被删除，所有默认的将被重置。",
+      "description": "All of your imported sticker collections will be deleted and all default ones will be reset.",
+      "status": null
+   },
+   "on-non-reversible-action-warning": {
+      "message": "此操作无法撤销！",
+      "description": "This action is not reversible!",
+      "status": null
+   },
+   "on-settings-import__non-png-image-error": {
+      "message": "此图像文件不包含嵌入的设置，只有PNG文件可以包含设置！",
+      "description": "This image file contains no embedded settings, only PNG files can contain settings!",
+      "status": null
+   },
+   "on-settings-import__no-embedding": {
+      "message": "此图像文件不包含嵌入的设置！",
+      "description": "This image file contains no embedded settings!",
+      "status": null
+   },
+   "on-settings-import__corrupted-error": {
+      "message": "这些设置已损坏，无法加载！",
+      "description": "These settings are corrupted and cannot be loaded!",
+      "status": null
+   },
+   "on-settings-import__newer-version-error": {
+      "message": "这些设置来自较新版本，无法加载！",
+      "description": "These settings are from a newer version and cannot be loaded!",
+      "status": null
+   },
+   "on-settings-import__confirm": {
+      "message": "将导入以下配置:",
+      "description": "The following configurations will be imported:",
+      "status": null
+   },
+   "on-settings-import__lock-warning": {
+      "message": "这些设置将锁定您的扩展程序！",
+      "description": "These settings will lock your extension!",
+      "status": null
+   },
+   "on-settings-import__missing-censor-extra-presets-warning": {
+      "message": "这些设置将使您的一个或多个审查配置引用不存在的集群、标题和/或词墙预设！",
+      "description": "These settings will leave one or more of your censor configurations referencing non-existent Cluster, Caption and/or Word Wall presets!",
+      "status": null
+   },
+   "on-settings-import__missing-censor-presets-warning": {
+      "message": "这些设置将使您的混合配置引用不存在的审查预设！",
+      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "status": null
+   },
+   "on-settings-import__missing-patreon-features-warning": {
+      "message": "这些设置使用了您没有的Patreon功能，因此不会启用！",
+      "description": "These settings use Patreon features you don't have and thus won't be enabled!",
+      "status": null
+   },
+   "on-settings-import__older-version-warning": {
+      "message": "这些设置来自较旧版本，可能无法按预期工作！",
+      "description": "These settings are from an older version and might not work as intended!",
+      "status": null
+   },
+   "on-bind-settings-to-remote__success": {
+      "message": "ID为 ${0} 的云设置已成功绑定到远程控制！",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "status": null
+   },
+   "on-update-remote-subscription__success": {
+      "message": "设置已成功与远程同步！",
+      "description": "Settings successfully synced with remote!",
+      "status": null
+   },
+   "on-update-remote-subscription__new-remote-settings-alert": {
+      "message": "已导入新的远程设置！",
+      "description": "New remote settings were imported!",
+      "status": null
+   },
+   "on-load-default-settings__success": {
+      "message": "默认设置已成功加载！",
+      "description": "Default settings successfully loaded!",
+      "status": null
+   },
+   "on-load-settings__success": {
+      "message": "设置 ${0} 已成功加载！",
+      "description": "Settings ${0} successfully loaded!",
+      "status": null
+   },
+   "on-import-settings__success": {
+      "message": "设置已成功导入！",
+      "description": "Settings successfully imported!",
+      "status": null
+   },
+   "on-delete-settings__success": {
+      "message": "设置 ${0} 已成功删除！",
+      "description": "Settings ${0} successfully deleted!",
+      "status": null
+   },
+   "on-save-settings__success": {
+      "message": "设置 ${0} 已成功保存！",
+      "description": "Settings ${0} successfully saved!",
+      "status": null
+   },
+   "bar-type": {
+      "message": "使用给定的颜色绘制效果区域。",
+      "description": "Paint the effect area with the given color.",
+      "status": null
+   },
+   "popup__censor__content": {
+      "message": "被审查的内容",
+      "description": "Censored Content",
+      "status": null
+   }
+}

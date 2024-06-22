@@ -1,0 +1,3162 @@
+{
+   "options__title": {
+      "message": "PuryFi - Optionen",
+      "description": "PuryFi - Options",
+      "status": null
+   },
+   "censor-type__normal": {
+      "message": "Normal",
+      "description": "Normal",
+      "status": null
+   },
+   "censor-type__bar": {
+      "message": "Balken",
+      "description": "Bar",
+      "status": null
+   },
+   "censor-type__pixel": {
+      "message": "Pixel",
+      "description": "Pixel",
+      "status": null
+   },
+   "censor-type__blur": {
+      "message": "Verwischen",
+      "description": "Blur",
+      "status": null
+   },
+   "censor-type__triangle": {
+      "message": "Dreieck",
+      "description": "Triangle",
+      "status": null
+   },
+   "censor-type__box": {
+      "message": "Kasten",
+      "description": "Box",
+      "status": null
+   },
+   "censor-type__glitch": {
+      "message": "Glitch",
+      "description": "Glitch",
+      "status": null
+   },
+   "censor-type__sticker": {
+      "message": "Aufkleber",
+      "description": "Sticker",
+      "status": null
+   },
+   "censor-type__sobel": {
+      "message": "Sobel",
+      "description": "Sobel",
+      "status": null
+   },
+   "censor-type__splatter": {
+      "message": "Spritzer",
+      "description": "Splatter",
+      "status": null
+   },
+   "censor-type__random": {
+      "message": "Zufällig",
+      "description": "Random",
+      "status": null
+   },
+   "options__login__login": {
+      "message": "Anmelden",
+      "description": "Login",
+      "status": null
+   },
+   "options__login__remember-me": {
+      "message": "Angemeldet bleiben",
+      "description": "Remember Me",
+      "status": null
+   },
+   "options__login__register": {
+      "message": "Registrieren",
+      "description": "Register",
+      "status": null
+   },
+   "options__login__forgot-password": {
+      "message": "Ich habe mein Passwort vergessen",
+      "description": "I forgot my password",
+      "status": null
+   },
+   "options__login__not-connected": {
+      "message": "Nicht mit Patreon verbunden",
+      "description": "Not connected to Patreon",
+      "status": null
+   },
+   "options__sidebar__settings": {
+      "message": "Einstellungen",
+      "description": "Settings",
+      "status": null
+   },
+   "options__sidebar__content": {
+      "message": "Inhalt",
+      "description": "Content",
+      "status": null
+   },
+   "options__sidebar__censor": {
+      "message": "Zensur",
+      "description": "Censor",
+      "status": null
+   },
+   "options__sidebar__file-types": {
+      "message": "Dateitypen",
+      "description": "File Types",
+      "status": null
+   },
+   "options__sidebar__advanced": {
+      "message": "Erweitert",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__content__header": {
+      "message": "Inhalt",
+      "description": "Content",
+      "status": null
+   },
+   "options__content__description": {
+      "message": "Bestimmen Sie, welche Inhalte zensiert werden sollen:",
+      "description": "Determine which content to censor:",
+      "status": null
+   },
+   "options__content__experimental-content": {
+      "message": "Experimenteller Inhalt",
+      "description": "Experimental Content",
+      "status": null
+   },
+   "labels__face": {
+      "message": "Gesicht",
+      "description": "Face",
+      "status": null
+   },
+   "labels__eye": {
+      "message": "Auge",
+      "description": "Eye",
+      "status": null
+   },
+   "labels__armpit-exposed": {
+      "message": "Achselhöhle",
+      "description": "Armpit",
+      "status": null
+   },
+   "labels__armpit-covered": {
+      "message": "Achselhöhle bedeckt",
+      "description": "Armpit Covered",
+      "status": null
+   },
+   "labels__nipple-exposed": {
+      "message": "Brustwarze",
+      "description": "Nipple",
+      "status": null
+   },
+   "labels__nipple-covered": {
+      "message": "Brustwarze bedeckt",
+      "description": "Nipple Covered",
+      "status": null
+   },
+   "labels__breast-exposed": {
+      "message": "Brust",
+      "description": "Breast",
+      "status": null
+   },
+   "labels__breast-covered": {
+      "message": "Brust bedeckt",
+      "description": "Breast Covered",
+      "status": null
+   },
+   "labels__belly-exposed": {
+      "message": "Bauch",
+      "description": "Belly",
+      "status": null
+   },
+   "labels__belly-covered": {
+      "message": "Bauch bedeckt",
+      "description": "Belly Covered",
+      "status": null
+   },
+   "labels__hand-exposed": {
+      "message": "Hand",
+      "description": "Hand",
+      "status": null
+   },
+   "labels__hand-covered": {
+      "message": "Hand bedeckt",
+      "description": "Hand Covered",
+      "status": null
+   },
+   "labels__buttocks-exposed": {
+      "message": "Gesäß",
+      "description": "Buttocks",
+      "status": null
+   },
+   "labels__buttocks-covered": {
+      "message": "Gesäß bedeckt",
+      "description": "Buttocks Covered",
+      "status": null
+   },
+   "labels__anus-exposed": {
+      "message": "Anus",
+      "description": "Anus",
+      "status": null
+   },
+   "labels__anus-covered": {
+      "message": "Anus bedeckt",
+      "description": "Anus Covered",
+      "status": null
+   },
+   "labels__genitalia-exposed": {
+      "message": "Genitalien",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitalia-covered": {
+      "message": "Genitalien bedeckt",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "labels__feet-exposed": {
+      "message": "Fuß",
+      "description": "Foot",
+      "status": null
+   },
+   "labels__feet-covered": {
+      "message": "Fuß bedeckt",
+      "description": "Foot Covered",
+      "status": null
+   },
+   "options__filetypes__header": {
+      "message": "Dateitypen",
+      "description": "File Types",
+      "status": null
+   },
+   "options__filetypes__description": {
+      "message": "Bestimmen Sie, welche Dateitypen verarbeitet werden sollen und wie:",
+      "description": "Determine which file types to process and how:",
+      "status": null
+   },
+   "options__filetypes__gif__thumb": {
+      "message": "Vorschaubild",
+      "description": "Thumb",
+      "status": null
+   },
+   "options__filetypes__gif__frames": {
+      "message": "Einzelbilder",
+      "description": "Frames",
+      "status": null
+   },
+   "options__filetypes__image__width-min": {
+      "message": "Breite (Min)",
+      "description": "Width (Min)",
+      "status": null
+   },
+   "options__filetypes__image__height-min": {
+      "message": "Höhe (Min)",
+      "description": "Height (Min)",
+      "status": null
+   },
+   "options__filetypes__image__height-max": {
+      "message": "Höhe (Max)",
+      "description": "Height (Max)",
+      "status": null
+   },
+   "options__filetypes__image__width-max": {
+      "message": "Breite (Max)",
+      "description": "Width (Max)",
+      "status": null
+   },
+   "options__filetypes__image__file-size-min": {
+      "message": "Dateigröße (Min)",
+      "description": "File Size (Min)",
+      "status": null
+   },
+   "options__filetypes__image__file-size-max": {
+      "message": "Dateigröße (Max)",
+      "description": "File Size (Max)",
+      "status": null
+   },
+   "options__filetypes__image__filetype-output": {
+      "message": "Ausgabe-Dateityp",
+      "description": "Output File Type",
+      "status": null
+   },
+   "options__filetypes__gif__thumbnail-fallback": {
+      "message": "Fallback auf Vorschaubild",
+      "description": "Thumbnail Fallback",
+      "status": null
+   },
+   "options__filetypes__gif__thumbnail-fallback__description": {
+      "message": "Zensiert und zeigt das Vorschaubild an, wenn das GIF die maximale Dateigröße oder Einzelbildanzahl überschreitet. GIFs unter der minimalen Dateigröße werden weiterhin ignoriert.",
+      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
+      "status": null
+   },
+   "options__filetypes__gif__processing-mode": {
+      "message": "Verarbeitungsmodus",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__gif__sync-slow": {
+      "message": "Synchron (langsam)",
+      "description": "Sync (slow)",
+      "status": null
+   },
+   "options__filetypes__gif__sync-fast": {
+      "message": "Asynchron (schnell)",
+      "description": "Async (fast)",
+      "status": null
+   },
+   "options__filetypes__gif__processing-mode__description": {
+      "message": "Verkürzt die Bearbeitungszeiten durch asynchrone Verarbeitung aller Einzelbilder, allerdings mit dem Risiko, dass der Browser einfriert oder abstürzt, wenn genügend große GIFs verarbeitet werden.",
+      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
+      "status": null
+   },
+   "options__filetypes__gif__frame-skipping": {
+      "message": "KI-Einzelbild-Überspringen",
+      "description": "AI Frame Skipping",
+      "status": null
+   },
+   "options__filetypes__gif__frame-skipping__description": {
+      "message": "Verkürzt die Bearbeitungszeiten, indem die KI nach dem Ausführen für die festgelegte Anzahl von Einzelbildern übersprungen wird. Erkennungen in Einzelbildern, in denen die KI nicht ausgeführt wird, werden aus Einzelbildern abgeleitet, in denen sie ausgeführt wird.",
+      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
+      "status": null
+   },
+   "options__filetypes__gif__detection-extending": {
+      "message": "Erkennung erweitern",
+      "description": "Detection Extending",
+      "status": null
+   },
+   "options__filetypes__gif__detection-extending__description": {
+      "message": "Deckt Fälle ab, in denen die KI kurzzeitig ein Körperteil nicht erkennt, indem alle Erkennungen um die festgelegte Anzahl vorheriger und nachfolgender Einzelbilder erweitert werden.",
+      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
+      "status": null
+   },
+   "options__filetypes__gif__detection-similarity": {
+      "message": "Schwellenwert für Erkennungsähnlichkeit",
+      "description": "Detection Similarity Threshold",
+      "status": null
+   },
+   "options__filetypes__gif__detection-similarity__description": {
+      "message": "Legt fest, wie ähnlich positionierte und große Erkennungen in zwei verschiedenen Einzelbildern sein müssen, um anzunehmen, dass sie denselben Körperteil erkannt haben. Diese Informationen werden verwendet, um Erkennungen in Einzelbildern abzuleiten, in denen die KI nicht ausgeführt wird.",
+      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "status": null
+   },
+   "options__filetypes__gif__frames-max": {
+      "message": "Einzelbilder (Max)",
+      "description": "Frames (Max)",
+      "status": null
+   },
+   "options__filetypes__video__auto-overlay": {
+      "message": "Videos automatisch überlagern",
+      "description": "Automatically Overlay Videos",
+      "status": null
+   },
+   "options__filetypes__video__auto-overlay__description": {
+      "message": "Erstellt eine zensierte Überlagerung über Videos. Da Bilder in Echtzeit verarbeitet werden, hängt die resultierende FPS stark von Ihrer Hardware ab. Beachten Sie, dass das eigentliche Video dadurch nicht zensiert wird.",
+      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
+      "status": null
+   },
+   "options__general__note": {
+      "message": "Hinweis:",
+      "description": "Note:",
+      "status": null
+   },
+   "options__filetypes__video__note__description": {
+      "message": "Es wird empfohlen, das Kontextmenü zu verwenden, um Überlagerungen bei Bedarf zu erstellen, anstatt diese Option zu aktivieren, da das Erzeugen unnötiger Überlagerungen sehr ressourcenintensiv sein kann!",
+      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
+      "status": null
+   },
+   "options__filetypes__video__note__account": {
+      "message": "Funktioniert nicht?",
+      "description": "Not Working?",
+      "status": null
+   },
+   "options__filetypes__video__note__account__description": {
+      "message": "Diese Funktion erfordert ein kostenloses PuryFi-Konto, bitte melden Sie sich an!",
+      "description": "This feature requires a free PuryFi account, so please, login!",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode": {
+      "message": "Verarbeitungsmodus:",
+      "description": "Processing Mode:",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__stable": {
+      "message": "Stabil",
+      "description": "Stable",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__overdrive": {
+      "message": "Overdrive",
+      "description": "Overdrive",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__fps-limit": {
+      "message": "FPS-Limit",
+      "description": "FPS-Limit",
+      "status": null
+   },
+   "options__filetypes__video__gif-export": {
+      "message": "GIF-Export",
+      "description": "GIF-Export",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__size-limit": {
+      "message": "GIF-Größenbeschränkung",
+      "description": "GIF Size Limit",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__size-limit__description": {
+      "message": "Begrenzt die Bildgröße des exportierten GIF auf die maximale Höhe oder Breite unter Beibehaltung des Seitenverhältnisses. Der Wert kann auf 0 gesetzt werden, um die Verkleinerung von GIFs zu deaktivieren.",
+      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__cache-memory": {
+      "message": "Cache-Speicher",
+      "description": "Cache Memory",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__cache-memory__description": {
+      "message": "Legt fest, wie viele Bilder die Videoüberlagerung zwischenspeichern darf. Beeinflusst, wie viele Bilder Sie maximal auf einmal aus einem bestimmten Video exportieren können. Der Wert kann auf 0 gesetzt werden, um das gesamte Bild-Caching zu deaktivieren (GIF-Export erfordert Bild-Caching).",
+      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
+      "status": null
+   },
+   "options__censor__header": {
+      "message": "Zensur",
+      "description": "Censor",
+      "status": null
+   },
+   "options__censor__description": {
+      "message": "Bestimmen Sie die resultierende Zensur:",
+      "description": "Determine the resulting censor:",
+      "status": null
+   },
+   "popup__censor__mode": {
+      "message": "Zensurmodus",
+      "description": "Censor Mode",
+      "status": null
+   },
+   "options__censor__modes": {
+      "message": "Zensurmodi",
+      "description": "Censor Modes",
+      "status": null
+   },
+   "options__censor__modes__shape": {
+      "message": "Form",
+      "description": "Shape",
+      "status": null
+   },
+   "options__censor__modes__shape__square": {
+      "message": "◼ Quadrat",
+      "description": "◼ Square",
+      "status": null
+   },
+   "options__censor__modes__shape__circle": {
+      "message": "● Kreis",
+      "description": "● Circle",
+      "status": null
+   },
+   "options__censor__modes__shape__ellipse": {
+      "message": "⬬ Ellipse",
+      "description": "⬬ Ellipse",
+      "status": null
+   },
+   "options__censor__modes__shape__line": {
+      "message": "▬ Linie",
+      "description": "▬ Line",
+      "status": null
+   },
+   "options__censor__modes__shape__heart": {
+      "message": "❤ Herz",
+      "description": "❤ Heart",
+      "status": null
+   },
+   "options__censor__modes__rounding": {
+      "message": "Rundung",
+      "description": "Rounding",
+      "status": null
+   },
+   "options__censor__modes__scale": {
+      "message": "Skalierung",
+      "description": "Scale",
+      "status": null
+   },
+   "options__censor__modes__feathering": {
+      "message": "Weiche Kante",
+      "description": "Feathering",
+      "status": null
+   },
+   "options__censor__modes__mode": {
+      "message": "Modus",
+      "description": "Mode",
+      "status": null
+   },
+   "options__censor__modes__paint": {
+      "message": "Malen",
+      "description": "Paint",
+      "status": null
+   },
+   "options__censor__modes__erase": {
+      "message": "Löschen",
+      "description": "Erase",
+      "status": null
+   },
+   "options__censor__modes__color": {
+      "message": "Farbe",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__modes__opacity": {
+      "message": "Deckkraft",
+      "description": "Opacity",
+      "status": null
+   },
+   "options__censor__modes__border-width": {
+      "message": "Randbreite",
+      "description": "Border Width",
+      "status": null
+   },
+   "options__censor__modes__border-color": {
+      "message": "Randfarbe",
+      "description": "Border Color",
+      "status": null
+   },
+   "options__censor__cluster": {
+      "message": "Cluster",
+      "description": "Cluster",
+      "status": null
+   },
+   "options__censor__caption": {
+      "message": "Beschriftung",
+      "description": "Caption",
+      "status": null
+   },
+   "options__censor__word-wall": {
+      "message": "Wortwand",
+      "description": "Word Wall",
+      "status": null
+   },
+   "options__censor__general": {
+      "message": "Allgemein",
+      "description": "General",
+      "status": null
+   },
+   "options__censor__extras": {
+      "message": "Extras",
+      "description": "Extras",
+      "status": null
+   },
+   "options__censor__modes__type": {
+      "message": "Typ",
+      "description": "Type",
+      "status": null
+   },
+   "options__censor__modes__pixel__mosaic": {
+      "message": "Mosaik",
+      "description": "Mosaic",
+      "status": null
+   },
+   "options__censor__modes__pixel__hexagon": {
+      "message": "Sechseck",
+      "description": "Hexagon",
+      "status": null
+   },
+   "options__censor__modes__pixel__glitch": {
+      "message": "Glitch",
+      "description": "Glitch",
+      "status": null
+   },
+   "options__censor__modes__pixel__halftone": {
+      "message": "Halbton",
+      "description": "Halftone",
+      "status": null
+   },
+   "options__censor__modes__strength": {
+      "message": "Stärke",
+      "description": "Strength",
+      "status": null
+   },
+   "options__censor__modes__density": {
+      "message": "Dichte",
+      "description": "Density",
+      "status": null
+   },
+   "options__censor__modes__channel-colors": {
+      "message": "Kanalfarben",
+      "description": "Channel Colors",
+      "status": null
+   },
+   "options__censor__modes__grayscale": {
+      "message": "Graustufen",
+      "description": "Grayscale",
+      "status": null
+   },
+   "options__censor__modes__sampling": {
+      "message": "Genaue Probenahme",
+      "description": "Accurate Sampling",
+      "status": null
+   },
+   "options__censor__modes__scale-width-detection": {
+      "message": "Skalierung mit Erkennung",
+      "description": "Scale With Detection",
+      "status": null
+   },
+   "options__censor__modes__color-mode": {
+      "message": "Farbmodus",
+      "description": "Color Mode",
+      "status": null
+   },
+   "options__censor__modes__color-mode__cmyk": {
+      "message": "CMYK",
+      "description": "CMYK",
+      "status": null
+   },
+   "options__censor__modes__color-mode__simple": {
+      "message": "Einfach",
+      "description": "Simple",
+      "status": null
+   },
+   "options__censor__modes__grid-width": {
+      "message": "Rasterbreite",
+      "description": "Grid Width",
+      "status": null
+   },
+   "options__censor__modes__grid-color": {
+      "message": "Rasterfarbe",
+      "description": "Grid Color",
+      "status": null
+   },
+   "options__censor__modes__background-color": {
+      "message": "Hintergrundfarbe",
+      "description": "Background Color",
+      "status": null
+   },
+   "options__censor__modes__vertext-count": {
+      "message": "Scheitelpunktanzahl",
+      "description": "Vertex Count",
+      "status": null
+   },
+   "options__censor__modes__threshold": {
+      "message": "Schwellenwert",
+      "description": "Threshold",
+      "status": null
+   },
+   "options__censor__modes__accuracy": {
+      "message": "Genauigkeit",
+      "description": "Accuracy",
+      "status": null
+   },
+   "options__censor__modes__blurring": {
+      "message": "Weichzeichnung",
+      "description": "Blurring",
+      "status": null
+   },
+   "options__censor__modes__line-join": {
+      "message": "Linienverbindung",
+      "description": "Line Join",
+      "status": null
+   },
+   "options__censor__modes__line-join__miter": {
+      "message": "Gehrung",
+      "description": "Miter",
+      "status": null
+   },
+   "options__censor__modes__line-join__round": {
+      "message": "Rund",
+      "description": "Round",
+      "status": null
+   },
+   "options__censor__modes__line-join__bevel": {
+      "message": "Fase",
+      "description": "Bevel",
+      "status": null
+   },
+   "options__censor__modes__fill-color-mode": {
+      "message": "Füllfarbmodus",
+      "description": "Fill Color Mode",
+      "status": null
+   },
+   "options__censor__modes__auto": {
+      "message": "Auto",
+      "description": "Auto",
+      "status": null
+   },
+   "options__censor__modes__custom": {
+      "message": "Benutzerdefiniert",
+      "description": "Custom",
+      "status": null
+   },
+   "options__censor__modes__fill-color": {
+      "message": "Füllfarbe",
+      "description": "Fill Color",
+      "status": null
+   },
+   "options__censor__modes__transparent-color": {
+      "message": "Transparente Farbe",
+      "description": "Transparent Color",
+      "status": null
+   },
+   "options__censor__modes__gradients": {
+      "message": "Farbverläufe",
+      "description": "Gradients",
+      "status": null
+   },
+   "options__censor__modes__gradient-stops": {
+      "message": "Farbverlaufsstopps",
+      "description": "Gradient Stops",
+      "status": null
+   },
+   "options__censor__modes__stroke-color-mode": {
+      "message": "Strichfarbmodus",
+      "description": "Stroke Color Mode",
+      "status": null
+   },
+   "options__censor__modes__stroke-color": {
+      "message": "Strichfarbe",
+      "description": "Stroke Color",
+      "status": null
+   },
+   "options__censor__modes__stroke-width": {
+      "message": "Strichstärke",
+      "description": "Stroke Width",
+      "status": null
+   },
+   "options__censor__modes__box__display": {
+      "message": "Anzeige",
+      "description": "Display",
+      "status": null
+   },
+   "options__censor__modes__box__name-score": {
+      "message": "Name & Bewertung",
+      "description": "Name & Score",
+      "status": null
+   },
+   "options__censor__modes__box__name": {
+      "message": "Name",
+      "description": "Name",
+      "status": null
+   },
+   "options__censor__modes__box__score": {
+      "message": "Bewertung",
+      "description": "Score",
+      "status": null
+   },
+   "options__censor__modes__box__nothing": {
+      "message": "Nichts",
+      "description": "Nothing",
+      "status": null
+   },
+   "options__censor__modes__glitch__chromatic-aberration": {
+      "message": "Chrom. Aberration",
+      "description": "Chr. Aberration",
+      "status": null
+   },
+   "options__censor__modes__glitch__multiple-panels": {
+      "message": "Mehrere Felder",
+      "description": "Multiple Panels",
+      "status": null
+   },
+   "options__censor__modes__glitch__color-intensity": {
+      "message": "Farbintensität",
+      "description": "Color Intensity",
+      "status": null
+   },
+   "options__censor__modes__glitch__shift-intensity": {
+      "message": "Verschiebungsintensität",
+      "description": "Shift Intensity",
+      "status": null
+   },
+   "options__censor__modes__glitch__horizontal-shift": {
+      "message": "Horizontale Verschiebung",
+      "description": "Horizontal Shift",
+      "status": null
+   },
+   "options__censor__modes__glitch__vertical-shift": {
+      "message": "Vertikale Verschiebung",
+      "description": "Vertical Shift",
+      "status": null
+   },
+   "options__censor__modes__amount": {
+      "message": "Menge",
+      "description": "Amount",
+      "status": null
+   },
+   "options__censor__modes__glitch__min-size": {
+      "message": "Min. Größe",
+      "description": "Min. Size",
+      "status": null
+   },
+   "options__censor__modes__glitch__max-size": {
+      "message": "Max. Größe",
+      "description": "Max. Size",
+      "status": null
+   },
+   "options__censor__modes__glitch__scatter": {
+      "message": "Streuung",
+      "description": "Scatter",
+      "status": null
+   },
+   "options__censor__modes__glitch__split-chance": {
+      "message": "Aufteilungschance",
+      "description": "Split Chance",
+      "status": null
+   },
+   "options__censor__modes__glitch__border": {
+      "message": "Rand",
+      "description": "Border",
+      "status": null
+   },
+   "options__censor__modes__glitch__gradient": {
+      "message": "Verlauf",
+      "description": "Gradient",
+      "status": null
+   },
+   "labels__armpit": {
+      "message": "Achselhöhle",
+      "description": "Armpit",
+      "status": null
+   },
+   "labels__nipple": {
+      "message": "Brustwarze",
+      "description": "Nipple",
+      "status": null
+   },
+   "labels__breast": {
+      "message": "Brust",
+      "description": "Breast",
+      "status": null
+   },
+   "labels__belly": {
+      "message": "Bauch",
+      "description": "Belly",
+      "status": null
+   },
+   "labels__hand": {
+      "message": "Hand",
+      "description": "Hand",
+      "status": null
+   },
+   "labels__buttocks": {
+      "message": "Gesäß",
+      "description": "Buttocks",
+      "status": null
+   },
+   "labels__anus": {
+      "message": "Anus",
+      "description": "Anus",
+      "status": null
+   },
+   "labels__genitalia": {
+      "message": "Genitalien",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitalia-short": {
+      "message": "Gen.",
+      "description": "Gen.",
+      "status": "manual"
+   },
+   "labels__feet": {
+      "message": "Fuß",
+      "description": "Foot",
+      "status": null
+   },
+   "options__censor__modes__sticker__name": {
+      "message": "Name",
+      "description": "Name",
+      "status": null
+   },
+   "options__censor__modes__sticker__groups": {
+      "message": "Gruppen",
+      "description": "Groups",
+      "status": null
+   },
+   "options__censor__modes__sticker__weight": {
+      "message": "Gewichtung",
+      "description": "Weight",
+      "status": null
+   },
+   "options__censor__modes__sticker__delete": {
+      "message": "Löschen",
+      "description": "Delete",
+      "status": null
+   },
+   "options__censor__modes__sticker__pick-mode": {
+      "message": "Entwurfsmodus",
+      "description": "Pick Mode",
+      "status": null
+   },
+   "options__censor__modes__sticker__per-body-part": {
+      "message": "Pro Körperteil",
+      "description": "Per Body Part",
+      "status": null
+   },
+   "options__censor__modes__sticker__Per-detection": {
+      "message": "Pro Erkennung",
+      "description": "Per Detection",
+      "status": null
+   },
+   "options__censor__modes__sticker__pick-single-source": {
+      "message": "Entwurf Einzelquelle",
+      "description": "Pick Single Source",
+      "status": null
+   },
+   "options__censor__modes__sticker__enabled-sources": {
+      "message": "Aktivierte Quellen",
+      "description": "Enabled Sources",
+      "status": null
+   },
+   "options__censor__modes__sticker__entries-description": {
+      "message": "- Einträge sind Sammlungs- oder Gruppennamen, die durch Semikolons getrennt sind",
+      "description": "- Entries are collection or group names separated by semicolons",
+      "status": null
+   },
+   "options__censor__modes__sticker__create-collection": {
+      "message": "Sammlung erstellen",
+      "description": "Create Collection",
+      "status": null
+   },
+   "options__censor__modes__sticker__create": {
+      "message": "Erstellen",
+      "description": "Create",
+      "status": null
+   },
+   "options__censor__modes__sticker__delete-collection": {
+      "message": "Löschen",
+      "description": "Delete",
+      "status": null
+   },
+   "options__censor__modes__sticker__import-collection": {
+      "message": "Importieren",
+      "description": "Import",
+      "status": null
+   },
+   "options__censor__modes__sticker__export-collection": {
+      "message": "Exportieren",
+      "description": "Export",
+      "status": null
+   },
+   "options__censor__modes__sticker__reset-all": {
+      "message": "Alles zurücksetzen",
+      "description": "Reset All",
+      "status": null
+   },
+   "options__censor__modes__sobel__inverted-color": {
+      "message": "Invertierte Farbe",
+      "description": "Inverted Color",
+      "status": null
+   },
+   "options__censor__modes__splatter__recursions": {
+      "message": "Wiederholungen",
+      "description": "Recursions",
+      "status": null
+   },
+   "options__censor__modes__splatter__color-pool": {
+      "message": "Farbpool",
+      "description": "Color Pool",
+      "status": null
+   },
+   "options__censor__modes__splatter__centering": {
+      "message": "Zentrierung",
+      "description": "Centering",
+      "status": null
+   },
+   "options__censor__modes__splatter__size": {
+      "message": "Größe",
+      "description": "Size",
+      "status": null
+   },
+   "options__censor__modes__splatter__sub-size": {
+      "message": "Subgröße",
+      "description": "Sub Size",
+      "status": null
+   },
+   "options__censor__modes__splatter__sub-amount": {
+      "message": "Submenge",
+      "description": "Sub Amount",
+      "status": null
+   },
+   "options__censor__modes__splatter__rainbow": {
+      "message": "Regenbogen",
+      "description": "Rainbow",
+      "status": null
+   },
+   "options__censor__modes__random": {
+      "message": "Zufällig",
+      "description": "Random",
+      "status": null
+   },
+   "options__censor__modes__super-random": {
+      "message": "Superzufällig",
+      "description": "Super Random",
+      "status": null
+   },
+   "options__censor__none": {
+      "message": "Keine",
+      "description": "None",
+      "status": null
+   },
+   "censor-type__black": {
+      "message": "Schwarz",
+      "description": "Black",
+      "status": null
+   },
+   "censor-type__mixed": {
+      "message": "Gemischt",
+      "description": "Mixed",
+      "status": null
+   },
+   "options__censor__mixed-mode__content": {
+      "message": "Inhalt",
+      "description": "Content",
+      "status": null
+   },
+   "options__censor__reverse": {
+      "message": "Umkehren",
+      "description": "Reverse",
+      "status": null
+   },
+   "options__censor__censor-extras": {
+      "message": "Extras zensieren",
+      "description": "Censor Extras",
+      "status": null
+   },
+   "options__censor__cluster__only-matching-content": {
+      "message": "Nur übereinstimmender Inhalt",
+      "description": "Only Matching Content",
+      "status": null
+   },
+   "options__censor__cluster__max-distance": {
+      "message": "Max. Entfernung",
+      "description": "Max. Distance",
+      "status": null
+   },
+   "options__censor__modes__cutout": {
+      "message": "Ausschnitt",
+      "description": "Cutout",
+      "status": null
+   },
+   "options__censor__caption__color": {
+      "message": "Farbe",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__caption__font": {
+      "message": "Schriftart",
+      "description": "Font",
+      "status": null
+   },
+   "options__censor__caption__style": {
+      "message": "Stil",
+      "description": "Style",
+      "status": null
+   },
+   "options__censor__caption__padding": {
+      "message": "Auffüllung",
+      "description": "Padding",
+      "status": null
+   },
+   "options__censor__word-wall__pick-mode": {
+      "message": "Entwurfsmodus:",
+      "description": "Pick Mode:",
+      "status": null
+   },
+   "options__censor__word-wall__single": {
+      "message": "Einzeln",
+      "description": "Single",
+      "status": null
+   },
+   "options__censor__word-wall__multiple": {
+      "message": "Mehrere",
+      "description": "Multiple",
+      "status": null
+   },
+   "options__censor__word-wall__all": {
+      "message": "Alle",
+      "description": "All",
+      "status": null
+   },
+   "options__censor__word-wall__word-pool": {
+      "message": "Wortpool",
+      "description": "Word Pool",
+      "status": null
+   },
+   "options__censor__word-wall__word-pool__description": {
+      "message": "- Einträge werden durch neue Zeilen getrennt",
+      "description": "- Entries are separated by new lines",
+      "status": null
+   },
+   "options__censor__word-wall__color": {
+      "message": "Farbe",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__word-wall__font": {
+      "message": "Schriftart",
+      "description": "Font",
+      "status": null
+   },
+   "options__censor__word-wall__style": {
+      "message": "Stil",
+      "description": "Style",
+      "status": null
+   },
+   "options__censor__word-wall__size": {
+      "message": "Größe",
+      "description": "Size",
+      "status": null
+   },
+   "options__censor__word-wall__spacing": {
+      "message": "Abstand",
+      "description": "Spacing",
+      "status": null
+   },
+   "options__censor__word-wall__line-height": {
+      "message": "Zeilenhöhe",
+      "description": "Line Height",
+      "status": null
+   },
+   "options__censor__word-wall__line-offset": {
+      "message": "Zeilenversatz",
+      "description": "Line Offset",
+      "status": null
+   },
+   "options__censor__word-wall__angle": {
+      "message": "Winkel",
+      "description": "Angle",
+      "status": null
+   },
+   "options__censor__reverse__censor": {
+      "message": "Zensieren",
+      "description": "Censor",
+      "status": null
+   },
+   "options__censor__reverse__all-images": {
+      "message": "alle Bilder",
+      "description": "all images",
+      "status": null
+   },
+   "options__censor__reverse__images-with-content": {
+      "message": "Bilder mit Inhalt",
+      "description": "images with content",
+      "status": null
+   },
+   "options__censor__reverse__images-with-censor-content": {
+      "message": "Bilder mit zu zensierendem Inhalt",
+      "description": "images with content to censor",
+      "status": null
+   },
+   "options__advanced__header": {
+      "message": "Erweitert",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__advanced__description": {
+      "message": "Erweiterte und verschiedene Einstellungen:",
+      "description": "Advanced and miscellaneous settings:",
+      "status": null
+   },
+   "options__advanced__extension-icon": {
+      "message": "Erweiterungssymbol",
+      "description": "Extension Icon",
+      "status": null
+   },
+   "options__advanced__classic": {
+      "message": "Klassisch",
+      "description": "Classic",
+      "status": null
+   },
+   "options__advanced__modern": {
+      "message": "Modern",
+      "description": "Modern",
+      "status": null
+   },
+   "options__advanced__minimalistic": {
+      "message": "Minimalistisch",
+      "description": "Minimalistic",
+      "status": null
+   },
+   "options__advanced__advanced-options": {
+      "message": "Erweiterte Optionen",
+      "description": "Advanced Options",
+      "status": null
+   },
+   "options__advanced__pre-scaling": {
+      "message": "Vorskaliereung",
+      "description": "Pre-Scaling",
+      "status": null
+   },
+   "options__advanced__pre-scaling__description": {
+      "message": "Verkleinert Bilder ein zweites Mal zur Verarbeitung. Tests haben vergleichbare Ergebnisse bei gleichzeitig geringfügigen Geschwindigkeitsgewinnen in allen sowie erheblichen Speicherersparnissen bei der Stapelverarbeitung großer Bilder gezeigt.",
+      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
+      "status": null
+   },
+   "options__advanced__pre-scaling__description__note": {
+      "message": "Es wird dringend empfohlen, diese Option zu aktivieren, wenn beim Batch-Konverter oder bei Videoüberlagerungen Speicherprobleme auftreten.",
+      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
+      "status": null
+   },
+   "options__advanced__prefer-edited-detections": {
+      "message": "Bearbeitete Erkennungen bevorzugen",
+      "description": "Prefer Edited Detections",
+      "status": null
+   },
+   "options__advanced__prefer-edited-detections__description": {
+      "message": "Sucht vor dem Ausführen des Modells nach, ob der Benutzer den Editor verwendet hat, um Erkennungen für das Bild zu bearbeiten und zu speichern, und bevorzugt, falls ja, die Verwendung dieser gegenüber den Modellerkennungen.",
+      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+      "status": null
+   },
+   "options__advanced__base64_support": {
+      "message": "Base64-Unterstützung",
+      "description": "Base64 Support",
+      "status": null
+   },
+   "options__advanced__base64_support__description": {
+      "message": "Durchsucht Webseiten auch nach Base64-codierten Bildern, die zensiert werden müssen, da diese von der Firefox Extensions API nicht erkannt werden.",
+      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
+      "status": null
+   },
+   "options__advanced__ai-warmup": {
+      "message": "KI-Aufwärmen",
+      "description": "AI Warm-Up",
+      "status": null
+   },
+   "options__advanced__ai-warmup__description": {
+      "message": "Initialisiert die KI beim Start von Firefox. Ihr Browser kann dabei kurzzeitig einfrieren.",
+      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+      "status": null
+   },
+   "options__advanced__sfw-icons": {
+      "message": "SFW-Symbole",
+      "description": "SFW Icons",
+      "status": null
+   },
+   "options__advanced__sfw-icons__description": {
+      "message": "Zensiert Nacktheit in allen Symbolen der Erweiterung, z. B. in den Körperteilsymbolen.",
+      "description": "Censors nudity across all icons in the extension, such as in the body part icons.",
+      "status": null
+   },
+   "options__advanced__theme": {
+      "message": "Thema",
+      "description": "Theme",
+      "status": null
+   },
+   "options__advanced__theme__teal": {
+      "message": "Blaugrün",
+      "description": "Teal",
+      "status": null
+   },
+   "options__advanced__theme__blue": {
+      "message": "Blau",
+      "description": "Blue",
+      "status": null
+   },
+   "options__advanced__theme__purple": {
+      "message": "Lila",
+      "description": "Purple",
+      "status": null
+   },
+   "options__advanced__theme__pink": {
+      "message": "Pink",
+      "description": "Pink",
+      "status": null
+   },
+   "options__advanced__theme__amoled": {
+      "message": "Amoled",
+      "description": "Amoled",
+      "status": null
+   },
+   "options__advanced__theme__cyberpunk": {
+      "message": "Cyberpunk",
+      "description": "Cyberpunk",
+      "status": null
+   },
+   "options__advanced__theme__pink-doll": {
+      "message": "Pinke Puppe",
+      "description": "Pink Doll",
+      "status": null
+   },
+   "options__advanced__theme__retro-wave": {
+      "message": "Retro-Welle",
+      "description": "Retro Wave",
+      "status": null
+   },
+   "options__advanced__theme__accent-color": {
+      "message": "Akzentfarbe:",
+      "description": "Accent Color:",
+      "status": null
+   },
+   "options__advanced__theme__main-bg-color": {
+      "message": "Haupthintergrundfarbe:",
+      "description": "Main BG Color:",
+      "status": null
+   },
+   "options__advanced__theme__secondary-bg-color": {
+      "message": "Sekundäre Hintergrundfarbe:",
+      "description": "Secondary BG Color:",
+      "status": null
+   },
+   "options__advanced__theme__text-color": {
+      "message": "Textfarbe:",
+      "description": "Text Color:",
+      "status": null
+   },
+   "options__white-black-list__header": {
+      "message": "Whitelist & Blacklist",
+      "description": "Whitelist & Blacklist",
+      "status": null
+   },
+   "options__white-black-list__description": {
+      "message": "Bestimmte Webseiten auf die Whitelist oder Blacklist setzen:",
+      "description": "Whitelist or blacklist certain webpages:",
+      "status": null
+   },
+   "options__white-black-list__whitelist": {
+      "message": "Whitelist",
+      "description": "Whitelist",
+      "status": null
+   },
+   "options__white-black-list__blacklist": {
+      "message": "Blacklist",
+      "description": "Blacklist",
+      "status": null
+   },
+   "options__white-black-list__whitelist__description": {
+      "message": "- Die Erweiterung für die folgenden Webseiten deaktivieren",
+      "description": "- Disable the extension for the following webpages",
+      "status": null
+   },
+   "options__white-black-list__blacklist__description": {
+      "message": "- Die Erweiterung nur für die folgenden Webseiten aktivieren",
+      "description": "- Enable the extension only for the following webpages",
+      "status": null
+   },
+   "options__white-black-list__text": {
+      "message": "text",
+      "description": "text",
+      "status": null
+   },
+   "options__white-black-list__regex": {
+      "message": "regex",
+      "description": "regex",
+      "status": null
+   },
+   "options__white-black-list__lock-info-whitelist": {
+      "message": "Ihre Erweiterung ist gesperrt! Sie können Einträge aus der Whitelist entfernen, aber nicht hinzufügen.",
+      "description": "Your extension is locked! You may remove entries from the whitelist, but not add them.",
+      "status": null
+   },
+   "options__white-black-list__lock-info-blacklist": {
+      "message": "Ihre Erweiterung ist gesperrt! Sie können Einträge zur Blacklist hinzufügen, aber nicht entfernen.",
+      "description": "Your extension is locked! You may add entries to the blacklist, but not remove them.",
+      "status": null
+   },
+   "options__settings__header": {
+      "message": "Einstellungen",
+      "description": "Settings",
+      "status": null
+   },
+   "options__settings__description": {
+      "message": "Verwalten Sie Ihre Einstellungssammlungen:",
+      "description": "Manage your settings collections:",
+      "status": null
+   },
+   "options__settings__import-settings": {
+      "message": "Einstellungen importieren",
+      "description": "Import Settings",
+      "status": null
+   },
+   "options__settings__remote-control": {
+      "message": "Fernbedienung",
+      "description": "Remote Control",
+      "status": null
+   },
+   "options__settings__subscribe": {
+      "message": "Abonnieren",
+      "description": "Subscribe",
+      "status": null
+   },
+   "options__settings__unsubscribe": {
+      "message": "Abbestellen",
+      "description": "Unsubscribe",
+      "status": null
+   },
+   "options__settings__lock-subscription": {
+      "message": "Abonnement sperren",
+      "description": "Lock Subscription",
+      "status": null
+   },
+   "options__settings__send-statistics-data": {
+      "message": "Statistikdaten senden",
+      "description": "Send Statistics Data",
+      "status": null
+   },
+   "options__settings__allow-older-settings": {
+      "message": "Ältere Einstellungen zulassen",
+      "description": "Allow Older Settings",
+      "status": null
+   },
+   "options__settings__auto-update": {
+      "message": "Automatische Aktualisierung:",
+      "description": "Auto Update:",
+      "status": null
+   },
+   "options__settings__periodic": {
+      "message": "Regelmäßig:",
+      "description": "Periodic:",
+      "status": null
+   },
+   "options__settings__minutes": {
+      "message": "Minuten",
+      "description": "Minutes",
+      "status": null
+   },
+   "options__settings__on-start": {
+      "message": "Beim Start:",
+      "description": "On Start:",
+      "status": null
+   },
+   "options__settings__manual": {
+      "message": "Manuell:",
+      "description": "Manual:",
+      "status": null
+   },
+   "options__settings__cloud-settings": {
+      "message": "Cloud Einstellungen",
+      "description": "Cloud Settings",
+      "status": null
+   },
+   "options__settings__import": {
+      "message": "Importieren",
+      "description": "Import",
+      "status": null
+   },
+   "options__settings__local-data-mismatch": {
+      "message": "Lokale Daten stimmen nicht überein",
+      "description": "Local Data Mismatch",
+      "status": null
+   },
+   "options__settings__clear-cloud-data": {
+      "message": "Cloud-Daten löschen",
+      "description": "Clear Cloud Data",
+      "status": null
+   },
+   "options__settings__last-updated": {
+      "message": "Zuletzt aktualisiert:",
+      "description": "Last Updated:",
+      "status": null
+   },
+   "options__settings__last-pinged": {
+      "message": "Zuletzt geprüft:",
+      "description": "Last Checked:",
+      "status": null
+   },
+   "options__settings__local-file": {
+      "message": "Lokale Datei",
+      "description": "Local File",
+      "status": null
+   },
+   "options__settings__manage-settings": {
+      "message": "Einstellungen verwalten",
+      "description": "Manage Settings",
+      "status": null
+   },
+   "options__settings__stored-settings": {
+      "message": "Gespeicherte Einstellungen",
+      "description": "Stored Settings",
+      "status": null
+   },
+   "options__settings__save": {
+      "message": "Speichern",
+      "description": "Save",
+      "status": null
+   },
+   "options__settings__load": {
+      "message": "Laden",
+      "description": "Load",
+      "status": null
+   },
+   "options__settings__save-configuration": {
+      "message": "Konfiguration speichern",
+      "description": "Saving Configuration",
+      "status": null
+   },
+   "options__settings__extension": {
+      "message": "Erweiterung:",
+      "description": "Extension:",
+      "status": null
+   },
+   "options__settings__lock": {
+      "message": "Sperren:",
+      "description": "Lock:",
+      "status": null
+   },
+   "options__settings__content": {
+      "message": "Inhalt",
+      "description": "Content",
+      "status": null
+   },
+   "options__settings__censor": {
+      "message": "Zensieren",
+      "description": "Censor",
+      "status": null
+   },
+   "options__settings__enabled-censor": {
+      "message": "Zensieren aktiviert",
+      "description": "Enabled Censor",
+      "status": null
+   },
+   "options__settings__file-types": {
+      "message": "Dateitypen",
+      "description": "File Types",
+      "status": null
+   },
+   "options__settings__enabled-types": {
+      "message": "Aktivierte Typen",
+      "description": "Enabled Types",
+      "status": null
+   },
+   "options__settings__video": {
+      "message": "Video",
+      "description": "Video",
+      "status": null
+   },
+   "options__settings__oom": {
+      "message": "OOM",
+      "description": "OOM",
+      "status": null
+   },
+   "options__settings__wb-list": {
+      "message": "W/B Liste",
+      "description": "W/B List",
+      "status": null
+   },
+   "options__settings__advanced": {
+      "message": "Erweitert",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__settings__icons": {
+      "message": "Symbole",
+      "description": "Icons",
+      "status": null
+   },
+   "options__settings__pre-scaling": {
+      "message": "Pre-Skalierung",
+      "description": "Pre-Scaling",
+      "status": null
+   },
+   "options__settings__prefer-edited-detections": {
+      "message": "Bearbeitete Erkennungen bevorzugen",
+      "description": "Prefer Edited Detections",
+      "status": null
+   },
+   "options__settings__base64_support": {
+      "message": "Base64 Unterstützung",
+      "description": "Base64 Support",
+      "status": null
+   },
+   "options__settings__ai-warm-up": {
+      "message": "KI Aufwärmen",
+      "description": "AI Warm-Up",
+      "status": null
+   },
+   "options__settings__theme": {
+      "message": "Thema",
+      "description": "Theme",
+      "status": null
+   },
+   "options__help__header": {
+      "message": "Hilfe",
+      "description": "Help",
+      "status": null
+   },
+   "options__help__find-us": {
+      "message": "Finden Sie uns auf",
+      "description": "Find us on",
+      "status": null
+   },
+   "options__help__cache": {
+      "message": "Zwischenspeicher",
+      "description": "Cache",
+      "status": null
+   },
+   "options__help__images": {
+      "message": "Bilder",
+      "description": "Images",
+      "status": null
+   },
+   "options__help__size": {
+      "message": "Größe",
+      "description": "Size",
+      "status": null
+   },
+   "options__help__reset-cache": {
+      "message": "Cache leeren",
+      "description": "Reset Cache",
+      "status": null
+   },
+   "options__help__storage": {
+      "message": "Speicher",
+      "description": "Storage",
+      "status": null
+   },
+   "options__help__total-synced": {
+      "message": "Gesamt synchronisiert",
+      "description": "Total Synced",
+      "status": null
+   },
+   "options__help__total-local": {
+      "message": "Gesamt lokal",
+      "description": "Total Local",
+      "status": null
+   },
+   "options__help__stickers": {
+      "message": "Sticker",
+      "description": "Stickers",
+      "status": null
+   },
+   "options__help__edited-detections": {
+      "message": "Bearbeitete Erkennungen",
+      "description": "Edited Detections",
+      "status": null
+   },
+   "options__help__lock-timer-logs": {
+      "message": "Timer-Sperrprotokolle",
+      "description": "Lock Timer Logs",
+      "status": null
+   },
+   "options__help__oom": {
+      "message": "OOM",
+      "description": "OOM",
+      "status": null
+   },
+   "options__help__oom-containers": {
+      "message": "OOM-Container",
+      "description": "OOM Containers",
+      "status": null
+   },
+   "options__help__oom-hashes": {
+      "message": "OOM-Hashes",
+      "description": "OOM Hashes",
+      "status": null
+   },
+   "options__help__ai-model": {
+      "message": "KI-Modell",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__help__backend": {
+      "message": "Backend",
+      "description": "Backend",
+      "status": null
+   },
+   "options__help__tensors": {
+      "message": "Tensoren",
+      "description": "Tensors",
+      "status": null
+   },
+   "options__help__bytes": {
+      "message": "Bytes",
+      "description": "Bytes",
+      "status": null
+   },
+   "options__help__gpu-bytes": {
+      "message": "GPU-Bytes",
+      "description": "GPU Bytes",
+      "status": null
+   },
+   "options__help__data-buffers": {
+      "message": "Datenpuffer",
+      "description": "Data Buffers",
+      "status": null
+   },
+   "options__help__stable": {
+      "message": "Stabil",
+      "description": "Stable",
+      "status": null
+   },
+   "options__help__error": {
+      "message": "Fehler",
+      "description": "Error",
+      "status": null
+   },
+   "options__help__debugging": {
+      "message": "Debugging",
+      "description": "Debugging",
+      "status": null
+   },
+   "options__help__debug": {
+      "message": "Debuggen",
+      "description": "Debug",
+      "status": null
+   },
+   "options__help__default-settings": {
+      "message": "Standardeinstellungen",
+      "description": "Default Settings",
+      "status": null
+   },
+   "options__help__restore-defaults": {
+      "message": "Standardeinstellungen wiederherstellen",
+      "description": "Restore Defaults",
+      "status": null
+   },
+   "options__help__restore-defaults__description": {
+      "message": "Löscht keine lokalen Daten wie Sticker oder gespeicherte Einstellungen.",
+      "description": "Will not delete any local data such as stickers or stored settings.",
+      "status": null
+   },
+   "options__oom__header": {
+      "message": "Nur einmal Modus",
+      "description": "Only Once Mode",
+      "status": null
+   },
+   "options__oom__description": {
+      "message": "Bilder nur einmal anzeigen:",
+      "description": "Display images only once:",
+      "status": null
+   },
+   "options__oom__modes__mode": {
+      "message": "Modus",
+      "description": "Mode",
+      "status": null
+   },
+   "options__oom__modes__full-block": {
+      "message": "Vollständige Blockierung",
+      "description": "Full Block",
+      "status": null
+   },
+   "options__oom__modes__see-trough": {
+      "message": "Durchscheinend",
+      "description": "See-Through",
+      "status": null
+   },
+   "options__oom__modes__borderless": {
+      "message": "Randlos",
+      "description": "Borderless",
+      "status": null
+   },
+   "options__oom__modes__thumbnail": {
+      "message": "Miniaturansicht",
+      "description": "Thumbnail",
+      "status": null
+   },
+   "options__oom__modes__grid": {
+      "message": "Gitter",
+      "description": "Grid",
+      "status": null
+   },
+   "options__oom__modes__strong-blur": {
+      "message": "Starke Unschärfe",
+      "description": "Strong Blur",
+      "status": null
+   },
+   "options__oom__modes__box-tease": {
+      "message": "Box Tease",
+      "description": "Box Tease",
+      "status": null
+   },
+   "options__oom__modes__reset-data": {
+      "message": "Daten löschen",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__oom__mode-settings": {
+      "message": "Moduseinstellungen",
+      "description": "Mode Settings",
+      "status": null
+   },
+   "options__oom__transparency": {
+      "message": "Transparenz",
+      "description": "Transparency",
+      "status": null
+   },
+   "options__oom__distance": {
+      "message": "Abstand",
+      "description": "Distance",
+      "status": null
+   },
+   "options__oom__border-radius": {
+      "message": "Randradius",
+      "description": "Border Radius",
+      "status": null
+   },
+   "options__oom__thumbnail-blur": {
+      "message": "Miniaturansicht Unschärfe",
+      "description": "Thumbnail Blur",
+      "status": null
+   },
+   "options__oom__grid": {
+      "message": "Gitter",
+      "description": "Grid",
+      "status": null
+   },
+   "options__oom__grid__custom": {
+      "message": "Benutzerdefiniert",
+      "description": "Custom",
+      "status": null
+   },
+   "options__oom__grid__fence": {
+      "message": "Zaun",
+      "description": "Fence",
+      "status": null
+   },
+   "options__oom__grid__black-and-white": {
+      "message": "Schwarz & Weiß",
+      "description": "Black & White",
+      "status": null
+   },
+   "options__oom__grid__wasp": {
+      "message": "Wespe",
+      "description": "Wasp",
+      "status": null
+   },
+   "options__oom__grid__purple": {
+      "message": "Lila",
+      "description": "Purple",
+      "status": null
+   },
+   "options__oom__grayscale": {
+      "message": "Graustufen",
+      "description": "Grayscale",
+      "status": null
+   },
+   "options__oom__reveal-faces": {
+      "message": "Gesichter enthüllen",
+      "description": "Reveal Faces",
+      "status": null
+   },
+   "options__oom__image-settings": {
+      "message": "Bildeinstellungen",
+      "description": "Image Settings",
+      "status": null
+   },
+   "options__oom__hash-precision": {
+      "message": "Hash-Präzision",
+      "description": "Hash Precision",
+      "status": null
+   },
+   "options__oom__min-width": {
+      "message": "Min. Breite",
+      "description": "Min. Width",
+      "status": null
+   },
+   "options__oom__min-height": {
+      "message": "Min. Höhe",
+      "description": "Min. Height",
+      "status": null
+   },
+   "options__oom__triggers": {
+      "message": "Auslöser",
+      "description": "Triggers",
+      "status": null
+   },
+   "labels__mouth": {
+      "message": "Mund",
+      "description": "Mouth",
+      "status": null
+   },
+   "labels__gentials": {
+      "message": "Genitalien",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__gentials-covered": {
+      "message": "Genitalien bedeckt",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "options__oom__lock-settings": {
+      "message": "Einstellungen sperren",
+      "description": "Lock Settings",
+      "status": null
+   },
+   "options__oom__date-time-format": {
+      "message": "Datums-/Zeitformat:",
+      "description": "Date Time Format:",
+      "status": null
+   },
+   "options__none": {
+      "message": "Keiner",
+      "description": "None",
+      "status": null
+   },
+   "options__oom__local": {
+      "message": "Lokal",
+      "description": "Local",
+      "status": null
+   },
+   "options__oom__block-message": {
+      "message": "Nachricht blockieren",
+      "description": "Block Message",
+      "status": null
+   },
+   "options__oom__list-image-content": {
+      "message": "Bildinhalt auflisten",
+      "description": "List Image Content",
+      "status": null
+   },
+   "options__oom__timer": {
+      "message": "Timer",
+      "description": "Timer",
+      "status": null
+   },
+   "options__oom__auto-refresh": {
+      "message": "Automatisch aktualisieren",
+      "description": "Auto Refresh",
+      "status": null
+   },
+   "options__oom__min-duration": {
+      "message": "Min. Dauer:",
+      "description": "Min. Duration:",
+      "status": null
+   },
+   "options__oom__days": {
+      "message": "Tage",
+      "description": "Days",
+      "status": null
+   },
+   "options__oom__hours": {
+      "message": "Stunden",
+      "description": "Hours",
+      "status": null
+   },
+   "options__oom__mins": {
+      "message": "Min.",
+      "description": "Mins",
+      "status": null
+   },
+   "options__oom__secs": {
+      "message": "Sek.",
+      "description": "Secs",
+      "status": null
+   },
+   "options__oom__max-duration": {
+      "message": "Max. Dauer:",
+      "description": "Max. Duration:",
+      "status": null
+   },
+   "options__oom__animation": {
+      "message": "Animation",
+      "description": "Animation",
+      "status": null
+   },
+   "options__oom__none": {
+      "message": "Keiner",
+      "description": "None",
+      "status": null
+   },
+   "options__oom__progress-bar": {
+      "message": "Fortschrittsbalken",
+      "description": "Progress Bar",
+      "status": null
+   },
+   "options__oom__darken": {
+      "message": "Verdunkeln",
+      "description": "Darken",
+      "status": null
+   },
+   "options__oom__blur": {
+      "message": "Weichzeichnen",
+      "description": "Blur",
+      "status": null
+   },
+   "options__batch-converter__header": {
+      "message": "Batch-Konverter",
+      "description": "Batch-Converter",
+      "status": null
+   },
+   "options__batch-converter__description": {
+      "message": "Lokale Dateien oder Ordner zensieren:",
+      "description": "Censor local files or folders:",
+      "status": null
+   },
+   "options__batch-converter": {
+      "message": "Batch-Konverter",
+      "description": "Batch Converter",
+      "status": null
+   },
+   "options__batch-converter__multiple-files": {
+      "message": "Mehrere Dateien",
+      "description": "Multiple Files",
+      "status": null
+   },
+   "options__general__or": {
+      "message": "ODER",
+      "description": "OR",
+      "status": null
+   },
+   "options__batch-converter__folder": {
+      "message": "Ordner",
+      "description": "Folder",
+      "status": null
+   },
+   "options__batch-converter__files-selected": {
+      "message": "Ausgewählte Dateien:",
+      "description": "Files selected:",
+      "status": null
+   },
+   "options__batch-converter__total-images": {
+      "message": "Bilder insgesamt:",
+      "description": "Total images:",
+      "status": null
+   },
+   "options__batch-converter__total-size": {
+      "message": "Gesamtgröße:",
+      "description": "Total size:",
+      "status": null
+   },
+   "options__batch-converter__estimated-time": {
+      "message": "Geschätzte Zeit:",
+      "description": "Estimated time:",
+      "status": null
+   },
+   "options__batch-converter__estimated-time-left": {
+      "message": "Verbleibende geschätzte Zeit:",
+      "description": "Est. time left:",
+      "status": null
+   },
+   "options__batch-converter__average": {
+      "message": "Durchschnitt:",
+      "description": "Average:",
+      "status": null
+   },
+   "options__batch-converter__start": {
+      "message": "Start",
+      "description": "Start",
+      "status": null
+   },
+   "options__statistics__header": {
+      "message": "Statistiken",
+      "description": "Statistics",
+      "status": null
+   },
+   "options__statistics__description": {
+      "message": "Daten & Informationen:",
+      "description": "Data & Information:",
+      "status": null
+   },
+   "options__statistics__detection-statistics": {
+      "message": "Erkennungsstatistiken",
+      "description": "Detection Statistics",
+      "status": null
+   },
+   "options__statistics__average-duration": {
+      "message": "Durchschnittliche Dauer:",
+      "description": "Average Duration:",
+      "status": null
+   },
+   "options__statistics__ai": {
+      "message": "KI:",
+      "description": "AI:",
+      "status": null
+   },
+   "options__statistics__painting": {
+      "message": "Malerei:",
+      "description": "Painting:",
+      "status": null
+   },
+   "options__statistics__files": {
+      "message": "Dateien",
+      "description": "Files",
+      "status": null
+   },
+   "options__statistics__content": {
+      "message": "Inhalt",
+      "description": "Content",
+      "status": null
+   },
+   "options__statistics__average-frame-count": {
+      "message": "Durchschn. Frameanzahl",
+      "description": "Avg. Frame Count",
+      "status": null
+   },
+   "options__statistics__average-processing-time": {
+      "message": "Durchschn. Bearbeitungszeit",
+      "description": "Avg. Processing Time",
+      "status": null
+   },
+   "options__statistics__thumbnails": {
+      "message": "Miniaturansichten",
+      "description": "Thumbnails",
+      "status": null
+   },
+   "options__statistics__scanned-images": {
+      "message": "Gescannte Bilder",
+      "description": "Scanned Images",
+      "status": null
+   },
+   "options__statistics__processed-images": {
+      "message": "Verarbeitete Bilder",
+      "description": "Processed Images",
+      "status": null
+   },
+   "options__statistics__videos": {
+      "message": "Videos",
+      "description": "Videos",
+      "status": null
+   },
+   "options__statistics__video-frames": {
+      "message": "Videobilder",
+      "description": "Video Frames",
+      "status": null
+   },
+   "options__statistics__local-files": {
+      "message": "Lokale Dateien",
+      "description": "Local Files",
+      "status": null
+   },
+   "options__statistics__batch-files": {
+      "message": "Batch-Dateien",
+      "description": "Batch Files",
+      "status": null
+   },
+   "options__statistics__oom-images": {
+      "message": "OOM-Bilder",
+      "description": "OOM-Images",
+      "status": null
+   },
+   "options__statistics__reset-data": {
+      "message": "Daten zurücksetzen",
+      "description": "Reset Data",
+      "status": null
+   },
+   "options__security__header": {
+      "message": "Sicherheit",
+      "description": "Security",
+      "status": null
+   },
+   "options__security__description": {
+      "message": "Erweiterung sperren & entsperren:",
+      "description": "Lock & unlock the extension:",
+      "status": null
+   },
+   "options__security__lock": {
+      "message": "Sperren",
+      "description": "Lock",
+      "status": null
+   },
+   "options__security__password": {
+      "message": "Passwort",
+      "description": "Password",
+      "status": null
+   },
+   "options__security__password-confirmation": {
+      "message": "Passwortbestätigung",
+      "description": "Password Confirmation",
+      "status": null
+   },
+   "options__security__timer": {
+      "message": "Timer",
+      "description": "Timer",
+      "status": null
+   },
+   "options__security__days": {
+      "message": "Tage",
+      "description": "Days",
+      "status": null
+   },
+   "options__security__hours": {
+      "message": "Stunden",
+      "description": "Hours",
+      "status": null
+   },
+   "options__security__minutes": {
+      "message": "Minuten",
+      "description": "Minutes",
+      "status": null
+   },
+   "options__security__timer-mode": {
+      "message": "Timer-Modus",
+      "description": "Timer Mode",
+      "status": null
+   },
+   "options__security__duration": {
+      "message": "Dauer",
+      "description": "Duration",
+      "status": null
+   },
+   "options__security__date": {
+      "message": "Datum",
+      "description": "Date",
+      "status": null
+   },
+   "options__security__timer-plus": {
+      "message": "Timer+",
+      "description": "Timer+",
+      "status": null
+   },
+   "options__security__timer-plus__description": {
+      "message": "Sperrdauer erhöhen oder verringern, wenn bestimmte Inhalte angezeigt werden:",
+      "description": "Increase or Decrease the lock duration when certain content is viewed:",
+      "status": null
+   },
+   "labels__genitals": {
+      "message": "Genitalien",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitals-covered": {
+      "message": "Genitalien bedeckt",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "options__security__timer-plus__min-size": {
+      "message": "Min. Größe",
+      "description": "Min. Size",
+      "status": null
+   },
+   "options__security__optional-locks": {
+      "message": "Optionale Sperren",
+      "description": "Optional Locks",
+      "status": null
+   },
+   "options__security__quick-settings": {
+      "message": "Schnelleinstellungen",
+      "description": "Quick Settings",
+      "status": null
+   },
+   "options__security__enabled-censor": {
+      "message": "Zensur aktiviert",
+      "description": "Enabled Censor",
+      "status": null
+   },
+   "options__security__video": {
+      "message": "Video",
+      "description": "Video",
+      "status": null
+   },
+   "options__security__editor": {
+      "message": "Editor",
+      "description": "Editor",
+      "status": null
+   },
+   "options__security__lock-me": {
+      "message": "SPERRE MICH!",
+      "description": "LOCK ME!",
+      "status": null
+   },
+   "options__security__locked": {
+      "message": "Gesperrt!",
+      "description": "Locked!",
+      "status": null
+   },
+   "options__security__add-time": {
+      "message": "Zeit hinzufügen",
+      "description": "Add Time",
+      "status": null
+   },
+   "options__security__time-to-add": {
+      "message": "Hinzuzufügende Zeit",
+      "description": "Time to Add",
+      "status": null
+   },
+   "options__security__seconds": {
+      "message": "Sekunden",
+      "description": "Seconds",
+      "status": null
+   },
+   "options__security__submit": {
+      "message": "Absenden",
+      "description": "Submit",
+      "status": null
+   },
+   "options__security__timer-plus__logs": {
+      "message": "Protokolle",
+      "description": "Logs",
+      "status": null
+   },
+   "options__security__enter-password": {
+      "message": "Geben Sie Ihr Passwort ein.",
+      "description": "Enter your password.",
+      "status": null
+   },
+   "options__security__emergency-unlock": {
+      "message": "Jetzt entsperren?",
+      "description": "Need to unlock now?",
+      "status": null
+   },
+   "options__security__emergency-unlock__description": {
+      "message": "Du kannst dich im Notfall freischalten, indem du ein Patreon wirst:",
+      "description": "You can emergency unlock yourself by becoming a Patreon:",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__1": {
+      "message": "<b>1.</b> Tritt unserem relevanten <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> Tier bei. Sobald du fertig bist, kannst du deine Mitgliedschaft nach Belieben kündigen oder herabstufen.",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__2": {
+      "message": "<b>2.</b> Verbinde dein <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi Konto</a> mit deinem Patreon.",
+      "description": "<b>2.</b> Bind your <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi account</a> to your Patreon.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__3": {
+      "message": "<b>3.</b> Melde dich schließlich mit deinem Konto in der Erweiterung an und entsperre hier.",
+      "description": "<b>3.</b> Finally, login with your account in the extension and unlock here.",
+      "status": null
+   },
+   "options__security__emergency-unlock__button": {
+      "message": "Notfall-Freischaltung",
+      "description": "Emergency Unlock",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt": {
+      "message": "Alternativ kannst du uns auf unserem Discord-Server erreichen, wenn dies das erste Mal ist, dass du eine Notfall-Freischaltung benötigst:",
+      "description": "Alternatively, you can reach us on our Discord server if this is your first time requiring an emergency unlock:",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__1": {
+      "message": "<b>1.</b> Tritt unserem <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> Server bei und kontaktiere einen Moderator.",
+      "description": "<b>1.</b> Join our <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> server and get in contact with a moderator.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__2": {
+      "message": "<b>2.</b> Gib ihnen den folgenden Sicherheitstoken: ${0}",
+      "description": "<b>2.</b> Provide them with the following security token: ${0}",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__3": {
+      "message": "<b>3.</b> Gib hier schließlich den Freischalt-Token ein, den du erhältst.",
+      "description": "<b>3.</b> Finally, enter here the unlock token you'll receive.",
+      "status": null
+   },
+   "options__cloud__header": {
+      "message": "Cloud",
+      "description": "Cloud",
+      "status": null
+   },
+   "options__cloud__header__description": {
+      "message": "Verwalten Sie Ihre Cloud-Daten:",
+      "description": "Manage your cloud data:",
+      "status": null
+   },
+   "options__cloud__stored-settings": {
+      "message": "Gespeicherte Einstellungen",
+      "description": "Stored settings",
+      "status": null
+   },
+   "options__cloud__identifier": {
+      "message": "Bezeichner",
+      "description": "Identifier",
+      "status": null
+   },
+   "options__cloud__name": {
+      "message": "Name",
+      "description": "Name",
+      "status": null
+   },
+   "options__cloud__version": {
+      "message": "Version",
+      "description": "Version",
+      "status": null
+   },
+   "options__cloud__downloads": {
+      "message": "Downloads",
+      "description": "Downloads",
+      "status": null
+   },
+   "options__cloud__content": {
+      "message": "Inhalt",
+      "description": "Content",
+      "status": null
+   },
+   "options__cloud__delete": {
+      "message": "Löschen",
+      "description": "Delete",
+      "status": null
+   },
+   "options__cloud__remote-control": {
+      "message": "Fernbedienung",
+      "description": "Remote Control",
+      "status": null
+   },
+   "options__cloud__settings": {
+      "message": "Einstellungen",
+      "description": "Settings",
+      "status": null
+   },
+   "options__cloud__subscribe": {
+      "message": "Abos",
+      "description": "Subs.",
+      "status": null
+   },
+   "options__cloud__user-subscriptions": {
+      "message": "Benutzerabonnements",
+      "description": "User Subscriptions",
+      "status": null
+   },
+   "options__cloud__user": {
+      "message": "Benutzer",
+      "description": "User",
+      "status": null
+   },
+   "options__cloud__subscription-date": {
+      "message": "Abonnementdatum",
+      "description": "Subscription Date",
+      "status": null
+   },
+   "options__cloud__info": {
+      "message": "Info",
+      "description": "Info",
+      "status": null
+   },
+   "options__cloud__kick": {
+      "message": "Rauswerfen",
+      "description": "Kick",
+      "status": null
+   },
+   "options__sidebar__oom": {
+      "message": "Nur einmal Modus",
+      "description": "Only Once Mode",
+      "status": null
+   },
+   "options__sidebar__security": {
+      "message": "Sicherheit",
+      "description": "Security",
+      "status": null
+   },
+   "options__sidebar__white-black-list": {
+      "message": "Positiv- & Negativliste",
+      "description": "Whitelist & Blacklist",
+      "status": null
+   },
+   "options__sidebar__cloud-remote": {
+      "message": "Cloud & Fernzugriff",
+      "description": "Cloud & Remote",
+      "status": null
+   },
+   "options__sidebar__tools": {
+      "message": "Werkzeuge:",
+      "description": "Tools:",
+      "status": null
+   },
+   "options__sidebar__batch-converter": {
+      "message": "Stapelkonvertierung",
+      "description": "Batch Converter",
+      "status": null
+   },
+   "options__sidebar__gallery-viewer": {
+      "message": "Galerie-Ansicht",
+      "description": "Gallery Viewer",
+      "status": null
+   },
+   "options__sidebar__editor": {
+      "message": "Editor",
+      "description": "Editor",
+      "status": null
+   },
+   "options__sidebar__other": {
+      "message": "Sonstiges:",
+      "description": "Other:",
+      "status": null
+   },
+   "options__sidebar__statistics": {
+      "message": "Statistiken",
+      "description": "Statistics",
+      "status": null
+   },
+   "options__sidebar__help": {
+      "message": "Hilfe",
+      "description": "Help",
+      "status": null
+   },
+   "tooltip__experimental-content-label": {
+      "message": "Dieser Inhalt ist experimentell und wird derzeit <b>nicht</b> vom KI-Modell erkannt. Er kann <b>nur</b> über den Editor Bildern zugewiesen werden.",
+      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "status": null
+   },
+   "tooltip__cluster-only-matching-content": {
+      "message": "Verbindet nur Erkennungen desselben Inhalts.",
+      "description": "Only joins detections of the same content.",
+      "status": null
+   },
+   "tooltip__cluster-max-distance": {
+      "message": "Der maximale Abstand zwischen Erkennungen, um sie noch zu verbinden, gemessen in einer Einheit, die von der Größe der Erkennungen bestimmt wird.",
+      "description": "The maximum distance there can be between detections in order to still join them, measured in an unit determined by the size of the detections.",
+      "status": null
+   },
+   "tooltip__censor-mode-feathering": {
+      "message": "Wie stark die Ränder des Effektbereichs geglättet werden sollen.",
+      "description": "How much to smoothen the edges of the effect area.",
+      "status": null
+   },
+   "tooltip__pixel-density": {
+      "message": "Wie dicht die Halbton-Pixel gemalt werden sollen.",
+      "description": "How closely together to paint the halftone pixels.",
+      "status": null
+   },
+   "tooltip__pixel-channel-colors": {
+      "message": "Die Anzahl der Kanalfarben, auf die die Pixel begrenzt werden sollen.",
+      "description": "The number of channel colors to which to limit the pixels.",
+      "status": null
+   },
+   "tooltip__pixel-accurate-sampling": {
+      "message": "Berücksichtigt die Farbe des gesamten vom Pixel abgedeckten Bereichs bei der Bestimmung seiner Farbe oder Größe, anstatt nur die Farbe im Zentrum des Bereichs.",
+      "description": "Considers the color of the entire area covered by each pixel when determining its color or size, instead of just the color at the very center of the area.",
+      "status": null
+   },
+   "tooltip__pixel-detection-size-aware": {
+      "message": "Passt die Stärke des Effekts an die Erkennungsgröße an.",
+      "description": "Scales the strength of the effect according to the detection size",
+      "status": null
+   },
+   "tooltip__triangle-threshold": {
+      "message": "Der Schwellenwert, den Details im Effektbereich überschreiten müssen, um erfasst zu werden, wobei ein höherer Schwellenwert kleinere Details ausschließt.",
+      "description": "The threshold details in the effect area must pass in order to be captured, where a higher threshold excludes smaller details.",
+      "status": null
+   },
+   "tooltip__triangle-accuracy": {
+      "message": "Wie genau die Dreiecke entlang der erfassten Details im Effektbereich nachgezeichnet werden.",
+      "description": "How accurately the triangles are traced along the captured details in the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-blurring": {
+      "message": "Wie stark der Effektbereich vor der Triangulation verwischt werden soll.",
+      "description": "How much to blur the effect area prior to triangulazing it.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-width": {
+      "message": "Die Strichbreite vor der Skalierung entsprechend der Bildgröße, wobei eine Bildgröße von 1024px x 1024px keine Skalierung bewirken würde.",
+      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
+      "status": null
+   },
+   "tooltip__triangle-gradients": {
+      "message": "Erzeugt Farbverläufe zwischen den Scheitelpunkten.",
+      "description": "Creates color gradients between vertices.",
+      "status": null
+   },
+   "tooltip__triangle-gradient-stops": {
+      "message": "Die Anzahl der Farbabtastungen entlang des Pfades eines Farbverlaufs.",
+      "description": "The number of times to Samples a color along the path of a color gradient.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-min-size": {
+      "message": "Die minimale mögliche Panelgröße relativ zur Effektbereichsgröße.",
+      "description": "The minimum possible panel size relative to the effect area size.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-max-size": {
+      "message": "Die maximale mögliche Panelgröße relativ zur Effektbereichsgröße.",
+      "description": "The maximum possible panel size relative to the effect area size.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-scatter": {
+      "message": "Die maximale mögliche Verschiebungsdistanz eines Panels, gemessen in der Höhe oder Breite des Effektbereichs.",
+      "description": "The maximum possible distance a panel can be shifted by, measured in the height or width of the effect area.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-split-chance": {
+      "message": "Die Wahrscheinlichkeit, dass ein Panel einmal in zwei kleinere geteilt wird.",
+      "description": "The chance for a panel to be split once into two smaller ones.",
+      "status": null
+   },
+   "tooltip__sticker-pick-single-source": {
+      "message": "Entwirft eine einzelne Sammlung oder Gruppe, aus der alle Sticker entworfen werden.",
+      "description": "Picks a single collection or group from which all stickers are then picked.",
+      "status": null
+   },
+   "tooltip__sobel-inverted-color": {
+      "message": "Invertiert das Schwarz-Weiß des Sobel-Effekts.",
+      "description": "Inverts the black and white of the sobel effect.",
+      "status": null
+   },
+   "tooltip__splatter-recursions": {
+      "message": "Die Anzahl der Wiederholungen zur rekursiven Erzeugung von Unterspritzern.",
+      "description": "The number of times to recursively generate sub splatters.",
+      "status": null
+   },
+   "tooltip__splatter-color-pool": {
+      "message": "Alle möglichen Spritzfarben, aus denen zusammen mit Gewichten, die bestimmen, wie wahrscheinlich es ist, dass jede ausgewählt wird, entworfen wird.",
+      "description": "All the possible splatter colors from which to pick along with weights determining how likely each is to be picked.",
+      "status": null
+   },
+   "tooltip__random-mode-random": {
+      "message": "Entwirft einen zufälligen Zensurmodus entsprechend den Gewichten.",
+      "description": "Picks a random censor mode according to the weights.",
+      "status": null
+   },
+   "tooltip__random-mode-super-random": {
+      "message": "Entwirft einen zufälligen Zensurmodus entsprechend den Gewichten und randomisiert auch dessen Konfiguration für maximale Zufälligkeit.",
+      "description": "Picks a random censor mode according to the weights and also randomizes its configuration for maximum randomness.",
+      "status": null
+   },
+   "tooltip__clustering": {
+      "message": "Fasst Erkennungen zusammen, die nah genug beieinander liegen.",
+      "description": "Joins into one detections that are close enough together.",
+      "status": null
+   },
+   "tooltip__reverse-mode": {
+      "message": "Anstatt die Erkennungen zu zensieren, wird alles andere im Bild zensiert.",
+      "description": "Instead of censoring the detections, censors everything else in the image.",
+      "status": null
+   },
+   "tooltip__word-wall": {
+      "message": "Überlagert alle Zensureffekte mit einer Wortwand.",
+      "description": "Overlays all censor effects with a word wall.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-single": {
+      "message": "Entwirft einen einzelnen Eintrag aus dem Wortpool.",
+      "description": "Picks a single entry from the word pool.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-multiple": {
+      "message": "Entwirft eine zufällige Anzahl von Einträgen aus dem Wortpool in zufälliger Reihenfolge.",
+      "description": "Picks a random number of entries from the word pool in a random order.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-all": {
+      "message": "Entwirft alle Einträge aus dem Wortpool in zufälliger Reihenfolge.",
+      "description": "Picks all entries from the word pool in a random order.",
+      "status": null
+   },
+   "tooltip__oom-list-detections": {
+      "message": "Listet alle erkannten Inhalte auf jedem blockierten Bild auf.",
+      "description": "Lists all detected content on each blocked image.",
+      "status": null
+   },
+   "tooltip__overlay-unsupported": {
+      "message": "Modus in Video-Overlays nicht unterstützt.",
+      "description": "Mode not supported in video overlays.",
+      "status": null
+   },
+   "tooltip__bar-type__paint": {
+      "message": "[Malen]: ",
+      "description": "[Paint]: ",
+      "status": null
+   },
+   "tooltip__bar-type__paint__description": {
+      "message": "Füllen Sie den Bereich mit der angegebenen Farbe.",
+      "description": "Paint the effect are with the given color.",
+      "status": null
+   },
+   "tooltip__bar-type__erase": {
+      "message": "[Löschen]: ",
+      "description": "[Erase]: ",
+      "status": null
+   },
+   "tooltip__bar-type__erase__description": {
+      "message": "Löschen Sie den Bereich mit der angegebenen Deckkraft.",
+      "description": "Erase the effect area at the given opacity.",
+      "status": null
+   },
+   "tooltip__bar-type__note": {
+      "message": "HINWEIS: ",
+      "description": "NOTE: ",
+      "status": null
+   },
+   "tooltip__bar-type__note__description": {
+      "message": "Das Löschen funktioniert möglicherweise nicht wie erwartet bei Dateitypen, die keine Transparenz unterstützen, wie z. B. JPEG.",
+      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__auto": {
+      "message": "[Auto]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__auto__description": {
+      "message": "Wählt die Füllfarbe aus dem Effektbereich aus.",
+      "description": "Samples the fill color from the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__custom": {
+      "message": "[Benutzerdefiniert]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__custom__description": {
+      "message": "Verwendet eine benutzerdefinierte Füllfarbe.",
+      "description": "Uses a custom fill color.",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-body-part": {
+      "message": "[Pro Körperteil]: ",
+      "description": "[Per Body Part]: ",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-body-part__description": {
+      "message": "Wählt einen Sticker für alle Erkennungen jedes Körperteils aus.",
+      "description": "Picks a sticker for all detections of each body part.",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-detection": {
+      "message": "[Pro Erkennung]: ",
+      "description": "[Per Detection]: ",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-detection__description": {
+      "message": "Wählt einen Sticker für jede Erkennung aus.",
+      "description": "Picks a sticker for each detection.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__auto": {
+      "message": "[Auto]: ",
+      "description": "[Auto]: ",
+      "status": "neu"
+   },
+   "tooltip__triangle-stroke-color-mode__auto__description": {
+      "message": "Entnimmt die Strichfarbe aus dem Effektbereich.",
+      "description": "Samples the stroke color from the effect area.",
+      "status": "neu"
+   },
+   "tooltip__triangle-stroke-color-mode__custom": {
+      "message": "[Benutzerdefiniert]: ",
+      "description": "[Custom]: ",
+      "status": "neu"
+   },
+   "tooltip__triangle-stroke-color-mode__custom__description": {
+      "message": "Verwendet eine benutzerdefinierte Strichfarbe.",
+      "description": "Uses a custom stroke color.",
+      "status": "neu"
+   },
+   "tooltip__splatter-color-mode__auto": {
+      "message": "[Auto]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__auto__description": {
+      "message": "Probiert die Spritzerfarbe aus dem Effektbereich aus.",
+      "description": "Samples the splatter color from the effect area.",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__custom": {
+      "message": "[Benutzerdefiniert]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__custom__description": {
+      "message": "Entwirft eine Spritzerfarbe aus einer Auswahl benutzerdefinierter Farben.",
+      "description": "Picks a splatter color from a pool of custom colors.",
+      "status": null
+   },
+   "tooltip__mixed-entries__description__1": {
+      "message": "Die Zensurmodi und Voreinstellungen für jeden Abschnitt, die zensiert werden können.",
+      "description": "The censor modes and preset for each section that can be censored.",
+      "status": null
+   },
+   "tooltip__mixed-entries__description__2": {
+      "message": "Verwenden Sie Umschalt/Strg + Klick, um mehrere Einträge gleichzeitig zu bearbeiten.",
+      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
+      "status": null
+   },
+   "on-add-caption-tag__count-limit-error": {
+      "message": "Entferne einige Tags, um mehr hinzuzufügen!",
+      "description": "Remove some tags to add more!",
+      "status": null
+   },
+   "on-add-caption-entry__count-limit-error": {
+      "message": "Entferne einige Einträge, um mehr hinzuzufügen!",
+      "description": "Remove some entries to add more!",
+      "status": null
+   },
+   "on-assign-caption-tags__no-entries-selected-error": {
+      "message": "Wähle einige Einträge aus, um Tags zuzuweisen!",
+      "description": "Select some entries to assign tags to!",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__cutout": {
+      "message": "[Ausschnitt]: ",
+      "description": "[Cutout]: ",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__cutout__description": {
+      "message": "Erstellt einen Ausschnitt des Textes.",
+      "description": "Creates a cutout of the text.",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__paint": {
+      "message": "[Malen]: ",
+      "description": "[Paint]: ",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__paint__description": {
+      "message": "Bemalt den Text in einer benutzerdefinierten Farbe.",
+      "description": "Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__oom__description__1": {
+      "message": "Blockiert Bilder dauerhaft, nachdem sie einmal angesehen wurden.",
+      "description": "Permanently blocks images after they've been viewed once.",
+      "status": null
+   },
+   "tooltip__oom__description__2": {
+      "message": "Dies funktioniert durch Berechnung und Vergleich von Bild-Hashes, was bedeutet, dass, sobald ein Bild blockiert ist, jede weitere Vorkommen davon im gesamten Web ebenfalls blockiert wird.",
+      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+      "status": null
+   },
+   "tooltip__remote-control__description": {
+      "message": "Ermöglicht es Ihnen, die Erweiterungen anderer Benutzer aus der Ferne zu steuern.",
+      "description": "Allows you to remotely control other users extensions.",
+      "status": null
+   },
+   "tooltip__remote-control__description__1": {
+      "message": "<b>1.</b> Erstellen Sie eine neue Fernbedienung.",
+      "description": "<b>1.</b> Create a new remote control.",
+      "status": null
+   },
+   "tooltip__remote-control__description__2": {
+      "message": "<b>2.</b> Binden Sie eine Cloud-Einstellungs-ID an Ihre Fernbedienung.",
+      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
+      "status": null
+   },
+   "tooltip__remote-control__description__3": {
+      "message": "<b>3.</b> Lassen Sie die Benutzer, die ferngesteuert werden sollen, von der Einstellungsseite aus Ihre Fernbedienung abonnieren.",
+      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
+      "status": null
+   },
+   "tooltip__remote-control__description__4": {
+      "message": "<b>4.</b> Ändern Sie die gebundenen Einstellungen, wie Sie möchten und wann Sie möchten, alle Abonnenten werden automatisch aktualisiert!",
+      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "status": null
+   },
+   "tooltip__remote-lock": {
+      "message": "Ihr Abonnement ist gesperrt!",
+      "description": "Your subscription is locked!",
+      "status": null
+   },
+   "tooltip__remote-lock__description": {
+      "message": "Ihre <b>einzige</b> Möglichkeit, es zu entsperren, besteht darin, entweder den Remote-Eigentümer zu bitten, oder sich an das Personal unseres Discord-Servers zu wenden, oder wenn diese Optionen nicht wünschenswert sind, unserem entsprechenden <b>Patreon-Tier</b> beizutreten, das Ihnen ermöglicht, es selbst zu entsperren.",
+      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "status": null
+   },
+   "tooltip__remote-identifier": {
+      "message": "Lassen Sie die Benutzer, die ferngesteuert werden sollen, dies auf der Einstellungsseite einfügen.",
+      "description": "Have the users to be remotely controlled paste this over at the settings page.",
+      "status": null
+   },
+   "tooltip__patreon-cache": {
+      "message": "Ihre Patreon-Belohnungen laufen in ${0} Tagen ab.",
+      "description": "Your Patreon rewards will expire in ${0} days.",
+      "status": null
+   },
+   "tooltip__patreon-cache__description": {
+      "message": "Wenn Sie noch ein Patreon-Abonnent sind, aktualisieren Sie bitte hier Ihren Kontostatus, oder wenn das nicht funktioniert, binden Sie Ihr Konto erneut an Patreon.",
+      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
+      "status": null
+   },
+   "tooltip__timer-mode__duration": {
+      "message": "[Dauer]: ",
+      "description": "[Duration]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__duration__description": {
+      "message": "Beim Sperren den Timer auf die angegebene Dauer einstellen.",
+      "description": "Upon locking, set the timer to the duration specified.",
+      "status": null
+   },
+   "tooltip__timer-mode__date": {
+      "message": "[Datum]: ",
+      "description": "[Date]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__date__description": {
+      "message": "Beim Sperren den Timer auf die verbleibende Zeit bis zum angegebenen Datum einstellen.",
+      "description": "Upon locking, set the timer to the time remaining until the specified date.",
+      "status": null
+   },
+   "tooltip__timer-mode__stable": {
+      "message": "[Stabil]: ",
+      "description": "[Stable]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__stable__description": {
+      "message": "Wartet, bis der neueste Frame verarbeitet wurde, bevor ein neuer Frame verarbeitet wird.",
+      "description": "Waits until the latest frame has been processed before processing a new frame.",
+      "status": null
+   },
+   "tooltip__timer-mode__overdrive": {
+      "message": "[Overdrive]: ",
+      "description": "[Overdrive]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__overdrive__description": {
+      "message": "Verarbeitet mehrere Frames gleichzeitig, bis das Hardwarelimit oder eine bestimmte fps-Rate erreicht ist.",
+      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+      "status": null
+   },
+   "popup__timer-container__locked-until": {
+      "message": "Gesperrt bis:",
+      "description": "Locked until:",
+      "status": null
+   },
+   "popup__reverse-mode": {
+      "message": "Umkehrmodus:",
+      "description": "Reverse Mode:",
+      "status": null
+   },
+   "options__censor__word-wall__shadow-size": {
+      "message": "Schatten Größe",
+      "description": "Shadow Size",
+      "status": null
+   },
+   "options__censor__caption__shadow-color": {
+      "message": "Schattenfarbe",
+      "description": "Shadow Color",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__add-tag": {
+      "message": "Tag hinzufügen",
+      "description": "Add Tag",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__assign-tags": {
+      "message": "Tags zuweisen",
+      "description": "Assign Tags",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__add-entry": {
+      "message": "Eintrag hinzufügen",
+      "description": "Add Entry",
+      "status": null
+   },
+   "on-save-caption-config__storage-quota-exceeded-error": {
+      "message": "Änderungen konnten nicht gespeichert werden: Speicherplatz für Untertitel überschritten!",
+      "description": "Changes could not be saved: Storage quota for Caption exceeded!",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__assign-tags-help": {
+      "message": "Klicken Sie auf Tags, um sie zuzuweisen oder aufzuheben",
+      "description": "Click tags to assign or unassign",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__1": {
+      "message": "Bist du sicher?",
+      "description": "Are you sure?",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__2": {
+      "message": "Aber bist du wirklich sicher?",
+      "description": "But are you really sure?",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__3": {
+      "message": "Hmmm... Na gut.",
+      "description": "Hmmm... Ok then.",
+      "status": null
+   },
+   "on-settings-save__no-name-error": {
+      "message": "Ein Name für die Einstellungen muss eingegeben werden!",
+      "description": "A settings name must be entered!",
+      "status": null
+   },
+   "on-settings-save__forbidden-name-chars-error": {
+      "message": "Der Einstellungsname ${0} enthält unzulässige Zeichen!",
+      "description": "The settings name ${0} contains forbidden characters!",
+      "status": null
+   },
+   "on-settings-upload__no-user-error": {
+      "message": "Du musst dich einloggen, um Einstellungen in die Cloud hochzuladen!",
+      "description": "You must login to upload settings to the cloud!",
+      "status": null
+   },
+   "on-settings-upload__success": {
+      "message": "Einstellungen ${0} erfolgreich in die Cloud hochgeladen!<br/><br/>Teile deine Einstellungen mit der folgenden ID:",
+      "description": "Settings ${0} successfully uploaded to the cloud!<br/><br/>Share your settings with the following ID:",
+      "status": null
+   },
+   "on-create-sticker-collection__db-error": {
+      "message": "Die Sticker-Sammlung konnte nicht gespeichert werden, vermutlich weil sie das Limit von 255 MB überschritten hat!",
+      "description": "The sticker collection couldn't be saved, likely as it exceeded the 255 MB limit!",
+      "status": null
+   },
+   "on-create-sticker-collection__no-name-error": {
+      "message": "Ein Name für die Sammlung muss eingegeben werden!",
+      "description": "A collection name must be entered!",
+      "status": null
+   },
+   "on-create-sticker-collection__forbidden-name-chars-error": {
+      "message": "Der Sammlungsname ${0} enthält unzulässige Zeichen!",
+      "description": "The collection name of ${0} contains forbidden characters!",
+      "status": null
+   },
+   "on-create-sticker-collection__duplicate-name-error": {
+      "message": "Eine Sammlung mit dem Namen ${0} existiert bereits!",
+      "description": "A collection by the name of ${0} already exists!",
+      "status": null
+   },
+   "on-create-sticker-collection__corrupted-error": {
+      "message": "Der Inhalt dieser Sammlung ist beschädigt!",
+      "description": "The contents of this collection are corrupted!",
+      "status": null
+   },
+   "on-font-input-change__not-available-error": {
+      "message": "Die eingegebene Schriftart ist auf diesem Gerät nicht verfügbar!",
+      "description": "The entered font is not available on this device!",
+      "status": null
+   },
+   "on-restore-defaults__confirm": {
+      "message": "Alle deine Konfigurationen werden auf die Standardeinstellungen zurückgesetzt.<br/><br/>Folgendes wird nicht betroffen sein:",
+      "description": "All of your configurations will be overriden by their defaults.<br/><br/>The following will not be affected:",
+      "status": null
+   },
+   "on-disable-experimental-content__confirm": {
+      "message": "Alle für experimentelle Inhalte festgelegten Werte in deinen Konfigurationen werden zurückgesetzt.",
+      "description": "All values set for experimental content across your configurations will be reset.",
+      "status": null
+   },
+   "on-clear-oom-data__confirm": {
+      "message": "Alle deine OOM-Daten werden gelöscht, einschließlich der angesehenen und blockierten Bilder.",
+      "description": "All of your OOM data will be cleared, including what images have been viewed and blocked.",
+      "status": null
+   },
+   "on-delete-remote__confirm": {
+      "message": "Deine Fernsteuerung mit der ID ${0} wird gelöscht.",
+      "description": "Your remote control by the ID of ${0} will be deleted.",
+      "status": null
+   },
+   "on-unsubscribe-from-remote__error": {
+      "message": "Das Fortfahren wird dich trotzdem lokal abmelden.",
+      "description": "Proceeding will still unsubscribe you locally.",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not__easily__reversable__warning": {
+      "message": "Diese Aktion ist nicht leicht umkehrbar und kann nicht eigenständig rückgängig gemacht werden!",
+      "description": "This action is not easily reversable nor can it be done so on your own!",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__confirm": {
+      "message": "Dies wird deine Fähigkeit zur Kündigung deines Fernsteuerungs-Abonnements <b>entfernen</b>.<br/><br/>Dein <b>einziger</b> Weg dies zu tun, wird sein, dies entweder vom Fernsteuerungsbesitzer oder von den Mitarbeitern auf unserem Discord-Server zu verlangen.<br/><br/>Beachte auch, dass alle anderen Geräte, die sich in dein PuryFi-Konto einloggen, dieser Fernsteuerung unterliegen, bis sie abgemeldet werden.",
+      "description": "This will <b>remove</b> your ability to cancel your remote control subscription.<br/><br/>Your <b>only</b> way to do so will be by requesting so from either the remote control owner, or from staff at our Discord server.<br/><br/>Also note that any other devices that log into your PuryFi account will be subject to this remote control until unsubscribed.",
+      "status": null
+   },
+   "on-subscribe-to-remote__confirm": {
+      "message": "Du wirst dich zur Fernsteuerung mit der ID ${0} anmelden.",
+      "description": "You will be subscribed to the remote control with an ID of ${0}",
+      "status": null
+   },
+   "on-subscribe-to-remote__lock-subscription-warning": {
+      "message": "Dein Abonnement wird gesperrt. Du wirst nicht in der Lage sein, dich eigenständig abzumelden!",
+      "description": "Your subscription will be locked. You won't be able to unsubscribe on your own!",
+      "status": null
+   },
+   "on-unsubscribe-other-from-remote__confirm": {
+      "message": "Benutzer ${0} wird von deiner Fernsteuerung abgemeldet",
+      "description": "User ${0} will be unsubscribed from your remote",
+      "status": null
+   },
+   "on-delete-settings__confirm": {
+      "message": "Deine Einstellungen ${0} werden gelöscht.",
+      "description": "Your settings ${0} will be deleted.",
+      "status": null
+   },
+   "on-save-settings__duplicate-name-error": {
+      "message": "Einstellungen mit dem Namen ${0} existieren bereits!",
+      "description": "Settings by the name of ${0} already exist!",
+      "status": null
+   },
+   "on-delete-cloud-settings__confirm": {
+      "message": "Deine Cloudeinstellungen mit der ID ${0} werden gelöscht.",
+      "description": "Your cloud settings with an ID of ${0} will be deleted.",
+      "status": null
+   },
+   "on-reset-all-sticker-collections__confirm": {
+      "message": "Alle deine importierten Sticker-Sammlungen werden gelöscht und alle Standard-Sammlungen werden zurückgesetzt.",
+      "description": "All of your imported sticker collections will be deleted and all default ones will be reset.",
+      "status": null
+   },
+   "on-non-reversible-action-warning": {
+      "message": "Diese Aktion ist nicht umkehrbar!",
+      "description": "This action is not reversible!",
+      "status": null
+   },
+   "on-settings-import__non-png-image-error": {
+      "message": "Diese Bilddatei enthält keine eingebetteten Einstellungen, nur PNG-Dateien können Einstellungen enthalten!",
+      "description": "This image file contains no embedded settings, only PNG files can contain settings!",
+      "status": null
+   },
+   "on-settings-import__no-embedding": {
+      "message": "Diese Bilddatei enthält keine eingebetteten Einstellungen!",
+      "description": "This image file contains no embedded settings!",
+      "status": null
+   },
+   "on-settings-import__corrupted-error": {
+      "message": "Diese Einstellungen sind beschädigt und können nicht geladen werden!",
+      "description": "These settings are corrupted and cannot be loaded!",
+      "status": null
+   },
+   "on-settings-import__newer-version-error": {
+      "message": "Diese Einstellungen stammen aus einer neueren Version und können nicht geladen werden!",
+      "description": "These settings are from a newer version and cannot be loaded!",
+      "status": null
+   },
+   "on-settings-import__confirm": {
+      "message": "Die folgenden Konfigurationen werden importiert:",
+      "description": "The following configurations will be imported:",
+      "status": null
+   },
+   "on-settings-import__lock-warning": {
+      "message": "Diese Einstellungen werden deine Erweiterung sperren!",
+      "description": "These settings will lock your extension!",
+      "status": null
+   },
+   "on-settings-import__missing-censor-extra-presets-warning": {
+      "message": "Diese Einstellungen lassen eine oder mehrere deiner Zensurkonfigurationen nicht existierende Cluster-, Untertitel- und/oder Wortwand-Voreinstellungen referenzieren!",
+      "description": "These settings will leave one or more of your censor configurations referencing non-existent Cluster, Caption and/or Word Wall presets!",
+      "status": null
+   },
+   "on-settings-import__missing-censor-presets-warning": {
+      "message": "Diese Einstellungen lassen deine gemischte Konfiguration nicht existierende Zensur-Voreinstellungen referenzieren!",
+      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "status": null
+   },
+   "on-settings-import__missing-patreon-features-warning": {
+      "message": "Diese Einstellungen verwenden Patreon-Funktionen, die du nicht hast, und werden daher nicht aktiviert!",
+      "description": "These settings use Patreon features you don't have and thus won't be enabled!",
+      "status": null
+   },
+   "on-settings-import__older-version-warning": {
+      "message": "Diese Einstellungen stammen aus einer älteren Version und funktionieren möglicherweise nicht wie beabsichtigt!",
+      "description": "These settings are from an older version and might not work as intended!",
+      "status": null
+   },
+   "on-bind-settings-to-remote__success": {
+      "message": "Cloudeinstellungen mit der ID ${0} erfolgreich an die Fernsteuerung gebunden!",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "status": null
+   },
+   "on-update-remote-subscription__success": {
+      "message": "Einstellungen erfolgreich mit der Fernsteuerung synchronisiert!",
+      "description": "Settings successfully synced with remote!",
+      "status": null
+   },
+   "on-update-remote-subscription__new-remote-settings-alert": {
+      "message": "Neue Fernsteuereinstellungen wurden importiert!",
+      "description": "New remote settings were imported!",
+      "status": null
+   },
+   "on-load-default-settings__success": {
+      "message": "Standardeinstellungen erfolgreich geladen!",
+      "description": "Default settings successfully loaded!",
+      "status": null
+   },
+   "on-load-settings__success": {
+      "message": "Einstellungen ${0} erfolgreich geladen!",
+      "description": "Settings ${0} successfully loaded!",
+      "status": null
+   },
+   "on-import-settings__success": {
+      "message": "Einstellungen erfolgreich importiert!",
+      "description": "Settings successfully imported!",
+      "status": null
+   },
+   "on-delete-settings__success": {
+      "message": "Einstellungen ${0} erfolgreich gelöscht!",
+      "description": "Settings ${0} successfully deleted!",
+      "status": null
+   },
+   "on-save-settings__success": {
+      "message": "Einstellungen ${0} erfolgreich gespeichert!",
+      "description": "Settings ${0} successfully saved!",
+      "status": null
+   },
+   "bar-type": {
+      "message": "Streichen Sie den Effektbereich mit der angegebenen Farbe.",
+      "description": "Paint the effect area with the given color.",
+      "status": null
+   },
+   "popup__censor__content": {
+      "message": "Zensierter Inhalt",
+      "description": "Censored Content",
+      "status": null
+   }
+}

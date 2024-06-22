@@ -1,0 +1,3162 @@
+{
+   "options__title": {
+      "message": "PuryFi - 옵션",
+      "description": "PuryFi - Options",
+      "status": null
+   },
+   "censor-type__normal": {
+      "message": "일반",
+      "description": "Normal",
+      "status": null
+   },
+   "censor-type__bar": {
+      "message": "바",
+      "description": "Bar",
+      "status": null
+   },
+   "censor-type__pixel": {
+      "message": "픽셀",
+      "description": "Pixel",
+      "status": null
+   },
+   "censor-type__blur": {
+      "message": "흐림",
+      "description": "Blur",
+      "status": null
+   },
+   "censor-type__triangle": {
+      "message": "삼각형",
+      "description": "Triangle",
+      "status": null
+   },
+   "censor-type__box": {
+      "message": "상자",
+      "description": "Box",
+      "status": null
+   },
+   "censor-type__glitch": {
+      "message": "글리치",
+      "description": "Glitch",
+      "status": null
+   },
+   "censor-type__sticker": {
+      "message": "스티커",
+      "description": "Sticker",
+      "status": null
+   },
+   "censor-type__sobel": {
+      "message": "소벨",
+      "description": "Sobel",
+      "status": null
+   },
+   "censor-type__splatter": {
+      "message": "스플래터",
+      "description": "Splatter",
+      "status": null
+   },
+   "censor-type__random": {
+      "message": "무작위",
+      "description": "Random",
+      "status": null
+   },
+   "options__login__login": {
+      "message": "로그인",
+      "description": "Login",
+      "status": null
+   },
+   "options__login__remember-me": {
+      "message": "로그인 유지",
+      "description": "Remember Me",
+      "status": null
+   },
+   "options__login__register": {
+      "message": "등록",
+      "description": "Register",
+      "status": null
+   },
+   "options__login__forgot-password": {
+      "message": "비밀번호를 잊었습니다",
+      "description": "I forgot my password",
+      "status": null
+   },
+   "options__login__not-connected": {
+      "message": "Patreon에 연결되지 않았습니다",
+      "description": "Not connected to Patreon",
+      "status": null
+   },
+   "options__sidebar__settings": {
+      "message": "설정",
+      "description": "Settings",
+      "status": null
+   },
+   "options__sidebar__content": {
+      "message": "콘텐츠",
+      "description": "Content",
+      "status": null
+   },
+   "options__sidebar__censor": {
+      "message": "검열",
+      "description": "Censor",
+      "status": null
+   },
+   "options__sidebar__file-types": {
+      "message": "파일 유형",
+      "description": "File Types",
+      "status": null
+   },
+   "options__sidebar__advanced": {
+      "message": "고급",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__content__header": {
+      "message": "콘텐츠",
+      "description": "Content",
+      "status": null
+   },
+   "options__content__description": {
+      "message": "검열할 콘텐츠를 결정합니다:",
+      "description": "Determine which content to censor:",
+      "status": null
+   },
+   "options__content__experimental-content": {
+      "message": "실험적인 콘텐츠",
+      "description": "Experimental Content",
+      "status": null
+   },
+   "labels__face": {
+      "message": "얼굴",
+      "description": "Face",
+      "status": null
+   },
+   "labels__eye": {
+      "message": "눈",
+      "description": "Eye",
+      "status": null
+   },
+   "labels__armpit-exposed": {
+      "message": "겨드랑이",
+      "description": "Armpit",
+      "status": null
+   },
+   "labels__armpit-covered": {
+      "message": "겨드랑이 가림",
+      "description": "Armpit Covered",
+      "status": null
+   },
+   "labels__nipple-exposed": {
+      "message": "젖꼭지",
+      "description": "Nipple",
+      "status": null
+   },
+   "labels__nipple-covered": {
+      "message": "젖꼭지 가림",
+      "description": "Nipple Covered",
+      "status": null
+   },
+   "labels__breast-exposed": {
+      "message": "가슴",
+      "description": "Breast",
+      "status": null
+   },
+   "labels__breast-covered": {
+      "message": "가슴 가림",
+      "description": "Breast Covered",
+      "status": null
+   },
+   "labels__belly-exposed": {
+      "message": "배",
+      "description": "Belly",
+      "status": null
+   },
+   "labels__belly-covered": {
+      "message": "배 가림",
+      "description": "Belly Covered",
+      "status": null
+   },
+   "labels__hand-exposed": {
+      "message": "손",
+      "description": "Hand",
+      "status": null
+   },
+   "labels__hand-covered": {
+      "message": "손 가림",
+      "description": "Hand Covered",
+      "status": null
+   },
+   "labels__buttocks-exposed": {
+      "message": "엉덩이",
+      "description": "Buttocks",
+      "status": null
+   },
+   "labels__buttocks-covered": {
+      "message": "엉덩이 가림",
+      "description": "Buttocks Covered",
+      "status": null
+   },
+   "labels__anus-exposed": {
+      "message": "항문",
+      "description": "Anus",
+      "status": null
+   },
+   "labels__anus-covered": {
+      "message": "항문 가림",
+      "description": "Anus Covered",
+      "status": null
+   },
+   "labels__genitalia-exposed": {
+      "message": "성기",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitalia-covered": {
+      "message": "성기 가림",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "labels__feet-exposed": {
+      "message": "발",
+      "description": "Foot",
+      "status": null
+   },
+   "labels__feet-covered": {
+      "message": "발 가림",
+      "description": "Foot Covered",
+      "status": null
+   },
+   "options__filetypes__header": {
+      "message": "파일 유형",
+      "description": "File Types",
+      "status": null
+   },
+   "options__filetypes__description": {
+      "message": "처리할 파일 유형 및 방법을 결정합니다:",
+      "description": "Determine which file types to process and how:",
+      "status": null
+   },
+   "options__filetypes__gif__thumb": {
+      "message": "썸네일",
+      "description": "Thumb",
+      "status": null
+   },
+   "options__filetypes__gif__frames": {
+      "message": "프레임",
+      "description": "Frames",
+      "status": null
+   },
+   "options__filetypes__image__width-min": {
+      "message": "너비 (최소)",
+      "description": "Width (Min)",
+      "status": null
+   },
+   "options__filetypes__image__height-min": {
+      "message": "높이 (최소)",
+      "description": "Height (Min)",
+      "status": null
+   },
+   "options__filetypes__image__height-max": {
+      "message": "높이 (최대)",
+      "description": "Height (Max)",
+      "status": null
+   },
+   "options__filetypes__image__width-max": {
+      "message": "너비 (최대)",
+      "description": "Width (Max)",
+      "status": null
+   },
+   "options__filetypes__image__file-size-min": {
+      "message": "파일 크기 (최소)",
+      "description": "File Size (Min)",
+      "status": null
+   },
+   "options__filetypes__image__file-size-max": {
+      "message": "파일 크기 (최대)",
+      "description": "File Size (Max)",
+      "status": null
+   },
+   "options__filetypes__image__filetype-output": {
+      "message": "출력 파일 형식",
+      "description": "Output File Type",
+      "status": null
+   },
+   "options__filetypes__gif__thumbnail-fallback": {
+      "message": "썸네일 대체",
+      "description": "Thumbnail Fallback",
+      "status": null
+   },
+   "options__filetypes__gif__thumbnail-fallback__description": {
+      "message": "GIF가 최대 파일 크기 또는 프레임 수를 초과하면 검열하고 썸네일을 표시합니다. 최소 파일 크기 미만의 GIF는 무시됩니다.",
+      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
+      "status": null
+   },
+   "options__filetypes__gif__processing-mode": {
+      "message": "처리 모드",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__gif__sync-slow": {
+      "message": "동기 (느림)",
+      "description": "Sync (slow)",
+      "status": null
+   },
+   "options__filetypes__gif__sync-fast": {
+      "message": "비동기 (빠름)",
+      "description": "Async (fast)",
+      "status": null
+   },
+   "options__filetypes__gif__processing-mode__description": {
+      "message": "모든 프레임을 비동기적으로 처리하여 처리 시간을 단축하지만 충분히 큰 GIF가 처리될 경우 브라우저가 멈추거나 충돌할 위험이 있습니다.",
+      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
+      "status": null
+   },
+   "options__filetypes__gif__frame-skipping": {
+      "message": "AI 프레임 건너뛰기",
+      "description": "AI Frame Skipping",
+      "status": null
+   },
+   "options__filetypes__gif__frame-skipping__description": {
+      "message": "AI를 실행한 후 설정된 프레임 수만큼 AI 실행을 건너뛰어 처리 시간을 단축합니다. AI가 실행되지 않는 프레임의 감지는 실행된 프레임에서 추론됩니다.",
+      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
+      "status": null
+   },
+   "options__filetypes__gif__detection-extending": {
+      "message": "감지 확장",
+      "description": "Detection Extending",
+      "status": null
+   },
+   "options__filetypes__gif__detection-extending__description": {
+      "message": "AI가 신체 부위를 잠시 감지하지 못하는 경우를 감지하여 이전 및 이후 프레임의 설정된 양만큼 모든 감지를 확장하여 감춥니다.",
+      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
+      "status": null
+   },
+   "options__filetypes__gif__detection-similarity": {
+      "message": "감지 유사성 임계값",
+      "description": "Detection Similarity Threshold",
+      "status": null
+   },
+   "options__filetypes__gif__detection-similarity__description": {
+      "message": "두 개의 서로 다른 프레임에서 얼마나 유사하게 위치하고 크기가 조정된 감지가 동일한 신체 부위를 감지했다고 가정해야 하는지를 설정합니다. 이 정보는 AI가 실행되지 않는 프레임에서 감지를 추론하는 데 사용됩니다.",
+      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "status": null
+   },
+   "options__filetypes__gif__frames-max": {
+      "message": "프레임 (최대)",
+      "description": "Frames (Max)",
+      "status": null
+   },
+   "options__filetypes__video__auto-overlay": {
+      "message": "비디오 자동 오버레이",
+      "description": "Automatically Overlay Videos",
+      "status": null
+   },
+   "options__filetypes__video__auto-overlay__description": {
+      "message": "비디오 위에 검열된 오버레이를 만듭니다. 프레임은 실시간으로 처리되므로 결과 FPS는 하드웨어 기능에 따라 크게 달라집니다. 이것은 실제 비디오를 검열하지 않습니다.",
+      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
+      "status": null
+   },
+   "options__general__note": {
+      "message": "참고:",
+      "description": "Note:",
+      "status": null
+   },
+   "options__filetypes__video__note__description": {
+      "message": "불필요한 오버레이를 생성하면 리소스 낭비가 심할 수 있으므로 이 옵션을 활성화하는 대신 상황에 맞는 메뉴를 사용하여 필요에 따라 오버레이를 만드는 것이 좋습니다.",
+      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
+      "status": null
+   },
+   "options__filetypes__video__note__account": {
+      "message": "작동하지 않나요?",
+      "description": "Not Working?",
+      "status": null
+   },
+   "options__filetypes__video__note__account__description": {
+      "message": "이 기능을 사용하려면 무료 PuryFi 계정이 필요하므로 로그인하십시오.",
+      "description": "This feature requires a free PuryFi account, so please, login!",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode": {
+      "message": "처리 모드:",
+      "description": "Processing Mode:",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__stable": {
+      "message": "안정",
+      "description": "Stable",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__overdrive": {
+      "message": "오버드라이브",
+      "description": "Overdrive",
+      "status": null
+   },
+   "options__filetypes__video__processing-mode__fps-limit": {
+      "message": "FPS 제한",
+      "description": "FPS-Limit",
+      "status": null
+   },
+   "options__filetypes__video__gif-export": {
+      "message": "GIF 내보내기",
+      "description": "GIF-Export",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__size-limit": {
+      "message": "GIF 크기 제한",
+      "description": "GIF Size Limit",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__size-limit__description": {
+      "message": "내보낸 GIF의 이미지 크기를 최대 높이 또는 너비로 제한하며 가로 세로 비율을 유지합니다. GIF 축소 비활성화를 위해 값을 0으로 설정할 수 있습니다.",
+      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__cache-memory": {
+      "message": "캐시 메모리",
+      "description": "Cache Memory",
+      "status": null
+   },
+   "options__filetypes__video__gif-export__cache-memory__description": {
+      "message": "비디오 오버레이가 캐시할 수 있는 프레임 수를 정의합니다. 주어진 비디오에서 한 번에 최대 몇 개의 프레임을 내보낼 수 있는지에 영향을 미칩니다. 모든 프레임 캐싱을 비활성화하려면 값을 0으로 설정할 수 있습니다(GIF 내보내기에는 프레임 캐싱이 필요합니다).",
+      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
+      "status": null
+   },
+   "options__censor__header": {
+      "message": "검열",
+      "description": "Censor",
+      "status": null
+   },
+   "options__censor__description": {
+      "message": "결과 검열 결정:",
+      "description": "Determine the resulting censor:",
+      "status": null
+   },
+   "popup__censor__mode": {
+      "message": "검열 모드",
+      "description": "Censor Mode",
+      "status": null
+   },
+   "options__censor__modes": {
+      "message": "검열 모드",
+      "description": "Censor Modes",
+      "status": null
+   },
+   "options__censor__modes__shape": {
+      "message": "모양",
+      "description": "Shape",
+      "status": null
+   },
+   "options__censor__modes__shape__square": {
+      "message": "◼ 사각형",
+      "description": "◼ Square",
+      "status": null
+   },
+   "options__censor__modes__shape__circle": {
+      "message": "● 원",
+      "description": "● Circle",
+      "status": null
+   },
+   "options__censor__modes__shape__ellipse": {
+      "message": "⬬ 타원",
+      "description": "⬬ Ellipse",
+      "status": null
+   },
+   "options__censor__modes__shape__line": {
+      "message": "▬ 선",
+      "description": "▬ Line",
+      "status": null
+   },
+   "options__censor__modes__shape__heart": {
+      "message": "❤ 하트",
+      "description": "❤ Heart",
+      "status": null
+   },
+   "options__censor__modes__rounding": {
+      "message": "둥글게 처리",
+      "description": "Rounding",
+      "status": null
+   },
+   "options__censor__modes__scale": {
+      "message": "크기 조절",
+      "description": "Scale",
+      "status": null
+   },
+   "options__censor__modes__feathering": {
+      "message": "페더링",
+      "description": "Feathering",
+      "status": null
+   },
+   "options__censor__modes__mode": {
+      "message": "모드",
+      "description": "Mode",
+      "status": null
+   },
+   "options__censor__modes__paint": {
+      "message": "페인트",
+      "description": "Paint",
+      "status": null
+   },
+   "options__censor__modes__erase": {
+      "message": "지우기",
+      "description": "Erase",
+      "status": null
+   },
+   "options__censor__modes__color": {
+      "message": "색상",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__modes__opacity": {
+      "message": "불투명도",
+      "description": "Opacity",
+      "status": null
+   },
+   "options__censor__modes__border-width": {
+      "message": "테두리 두께",
+      "description": "Border Width",
+      "status": null
+   },
+   "options__censor__modes__border-color": {
+      "message": "테두리 색상",
+      "description": "Border Color",
+      "status": null
+   },
+   "options__censor__cluster": {
+      "message": "클러스터",
+      "description": "Cluster",
+      "status": null
+   },
+   "options__censor__caption": {
+      "message": "캡션",
+      "description": "Caption",
+      "status": null
+   },
+   "options__censor__word-wall": {
+      "message": "단어 벽",
+      "description": "Word Wall",
+      "status": null
+   },
+   "options__censor__general": {
+      "message": "일반",
+      "description": "General",
+      "status": null
+   },
+   "options__censor__extras": {
+      "message": "추가 기능",
+      "description": "Extras",
+      "status": null
+   },
+   "options__censor__modes__type": {
+      "message": "유형",
+      "description": "Type",
+      "status": null
+   },
+   "options__censor__modes__pixel__mosaic": {
+      "message": "모자이크",
+      "description": "Mosaic",
+      "status": null
+   },
+   "options__censor__modes__pixel__hexagon": {
+      "message": "육각형",
+      "description": "Hexagon",
+      "status": null
+   },
+   "options__censor__modes__pixel__glitch": {
+      "message": "글리치",
+      "description": "Glitch",
+      "status": null
+   },
+   "options__censor__modes__pixel__halftone": {
+      "message": "하프톤",
+      "description": "Halftone",
+      "status": null
+   },
+   "options__censor__modes__strength": {
+      "message": "강도",
+      "description": "Strength",
+      "status": null
+   },
+   "options__censor__modes__density": {
+      "message": "밀도",
+      "description": "Density",
+      "status": null
+   },
+   "options__censor__modes__channel-colors": {
+      "message": "채널 색상",
+      "description": "Channel Colors",
+      "status": null
+   },
+   "options__censor__modes__grayscale": {
+      "message": "회색조",
+      "description": "Grayscale",
+      "status": null
+   },
+   "options__censor__modes__sampling": {
+      "message": "정확한 샘플링",
+      "description": "Accurate Sampling",
+      "status": null
+   },
+   "options__censor__modes__scale-width-detection": {
+      "message": "감지 크기 조절",
+      "description": "Scale With Detection",
+      "status": null
+   },
+   "options__censor__modes__color-mode": {
+      "message": "색상 모드",
+      "description": "Color Mode",
+      "status": null
+   },
+   "options__censor__modes__color-mode__cmyk": {
+      "message": "CMYK",
+      "description": "CMYK",
+      "status": null
+   },
+   "options__censor__modes__color-mode__simple": {
+      "message": "단순",
+      "description": "Simple",
+      "status": null
+   },
+   "options__censor__modes__grid-width": {
+      "message": "격자 너비",
+      "description": "Grid Width",
+      "status": null
+   },
+   "options__censor__modes__grid-color": {
+      "message": "격자 색상",
+      "description": "Grid Color",
+      "status": null
+   },
+   "options__censor__modes__background-color": {
+      "message": "배경 색상",
+      "description": "Background Color",
+      "status": null
+   },
+   "options__censor__modes__vertext-count": {
+      "message": "꼭짓점 수",
+      "description": "Vertex Count",
+      "status": null
+   },
+   "options__censor__modes__threshold": {
+      "message": "임계값",
+      "description": "Threshold",
+      "status": null
+   },
+   "options__censor__modes__accuracy": {
+      "message": "정확도",
+      "description": "Accuracy",
+      "status": null
+   },
+   "options__censor__modes__blurring": {
+      "message": "흐리게 처리",
+      "description": "Blurring",
+      "status": null
+   },
+   "options__censor__modes__line-join": {
+      "message": "선 연결",
+      "description": "Line Join",
+      "status": null
+   },
+   "options__censor__modes__line-join__miter": {
+      "message": "마이터",
+      "description": "Miter",
+      "status": null
+   },
+   "options__censor__modes__line-join__round": {
+      "message": "둥글게",
+      "description": "Round",
+      "status": null
+   },
+   "options__censor__modes__line-join__bevel": {
+      "message": "모따기",
+      "description": "Bevel",
+      "status": null
+   },
+   "options__censor__modes__fill-color-mode": {
+      "message": "채우기 색상 모드",
+      "description": "Fill Color Mode",
+      "status": null
+   },
+   "options__censor__modes__auto": {
+      "message": "자동",
+      "description": "Auto",
+      "status": null
+   },
+   "options__censor__modes__custom": {
+      "message": "사용자 정의",
+      "description": "Custom",
+      "status": null
+   },
+   "options__censor__modes__fill-color": {
+      "message": "채우기 색상",
+      "description": "Fill Color",
+      "status": null
+   },
+   "options__censor__modes__transparent-color": {
+      "message": "투명 색상",
+      "description": "Transparent Color",
+      "status": null
+   },
+   "options__censor__modes__gradients": {
+      "message": "그라디언트",
+      "description": "Gradients",
+      "status": null
+   },
+   "options__censor__modes__gradient-stops": {
+      "message": "그라디언트 중지점",
+      "description": "Gradient Stops",
+      "status": null
+   },
+   "options__censor__modes__stroke-color-mode": {
+      "message": "선 색상 모드",
+      "description": "Stroke Color Mode",
+      "status": null
+   },
+   "options__censor__modes__stroke-color": {
+      "message": "선 색상",
+      "description": "Stroke Color",
+      "status": null
+   },
+   "options__censor__modes__stroke-width": {
+      "message": "선 두께",
+      "description": "Stroke Width",
+      "status": null
+   },
+   "options__censor__modes__box__display": {
+      "message": "표시",
+      "description": "Display",
+      "status": null
+   },
+   "options__censor__modes__box__name-score": {
+      "message": "이름 및 점수",
+      "description": "Name & Score",
+      "status": null
+   },
+   "options__censor__modes__box__name": {
+      "message": "이름",
+      "description": "Name",
+      "status": null
+   },
+   "options__censor__modes__box__score": {
+      "message": "점수",
+      "description": "Score",
+      "status": null
+   },
+   "options__censor__modes__box__nothing": {
+      "message": "없음",
+      "description": "Nothing",
+      "status": null
+   },
+   "options__censor__modes__glitch__chromatic-aberration": {
+      "message": "색수차",
+      "description": "Chr. Aberration",
+      "status": null
+   },
+   "options__censor__modes__glitch__multiple-panels": {
+      "message": "다중 패널",
+      "description": "Multiple Panels",
+      "status": null
+   },
+   "options__censor__modes__glitch__color-intensity": {
+      "message": "색상 강도",
+      "description": "Color Intensity",
+      "status": null
+   },
+   "options__censor__modes__glitch__shift-intensity": {
+      "message": "이동 강도",
+      "description": "Shift Intensity",
+      "status": null
+   },
+   "options__censor__modes__glitch__horizontal-shift": {
+      "message": "수평 이동",
+      "description": "Horizontal Shift",
+      "status": null
+   },
+   "options__censor__modes__glitch__vertical-shift": {
+      "message": "수직 이동",
+      "description": "Vertical Shift",
+      "status": null
+   },
+   "options__censor__modes__amount": {
+      "message": "양",
+      "description": "Amount",
+      "status": null
+   },
+   "options__censor__modes__glitch__min-size": {
+      "message": "최소 크기",
+      "description": "Min. Size",
+      "status": null
+   },
+   "options__censor__modes__glitch__max-size": {
+      "message": "최대 크기",
+      "description": "Max. Size",
+      "status": null
+   },
+   "options__censor__modes__glitch__scatter": {
+      "message": "분산",
+      "description": "Scatter",
+      "status": null
+   },
+   "options__censor__modes__glitch__split-chance": {
+      "message": "분할 확률",
+      "description": "Split Chance",
+      "status": null
+   },
+   "options__censor__modes__glitch__border": {
+      "message": "테두리",
+      "description": "Border",
+      "status": null
+   },
+   "options__censor__modes__glitch__gradient": {
+      "message": "그라데이션",
+      "description": "Gradient",
+      "status": null
+   },
+   "labels__armpit": {
+      "message": "겨드랑이",
+      "description": "Armpit",
+      "status": null
+   },
+   "labels__nipple": {
+      "message": "젖꼭지",
+      "description": "Nipple",
+      "status": null
+   },
+   "labels__breast": {
+      "message": "가슴",
+      "description": "Breast",
+      "status": null
+   },
+   "labels__belly": {
+      "message": "배",
+      "description": "Belly",
+      "status": null
+   },
+   "labels__hand": {
+      "message": "손",
+      "description": "Hand",
+      "status": null
+   },
+   "labels__buttocks": {
+      "message": "엉덩이",
+      "description": "Buttocks",
+      "status": null
+   },
+   "labels__anus": {
+      "message": "항문",
+      "description": "Anus",
+      "status": null
+   },
+   "labels__genitalia": {
+      "message": "성기",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitalia-short": {
+      "message": "생식기",
+      "description": "Gen.",
+      "status": "manual"
+   },
+   "labels__feet": {
+      "message": "발",
+      "description": "Foot",
+      "status": null
+   },
+   "options__censor__modes__sticker__name": {
+      "message": "이름",
+      "description": "Name",
+      "status": null
+   },
+   "options__censor__modes__sticker__groups": {
+      "message": "그룹",
+      "description": "Groups",
+      "status": null
+   },
+   "options__censor__modes__sticker__weight": {
+      "message": "가중치",
+      "description": "Weight",
+      "status": null
+   },
+   "options__censor__modes__sticker__delete": {
+      "message": "삭제",
+      "description": "Delete",
+      "status": null
+   },
+   "options__censor__modes__sticker__pick-mode": {
+      "message": "임시 모드",
+      "description": "Pick Mode",
+      "status": null
+   },
+   "options__censor__modes__sticker__per-body-part": {
+      "message": "신체 부위별",
+      "description": "Per Body Part",
+      "status": null
+   },
+   "options__censor__modes__sticker__Per-detection": {
+      "message": "감지별",
+      "description": "Per Detection",
+      "status": null
+   },
+   "options__censor__modes__sticker__pick-single-source": {
+      "message": "단일 소스 초안",
+      "description": "Pick Single Source",
+      "status": null
+   },
+   "options__censor__modes__sticker__enabled-sources": {
+      "message": "활성화된 소스",
+      "description": "Enabled Sources",
+      "status": null
+   },
+   "options__censor__modes__sticker__entries-description": {
+      "message": "- 항목은 세미콜론으로 구분된 컬렉션 또는 그룹 이름입니다.",
+      "description": "- Entries are collection or group names separated by semicolons",
+      "status": null
+   },
+   "options__censor__modes__sticker__create-collection": {
+      "message": "컬렉션 생성",
+      "description": "Create Collection",
+      "status": null
+   },
+   "options__censor__modes__sticker__create": {
+      "message": "생성",
+      "description": "Create",
+      "status": null
+   },
+   "options__censor__modes__sticker__delete-collection": {
+      "message": "삭제",
+      "description": "Delete",
+      "status": null
+   },
+   "options__censor__modes__sticker__import-collection": {
+      "message": "가져오기",
+      "description": "Import",
+      "status": null
+   },
+   "options__censor__modes__sticker__export-collection": {
+      "message": "내보내기",
+      "description": "Export",
+      "status": null
+   },
+   "options__censor__modes__sticker__reset-all": {
+      "message": "모두 초기화",
+      "description": "Reset All",
+      "status": null
+   },
+   "options__censor__modes__sobel__inverted-color": {
+      "message": "반전된 색상",
+      "description": "Inverted Color",
+      "status": null
+   },
+   "options__censor__modes__splatter__recursions": {
+      "message": "재귀",
+      "description": "Recursions",
+      "status": null
+   },
+   "options__censor__modes__splatter__color-pool": {
+      "message": "색상 풀",
+      "description": "Color Pool",
+      "status": null
+   },
+   "options__censor__modes__splatter__centering": {
+      "message": "중심 맞춤",
+      "description": "Centering",
+      "status": null
+   },
+   "options__censor__modes__splatter__size": {
+      "message": "크기",
+      "description": "Size",
+      "status": null
+   },
+   "options__censor__modes__splatter__sub-size": {
+      "message": "하위 크기",
+      "description": "Sub Size",
+      "status": null
+   },
+   "options__censor__modes__splatter__sub-amount": {
+      "message": "하위 금액",
+      "description": "Sub Amount",
+      "status": null
+   },
+   "options__censor__modes__splatter__rainbow": {
+      "message": "무지개",
+      "description": "Rainbow",
+      "status": null
+   },
+   "options__censor__modes__random": {
+      "message": "무작위",
+      "description": "Random",
+      "status": null
+   },
+   "options__censor__modes__super-random": {
+      "message": "슈퍼 무작위",
+      "description": "Super Random",
+      "status": null
+   },
+   "options__censor__none": {
+      "message": "없음",
+      "description": "None",
+      "status": null
+   },
+   "censor-type__black": {
+      "message": "검정",
+      "description": "Black",
+      "status": null
+   },
+   "censor-type__mixed": {
+      "message": "혼합",
+      "description": "Mixed",
+      "status": null
+   },
+   "options__censor__mixed-mode__content": {
+      "message": "내용",
+      "description": "Content",
+      "status": null
+   },
+   "options__censor__reverse": {
+      "message": "반대로",
+      "description": "Reverse",
+      "status": null
+   },
+   "options__censor__censor-extras": {
+      "message": "추가 검열",
+      "description": "Censor Extras",
+      "status": null
+   },
+   "options__censor__cluster__only-matching-content": {
+      "message": "일치하는 콘텐츠만",
+      "description": "Only Matching Content",
+      "status": null
+   },
+   "options__censor__cluster__max-distance": {
+      "message": "최대 거리",
+      "description": "Max. Distance",
+      "status": null
+   },
+   "options__censor__modes__cutout": {
+      "message": "잘라내기",
+      "description": "Cutout",
+      "status": null
+   },
+   "options__censor__caption__color": {
+      "message": "색상",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__caption__font": {
+      "message": "글꼴",
+      "description": "Font",
+      "status": null
+   },
+   "options__censor__caption__style": {
+      "message": "스타일",
+      "description": "Style",
+      "status": null
+   },
+   "options__censor__caption__padding": {
+      "message": "여백",
+      "description": "Padding",
+      "status": null
+   },
+   "options__censor__word-wall__pick-mode": {
+      "message": "임시 모드:",
+      "description": "Pick Mode:",
+      "status": null
+   },
+   "options__censor__word-wall__single": {
+      "message": "싱글",
+      "description": "Single",
+      "status": null
+   },
+   "options__censor__word-wall__multiple": {
+      "message": "다중",
+      "description": "Multiple",
+      "status": null
+   },
+   "options__censor__word-wall__all": {
+      "message": "전체",
+      "description": "All",
+      "status": null
+   },
+   "options__censor__word-wall__word-pool": {
+      "message": "단어 풀",
+      "description": "Word Pool",
+      "status": null
+   },
+   "options__censor__word-wall__word-pool__description": {
+      "message": "- 항목은 줄 바꿈으로 구분됩니다",
+      "description": "- Entries are separated by new lines",
+      "status": null
+   },
+   "options__censor__word-wall__color": {
+      "message": "색상",
+      "description": "Color",
+      "status": null
+   },
+   "options__censor__word-wall__font": {
+      "message": "글꼴",
+      "description": "Font",
+      "status": null
+   },
+   "options__censor__word-wall__style": {
+      "message": "스타일",
+      "description": "Style",
+      "status": null
+   },
+   "options__censor__word-wall__size": {
+      "message": "크기",
+      "description": "Size",
+      "status": null
+   },
+   "options__censor__word-wall__spacing": {
+      "message": "간격",
+      "description": "Spacing",
+      "status": null
+   },
+   "options__censor__word-wall__line-height": {
+      "message": "줄 높이",
+      "description": "Line Height",
+      "status": null
+   },
+   "options__censor__word-wall__line-offset": {
+      "message": "줄 오프셋",
+      "description": "Line Offset",
+      "status": null
+   },
+   "options__censor__word-wall__angle": {
+      "message": "각도",
+      "description": "Angle",
+      "status": null
+   },
+   "options__censor__reverse__censor": {
+      "message": "검열",
+      "description": "Censor",
+      "status": null
+   },
+   "options__censor__reverse__all-images": {
+      "message": "모든 이미지",
+      "description": "all images",
+      "status": null
+   },
+   "options__censor__reverse__images-with-content": {
+      "message": "내용이 있는 이미지",
+      "description": "images with content",
+      "status": null
+   },
+   "options__censor__reverse__images-with-censor-content": {
+      "message": "검열할 콘텐츠가 있는 이미지",
+      "description": "images with content to censor",
+      "status": null
+   },
+   "options__advanced__header": {
+      "message": "고급",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__advanced__description": {
+      "message": "고급 및 기타 설정:",
+      "description": "Advanced and miscellaneous settings:",
+      "status": null
+   },
+   "options__advanced__extension-icon": {
+      "message": "확장 아이콘",
+      "description": "Extension Icon",
+      "status": null
+   },
+   "options__advanced__classic": {
+      "message": "클래식",
+      "description": "Classic",
+      "status": null
+   },
+   "options__advanced__modern": {
+      "message": "모던",
+      "description": "Modern",
+      "status": null
+   },
+   "options__advanced__minimalistic": {
+      "message": "미니멀리즘",
+      "description": "Minimalistic",
+      "status": null
+   },
+   "options__advanced__advanced-options": {
+      "message": "고급 옵션",
+      "description": "Advanced Options",
+      "status": null
+   },
+   "options__advanced__pre-scaling": {
+      "message": "사전 스케일링",
+      "description": "Pre-Scaling",
+      "status": null
+   },
+   "options__advanced__pre-scaling__description": {
+      "message": "처리를 위해 이미지의 크기를 두 번째로 줄입니다. 테스트 결과 모든 이미지에서 약간의 속도 향상을 제공하는 동시에 대량 처리 시 약간의 메모리 절약 효과가 있는 것으로 나타났습니다. 대용량 이미지.",
+      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
+      "status": null
+   },
+   "options__advanced__pre-scaling__description__note": {
+      "message": "일괄 처리 시 메모리 문제가 발생하는 경우 이 옵션을 활성화하는 것이 좋습니다. 변환기 또는 비디오 오버레이.",
+      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
+      "status": null
+   },
+   "options__advanced__prefer-edited-detections": {
+      "message": "편집된 감지 선호",
+      "description": "Prefer Edited Detections",
+      "status": null
+   },
+   "options__advanced__prefer-edited-detections__description": {
+      "message": "모델을 실행하기 전에 사용자가 편집기를 사용하여 이미지에 대한 감지를 편집하고 저장했는지 확인하고 그렇다면 모델 감지보다 해당 감지를 사용하는 것을 선호합니다.",
+      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+      "status": null
+   },
+   "options__advanced__base64_support": {
+      "message": "Base64 지원",
+      "description": "Base64 Support",
+      "status": null
+   },
+   "options__advanced__base64_support__description": {
+      "message": "Firefox 확장 API에서 감지되지 않으므로 Base64 인코딩 이미지에 대해서도 웹 페이지를 검사하여 검열합니다.",
+      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
+      "status": null
+   },
+   "options__advanced__ai-warmup": {
+      "message": "AI 워밍업",
+      "description": "AI Warm-Up",
+      "status": null
+   },
+   "options__advanced__ai-warmup__description": {
+      "message": "Firefox 시작 시 AI를 초기화합니다. 이 경우 브라우저가 잠시 멈출 수 있습니다.",
+      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+      "status": null
+   },
+   "options__advanced__theme__teal": {
+      "message": "청록색",
+      "description": "Teal",
+      "status": null
+   },
+   "options__advanced__theme__blue": {
+      "message": "파란색",
+      "description": "Blue",
+      "status": null
+   },
+   "options__advanced__theme__purple": {
+      "message": "보라색",
+      "description": "Purple",
+      "status": null
+   },
+   "options__advanced__theme__pink": {
+      "message": "분홍색",
+      "description": "Pink",
+      "status": null
+   },
+   "options__advanced__theme__amoled": {
+      "message": "아몰레드",
+      "description": "Amoled",
+      "status": null
+   },
+   "options__advanced__theme__cyberpunk": {
+      "message": "사이버펑크",
+      "description": "Cyberpunk",
+      "status": null
+   },
+   "options__advanced__theme__pink-doll": {
+      "message": "핑크 인형",
+      "description": "Pink Doll",
+      "status": null
+   },
+   "options__advanced__theme__retro-wave": {
+      "message": "레트로 웨이브",
+      "description": "Retro Wave",
+      "status": null
+   },
+   "options__advanced__theme__accent-color": {
+      "message": "강조 색상:",
+      "description": "Accent Color:",
+      "status": null
+   },
+   "options__advanced__theme__main-bg-color": {
+      "message": "기본 배경 색상:",
+      "description": "Main BG Color:",
+      "status": null
+   },
+   "options__advanced__theme__secondary-bg-color": {
+      "message": "보조 배경 색상:",
+      "description": "Secondary BG Color:",
+      "status": null
+   },
+   "options__advanced__theme__text-color": {
+      "message": "텍스트 색상:",
+      "description": "Text Color:",
+      "status": null
+   },
+   "options__white-black-list__header": {
+      "message": "허용 및 차단 목록",
+      "description": "Whitelist & Blacklist",
+      "status": null
+   },
+   "options__white-black-list__description": {
+      "message": "특정 웹페이지를 허용하거나 차단:",
+      "description": "Whitelist or blacklist certain webpages:",
+      "status": null
+   },
+   "options__white-black-list__whitelist": {
+      "message": "허용 목록",
+      "description": "Whitelist",
+      "status": null
+   },
+   "options__white-black-list__blacklist": {
+      "message": "차단 목록",
+      "description": "Blacklist",
+      "status": null
+   },
+   "options__white-black-list__whitelist__description": {
+      "message": "- 다음 웹페이지에 대해 확장 프로그램 비활성화",
+      "description": "- Disable the extension for the following webpages",
+      "status": null
+   },
+   "options__white-black-list__blacklist__description": {
+      "message": "- 다음 웹페이지에 대해서만 확장 프로그램 활성화",
+      "description": "- Enable the extension only for the following webpages",
+      "status": null
+   },
+   "options__white-black-list__text": {
+      "message": "텍스트",
+      "description": "text",
+      "status": null
+   },
+   "options__white-black-list__regex": {
+      "message": "정규 표현식",
+      "description": "regex",
+      "status": null
+   },
+   "options__white-black-list__lock-info-whitelist": {
+      "message": "확장 프로그램이 잠겨 있습니다! 허용 목록에서 항목을 제거할 수는 있지만 추가할 수는 없습니다.",
+      "description": "Your extension is locked! You may remove entries from the whitelist, but not add them.",
+      "status": null
+   },
+   "options__white-black-list__lock-info-blacklist": {
+      "message": "확장 프로그램이 잠겨 있습니다! 차단 목록에 항목을 추가할 수는 있지만 제거할 수는 없습니다.",
+      "description": "Your extension is locked! You may add entries to the blacklist, but not remove them.",
+      "status": null
+   },
+   "options__settings__header": {
+      "message": "설정",
+      "description": "Settings",
+      "status": null
+   },
+   "options__settings__description": {
+      "message": "설정 컬렉션 관리:",
+      "description": "Manage your settings collections:",
+      "status": null
+   },
+   "options__settings__import-settings": {
+      "message": "설정 가져오기",
+      "description": "Import Settings",
+      "status": null
+   },
+   "options__settings__remote-control": {
+      "message": "원격 제어",
+      "description": "Remote Control",
+      "status": null
+   },
+   "options__settings__subscribe": {
+      "message": "구독",
+      "description": "Subscribe",
+      "status": null
+   },
+   "options__settings__unsubscribe": {
+      "message": "구독 취소",
+      "description": "Unsubscribe",
+      "status": null
+   },
+   "options__settings__lock-subscription": {
+      "message": "구독 잠금",
+      "description": "Lock Subscription",
+      "status": null
+   },
+   "options__settings__send-statistics-data": {
+      "message": "통계 데이터 전송",
+      "description": "Send Statistics Data",
+      "status": null
+   },
+   "options__settings__allow-older-settings": {
+      "message": "이전 설정 허용",
+      "description": "Allow Older Settings",
+      "status": null
+   },
+   "options__settings__auto-update": {
+      "message": "자동 업데이트:",
+      "description": "Auto Update:",
+      "status": null
+   },
+   "options__settings__periodic": {
+      "message": "주기적:",
+      "description": "Periodic:",
+      "status": null
+   },
+   "options__settings__minutes": {
+      "message": "분",
+      "description": "Minutes",
+      "status": null
+   },
+   "options__settings__on-start": {
+      "message": "시작 시:",
+      "description": "On Start:",
+      "status": null
+   },
+   "options__settings__manual": {
+      "message": "수동:",
+      "description": "Manual:",
+      "status": null
+   },
+   "options__settings__cloud-settings": {
+      "message": "클라우드 설정",
+      "description": "Cloud Settings",
+      "status": null
+   },
+   "options__settings__import": {
+      "message": "가져오기",
+      "description": "Import",
+      "status": null
+   },
+   "options__settings__local-data-mismatch": {
+      "message": "로컬 데이터 불일치",
+      "description": "Local Data Mismatch",
+      "status": null
+   },
+   "options__settings__clear-cloud-data": {
+      "message": "클라우드 데이터 지우기",
+      "description": "Clear Cloud Data",
+      "status": null
+   },
+   "options__settings__last-updated": {
+      "message": "마지막 업데이트:",
+      "description": "Last Updated:",
+      "status": null
+   },
+   "options__settings__last-pinged": {
+      "message": "마지막 확인",
+      "description": "Last Checked:",
+      "status": null
+   },
+   "options__settings__local-file": {
+      "message": "로컬 파일",
+      "description": "Local File",
+      "status": null
+   },
+   "options__settings__manage-settings": {
+      "message": "설정 관리",
+      "description": "Manage Settings",
+      "status": null
+   },
+   "options__settings__stored-settings": {
+      "message": "저장된 설정",
+      "description": "Stored Settings",
+      "status": null
+   },
+   "options__settings__save": {
+      "message": "저장",
+      "description": "Save",
+      "status": null
+   },
+   "options__settings__load": {
+      "message": "불러오기",
+      "description": "Load",
+      "status": null
+   },
+   "options__settings__save-configuration": {
+      "message": "구성 저장",
+      "description": "Saving Configuration",
+      "status": null
+   },
+   "options__settings__extension": {
+      "message": "확장 프로그램:",
+      "description": "Extension:",
+      "status": null
+   },
+   "options__settings__lock": {
+      "message": "잠금:",
+      "description": "Lock:",
+      "status": null
+   },
+   "options__settings__content": {
+      "message": "콘텐츠",
+      "description": "Content",
+      "status": null
+   },
+   "options__settings__censor": {
+      "message": "검열",
+      "description": "Censor",
+      "status": null
+   },
+   "options__settings__enabled-censor": {
+      "message": "검열 활성화",
+      "description": "Enabled Censor",
+      "status": null
+   },
+   "options__settings__file-types": {
+      "message": "파일 형식",
+      "description": "File Types",
+      "status": null
+   },
+   "options__settings__enabled-types": {
+      "message": "활성화된 형식",
+      "description": "Enabled Types",
+      "status": null
+   },
+   "options__settings__video": {
+      "message": "비디오",
+      "description": "Video",
+      "status": null
+   },
+   "options__settings__oom": {
+      "message": "OOM",
+      "description": "OOM",
+      "status": null
+   },
+   "options__settings__wb-list": {
+      "message": "허용/차단 목록",
+      "description": "W/B List",
+      "status": null
+   },
+   "options__settings__advanced": {
+      "message": "고급",
+      "description": "Advanced",
+      "status": null
+   },
+   "options__settings__icons": {
+      "message": "아이콘",
+      "description": "Icons",
+      "status": null
+   },
+   "options__settings__pre-scaling": {
+      "message": "사전 크기 조정",
+      "description": "Pre-Scaling",
+      "status": null
+   },
+   "options__settings__prefer-edited-detections": {
+      "message": "편집된 감지 선호",
+      "description": "Prefer Edited Detections",
+      "status": null
+   },
+   "options__settings__base64_support": {
+      "message": "Base64 지원",
+      "description": "Base64 Support",
+      "status": null
+   },
+   "options__settings__ai-warm-up": {
+      "message": "AI 워밍업",
+      "description": "AI Warm-Up",
+      "status": null
+   },
+   "options__settings__theme": {
+      "message": "테마",
+      "description": "Theme",
+      "status": null
+   },
+   "options__help__header": {
+      "message": "도움말",
+      "description": "Help",
+      "status": null
+   },
+   "options__help__find-us": {
+      "message": "다음에서 우리를 찾으세요",
+      "description": "Find us on",
+      "status": null
+   },
+   "options__help__cache": {
+      "message": "캐시",
+      "description": "Cache",
+      "status": null
+   },
+   "options__help__images": {
+      "message": "이미지",
+      "description": "Images",
+      "status": null
+   },
+   "options__help__size": {
+      "message": "크기",
+      "description": "Size",
+      "status": null
+   },
+   "options__help__reset-cache": {
+      "message": "캐시 초기화",
+      "description": "Reset Cache",
+      "status": null
+   },
+   "options__help__storage": {
+      "message": "저장 공간",
+      "description": "Storage",
+      "status": null
+   },
+   "options__help__total-synced": {
+      "message": "총 동기화됨",
+      "description": "Total Synced",
+      "status": null
+   },
+   "options__help__total-local": {
+      "message": "총 로컬",
+      "description": "Total Local",
+      "status": null
+   },
+   "options__help__stickers": {
+      "message": "스티커",
+      "description": "Stickers",
+      "status": null
+   },
+   "options__help__edited-detections": {
+      "message": "편집된 감지",
+      "description": "Edited Detections",
+      "status": null
+   },
+   "options__help__lock-timer-logs": {
+      "message": "잠금 타이머 로그",
+      "description": "Lock Timer Logs",
+      "status": null
+   },
+   "options__help__oom": {
+      "message": "OOM",
+      "description": "OOM",
+      "status": null
+   },
+   "options__help__oom-containers": {
+      "message": "OOM 컨테이너",
+      "description": "OOM Containers",
+      "status": null
+   },
+   "options__help__oom-hashes": {
+      "message": "OOM 해시",
+      "description": "OOM Hashes",
+      "status": null
+   },
+   "options__help__ai-model": {
+      "message": "AI 모델",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__help__backend": {
+      "message": "백엔드",
+      "description": "Backend",
+      "status": null
+   },
+   "options__help__tensors": {
+      "message": "텐서",
+      "description": "Tensors",
+      "status": null
+   },
+   "options__help__bytes": {
+      "message": "바이트",
+      "description": "Bytes",
+      "status": null
+   },
+   "options__help__gpu-bytes": {
+      "message": "GPU 바이트",
+      "description": "GPU Bytes",
+      "status": null
+   },
+   "options__help__data-buffers": {
+      "message": "데이터 버퍼",
+      "description": "Data Buffers",
+      "status": null
+   },
+   "options__help__stable": {
+      "message": "안정",
+      "description": "Stable",
+      "status": null
+   },
+   "options__help__error": {
+      "message": "오류",
+      "description": "Error",
+      "status": null
+   },
+   "options__help__debugging": {
+      "message": "디버깅",
+      "description": "Debugging",
+      "status": null
+   },
+   "options__help__debug": {
+      "message": "디버그",
+      "description": "Debug",
+      "status": null
+   },
+   "options__help__default-settings": {
+      "message": "기본 설정",
+      "description": "Default Settings",
+      "status": null
+   },
+   "options__help__restore-defaults": {
+      "message": "기본값 복원",
+      "description": "Restore Defaults",
+      "status": null
+   },
+   "options__help__restore-defaults__description": {
+      "message": "스티커 또는 저장된 설정과 같은 로컬 데이터는 삭제되지 않습니다.",
+      "description": "Will not delete any local data such as stickers or stored settings.",
+      "status": null
+   },
+   "options__oom__header": {
+      "message": "1회 모드",
+      "description": "Only Once Mode",
+      "status": null
+   },
+   "options__oom__description": {
+      "message": "이미지를 한 번만 표시:",
+      "description": "Display images only once:",
+      "status": null
+   },
+   "options__oom__modes__mode": {
+      "message": "모드",
+      "description": "Mode",
+      "status": null
+   },
+   "options__oom__modes__full-block": {
+      "message": "전체 블록",
+      "description": "Full Block",
+      "status": null
+   },
+   "options__oom__modes__see-trough": {
+      "message": "비쳐보임",
+      "description": "See-Through",
+      "status": null
+   },
+   "options__oom__modes__borderless": {
+      "message": "테두리 없음",
+      "description": "Borderless",
+      "status": null
+   },
+   "options__oom__modes__thumbnail": {
+      "message": "썸네일",
+      "description": "Thumbnail",
+      "status": null
+   },
+   "options__oom__modes__grid": {
+      "message": "격자",
+      "description": "Grid",
+      "status": null
+   },
+   "options__oom__modes__strong-blur": {
+      "message": "강한 블러",
+      "description": "Strong Blur",
+      "status": null
+   },
+   "options__oom__modes__box-tease": {
+      "message": "박스 티저",
+      "description": "Box Tease",
+      "status": null
+   },
+   "options__oom__modes__reset-data": {
+      "message": "데이터 지우기",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__oom__mode-settings": {
+      "message": "모드 설정",
+      "description": "Mode Settings",
+      "status": null
+   },
+   "options__oom__transparency": {
+      "message": "투명도",
+      "description": "Transparency",
+      "status": null
+   },
+   "options__oom__distance": {
+      "message": "거리",
+      "description": "Distance",
+      "status": null
+   },
+   "options__oom__border-radius": {
+      "message": "테두리 반경",
+      "description": "Border Radius",
+      "status": null
+   },
+   "options__oom__thumbnail-blur": {
+      "message": "썸네일 블러",
+      "description": "Thumbnail Blur",
+      "status": null
+   },
+   "options__oom__grid": {
+      "message": "격자",
+      "description": "Grid",
+      "status": null
+   },
+   "options__oom__grid__custom": {
+      "message": "사용자 지정",
+      "description": "Custom",
+      "status": null
+   },
+   "options__oom__grid__fence": {
+      "message": "펜스",
+      "description": "Fence",
+      "status": null
+   },
+   "options__oom__grid__black-and-white": {
+      "message": "흑백",
+      "description": "Black & White",
+      "status": null
+   },
+   "options__oom__grid__wasp": {
+      "message": "말벌",
+      "description": "Wasp",
+      "status": null
+   },
+   "options__oom__grid__purple": {
+      "message": "보라색",
+      "description": "Purple",
+      "status": null
+   },
+   "options__oom__grayscale": {
+      "message": "회색조",
+      "description": "Grayscale",
+      "status": null
+   },
+   "options__oom__reveal-faces": {
+      "message": "얼굴 드러내기",
+      "description": "Reveal Faces",
+      "status": null
+   },
+   "options__oom__image-settings": {
+      "message": "이미지 설정",
+      "description": "Image Settings",
+      "status": null
+   },
+   "options__oom__hash-precision": {
+      "message": "해시 정밀도",
+      "description": "Hash Precision",
+      "status": null
+   },
+   "options__oom__min-width": {
+      "message": "최소 너비",
+      "description": "Min. Width",
+      "status": null
+   },
+   "options__oom__min-height": {
+      "message": "최소 높이",
+      "description": "Min. Height",
+      "status": null
+   },
+   "options__oom__triggers": {
+      "message": "트리거",
+      "description": "Triggers",
+      "status": null
+   },
+   "labels__mouth": {
+      "message": "입",
+      "description": "Mouth",
+      "status": null
+   },
+   "labels__gentials": {
+      "message": "성기",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__gentials-covered": {
+      "message": "성기 가림",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "options__oom__lock-settings": {
+      "message": "설정 잠금",
+      "description": "Lock Settings",
+      "status": null
+   },
+   "options__oom__date-time-format": {
+      "message": "날짜 시간 형식:",
+      "description": "Date Time Format:",
+      "status": null
+   },
+   "options__none": {
+      "message": "없음",
+      "description": "None",
+      "status": null
+   },
+   "options__oom__local": {
+      "message": "로컬",
+      "description": "Local",
+      "status": null
+   },
+   "options__oom__block-message": {
+      "message": "메시지 차단",
+      "description": "Block Message",
+      "status": null
+   },
+   "options__oom__list-image-content": {
+      "message": "이미지 내용 목록",
+      "description": "List Image Content",
+      "status": null
+   },
+   "options__oom__timer": {
+      "message": "타이머",
+      "description": "Timer",
+      "status": null
+   },
+   "options__oom__auto-refresh": {
+      "message": "자동 새로 고침",
+      "description": "Auto Refresh",
+      "status": null
+   },
+   "options__oom__min-duration": {
+      "message": "최소 지속 시간:",
+      "description": "Min. Duration:",
+      "status": null
+   },
+   "options__oom__days": {
+      "message": "일",
+      "description": "Days",
+      "status": null
+   },
+   "options__oom__hours": {
+      "message": "시간",
+      "description": "Hours",
+      "status": null
+   },
+   "options__oom__mins": {
+      "message": "분",
+      "description": "Mins",
+      "status": null
+   },
+   "options__oom__secs": {
+      "message": "초",
+      "description": "Secs",
+      "status": null
+   },
+   "options__oom__max-duration": {
+      "message": "최대 지속 시간:",
+      "description": "Max. Duration:",
+      "status": null
+   },
+   "options__oom__animation": {
+      "message": "애니메이션",
+      "description": "Animation",
+      "status": null
+   },
+   "options__oom__none": {
+      "message": "없음",
+      "description": "None",
+      "status": null
+   },
+   "options__oom__progress-bar": {
+      "message": "진행 표시줄",
+      "description": "Progress Bar",
+      "status": null
+   },
+   "options__oom__darken": {
+      "message": "어둡게",
+      "description": "Darken",
+      "status": null
+   },
+   "options__oom__blur": {
+      "message": "흐리게",
+      "description": "Blur",
+      "status": null
+   },
+   "options__batch-converter__header": {
+      "message": "일괄 변환기",
+      "description": "Batch-Converter",
+      "status": null
+   },
+   "options__batch-converter__description": {
+      "message": "로컬 파일 또는 폴더 검열:",
+      "description": "Censor local files or folders:",
+      "status": null
+   },
+   "options__batch-converter": {
+      "message": "일괄 변환기",
+      "description": "Batch Converter",
+      "status": null
+   },
+   "options__batch-converter__multiple-files": {
+      "message": "여러 파일",
+      "description": "Multiple Files",
+      "status": null
+   },
+   "options__general__or": {
+      "message": "또는",
+      "description": "OR",
+      "status": null
+   },
+   "options__batch-converter__folder": {
+      "message": "폴더",
+      "description": "Folder",
+      "status": null
+   },
+   "options__batch-converter__files-selected": {
+      "message": "선택된 파일:",
+      "description": "Files selected:",
+      "status": null
+   },
+   "options__batch-converter__total-images": {
+      "message": "총 이미지:",
+      "description": "Total images:",
+      "status": null
+   },
+   "options__batch-converter__total-size": {
+      "message": "총 크기:",
+      "description": "Total size:",
+      "status": null
+   },
+   "options__batch-converter__estimated-time": {
+      "message": "예상 시간:",
+      "description": "Estimated time:",
+      "status": null
+   },
+   "options__batch-converter__estimated-time-left": {
+      "message": "남은 예상 시간:",
+      "description": "Est. time left:",
+      "status": null
+   },
+   "options__batch-converter__average": {
+      "message": "평균:",
+      "description": "Average:",
+      "status": null
+   },
+   "options__batch-converter__start": {
+      "message": "시작",
+      "description": "Start",
+      "status": null
+   },
+   "options__statistics__header": {
+      "message": "통계",
+      "description": "Statistics",
+      "status": null
+   },
+   "options__statistics__description": {
+      "message": "데이터 & 정보:",
+      "description": "Data & Information:",
+      "status": null
+   },
+   "options__statistics__detection-statistics": {
+      "message": "감지 통계",
+      "description": "Detection Statistics",
+      "status": null
+   },
+   "options__statistics__average-duration": {
+      "message": "평균 지속 시간:",
+      "description": "Average Duration:",
+      "status": null
+   },
+   "options__statistics__ai": {
+      "message": "AI:",
+      "description": "AI:",
+      "status": null
+   },
+   "options__statistics__painting": {
+      "message": "그림:",
+      "description": "Painting:",
+      "status": null
+   },
+   "options__statistics__files": {
+      "message": "파일",
+      "description": "Files",
+      "status": null
+   },
+   "options__statistics__content": {
+      "message": "콘텐츠",
+      "description": "Content",
+      "status": null
+   },
+   "options__statistics__average-frame-count": {
+      "message": "평균 프레임 수",
+      "description": "Avg. Frame Count",
+      "status": null
+   },
+   "options__statistics__average-processing-time": {
+      "message": "평균 처리 시간",
+      "description": "Avg. Processing Time",
+      "status": null
+   },
+   "options__statistics__thumbnails": {
+      "message": "썸네일",
+      "description": "Thumbnails",
+      "status": null
+   },
+   "options__statistics__scanned-images": {
+      "message": "스캔된 이미지",
+      "description": "Scanned Images",
+      "status": null
+   },
+   "options__statistics__processed-images": {
+      "message": "처리된 이미지",
+      "description": "Processed Images",
+      "status": null
+   },
+   "options__statistics__videos": {
+      "message": "비디오",
+      "description": "Videos",
+      "status": null
+   },
+   "options__statistics__video-frames": {
+      "message": "비디오 프레임",
+      "description": "Video Frames",
+      "status": null
+   },
+   "options__statistics__local-files": {
+      "message": "로컬 파일",
+      "description": "Local Files",
+      "status": null
+   },
+   "options__statistics__batch-files": {
+      "message": "일괄 파일",
+      "description": "Batch Files",
+      "status": null
+   },
+   "options__statistics__oom-images": {
+      "message": "OOM-이미지",
+      "description": "OOM-Images",
+      "status": null
+   },
+   "options__statistics__reset-data": {
+      "message": "데이터 초기화",
+      "description": "Reset Data",
+      "status": null
+   },
+   "options__security__header": {
+      "message": "보안",
+      "description": "Security",
+      "status": null
+   },
+   "options__security__description": {
+      "message": "확장 프로그램 잠금 및 잠금 해제:",
+      "description": "Lock & unlock the extension:",
+      "status": null
+   },
+   "options__security__lock": {
+      "message": "잠금",
+      "description": "Lock",
+      "status": null
+   },
+   "options__security__password": {
+      "message": "비밀번호",
+      "description": "Password",
+      "status": null
+   },
+   "options__security__password-confirmation": {
+      "message": "비밀번호 확인",
+      "description": "Password Confirmation",
+      "status": null
+   },
+   "options__security__timer": {
+      "message": "타이머",
+      "description": "Timer",
+      "status": null
+   },
+   "options__security__days": {
+      "message": "일",
+      "description": "Days",
+      "status": null
+   },
+   "options__security__hours": {
+      "message": "시간",
+      "description": "Hours",
+      "status": null
+   },
+   "options__security__minutes": {
+      "message": "분",
+      "description": "Minutes",
+      "status": null
+   },
+   "options__security__timer-mode": {
+      "message": "타이머 모드",
+      "description": "Timer Mode",
+      "status": null
+   },
+   "options__security__duration": {
+      "message": "지속 시간",
+      "description": "Duration",
+      "status": null
+   },
+   "options__security__date": {
+      "message": "날짜",
+      "description": "Date",
+      "status": null
+   },
+   "options__security__timer-plus": {
+      "message": "타이머+",
+      "description": "Timer+",
+      "status": null
+   },
+   "options__security__timer-plus__description": {
+      "message": "특정 콘텐츠가 보일 때 잠금 지속 시간을 늘리거나 줄입니다:",
+      "description": "Increase or Decrease the lock duration when certain content is viewed:",
+      "status": null
+   },
+   "labels__genitals": {
+      "message": "성기",
+      "description": "Genitals",
+      "status": null
+   },
+   "labels__genitals-covered": {
+      "message": "성기 가려짐",
+      "description": "Genitals Covered",
+      "status": null
+   },
+   "options__security__timer-plus__min-size": {
+      "message": "최소 크기",
+      "description": "Min. Size",
+      "status": null
+   },
+   "options__security__optional-locks": {
+      "message": "선택적 잠금",
+      "description": "Optional Locks",
+      "status": null
+   },
+   "options__security__quick-settings": {
+      "message": "빠른 설정",
+      "description": "Quick Settings",
+      "status": null
+   },
+   "options__security__enabled-censor": {
+      "message": "검열 활성화",
+      "description": "Enabled Censor",
+      "status": null
+   },
+   "options__security__video": {
+      "message": "비디오",
+      "description": "Video",
+      "status": null
+   },
+   "options__security__editor": {
+      "message": "편집기",
+      "description": "Editor",
+      "status": null
+   },
+   "options__security__lock-me": {
+      "message": "잠그기!",
+      "description": "LOCK ME!",
+      "status": null
+   },
+   "options__security__locked": {
+      "message": "잠겼습니다!",
+      "description": "Locked!",
+      "status": null
+   },
+   "options__security__add-time": {
+      "message": "시간 추가",
+      "description": "Add Time",
+      "status": null
+   },
+   "options__security__time-to-add": {
+      "message": "추가할 시간",
+      "description": "Time to Add",
+      "status": null
+   },
+   "options__security__seconds": {
+      "message": "초",
+      "description": "Seconds",
+      "status": null
+   },
+   "options__security__submit": {
+      "message": "제출",
+      "description": "Submit",
+      "status": null
+   },
+   "options__security__timer-plus__logs": {
+      "message": "로그",
+      "description": "Logs",
+      "status": null
+   },
+   "options__security__enter-password": {
+      "message": "비밀번호를 입력하세요.",
+      "description": "Enter your password.",
+      "status": null
+   },
+   "options__security__emergency-unlock": {
+      "message": "지금 잠금 해제해야 하나요?",
+      "description": "Need to unlock now?",
+      "status": null
+   },
+   "options__security__emergency-unlock__description": {
+      "message": "Patreon이 되어 긴급 해제를 할 수 있습니다:",
+      "description": "You can emergency unlock yourself by becoming a Patreon:",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__1": {
+      "message": "<b>1.</b> 관련 <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> 등급에 가입하세요. 완료되면, 원하실 때 회원 자격을 취소하거나 다운그레이드할 수 있습니다.",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__2": {
+      "message": "<b>2.</b> <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi 계정</a>을 Patreon과 연결하세요.",
+      "description": "<b>2.</b> Bind your <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi account</a> to your Patreon.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description__3": {
+      "message": "<b>3.</b> 마지막으로, 확장 프로그램에서 계정으로 로그인하고 여기에서 잠금을 해제하세요.",
+      "description": "<b>3.</b> Finally, login with your account in the extension and unlock here.",
+      "status": null
+   },
+   "options__security__emergency-unlock__button": {
+      "message": "긴급 해제",
+      "description": "Emergency Unlock",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt": {
+      "message": "대신, 처음으로 긴급 해제를 요청하는 경우 Discord 서버에서 저희에게 연락할 수 있습니다:",
+      "description": "Alternatively, you can reach us on our Discord server if this is your first time requiring an emergency unlock:",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__1": {
+      "message": "<b>1.</b> <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> 서버에 가입하고 모더레이터에게 연락하세요.",
+      "description": "<b>1.</b> Join our <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> server and get in contact with a moderator.",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__2": {
+      "message": "<b>2.</b> 다음 보안 토큰을 제공하세요: ${0}",
+      "description": "<b>2.</b> Provide them with the following security token: ${0}",
+      "status": null
+   },
+   "options__security__emergency-unlock__description-alt__3": {
+      "message": "<b>3.</b> 마지막으로, 받은 잠금 해제 토큰을 여기 입력하세요.",
+      "description": "<b>3.</b> Finally, enter here the unlock token you'll receive.",
+      "status": null
+   },
+   "options__cloud__header": {
+      "message": "클라우드",
+      "description": "Cloud",
+      "status": null
+   },
+   "options__cloud__header__description": {
+      "message": "클라우드 데이터 관리:",
+      "description": "Manage your cloud data:",
+      "status": null
+   },
+   "options__cloud__stored-settings": {
+      "message": "저장된 설정",
+      "description": "Stored settings",
+      "status": null
+   },
+   "options__cloud__identifier": {
+      "message": "식별자",
+      "description": "Identifier",
+      "status": null
+   },
+   "options__cloud__name": {
+      "message": "이름",
+      "description": "Name",
+      "status": null
+   },
+   "options__cloud__version": {
+      "message": "버전",
+      "description": "Version",
+      "status": null
+   },
+   "options__cloud__downloads": {
+      "message": "다운로드",
+      "description": "Downloads",
+      "status": null
+   },
+   "options__cloud__content": {
+      "message": "콘텐츠",
+      "description": "Content",
+      "status": null
+   },
+   "options__cloud__delete": {
+      "message": "삭제",
+      "description": "Delete",
+      "status": null
+   },
+   "options__cloud__remote-control": {
+      "message": "원격 제어",
+      "description": "Remote Control",
+      "status": null
+   },
+   "options__cloud__settings": {
+      "message": "설정",
+      "description": "Settings",
+      "status": null
+   },
+   "options__cloud__subscribe": {
+      "message": "구독",
+      "description": "Subs.",
+      "status": null
+   },
+   "options__cloud__user-subscriptions": {
+      "message": "사용자 구독",
+      "description": "User Subscriptions",
+      "status": null
+   },
+   "options__cloud__user": {
+      "message": "사용자",
+      "description": "User",
+      "status": null
+   },
+   "options__cloud__subscription-date": {
+      "message": "구독 날짜",
+      "description": "Subscription Date",
+      "status": null
+   },
+   "options__cloud__info": {
+      "message": "정보",
+      "description": "Info",
+      "status": null
+   },
+   "options__cloud__kick": {
+      "message": "강퇴",
+      "description": "Kick",
+      "status": null
+   },
+   "options__sidebar__oom": {
+      "message": "1회 모드",
+      "description": "Only Once Mode",
+      "status": null
+   },
+   "options__sidebar__security": {
+      "message": "보안",
+      "description": "Security",
+      "status": null
+   },
+   "options__sidebar__white-black-list": {
+      "message": "허용 목록 및 차단 목록",
+      "description": "Whitelist & Blacklist",
+      "status": null
+   },
+   "options__sidebar__cloud-remote": {
+      "message": "클라우드 및 원격",
+      "description": "Cloud & Remote",
+      "status": null
+   },
+   "options__sidebar__tools": {
+      "message": "도구:",
+      "description": "Tools:",
+      "status": null
+   },
+   "options__sidebar__batch-converter": {
+      "message": "일괄 변환기",
+      "description": "Batch Converter",
+      "status": null
+   },
+   "options__sidebar__gallery-viewer": {
+      "message": "갤러리 뷰어",
+      "description": "Gallery Viewer",
+      "status": null
+   },
+   "options__sidebar__editor": {
+      "message": "편집기",
+      "description": "Editor",
+      "status": null
+   },
+   "options__sidebar__other": {
+      "message": "기타:",
+      "description": "Other:",
+      "status": null
+   },
+   "options__sidebar__statistics": {
+      "message": "통계",
+      "description": "Statistics",
+      "status": null
+   },
+   "options__sidebar__help": {
+      "message": "도움말",
+      "description": "Help",
+      "status": null
+   },
+   "options__advanced__sfw-icons": {
+      "message": "안전한 아이콘",
+      "description": "SFW Icons",
+      "status": null
+   },
+   "options__advanced__sfw-icons__description": {
+      "message": "모든 아이콘에서 누드를 검열합니다, 예를 들어 신체 부위 아이콘에서.",
+      "description": "Censors nudity across all icons in the extension, such as in the body part icons.",
+      "status": null
+   },
+   "options__advanced__theme": {
+      "message": "테마",
+      "description": "Theme",
+      "status": null
+   },
+   "tooltip__experimental-content-label": {
+      "message": "이 콘텐츠는 실험적이며 현재 AI 모델에 의해 <b>감지되지 않습니다</b>. 편집기를 통해서만 이미지에 할당할 수 있습니다.",
+      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "status": null
+   },
+   "tooltip__cluster-only-matching-content": {
+      "message": "동일한 콘텐츠의 감지 항목만 결합합니다.",
+      "description": "Only joins detections of the same content.",
+      "status": null
+   },
+   "tooltip__cluster-max-distance": {
+      "message": "감지 항목을 결합할 수 있는 최대 거리로, 감지 항목의 크기에 따라 결정되는 단위로 측정됩니다.",
+      "description": "The maximum distance there can be between detections in order to still join them, measured in an unit determined by the size of the detections.",
+      "status": null
+   },
+   "tooltip__censor-mode-feathering": {
+      "message": "효과 영역의 가장자리를 얼마나 부드럽게 할지.",
+      "description": "How much to smoothen the edges of the effect area.",
+      "status": null
+   },
+   "tooltip__pixel-density": {
+      "message": "하프톤 픽셀을 얼마나 가깝게 그릴지.",
+      "description": "How closely together to paint the halftone pixels.",
+      "status": null
+   },
+   "tooltip__pixel-channel-colors": {
+      "message": "픽셀을 제한할 채널 색상의 수.",
+      "description": "The number of channel colors to which to limit the pixels.",
+      "status": null
+   },
+   "tooltip__pixel-accurate-sampling": {
+      "message": "영역의 중심 색상만 고려하지 않고, 각 픽셀이 덮는 전체 영역의 색상을 고려하여 색상 또는 크기를 결정합니다.",
+      "description": "Considers the color of the entire area covered by each pixel when determining its color or size, instead of just the color at the very center of the area.",
+      "status": null
+   },
+   "tooltip__pixel-detection-size-aware": {
+      "message": "감지 크기에 따라 효과의 강도를 조정합니다.",
+      "description": "Scales the strength of the effect according to the detection size",
+      "status": null
+   },
+   "tooltip__triangle-threshold": {
+      "message": "효과 영역에서 세부 사항을 캡처하기 위해 통과해야 하는 임계값으로, 높은 임계값은 더 작은 세부 사항을 제외합니다.",
+      "description": "The threshold details in the effect area must pass in order to be captured, where a higher threshold excludes smaller details.",
+      "status": null
+   },
+   "tooltip__triangle-accuracy": {
+      "message": "효과 영역에서 캡처된 세부 사항을 따라 삼각형이 얼마나 정확하게 추적되는지.",
+      "description": "How accurately the triangles are traced along the captured details in the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-blurring": {
+      "message": "삼각형화하기 전에 효과 영역을 얼마나 흐리게 할지.",
+      "description": "How much to blur the effect area prior to triangulazing it.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-width": {
+      "message": "이미지 크기에 따라 스케일링하기 전의 스트로크 너비로, 1024px x 1024px 이미지 크기에서는 스케일링되지 않습니다.",
+      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
+      "status": null
+   },
+   "tooltip__triangle-gradients": {
+      "message": "꼭짓점 사이에 색상 그라데이션을 만듭니다.",
+      "description": "Creates color gradients between vertices.",
+      "status": null
+   },
+   "tooltip__triangle-gradient-stops": {
+      "message": "색상 그라데이션 경로를 따라 색상을 샘플링하는 횟수.",
+      "description": "The number of times to Samples a color along the path of a color gradient.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-min-size": {
+      "message": "효과 영역 크기에 비례한 최소 패널 크기.",
+      "description": "The minimum possible panel size relative to the effect area size.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-max-size": {
+      "message": "효과 영역 크기에 비례한 최대 패널 크기.",
+      "description": "The maximum possible panel size relative to the effect area size.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-scatter": {
+      "message": "패널이 이동할 수 있는 최대 거리로, 효과 영역의 높이나 너비로 측정됩니다.",
+      "description": "The maximum possible distance a panel can be shifted by, measured in the height or width of the effect area.",
+      "status": null
+   },
+   "tooltip__glitch-multiple-panels-split-chance": {
+      "message": "패널이 한 번 두 개의 더 작은 패널로 분할될 확률.",
+      "description": "The chance for a panel to be split once into two smaller ones.",
+      "status": null
+   },
+   "tooltip__sticker-pick-single-source": {
+      "message": "모든 스티커가 작성되는 단일 컬렉션 또는 그룹을 작성합니다.",
+      "description": "Picks a single collection or group from which all stickers are then picked.",
+      "status": null
+   },
+   "tooltip__sobel-inverted-color": {
+      "message": "소벨 효과의 흑백을 반전시킵니다.",
+      "description": "Inverts the black and white of the sobel effect.",
+      "status": null
+   },
+   "tooltip__splatter-recursions": {
+      "message": "하위 스플래터를 재귀적으로 생성하는 횟수.",
+      "description": "The number of times to recursively generate sub splatters.",
+      "status": null
+   },
+   "tooltip__splatter-color-pool": {
+      "message": "작성할 수 있는 모든 가능한 스플래터 색상과 각 색상이 작성될 확률을 결정하는 가중치.",
+      "description": "All the possible splatter colors from which to pick along with weights determining how likely each is to be picked.",
+      "status": null
+   },
+   "tooltip__random-mode-random": {
+      "message": "가중치에 따라 무작위 검열 모드를 작성합니다.",
+      "description": "Picks a random censor mode according to the weights.",
+      "status": null
+   },
+   "tooltip__random-mode-super-random": {
+      "message": "가중치에 따라 무작위 검열 모드를 작성하고 최대한 무작위로 구성합니다.",
+      "description": "Picks a random censor mode according to the weights and also randomizes its configuration for maximum randomness.",
+      "status": null
+   },
+   "tooltip__clustering": {
+      "message": "충분히 가까운 감지를 하나로 결합합니다.",
+      "description": "Joins into one detections that are close enough together.",
+      "status": null
+   },
+   "tooltip__reverse-mode": {
+      "message": "감지 항목을 검열하는 대신 이미지의 나머지 부분을 검열합니다.",
+      "description": "Instead of censoring the detections, censors everything else in the image.",
+      "status": null
+   },
+   "tooltip__word-wall": {
+      "message": "모든 검열 효과에 워드 월을 오버레이합니다.",
+      "description": "Overlays all censor effects with a word wall.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-single": {
+      "message": "단어 풀에서 단일 항목을 작성합니다.",
+      "description": "Picks a single entry from the word pool.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-multiple": {
+      "message": "무작위 순서로 단어 풀에서 무작위 수의 항목을 작성합니다.",
+      "description": "Picks a random number of entries from the word pool in a random order.",
+      "status": null
+   },
+   "tooltip__word-wall-pick-mode-all": {
+      "message": "무작위 순서로 단어 풀에서 모든 항목을 작성합니다.",
+      "description": "Picks all entries from the word pool in a random order.",
+      "status": null
+   },
+   "tooltip__oom-list-detections": {
+      "message": "차단된 각 이미지에서 감지된 모든 콘텐츠를 나열합니다.",
+      "description": "Lists all detected content on each blocked image.",
+      "status": null
+   },
+   "tooltip__overlay-unsupported": {
+      "message": "비디오 오버레이에서 지원되지 않는 모드입니다.",
+      "description": "Mode not supported in video overlays.",
+      "status": null
+   },
+   "tooltip__bar-type__paint": {
+      "message": "[그리기]: ",
+      "description": "[Paint]: ",
+      "status": null
+   },
+   "tooltip__bar-type__paint__description": {
+      "message": "지정된 색상으로 효과 영역을 그립니다.",
+      "description": "Paint the effect area with the given color.",
+      "status": null
+   },
+   "tooltip__bar-type__erase": {
+      "message": "[지우기]: ",
+      "description": "[Erase]: ",
+      "status": null
+   },
+   "tooltip__bar-type__erase__description": {
+      "message": "지정된 불투명도로 효과 영역을 지웁니다.",
+      "description": "Erase the effect area at the given opacity.",
+      "status": null
+   },
+   "tooltip__bar-type__note": {
+      "message": "참고: ",
+      "description": "NOTE: ",
+      "status": null
+   },
+   "tooltip__bar-type__note__description": {
+      "message": "JPEG와 같이 투명성을 지원하지 않는 출력 파일 형식에서는 지우기가 예상대로 작동하지 않을 수 있습니다.",
+      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__auto": {
+      "message": "[자동]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__auto__description": {
+      "message": "효과 영역에서 채우기 색상을 샘플링합니다.",
+      "description": "Samples the fill color from the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__custom": {
+      "message": "[사용자 정의]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__triangle-fill-color-mode__custom__description": {
+      "message": "사용자 정의 채우기 색상을 사용합니다.",
+      "description": "Uses a custom fill color.",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-body-part": {
+      "message": "[신체 부위별]: ",
+      "description": "[Per Body Part]: ",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-body-part__description": {
+      "message": "각 신체 부위의 모든 인식에 대한 스티커를 선택합니다.",
+      "description": "Picks a sticker for all detections of each body part.",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-detection": {
+      "message": "[인식별]: ",
+      "description": "[Per Detection]: ",
+      "status": null
+   },
+   "tooltip__sticker-pick-mode__per-detection__description": {
+      "message": "각 인식에 대한 스티커를 선택합니다.",
+      "description": "Picks a sticker for each detection.",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__auto": {
+      "message": "[자동]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__auto__description": {
+      "message": "효과 영역에서 색을 샘플링합니다.",
+      "description": "Samples the splatter color from the effect area.",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__custom": {
+      "message": "[사용자 정의]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__splatter-color-mode__custom__description": {
+      "message": "사용자 정의 색상 중에서 색을 선택합니다.",
+      "description": "Picks a splatter color from a pool of custom colors.",
+      "status": null
+   },
+   "tooltip__mixed-entries__description__1": {
+      "message": "각 섹션에 대한 검열 모드 및 프리셋입니다.",
+      "description": "The censor modes and preset for each section that can be censored.",
+      "status": null
+   },
+   "tooltip__mixed-entries__description__2": {
+      "message": "여러 항목을 한 번에 편집하려면 Shift/Ctrl + 클릭을 사용하세요.",
+      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
+      "status": null
+   },
+   "on-add-caption-tag__count-limit-error": {
+      "message": "일부 태그를 제거하여 더 추가하십시오!",
+      "description": "Remove some tags to add more!",
+      "status": null
+   },
+   "on-add-caption-entry__count-limit-error": {
+      "message": "일부 항목을 제거하여 더 추가하십시오!",
+      "description": "Remove some entries to add more!",
+      "status": null
+   },
+   "on-assign-caption-tags__no-entries-selected-error": {
+      "message": "태그를 지정할 항목을 선택하십시오!",
+      "description": "Select some entries to assign tags to!",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__cutout": {
+      "message": "[잘라내기]: ",
+      "description": "[Cutout]: ",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__cutout__description": {
+      "message": "텍스트의 잘라내기를 생성합니다.",
+      "description": "Creates a cutout of the text.",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__paint": {
+      "message": "[페인트]: ",
+      "description": "[Paint]: ",
+      "status": null
+   },
+   "tooltip__word-wall-color-mode__paint__description": {
+      "message": "텍스트를 사용자 지정 색상으로 칠합니다.",
+      "description": "Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__oom__description__1": {
+      "message": "이미지를 한 번 본 후 영구적으로 차단합니다.",
+      "description": "Permanently blocks images after they've been viewed once.",
+      "status": null
+   },
+   "tooltip__oom__description__2": {
+      "message": "이미지 해시를 계산하고 비교하여 작동하며, 이미지가 한 번 차단되면 웹 전체에서 발생하는 다른 모든 경우도 차단됩니다.",
+      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+      "status": null
+   },
+   "tooltip__remote-control__description": {
+      "message": "다른 사용자의 확장 프로그램을 원격으로 제어할 수 있습니다.",
+      "description": "Allows you to remotely control other users extensions.",
+      "status": null
+   },
+   "tooltip__remote-control__description__1": {
+      "message": "<b>1.</b> 새로운 리모컨을 만드세요.",
+      "description": "<b>1.</b> Create a new remote control.",
+      "status": null
+   },
+   "tooltip__remote-control__description__2": {
+      "message": "<b>2.</b> 클라우드 설정 ID를 리모컨에 연결하세요.",
+      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
+      "status": null
+   },
+   "tooltip__remote-control__description__3": {
+      "message": "<b>3.</b> 원격으로 제어될 사용자가 설정 페이지에서 리모컨을 구독하게 하세요.",
+      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
+      "status": null
+   },
+   "tooltip__remote-control__description__4": {
+      "message": "<b>4.</b> 원하는 대로 언제든지 연결된 설정을 변경하세요. 모든 구독자가 자동으로 업데이트될 것입니다!",
+      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "status": null
+   },
+   "tooltip__remote-lock": {
+      "message": "구독이 잠겼습니다!",
+      "description": "Your subscription is locked!",
+      "status": null
+   },
+   "tooltip__remote-lock__description": {
+      "message": "이를 잠금 해제하는 <b>유일한</b> 방법은 원격 소유자에게 요청하거나, Discord 서버의 직원에게 요청하거나, 이 옵션들이 마음에 들지 않는 경우, 스스로 잠금을 해제할 수 있는 관련 <b>Patreon 등급</b>에 가입하는 것입니다.",
+      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "status": null
+   },
+   "tooltip__remote-identifier": {
+      "message": "원격으로 제어될 사용자가 설정 페이지에 이를 붙여넣게 하세요.",
+      "description": "Have the users to be remotely controlled paste this over at the settings page.",
+      "status": null
+   },
+   "tooltip__patreon-cache": {
+      "message": "Patreon 보상이 ${0}일 후에 만료됩니다.",
+      "description": "Your Patreon rewards will expire in ${0} days.",
+      "status": null
+   },
+   "tooltip__patreon-cache__description": {
+      "message": "아직 Patreon 구독자라면 여기에서 계정 상태를 새로 고치세요. 그렇지 않으면 계정을 Patreon에 다시 연결하세요.",
+      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
+      "status": null
+   },
+   "tooltip__timer-mode__duration": {
+      "message": "[기간]: ",
+      "description": "[Duration]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__duration__description": {
+      "message": "잠글 때, 지정된 기간으로 타이머를 설정하십시오.",
+      "description": "Upon locking, set the timer to the duration specified.",
+      "status": null
+   },
+   "tooltip__timer-mode__date": {
+      "message": "[날짜]: ",
+      "description": "[Date]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__date__description": {
+      "message": "잠글 때, 지정된 날짜까지 남은 시간으로 타이머를 설정하십시오.",
+      "description": "Upon locking, set the timer to the time remaining until the specified date.",
+      "status": null
+   },
+   "tooltip__timer-mode__stable": {
+      "message": "[안정]: ",
+      "description": "[Stable]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__stable__description": {
+      "message": "최신 프레임이 처리된 후에야 새로운 프레임을 처리합니다.",
+      "description": "Waits until the latest frame has been processed before processing a new frame.",
+      "status": null
+   },
+   "tooltip__timer-mode__overdrive": {
+      "message": "[오버드라이브]: ",
+      "description": "[Overdrive]: ",
+      "status": null
+   },
+   "tooltip__timer-mode__overdrive__description": {
+      "message": "하드웨어 한계나 특정 fps 속도에 도달할 때까지 여러 프레임을 한 번에 처리합니다.",
+      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+      "status": null
+   },
+   "popup__timer-container__locked-until": {
+      "message": "잠김 상태:",
+      "description": "Locked until:",
+      "status": null
+   },
+   "popup__reverse-mode": {
+      "message": "역방향 모드:",
+      "description": "Reverse Mode:",
+      "status": null
+   },
+   "options__censor__word-wall__shadow-size": {
+      "message": "그림자 크기",
+      "description": "Shadow Size",
+      "status": null
+   },
+   "options__censor__caption__shadow-color": {
+      "message": "그림자 색상",
+      "description": "Shadow Color",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__add-tag": {
+      "message": "태그 추가",
+      "description": "Add Tag",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__assign-tags": {
+      "message": "태그 지정",
+      "description": "Assign Tags",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__add-entry": {
+      "message": "항목 추가",
+      "description": "Add Entry",
+      "status": null
+   },
+   "on-save-caption-config__storage-quota-exceeded-error": {
+      "message": "변경 사항을 저장할 수 없습니다: 캡션의 저장 용량 초과!",
+      "description": "Changes could not be saved: Storage quota for Caption exceeded!",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__assign-tags-help": {
+      "message": "태그를 클릭하여 할당하거나 할당 해제",
+      "description": "Click tags to assign or unassign",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__1": {
+      "message": "정말 확실합니까?",
+      "description": "Are you sure?",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__2": {
+      "message": "하지만 진짜 확실합니까?",
+      "description": "But are you really sure?",
+      "status": null
+   },
+   "on-disable-sfw-icons__confirm__3": {
+      "message": "흠... 알겠습니다.",
+      "description": "Hmmm... Ok then.",
+      "status": null
+   },
+   "on-settings-save__no-name-error": {
+      "message": "설정 이름을 입력해야 합니다!",
+      "description": "A settings name must be entered!",
+      "status": null
+   },
+   "on-settings-save__forbidden-name-chars-error": {
+      "message": "설정 이름 ${0}에 금지된 문자가 포함되어 있습니다!",
+      "description": "The settings name ${0} contains forbidden characters!",
+      "status": null
+   },
+   "on-settings-upload__no-user-error": {
+      "message": "클라우드에 설정을 업로드하려면 로그인해야 합니다!",
+      "description": "You must login to upload settings to the cloud!",
+      "status": null
+   },
+   "on-settings-upload__success": {
+      "message": "설정 ${0}이(가) 클라우드에 성공적으로 업로드되었습니다!<br/><br/>다음 ID를 사용하여 설정을 공유하십시오:",
+      "description": "Settings ${0} successfully uploaded to the cloud!<br/><br/>Share your settings with the following ID:",
+      "status": null
+   },
+   "on-create-sticker-collection__db-error": {
+      "message": "스티커 컬렉션을 저장할 수 없습니다. 255MB 한도를 초과했을 가능성이 큽니다!",
+      "description": "The sticker collection couldn't be saved, likely as it exceeded the 255 MB limit!",
+      "status": null
+   },
+   "on-create-sticker-collection__no-name-error": {
+      "message": "컬렉션 이름을 입력해야 합니다!",
+      "description": "A collection name must be entered!",
+      "status": null
+   },
+   "on-create-sticker-collection__forbidden-name-chars-error": {
+      "message": "컬렉션 이름 ${0}에 금지된 문자가 포함되어 있습니다!",
+      "description": "The collection name of ${0} contains forbidden characters!",
+      "status": null
+   },
+   "on-create-sticker-collection__duplicate-name-error": {
+      "message": "${0}라는 이름의 컬렉션이 이미 존재합니다!",
+      "description": "A collection by the name of ${0} already exists!",
+      "status": null
+   },
+   "on-create-sticker-collection__corrupted-error": {
+      "message": "이 컬렉션의 내용이 손상되었습니다!",
+      "description": "The contents of this collection are corrupted!",
+      "status": null
+   },
+   "on-font-input-change__not-available-error": {
+      "message": "입력한 폰트가 이 장치에서 사용할 수 없습니다!",
+      "description": "The entered font is not available on this device!",
+      "status": null
+   },
+   "on-restore-defaults__confirm": {
+      "message": "모든 설정이 기본값으로 덮어씌워집니다.<br/><br/>다음 항목은 영향을 받지 않습니다:",
+      "description": "All of your configurations will be overriden by their defaults.<br/><br/>The following will not be affected:",
+      "status": null
+   },
+   "on-disable-experimental-content__confirm": {
+      "message": "설정 전반에 걸쳐 실험적 콘텐츠에 대해 설정된 모든 값이 초기화됩니다.",
+      "description": "All values set for experimental content across your configurations will be reset.",
+      "status": null
+   },
+   "on-clear-oom-data__confirm": {
+      "message": "OOM 데이터가 모두 지워집니다. 본 이미지와 차단된 이미지가 포함됩니다.",
+      "description": "All of your OOM data will be cleared, including what images have been viewed and blocked.",
+      "status": null
+   },
+   "on-delete-remote__confirm": {
+      "message": "ID가 ${0}인 원격 제어가 삭제됩니다.",
+      "description": "Your remote control by the ID of ${0} will be deleted.",
+      "status": null
+   },
+   "on-unsubscribe-from-remote__error": {
+      "message": "진행하면 로컬에서 구독이 취소됩니다.",
+      "description": "Proceeding will still unsubscribe you locally.",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not__easily__reversable__warning": {
+      "message": "이 작업은 쉽게 되돌릴 수 없으며, 직접 수행할 수 없습니다!",
+      "description": "This action is not easily reversable nor can it be done so on your own!",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__confirm": {
+      "message": "이렇게 하면 원격 제어 구독을 취소할 수 있는 능력이 <b>제거</b>됩니다.<br/><br/>유일한 방법은 원격 제어 소유자나 Discord 서버의 직원에게 요청하는 것입니다.<br/><br/>또한 다른 장치가 PuryFi 계정에 로그인하면 이 원격 제어를 구독 취소할 때까지 적용됩니다.",
+      "description": "This will <b>remove</b> your ability to cancel your remote control subscription.<br/><br/>Your <b>only</b> way to do so will be by requesting so from either the remote control owner, or from staff at our Discord server.<br/><br/>Also note that any other devices that log into your PuryFi account will be subject to this remote control until unsubscribed.",
+      "status": null
+   },
+   "on-subscribe-to-remote__confirm": {
+      "message": "${0} ID가 있는 원격 제어에 구독됩니다",
+      "description": "You will be subscribed to the remote control with an ID of ${0}",
+      "status": null
+   },
+   "on-subscribe-to-remote__lock-subscription-warning": {
+      "message": "구독이 잠겨 있습니다. 스스로 구독을 취소할 수 없습니다!",
+      "description": "Your subscription will be locked. You won't be able to unsubscribe on your own!",
+      "status": null
+   },
+   "on-unsubscribe-other-from-remote__confirm": {
+      "message": "사용자 ${0}이(가) 원격 제어에서 구독 취소됩니다",
+      "description": "User ${0} will be unsubscribed from your remote",
+      "status": null
+   },
+   "on-delete-settings__confirm": {
+      "message": "설정 ${0}이(가) 삭제됩니다.",
+      "description": "Your settings ${0} will be deleted.",
+      "status": null
+   },
+   "on-save-settings__duplicate-name-error": {
+      "message": "${0}이라는 이름의 설정이 이미 존재합니다!",
+      "description": "Settings by the name of ${0} already exist!",
+      "status": null
+   },
+   "on-delete-cloud-settings__confirm": {
+      "message": "ID가 ${0}인 클라우드 설정이 삭제됩니다.",
+      "description": "Your cloud settings with an ID of ${0} will be deleted.",
+      "status": null
+   },
+   "on-reset-all-sticker-collections__confirm": {
+      "message": "가져온 모든 스티커 컬렉션이 삭제되고 기본값이 재설정됩니다.",
+      "description": "All of your imported sticker collections will be deleted and all default ones will be reset.",
+      "status": null
+   },
+   "on-non-reversible-action-warning": {
+      "message": "이 작업은 되돌릴 수 없습니다!",
+      "description": "This action is not reversible!",
+      "status": null
+   },
+   "on-settings-import__non-png-image-error": {
+      "message": "이 이미지 파일에는 설정이 포함되어 있지 않습니다. PNG 파일만 설정을 포함할 수 있습니다!",
+      "description": "This image file contains no embedded settings, only PNG files can contain settings!",
+      "status": null
+   },
+   "on-settings-import__no-embedding": {
+      "message": "이 이미지 파일에는 설정이 포함되어 있지 않습니다!",
+      "description": "This image file contains no embedded settings!",
+      "status": null
+   },
+   "on-settings-import__corrupted-error": {
+      "message": "이 설정은 손상되어 로드할 수 없습니다!",
+      "description": "These settings are corrupted and cannot be loaded!",
+      "status": null
+   },
+   "on-settings-import__newer-version-error": {
+      "message": "이 설정은 최신 버전에서 만든 것이며 로드할 수 없습니다!",
+      "description": "These settings are from a newer version and cannot be loaded!",
+      "status": null
+   },
+   "on-settings-import__confirm": {
+      "message": "다음 설정이 가져옵니다:",
+      "description": "The following configurations will be imported:",
+      "status": null
+   },
+   "on-settings-import__lock-warning": {
+      "message": "이 설정은 확장 기능을 잠글 것입니다!",
+      "description": "These settings will lock your extension!",
+      "status": null
+   },
+   "on-settings-import__missing-censor-extra-presets-warning": {
+      "message": "이 설정은 클러스터, 캡션 및/또는 단어 벽 프리셋을 참조하는 하나 이상의 검열 구성을 남길 것입니다!",
+      "description": "These settings will leave one or more of your censor configurations referencing non-existent Cluster, Caption and/or Word Wall presets!",
+      "status": null
+   },
+   "on-settings-import__missing-censor-presets-warning": {
+      "message": "이 설정은 존재하지 않는 검열 프리셋을 참조하는 혼합 구성을 남길 것입니다!",
+      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "status": null
+   },
+   "on-settings-import__missing-patreon-features-warning": {
+      "message": "이 설정은 사용할 수 없는 Patreon 기능을 사용하며, 따라서 활성화되지 않습니다!",
+      "description": "These settings use Patreon features you don't have and thus won't be enabled!",
+      "status": null
+   },
+   "on-settings-import__older-version-warning": {
+      "message": "이 설정은 이전 버전에서 만든 것이며 예상대로 작동하지 않을 수 있습니다!",
+      "description": "These settings are from an older version and might not work as intended!",
+      "status": null
+   },
+   "on-bind-settings-to-remote__success": {
+      "message": "${0} ID가 있는 클라우드 설정이 원격 제어에 성공적으로 연결되었습니다!",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "status": null
+   },
+   "on-update-remote-subscription__success": {
+      "message": "설정이 원격 제어와 성공적으로 동기화되었습니다!",
+      "description": "Settings successfully synced with remote!",
+      "status": null
+   },
+   "on-update-remote-subscription__new-remote-settings-alert": {
+      "message": "새 원격 설정이 가져왔습니다!",
+      "description": "New remote settings were imported!",
+      "status": null
+   },
+   "on-load-default-settings__success": {
+      "message": "기본 설정이 성공적으로 로드되었습니다!",
+      "description": "Default settings successfully loaded!",
+      "status": null
+   },
+   "on-load-settings__success": {
+      "message": "설정 ${0}이(가) 성공적으로 로드되었습니다!",
+      "description": "Settings ${0} successfully loaded!",
+      "status": null
+   },
+   "on-import-settings__success": {
+      "message": "설정이 성공적으로 가져왔습니다!",
+      "description": "Settings successfully imported!",
+      "status": null
+   },
+   "on-delete-settings__success": {
+      "message": "설정 ${0}이(가) 성공적으로 삭제되었습니다!",
+      "description": "Settings ${0} successfully deleted!",
+      "status": null
+   },
+   "on-save-settings__success": {
+      "message": "설정 ${0}이(가) 성공적으로 저장되었습니다!",
+      "description": "Settings ${0} successfully saved!",
+      "status": null
+   },
+   "bar-type": {
+      "message": "주어진 색상으로 효과 영역을 칠합니다.",
+      "description": "Paint the effect area with the given color.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__auto": {
+      "message": "[자동]: ",
+      "description": "[Auto]: ",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__auto__description": {
+      "message": "효과 영역에서 스트로크 색상을 샘플링합니다.",
+      "description": "Samples the stroke color from the effect area.",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__custom": {
+      "message": "[사용자 지정]: ",
+      "description": "[Custom]: ",
+      "status": null
+   },
+   "tooltip__triangle-stroke-color-mode__custom__description": {
+      "message": "사용자 지정 스트로크 색상을 사용합니다.",
+      "description": "Uses a custom stroke color.",
+      "status": null
+   },
+   "popup__censor__content": {
+      "message": "검열된 콘텐츠",
+      "description": "Censored Content",
+      "status": null
+   }
+}
