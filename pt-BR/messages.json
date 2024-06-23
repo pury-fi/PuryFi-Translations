@@ -1180,7 +1180,7 @@
     "status": null
   },
   "options__advanced__pre-scaling": {
-    "message": "Pré-Escalamento",
+    "message": "Pré-Escalação",
     "description": "Pre-Scaling",
     "status": null
   },
@@ -1190,7 +1190,7 @@
     "status": null
   },
   "options__advanced__pre-scaling__description__note": {
-    "message": "É altamente recomendável habilitar esta opção quando problemas de memória ocorrerem com o conversor de lote ou com as camadas de censura de vídeo.",
+    "message": "É altamente recomendável habilitar esta opção quando problemas de memória ocorrerem com o conversor em lote ou com as camadas de censura de vídeo.",
     "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
     "status": null
   },
@@ -1220,7 +1220,7 @@
     "status": null
   },
   "options__advanced__ai-warmup__description": {
-    "message": "Inicializa a IA quando o Firefox é inicializado. Seu browser pode travar brevemente enquanto isso acontece.",
+    "message": "Inicializa a IA quando o Firefox é inicializado. Seu browser pode travar brevemente enquanto a inicialização ocorre.",
     "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
     "status": null
   },
@@ -1230,7 +1230,7 @@
     "status": null
   },
   "options__advanced__sfw-icons__description": {
-    "message": "Censura nudez em todos os ícones da extensão, como os ícones de partes do corpo.",
+    "message": "Censura nudez em todos os ícones da extensão, assim como nos ícones de partes do corpo.",
     "description": "Censors nudity across all icons in the extension, such as in the body part icons.",
     "status": null
   },
@@ -1280,7 +1280,7 @@
     "status": null
   },
   "options__advanced__theme__accent-color": {
-    "message": "Cor de Ênfase:",
+    "message": "Cor do Ênfase:",
     "description": "Accent Color:",
     "status": null
   },
@@ -1305,7 +1305,7 @@
     "status": null
   },
   "options__white-black-list__description": {
-    "message": "Inseror páginas da web na lista branca ou negra:",
+    "message": "Inserir páginas da web na lista branca ou negra:",
     "description": "Whitelist or blacklist certain webpages:",
     "status": null
   },
@@ -1340,7 +1340,7 @@
     "status": null
   },
   "options__white-black-list__lock-info-whitelist": {
-    "message": "Sua extensão está bloqueada! Você pode remover itens da sua lista branca, mas não adicionar.",
+    "message": "Sua extensão está trancada! Você pode remover itens da sua lista branca, mas não adicionar.",
     "description": "Your extension is locked! You may remove entries from the whitelist, but not add them.",
     "status": null
   },
@@ -1420,7 +1420,7 @@
     "status": null
   },
   "options__settings__cloud-settings": {
-    "message": "Configurações de Nuvem",
+    "message": "Configurações da Nuvem",
     "description": "Cloud Settings",
     "status": null
   },
@@ -1445,7 +1445,7 @@
     "status": null
   },
   "options__settings__last-pinged": {
-    "message": "Última verificação",
+    "message": "Última Verificação",
     "description": "Last Checked:",
     "status": null
   },
@@ -1460,7 +1460,7 @@
     "status": null
   },
   "options__settings__stored-settings": {
-    "message": "Configurações Guardadas",
+    "message": "Configurações Armazenadas",
     "description": "Stored Settings",
     "status": null
   },
@@ -1475,7 +1475,7 @@
     "status": null
   },
   "options__settings__save-configuration": {
-    "message": "Configuração De Salvamento",
+    "message": "Configuração de Salvamento",
     "description": "Saving Configuration",
     "status": null
   },
@@ -1520,7 +1520,7 @@
     "status": null
   },
   "options__settings__oom": {
-    "message": "OOM",
+    "message": "OOM (Uma Vez)",
     "description": "OOM",
     "status": null
   },
@@ -1540,7 +1540,7 @@
     "status": null
   },
   "options__settings__pre-scaling": {
-    "message": "Pré-Escalamento",
+    "message": "Pré-Escalação",
     "description": "Pre-Scaling",
     "status": null
   },
@@ -1625,17 +1625,17 @@
     "status": null
   },
   "options__help__oom": {
-    "message": "OOM",
+    "message": "OOM (Uma Vez)",
     "description": "OOM",
     "status": null
   },
   "options__help__oom-containers": {
-    "message": "Containers OOM",
+    "message": "Containers OOM (Uma Vez)",
     "description": "OOM Containers",
     "status": null
   },
   "options__help__oom-hashes": {
-    "message": "Hashes OOM",
+    "message": "Hashes OOM (Uma Vez)",
     "description": "OOM Hashes",
     "status": null
   },
@@ -1690,7 +1690,7 @@
     "status": null
   },
   "options__help__default-settings": {
-    "message": "Configurações Predefinidas",
+    "message": "Configurações Padrões Predefinidas",
     "description": "Default Settings",
     "status": null
   },
@@ -1705,7 +1705,7 @@
     "status": null
   },
   "options__oom__header": {
-    "message": "Modo Uma Vez",
+    "message": "Modo Uma Vez (OOM)",
     "description": "Only Once Mode",
     "status": null
   },
@@ -1730,7 +1730,7 @@
     "status": null
   },
   "options__oom__modes__borderless": {
-    "message": "Sem Bordes",
+    "message": "Sem Bordas",
     "description": "Borderless",
     "status": null
   },
@@ -1780,7 +1780,7 @@
     "status": null
   },
   "options__oom__thumbnail-blur": {
-    "message": "Desfoque de Miniatura",
+    "message": "Desfoque da Miniatura",
     "description": "Thumbnail Blur",
     "status": null
   },
@@ -1900,7 +1900,7 @@
     "status": null
   },
   "options__oom__auto-refresh": {
-    "message": "Auto-Refresh",
+    "message": "Auto-Atualizar",
     "description": "Auto Refresh",
     "status": null
   },
@@ -1960,7 +1960,7 @@
     "status": null
   },
   "options__batch-converter__header": {
-    "message": "Conversor de Lotes",
+    "message": "Conversor em Lote",
     "description": "Batch-Converter",
     "status": null
   },
@@ -1970,12 +1970,12 @@
     "status": null
   },
   "options__batch-converter": {
-    "message": "Conversor de Lotes",
+    "message": "Conversor em Lote",
     "description": "Batch Converter",
     "status": null
   },
   "options__batch-converter__multiple-files": {
-    "message": "Múltiplos Arquivos",
+    "message": "Arquivos Múltiplos",
     "description": "Multiple Files",
     "status": null
   },
@@ -2065,7 +2065,7 @@
     "status": null
   },
   "options__statistics__average-frame-count": {
-    "message": "Contagem de Frames Média",
+    "message": "Média de Número de Frames",
     "description": "Avg. Frame Count",
     "status": null
   },
@@ -2105,12 +2105,12 @@
     "status": null
   },
   "options__statistics__batch-files": {
-    "message": "Arquivos por Lotes",
+    "message": "Arquivos em Lote",
     "description": "Batch Files",
     "status": null
   },
   "options__statistics__oom-images": {
-    "message": "Imagens OOM",
+    "message": "Imagens OOM (Uma Vez)",
     "description": "OOM-Images",
     "status": null
   },
@@ -2125,12 +2125,12 @@
     "status": null
   },
   "options__security__description": {
-    "message": "Travar e destravar a extensão:",
+    "message": "Trancar e destrancar a extensão:",
     "description": "Lock & unlock the extension:",
     "status": null
   },
   "options__security__lock": {
-    "message": "Travar",
+    "message": "Trancar",
     "description": "Lock",
     "status": null
   },
@@ -2140,7 +2140,7 @@
     "status": null
   },
   "options__security__password-confirmation": {
-    "message": "Confirmação da Senha",
+    "message": "Confirmar da Senha",
     "description": "Password Confirmation",
     "status": null
   },
@@ -2230,12 +2230,12 @@
     "status": null
   },
   "options__security__lock-me": {
-    "message": "ME TRAVE!",
+    "message": "ME TRANQUE!",
     "description": "LOCK ME!",
     "status": null
   },
   "options__security__locked": {
-    "message": "Travado!",
+    "message": "Trancado!",
     "description": "Locked!",
     "status": null
   },
@@ -2270,17 +2270,17 @@
     "status": null
   },
   "options__security__emergency-unlock": {
-    "message": "Precisa destravar agora?",
+    "message": "Precisa destrancar agora?",
     "description": "Need to unlock now?",
     "status": null
   },
   "options__security__emergency-unlock__description": {
-    "message": "Você pode se destravar por emergência se tornando um Patreon:",
+    "message": "Você pode se destrancar por emergência se tornando um Patreon:",
     "description": "You can emergency unlock yourself by becoming a Patreon:",
     "status": null
   },
   "options__security__emergency-unlock__description__1": {
-    "message": "<b>1.</b> Faça parte de um nível relevante do nosso <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a>. Depois disso, você pode cancelar ou diminuir seu nível como quiser.",
+    "message": "<b>1.</b> Faça parte de um nível relevante do nosso <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a>. Depois disso, você pode cancelar ou diminuir seu nível de filiação como quiser.",
     "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
     "status": null
   },
@@ -2290,22 +2290,22 @@
     "status": null
   },
   "options__security__emergency-unlock__description__3": {
-    "message": "<b>3.</b> Enfim, faça o seu login na extensão e a destrave por aqui.",
+    "message": "<b>3.</b> Enfim, faça o seu login na extensão e a destranque por aqui.",
     "description": "<b>3.</b> Finally, login with your account in the extension and unlock here.",
     "status": null
   },
   "options__security__emergency-unlock__button": {
-    "message": "Destrave de Emergência",
+    "message": "Destrancar por Emergência",
     "description": "Emergency Unlock",
     "status": null
   },
   "options__security__emergency-unlock__description-alt": {
-    "message": "Alternativamente, você pode nos contatar pelo Discord se for sua primeira vez necessitando de um destrave de emergência.",
+    "message": "Alternativamente, você pode nos contatar pelo Discord se for sua primeira vez necessitando de um destranque de emergência.",
     "description": "Alternatively, you can reach us on our Discord server if this is your first time requiring an emergency unlock:",
     "status": null
   },
   "options__security__emergency-unlock__description-alt__1": {
-    "message": "<b>1.</b> Entre no nosso server do <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> e entre em contato com um moderador.",
+    "message": "<b>1.</b> Junte-se ao no nosso server do <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> e entre em contato com um moderador.",
     "description": "<b>1.</b> Join our <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> server and get in contact with a moderator.",
     "status": null
   },
@@ -2315,7 +2315,7 @@
     "status": null
   },
   "options__security__emergency-unlock__description-alt__3": {
-    "message": "<b>3.</b> Enfim, insira o token de destrave que receber aqui.",
+    "message": "<b>3.</b> Enfim, insira o token de destranque que receber aqui.",
     "description": "<b>3.</b> Finally, enter here the unlock token you'll receive.",
     "status": null
   },
@@ -2405,7 +2405,7 @@
     "status": null
   },
   "options__sidebar__oom": {
-    "message": "Modo Uma Vez",
+    "message": "Modo Uma Vez (OOM)",
     "description": "Only Once Mode",
     "status": null
   },
@@ -2430,12 +2430,12 @@
     "status": null
   },
   "options__sidebar__batch-converter": {
-    "message": "Conversor de Lotes",
+    "message": "Conversor em Lote",
     "description": "Batch Converter",
     "status": null
   },
   "options__sidebar__gallery-viewer": {
-    "message": "Visualizador de Galeria",
+    "message": "Visualizador da Galeria",
     "description": "Gallery Viewer",
     "status": null
   },
@@ -2460,7 +2460,7 @@
     "status": null
   },
   "tooltip__experimental-content-label": {
-    "message": "Este conteúdo é experimental por enquanto <b>não</b> detectado pelo modelo da IA. Ele pode ser designado a imagens <b>apenas</b> através do editor.",
+    "message": "Este conteúdo é experimental e por enquanto <b>não</b> detectado pelo modelo da IA. Ele pode ser designado à imagens <b>apenas</b> através do editor.",
     "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
     "status": null
   },
@@ -2495,7 +2495,7 @@
     "status": null
   },
   "tooltip__pixel-detection-size-aware": {
-    "message": "Ajusta a força do efeito de acordo com o tamanho da detecção.",
+    "message": "Ajusta a intensidade do efeito de acordo com o tamanho da detecção.",
     "description": "Scales the strength of the effect according to the detection size",
     "status": null
   },
@@ -2505,7 +2505,7 @@
     "status": null
   },
   "tooltip__triangle-accuracy": {
-    "message": "Quão precisamente traçados são os triângulos ao redor dos detalhes capturados na área de efeito.",
+    "message": "Quão precisamente traçados são os triângulos ao longo dos detalhes capturados na área de efeito.",
     "description": "How accurately the triangles are traced along the captured details in the effect area.",
     "status": null
   },
@@ -2515,7 +2515,7 @@
     "status": null
   },
   "tooltip__triangle-stroke-width": {
-    "message": "A largura do traço antes de escalar de acordo com o tamanho da imagem, de mode que um imagem de 1024px x 1024px resultaria em nenhuma escalada.",
+    "message": "A largura do traço antes de escalar de acordo com o tamanho da imagem, de modo que uma imagem de 1024px x 1024px resultaria em nenhuma escalada.",
     "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
     "status": null
   },
@@ -2550,7 +2550,7 @@
     "status": null
   },
   "tooltip__sticker-pick-single-source": {
-    "message": "Escolhe uma única coleção ou grupo onde todos os stickers são então escolhidos.",
+    "message": "Escolhe uma única coleção ou grupo onde todos os stickers serão então escolhidos.",
     "description": "Picks a single collection or group from which all stickers are then picked.",
     "status": null
   },
@@ -2655,7 +2655,7 @@
     "status": null
   },
   "tooltip__triangle-fill-color-mode__auto__description": {
-    "message": "Seleciona a color de preenchimento da área de efeito.",
+    "message": "Seleciona a cor de preenchimento da área de efeito.",
     "description": "Samples the fill color from the effect area.",
     "status": null
   },
@@ -2670,7 +2670,7 @@
     "status": null
   },
   "tooltip__sticker-pick-mode__per-body-part": {
-    "message": "[Por parte do corpo]: ",
+    "message": "[Por Parte do Corpo]: ",
     "description": "[Per Body Part]: ",
     "status": null
   },
@@ -2770,7 +2770,7 @@
     "status": null
   },
   "tooltip__word-wall-color-mode__paint__description": {
-    "message": "Pinta o texto em uma cor personalizada.",
+    "message": "Pinta o texto de uma cor personalizada.",
     "description": "Paints the text in a custom color.",
     "status": null
   },
@@ -2805,7 +2805,7 @@
     "status": null
   },
   "tooltip__remote-control__description__4": {
-    "message": "<b>4.</b> Troque as configurações vinculadas para o que você quiser, quando quiser, todos os inscritos serão automaticamente atualizados!",
+    "message": "<b>4.</b> Troque as configurações vinculadas para o que você quiser, quando quiser. Todos os inscritos serão automaticamente atualizados!",
     "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
     "status": null
   },
@@ -2815,12 +2815,12 @@
     "status": null
   },
   "tooltip__remote-lock__description": {
-    "message": "Sua <b>única</b> maneira de destrancar seria pedindo ao dono do controle remoto, ou ao staff do nosso server do Discord. Ou, se todas essas opções estivem indisponíveis, se tornando um <b>nível Patreon</b> relevante que o(a) habilitaria a se destrancar.",
+    "message": "Sua <b>única</b> maneira de destrancar seria pedindo ao dono do controle remoto, ou ao staff do nosso servidor do Discord. Ou, se todas essas opções estivem indisponíveis, se tornando um <b>nível Patreon</b> relevante que o(a) habilitaria a se destrancar.",
     "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
     "status": null
   },
   "tooltip__remote-identifier": {
-    "message": "Faça os usuários a serem remotamente controlados a colar isto em suas páginas de configurações.",
+    "message": "Faça os usuários a serem remotamente controlados colarem isto em suas páginas de configurações.",
     "description": "Have the users to be remotely controlled paste this over at the settings page.",
     "status": null
   },
@@ -2840,7 +2840,7 @@
     "status": null
   },
   "tooltip__timer-mode__duration__description": {
-    "message": "Ao bloquear, ajuste o temporizador para a duração especificada.",
+    "message": "Ao trancar, ajuste o temporizador para a duração especificada.",
     "description": "Upon locking, set the timer to the duration specified.",
     "status": null
   },
@@ -2850,7 +2850,7 @@
     "status": null
   },
   "tooltip__timer-mode__date__description": {
-    "message": "Ao bloquear, ajuste o temporizador para tempo restante até a data especificada.",
+    "message": "Ao trancar, ajuste o temporizador para tempo restante até a data especificada.",
     "description": "Upon locking, set the timer to the time remaining until the specified date.",
     "status": null
   },
@@ -2875,7 +2875,7 @@
     "status": null
   },
   "popup__timer-container__locked-until": {
-    "message": "Bloqueado até:",
+    "message": "Trancado até:",
     "description": "Locked until:",
     "status": null
   },
@@ -2910,7 +2910,7 @@
     "status": null
   },
   "on-save-caption-config__storage-quota-exceeded-error": {
-    "message": "Alterações não podem ser salvas. Cota de armazenamento para Legendas excedida!",
+    "message": "Alterações não puderam ser salvas. Cota de armazenamento de Legendas excedida!",
     "description": "Changes could not be saved: Storage quota for Caption exceeded!",
     "status": null
   },
@@ -2935,7 +2935,7 @@
     "status": null
   },
   "on-settings-save__no-name-error": {
-    "message": "Um nome para configuração deve ser inserido!",
+    "message": "Um nome para a configuração deve ser inserido!",
     "description": "A settings name must be entered!",
     "status": null
   },
@@ -2995,7 +2995,7 @@
     "status": null
   },
   "on-clear-oom-data__confirm": {
-    "message": "Todos os seus dados OOM serão limpos. incluindo quais imagens foram visualizadas e bloqueadas.",
+    "message": "Todos os seus dados OOM (Uma Vez) serão limpos. incluindo quais imagens foram visualizadas e bloqueadas.",
     "description": "All of your OOM data will be cleared, including what images have been viewed and blocked.",
     "status": null
   },
@@ -3010,7 +3010,7 @@
     "status": null
   },
   "on-enable-lock-remote-subscription__not__easily__reversable__warning": {
-    "message": "Esta ação não é fácil de reverter e nem pode ser reversível por sua conta própria!",
+    "message": "Esta ação não é fácil de reverter e nem pode ser revertida por conta própria!",
     "description": "This action is not easily reversable nor can it be done so on your own!",
     "status": null
   },
@@ -3020,7 +3020,7 @@
     "status": null
   },
   "on-subscribe-to-remote__confirm": {
-    "message": "Você se inscreverá ao controle remoto com o ID ${0}",
+    "message": "Você se inscreverá ao controle remoto com ID ${0}",
     "description": "You will be subscribed to the remote control with an ID of ${0}",
     "status": null
   },
@@ -3045,7 +3045,7 @@
     "status": null
   },
   "on-delete-cloud-settings__confirm": {
-    "message": "Suas configurações na Nuvem com ID ${0} serão deletadas.",
+    "message": "Suas configurações na nuvem com ID ${0} serão deletadas.",
     "description": "Your cloud settings with an ID of ${0} will be deleted.",
     "status": null
   },
@@ -3090,7 +3090,7 @@
     "status": null
   },
   "on-settings-import__missing-censor-extra-presets-warning": {
-    "message": "Estas configurações deixarão uma ou mais das suas configurações de censura referenciando presets de Cluster, Legendas e/ou Muro de Palavras não existentes!",
+    "message": "Estas configurações deixarão uma ou mais de suas configurações de censura referenciando presets de Grupo, Legendas e/ou Muro de Palavras não existentes!",
     "description": "These settings will leave one or more of your censor configurations referencing non-existent Cluster, Caption and/or Word Wall presets!",
     "status": null
   },
@@ -3110,12 +3110,12 @@
     "status": null
   },
   "on-bind-settings-to-remote__success": {
-    "message": "Configurações na Nuvem com ID ${0} vinculadas ao controle remoto com sucesso!",
+    "message": "Configurações da nuvem com ID ${0} vinculadas ao controle remoto com sucesso!",
     "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
     "status": null
   },
   "on-update-remote-subscription__success": {
-    "message": "Configurações sincronizadas ao controle remote com sucesso!",
+    "message": "Configurações sincronizadas ao controle remoto com sucesso!",
     "description": "Settings successfully synced with remote!",
     "status": null
   },
@@ -3145,7 +3145,7 @@
     "status": null
   },
   "on-save-settings__success": {
-    "message": "Configurações ${0} salvadas com sucesso!",
+    "message": "Configurações ${0} salvas com sucesso!",
     "description": "Settings ${0} successfully saved!",
     "status": null
   },
