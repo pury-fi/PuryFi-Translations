@@ -2560,52 +2560,52 @@
     "status": null
   },
   "tooltip__splatter-recursions": {
-    "message": "El número de veces que se generan sub-salpicaduras recursivamente.",
+    "message": "O número de vezes que se geram sub-manchas recursivamente.",
     "description": "The number of times to recursively generate sub splatters.",
     "status": null
   },
   "tooltip__splatter-color-pool": {
-    "message": "Todos los posibles colores de salpicaduras de los que se puede elaborar, junto con los pesos que determinan la probabilidad de cada uno.",
+    "message": "Todas as possíveis cores de manchas disponíveis para escolher junto aos pesos determinando quão provável cada uma pode ser escolhida.",
     "description": "All the possible splatter colors from which to pick along with weights determining how likely each is to be picked.",
     "status": null
   },
   "tooltip__random-mode-random": {
-    "message": "Elabora un modo de censura aleatorio según los pesos.",
+    "message": "Escolhe um modo de censura aleatório de acordo com os pesos.",
     "description": "Picks a random censor mode according to the weights.",
     "status": null
   },
   "tooltip__random-mode-super-random": {
-    "message": "Elabora un modo de censura aleatorio según los pesos y también randomiza su configuración para la máxima aleatoriedad.",
+    "message": "Escolhe um modo de censura elatório de acordo com os pesos e também randomiza suas configurações para maximizar a aleatoriedade.",
     "description": "Picks a random censor mode according to the weights and also randomizes its configuration for maximum randomness.",
     "status": null
   },
   "tooltip__clustering": {
-    "message": "Une en una sola detección las que están lo suficientemente cerca.",
+    "message": "Une em uma só detecções que são próximas o suficiente.",
     "description": "Joins into one detections that are close enough together.",
     "status": null
   },
   "tooltip__reverse-mode": {
-    "message": "En lugar de censurar las detecciones, censura todo lo demás en la imagen.",
+    "message": "Ao invés de censurar as detecções, censura tudo menos elas.",
     "description": "Instead of censoring the detections, censors everything else in the image.",
     "status": null
   },
   "tooltip__word-wall": {
-    "message": "Superpone todos los efectos de censura con un muro de palabras.",
+    "message": "Sobrepor todos os efeitos de censura com um muro de palavras.",
     "description": "Overlays all censor effects with a word wall.",
     "status": null
   },
   "tooltip__word-wall-pick-mode-single": {
-    "message": "Elabora una sola entrada del grupo de palabras.",
+    "message": "Escolhe um único item do Grupo de Palavras.",
     "description": "Picks a single entry from the word pool.",
     "status": null
   },
   "tooltip__word-wall-pick-mode-multiple": {
-    "message": "Elabora un número aleatorio de entradas del grupo de palabras en un orden aleatorio.",
+    "message": "Escolhe um número aleatório de itens do Grupo de Palavras em ordem aleatória.",
     "description": "Picks a random number of entries from the word pool in a random order.",
     "status": null
   },
   "tooltip__word-wall-pick-mode-all": {
-    "message": "Elabora todas las entradas del grupo de palabras en un orden aleatorio.",
+    "message": "Escolhe todos os items do Grupo de Palavras em ordem aleatória.",
     "description": "Picks all entries from the word pool in a random order.",
     "status": null
   },
