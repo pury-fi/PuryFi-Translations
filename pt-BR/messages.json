@@ -50,7 +50,7 @@
     "status": null
   },
   "censor-type__splatter": {
-    "message": "Splash",
+    "message": "Respingo",
     "description": "Splatter",
     "status": null
   },
@@ -60,12 +60,12 @@
     "status": null
   },
   "options__login__login": {
-    "message": "Iniciar Sessão",
+    "message": "Login",
     "description": "Login",
     "status": null
   },
   "options__login__remember-me": {
-    "message": "Lembrar",
+    "message": "Lembrar de mim",
     "description": "Remember Me",
     "status": null
   },
@@ -95,7 +95,7 @@
     "status": null
   },
   "options__sidebar__censor": {
-    "message": "Censor",
+    "message": "Censura",
     "description": "Censor",
     "status": null
   },
@@ -125,7 +125,7 @@
     "status": null
   },
   "labels__face": {
-    "message": "Face",
+    "message": "Rosto",
     "description": "Face",
     "status": null
   },
@@ -225,12 +225,12 @@
     "status": null
   },
   "options__filetypes__header": {
-    "message": "Tipos de Archivo",
+    "message": "Tipos de Arquivo",
     "description": "File Types",
     "status": null
   },
   "options__filetypes__description": {
-    "message": "Determinar qual tipo de arquivo processar e como:",
+    "message": "Determinar como e qual tipo de arquivo processar:",
     "description": "Determine which file types to process and how:",
     "status": null
   },
@@ -275,7 +275,7 @@
     "status": null
   },
   "options__filetypes__image__filetype-output": {
-    "message": "Formato de Arquivo de Saída",
+    "message": "Formato do Arquivo de Saída",
     "description": "Output File Type",
     "status": null
   },
@@ -305,27 +305,27 @@
     "status": null
   },
   "options__filetypes__gif__processing-mode__description": {
-    "message": "Reduz os tempos de processamento ao procesar todos os frames de forma assíncrona, com o risco de travar ou crashar o navegador se GIFs suficientemente grandes forem processados.",
+    "message": "Reduz os tempos de processamento ao procesar todos os frames de forma assíncrona correndo o risco de travar ou crashar o navegador se GIFs suficientemente grandes forem processados.",
     "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
     "status": null
   },
   "options__filetypes__gif__frame-skipping": {
-    "message": "Pulo de Frames por IA",
+    "message": "Pular Frames da IA",
     "description": "AI Frame Skipping",
     "status": null
   },
   "options__filetypes__gif__frame-skipping__description": {
-    "message": "Reduz os tempos de processamento ao pular a execução da IA para a quantidade estabelecida de frames depois de haver executado. Detecções em frames onde não se executa a IA se subtraem dos frames em que é executada.",
+    "message": "Reduz o tempo de processamento ao não executar a IA por uma quantidade de frames estabelecida após tê-la executado. Detecções em frames em que não se executa a IA são deduzidas dos frames em que é.",
     "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
     "status": null
   },
   "options__filetypes__gif__detection-extending": {
-    "message": "Extensão de Detecção",
+    "message": "Extendendo a Detecção",
     "description": "Detection Extending",
     "status": null
   },
   "options__filetypes__gif__detection-extending__description": {
-    "message": "Cobre as instâncias em que a IA falha brevemente em detectar uma parte do corpo ao extender todas as detecções pela quantidade establecida de frames anteriores e seguintes.",
+    "message": "Cobre as ocorrências de breves falhas da IA em detectar uma parte do corpo ao extender todas as detecções pela quantidade estabelecida de frames anteriores e seguintes.",
     "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
     "status": null
   },
@@ -335,7 +335,7 @@
     "status": null
   },
   "options__filetypes__gif__detection-similarity__description": {
-    "message": "Estabelece quão similarmente posicionadas e dimensionadas detecções em dois frames diferentes devem ser para assumir que detectaram a mesma parte do corpo. Esta informação é utilizada para deduzir detecções em frames onde a IA não é executada.",
+    "message": "Estabelece quão similarmente posicionadas e dimensionadas as detecções em dois frames diferentes devem ser para assumir que detectaram a mesma parte do corpo. Esta informação é utilizada para deduzir detecções em frames onde a IA não é executada.",
     "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
     "status": null
   },
@@ -350,7 +350,7 @@
     "status": null
   },
   "options__filetypes__video__auto-overlay__description": {
-    "message": "Cria uma camada censurada sobre vídeos. Como os frames são processados em tempo real, o FPS resultante vai depender muito da capacidade do seu hardware. Note que isto não censura o arquivo real do vídeo.",
+    "message": "Cria uma camada censurada sobre vídeos. Como os frames são processados em tempo real, o FPS resultante depende muito da capacidade do seu hardware. Note que isto não censura o arquivo original do vídeo.",
     "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
     "status": null
   },
@@ -360,17 +360,17 @@
     "status": null
   },
   "options__filetypes__video__note__description": {
-    "message": "É recomendado usar o menu do botão direito do mouse para criar camadas censuradas sob demanda ao invés de habilitar esta opção, pois gerar camadas desnecessárias pode acabar disperdiçando muitos recursos do seu hardware!",
+    "message": "É recomendado usar o menu do botão direito do mouse para criar camadas censuradas sob demanda ao invés de habilitar esta opção, pois gerar camadas desnecessárias pode acabar desperdiçando muitos recursos do seu hardware!",
     "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
     "status": null
   },
   "options__filetypes__video__note__account": {
-    "message": "Não Funciona?",
+    "message": "Não Está Funcionando?",
     "description": "Not Working?",
     "status": null
   },
   "options__filetypes__video__note__account__description": {
-    "message": "Esta função requer uma conta gratuita do PuryFi, então por favor, entre!",
+    "message": "Esta função requer uma conta gratuita do PuryFi, então por favor, faça o login!",
     "description": "This feature requires a free PuryFi account, so please, login!",
     "status": null
   },
@@ -400,12 +400,12 @@
     "status": null
   },
   "options__filetypes__video__gif-export__size-limit": {
-    "message": "Limite de Tamanho de GIFs",
+    "message": "Limite do Tamanho de GIFs",
     "description": "GIF Size Limit",
     "status": null
   },
   "options__filetypes__video__gif-export__size-limit__description": {
-    "message": "Limita o tamanho da imagem go GIF exportado para o máximo de altura e largura enquanto mantém o aspect ratio. O valor 0 pode ser inserido para desativar o downscaling de GIFs.",
+    "message": "Limita o tamanho da imagem do GIF exportado para o máximo de altura e largura enquanto mantém o aspect ratio. O valor 0 pode ser inserido para desativar o downscaling de GIFs.",
     "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
     "status": null
   },
@@ -415,7 +415,7 @@
     "status": null
   },
   "options__filetypes__video__gif-export__cache-memory__description": {
-    "message": "Define quantos frames da camada de censura de vídeo podem entrar no cache. Afeta quantos frames ao máximo você pode exportar de um certo vídeo de cada vez. O valor 0 pode ser inserido para desabilitar o caching de frames (Exportar GIFs requer caching de frames).",
+    "message": "Define quantos frames da camada de vídeo censurada podem entrar no cache. Afeta o máximo de frames que você pode exportar de um certo vídeo de cada vez. O valor 0 pode ser inserido para desabilitar o caching de frames (Exportar GIFs requer caching de frames).",
     "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
     "status": null
   },
@@ -670,7 +670,7 @@
     "status": null
   },
   "options__censor__modes__fill-color-mode": {
-    "message": "Modo de Cor de Preenchimento",
+    "message": "Modo de Preenchimento de Cor",
     "description": "Fill Color Mode",
     "status": null
   },
@@ -685,7 +685,7 @@
     "status": null
   },
   "options__censor__modes__fill-color": {
-    "message": "Cor de Preenchimento",
+    "message": "Cor do Preenchimento",
     "description": "Fill Color",
     "status": null
   },
@@ -705,7 +705,7 @@
     "status": null
   },
   "options__censor__modes__stroke-color-mode": {
-    "message": "Modo de Cor do Traço",
+    "message": "Modo da Cor do Traço",
     "description": "Stroke Color Mode",
     "status": null
   },
@@ -725,7 +725,7 @@
     "status": null
   },
   "options__censor__modes__box__name-score": {
-    "message": "Nome e Nota",
+    "message": "Nome & Nota",
     "description": "Name & Score",
     "status": null
   },
@@ -740,12 +740,12 @@
     "status": null
   },
   "options__censor__modes__box__nothing": {
-    "message": "Nenhum",
+    "message": "Nada",
     "description": "Nothing",
     "status": null
   },
   "options__censor__modes__glitch__chromatic-aberration": {
-    "message": "Aberração Cromática",
+    "message": "Aberr. Cromática",
     "description": "Chr. Aberration",
     "status": null
   },
@@ -755,12 +755,12 @@
     "status": null
   },
   "options__censor__modes__glitch__color-intensity": {
-    "message": "Intensidade de Cor",
+    "message": "Intensidade da Cor",
     "description": "Color Intensity",
     "status": null
   },
   "options__censor__modes__glitch__shift-intensity": {
-    "message": "Intensidade de Deslocamento",
+    "message": "Intensidade do Deslocamento",
     "description": "Shift Intensity",
     "status": null
   },
@@ -880,7 +880,7 @@
     "status": null
   },
   "options__censor__modes__sticker__pick-mode": {
-    "message": "Modo Seleção",
+    "message": "Modo de Seleção",
     "description": "Pick Mode",
     "status": null
   },
@@ -900,7 +900,7 @@
     "status": null
   },
   "options__censor__modes__sticker__enabled-sources": {
-    "message": "Fontes Habilitadas",
+    "message": "Origens Habilitadas",
     "description": "Enabled Sources",
     "status": null
   },
@@ -1020,7 +1020,7 @@
     "status": null
   },
   "options__censor__cluster__only-matching-content": {
-    "message": "Apenas Conteúdo Coincidente",
+    "message": "Apenas Conteúdo Compatível",
     "description": "Only Matching Content",
     "status": null
   },
@@ -1080,7 +1080,7 @@
     "status": null
   },
   "options__censor__word-wall__word-pool__description": {
-    "message": "- Registros são separados por novas linhas",
+    "message": "- Itens são separados por novas linhas",
     "description": "- Entries are separated by new lines",
     "status": null
   },
@@ -1110,12 +1110,12 @@
     "status": null
   },
   "options__censor__word-wall__line-height": {
-    "message": "Altura de Linha",
+    "message": "Altura da Linha",
     "description": "Line Height",
     "status": null
   },
   "options__censor__word-wall__line-offset": {
-    "message": "Deslocamento de Linha",
+    "message": "Deslocamento da Linha",
     "description": "Line Offset",
     "status": null
   },
@@ -1185,12 +1185,12 @@
     "status": null
   },
   "options__advanced__pre-scaling__description": {
-    "message": "Reduz imagens uma segunda vez para processamento. Testes mostram resultados parecidos enquanto apresenta um pequeno ganho de velocidade e considerável poupança de <b>memória</b> quando processando lotes de imagens grandes.",
+    "message": "Reduz imagens uma segunda vez para processamento. Testes mostram resultados parecidos enquanto apresentando um pequeno ganho de velocidade e considerável poupança de <b>memória</b> quando processando lotes de imagens grandes.",
     "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
     "status": null
   },
   "options__advanced__pre-scaling__description__note": {
-    "message": "É altamente recomendável habilitar está opção quando problemas de memória ocorrem com o conversor de lote ou com as camadas de censura de vídeo.",
+    "message": "É altamente recomendável habilitar esta opção quando problemas de memória ocorrerem com o conversor de lote ou com as camadas de censura de vídeo.",
     "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
     "status": null
   },
@@ -1200,7 +1200,7 @@
     "status": null
   },
   "options__advanced__prefer-edited-detections__description": {
-    "message": "Antes de executar o modelo, confere se o usuário usou o editor para editar e salvar detecções da imagem, e se sim, prefere usá-las ao invés das geradas pelo modelo.",
+    "message": "Antes de executar o modelo, confere se o usuário usou o editor para editar e salvar detecções de imagem, e se sim, prefere usá-las ao invés das geradas pelo modelo.",
     "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
     "status": null
   },
@@ -2560,12 +2560,12 @@
     "status": null
   },
   "tooltip__splatter-recursions": {
-    "message": "O número de vezes que se geram sub-manchas recursivamente.",
+    "message": "O número de vezes que se geram sub-respingos recursivamente.",
     "description": "The number of times to recursively generate sub splatters.",
     "status": null
   },
   "tooltip__splatter-color-pool": {
-    "message": "Todas as possíveis cores de manchas disponíveis para escolher junto aos pesos determinando quão provável cada uma pode ser escolhida.",
+    "message": "Todas as possíveis cores de respingos disponíveis para escolher junto aos pesos determinando quão provável cada uma pode ser escolhida.",
     "description": "All the possible splatter colors from which to pick along with weights determining how likely each is to be picked.",
     "status": null
   },
@@ -2715,7 +2715,7 @@
     "status": null
   },
   "tooltip__splatter-color-mode__auto__description": {
-    "message": "Seleciona a cor da mancha da área de efeito.",
+    "message": "Seleciona a cor do respingo da área de efeito.",
     "description": "Samples the splatter color from the effect area.",
     "status": null
   },
@@ -2725,7 +2725,7 @@
     "status": null
   },
   "tooltip__splatter-color-mode__custom__description": {
-    "message": "Escolhe uma cor de manchas de uma seleção de cores personalizadas.",
+    "message": "Escolhe uma cor para os respingos de uma seleção de cores personalizadas.",
     "description": "Picks a splatter color from a pool of custom colors.",
     "status": null
   },
