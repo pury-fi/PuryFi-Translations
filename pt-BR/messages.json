@@ -360,7 +360,7 @@
     "status": null
   },
   "options__filetypes__video__note__description": {
-    "message": "É recomendado usar o menu do botão direito do mouse para criar camadas censuradas sob demanda ao invés de abilitar esta opção, pois gerar camadas desnecessárias pode acabar disperdiçando muitos recursos do seu hardware!",
+    "message": "É recomendado usar o menu do botão direito do mouse para criar camadas censuradas sob demanda ao invés de habilitar esta opção, pois gerar camadas desnecessárias pode acabar disperdiçando muitos recursos do seu hardware!",
     "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
     "status": null
   },
@@ -1190,7 +1190,7 @@
     "status": null
   },
   "options__advanced__pre-scaling__description__note": {
-    "message": "É altamente recomendável abilitar está opção quando problemas de memória ocorrem com o conversor de lote ou com as camadas de censura de vídeo.",
+    "message": "É altamente recomendável habilitar está opção quando problemas de memória ocorrem com o conversor de lote ou com as camadas de censura de vídeo.",
     "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
     "status": null
   },
@@ -1345,7 +1345,7 @@
     "status": null
   },
   "options__white-black-list__lock-info-blacklist": {
-    "message": "Sua extensão está bloqueada! Você pode adicionar itens a sua lista negra, mas não remover.",
+    "message": "Sua extensão está trancada! Você pode adicionar itens a sua lista negra, mas não remover.",
     "description": "Your extension is locked! You may add entries to the blacklist, but not remove them.",
     "status": null
   },
@@ -1380,7 +1380,7 @@
     "status": null
   },
   "options__settings__lock-subscription": {
-    "message": "Bloquear Inscrição",
+    "message": "Trancar Inscrição",
     "description": "Lock Subscription",
     "status": null
   },
@@ -1485,7 +1485,7 @@
     "status": null
   },
   "options__settings__lock": {
-    "message": "Bloqueio:",
+    "message": "Trancar:",
     "description": "Lock:",
     "status": null
   },
@@ -1865,7 +1865,7 @@
     "status": null
   },
   "options__oom__lock-settings": {
-    "message": "Bloquear Ajustes",
+    "message": "Trancar Ajustes",
     "description": "Lock Settings",
     "status": null
   },
@@ -2125,12 +2125,12 @@
     "status": null
   },
   "options__security__description": {
-    "message": "Bloquear e desbloquear a extensão:",
+    "message": "Travar e destravar a extensão:",
     "description": "Lock & unlock the extension:",
     "status": null
   },
   "options__security__lock": {
-    "message": "Bloquear",
+    "message": "Travar",
     "description": "Lock",
     "status": null
   },
@@ -2185,7 +2185,7 @@
     "status": null
   },
   "options__security__timer-plus__description": {
-    "message": "Aumenta ou Diminui a duração do bloqueio quando certo conteúdo é visto:",
+    "message": "Aumenta ou Diminui a duração da trava quando certo conteúdo é visto:",
     "description": "Increase or Decrease the lock duration when certain content is viewed:",
     "status": null
   },
@@ -2230,12 +2230,12 @@
     "status": null
   },
   "options__security__lock-me": {
-    "message": "ME BLOQUEIE!",
+    "message": "ME TRAVE!",
     "description": "LOCK ME!",
     "status": null
   },
   "options__security__locked": {
-    "message": "Bloqueado!",
+    "message": "Travado!",
     "description": "Locked!",
     "status": null
   },
@@ -2270,12 +2270,12 @@
     "status": null
   },
   "options__security__emergency-unlock": {
-    "message": "Precisa desbloquear agora?",
+    "message": "Precisa destravar agora?",
     "description": "Need to unlock now?",
     "status": null
   },
   "options__security__emergency-unlock__description": {
-    "message": "Você pode se desbloquear por emergência se tornando um Patreon:",
+    "message": "Você pode se destravar por emergência se tornando um Patreon:",
     "description": "You can emergency unlock yourself by becoming a Patreon:",
     "status": null
   },
@@ -2290,17 +2290,17 @@
     "status": null
   },
   "options__security__emergency-unlock__description__3": {
-    "message": "<b>3.</b> Enfim, faça o seu login na extensão e a desbloqueie por aqui.",
+    "message": "<b>3.</b> Enfim, faça o seu login na extensão e a destrave por aqui.",
     "description": "<b>3.</b> Finally, login with your account in the extension and unlock here.",
     "status": null
   },
   "options__security__emergency-unlock__button": {
-    "message": "Desbloqueio de Emergência",
+    "message": "Destrave de Emergência",
     "description": "Emergency Unlock",
     "status": null
   },
   "options__security__emergency-unlock__description-alt": {
-    "message": "Alternativamente, você pode nos contatar pelo Discord se for sua primeira vez necessitando de um desbloqueio de emergência.",
+    "message": "Alternativamente, você pode nos contatar pelo Discord se for sua primeira vez necessitando de um destrave de emergência.",
     "description": "Alternatively, you can reach us on our Discord server if this is your first time requiring an emergency unlock:",
     "status": null
   },
@@ -2315,7 +2315,7 @@
     "status": null
   },
   "options__security__emergency-unlock__description-alt__3": {
-    "message": "<b>3.</b> Enfim, insira o token de desbloqueio que receber aqui.",
+    "message": "<b>3.</b> Enfim, insira o token de destrave que receber aqui.",
     "description": "<b>3.</b> Finally, enter here the unlock token you'll receive.",
     "status": null
   },
@@ -2610,12 +2610,12 @@
     "status": null
   },
   "tooltip__oom-list-detections": {
-    "message": "Enumera todo el contenido detectado en cada imagen bloqueada.",
+    "message": "Lista todo o conteúdo detectado em cada imagem bloqueada.",
     "description": "Lists all detected content on each blocked image.",
     "status": null
   },
   "tooltip__overlay-unsupported": {
-    "message": "Modo no soportado en superposiciones de video.",
+    "message": "Modo não suportado em camada de censura de vídeo.",
     "description": "Mode not supported in video overlays.",
     "status": null
   },
@@ -2625,17 +2625,17 @@
     "status": null
   },
   "tooltip__bar-type__paint__description": {
-    "message": "Pinte el área de efecto con el color indicado.",
+    "message": "Pinte a área de efeito com a cor indicada.",
     "description": "Paint the effect are with the given color.",
     "status": null
   },
   "tooltip__bar-type__erase": {
-    "message": "[Borrar]: ",
+    "message": "[Apagar]: ",
     "description": "[Erase]: ",
     "status": null
   },
   "tooltip__bar-type__erase__description": {
-    "message": "Borre el área de efecto con la opacidad indicada.",
+    "message": "Apague a área de efeito com a opacidade indicada.",
     "description": "Erase the effect area at the given opacity.",
     "status": null
   },
@@ -2645,7 +2645,7 @@
     "status": null
   },
   "tooltip__bar-type__note__description": {
-    "message": "El borrado podría no funcionar como se espera en tipos de archivo de salida que no soportan transparencia, como JPEG.",
+    "message": "Apagar pode não funcionar como esperado em tipos de arquivos de saída que não suportam transparência, como JPEG.",
     "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
     "status": null
   },
@@ -2655,7 +2655,7 @@
     "status": null
   },
   "tooltip__triangle-fill-color-mode__auto__description": {
-    "message": "Selecciona el color de relleno del área de efecto.",
+    "message": "Seleciona a color de preenchimento da área de efeito.",
     "description": "Samples the fill color from the effect area.",
     "status": null
   },
@@ -2665,27 +2665,27 @@
     "status": null
   },
   "tooltip__triangle-fill-color-mode__custom__description": {
-    "message": "Usa un color de relleno personalizado.",
+    "message": "Usa uma cor de preenchimento personalizada.",
     "description": "Uses a custom fill color.",
     "status": null
   },
   "tooltip__sticker-pick-mode__per-body-part": {
-    "message": "[Por parte del cuerpo]: ",
+    "message": "[Por parte do corpo]: ",
     "description": "[Per Body Part]: ",
     "status": null
   },
   "tooltip__sticker-pick-mode__per-body-part__description": {
-    "message": "Elige una etiqueta para todas las detecciones de cada parte del cuerpo.",
+    "message": "Escolhe um sticker para todas as detecções de cada parte do corpo.",
     "description": "Picks a sticker for all detections of each body part.",
     "status": null
   },
   "tooltip__sticker-pick-mode__per-detection": {
-    "message": "[Por detección]: ",
+    "message": "[Por Detecção]: ",
     "description": "[Per Detection]: ",
     "status": null
   },
   "tooltip__sticker-pick-mode__per-detection__description": {
-    "message": "Elige una etiqueta para cada detección.",
+    "message": "Escolhe um sticker para cada detecção.",
     "description": "Picks a sticker for each detection.",
     "status": null
   },
@@ -2695,7 +2695,7 @@
     "status": null
   },
   "tooltip__triangle-stroke-color-mode__auto__description": {
-    "message": "Muestra el color del trazo desde el área de efecto.",
+    "message": "Seleciona a cor do traço da área de efeito.",
     "description": "Samples the stroke color from the effect area.",
     "status": null
   },
@@ -2705,7 +2705,7 @@
     "status": null
   },
   "tooltip__triangle-stroke-color-mode__custom__description": {
-    "message": "Utiliza un color de trazo personalizado.",
+    "message": "Utiliza uma cor de traço personalizada.",
     "description": "Uses a custom stroke color.",
     "status": null
   },
@@ -2715,7 +2715,7 @@
     "status": null
   },
   "tooltip__splatter-color-mode__auto__description": {
-    "message": "Muestra el color salpicado del área de efecto.",
+    "message": "Seleciona a cor da mancha da área de efeito.",
     "description": "Samples the splatter color from the effect area.",
     "status": null
   },
@@ -2725,32 +2725,32 @@
     "status": null
   },
   "tooltip__splatter-color-mode__custom__description": {
-    "message": "Elige un color salpicado de una selección de colores personalizados.",
+    "message": "Escolhe uma cor de manchas de uma seleção de cores personalizadas.",
     "description": "Picks a splatter color from a pool of custom colors.",
     "status": null
   },
   "tooltip__mixed-entries__description__1": {
-    "message": "Los modos de censura y preajustes para cada sección que se pueden censurar.",
+    "message": "Os modos de censura e presets de cada seção que pode ser censurada.",
     "description": "The censor modes and preset for each section that can be censored.",
     "status": null
   },
   "tooltip__mixed-entries__description__2": {
-    "message": "Utilice Mayús/ctrl + clic para seleccionar múltiples entradas para editar al mismo tiempo.",
+    "message": "Use shift/ctrl + click para selecionar múltiplos itens para editar de uma vez.",
     "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
     "status": null
   },
   "on-add-caption-tag__count-limit-error": {
-    "message": "¡Elimina algunas etiquetas para añadir más!",
+    "message": "Remova algumas tags para adicionar mais!",
     "description": "Remove some tags to add more!",
     "status": null
   },
   "on-add-caption-entry__count-limit-error": {
-    "message": "¡Elimina algunas entradas para añadir más!",
+    "message": "Remova alguns itens para adicionar mais!",
     "description": "Remove some entries to add more!",
     "status": null
   },
   "on-assign-caption-tags__no-entries-selected-error": {
-    "message": "¡Selecciona algunas entradas para asignar etiquetas!",
+    "message": "Selecione alguns itens para os designar tags!",
     "description": "Select some entries to assign tags to!",
     "status": null
   },
@@ -2760,7 +2760,7 @@
     "status": null
   },
   "tooltip__word-wall-color-mode__cutout__description": {
-    "message": "Crea un recorte del texto.",
+    "message": "Cria um recorte do texto.",
     "description": "Creates a cutout of the text.",
     "status": null
   },
@@ -2770,97 +2770,97 @@
     "status": null
   },
   "tooltip__word-wall-color-mode__paint__description": {
-    "message": "Pinta el texto en un color personalizado.",
+    "message": "Pinta o texto em uma cor personalizada.",
     "description": "Paints the text in a custom color.",
     "status": null
   },
   "tooltip__oom__description__1": {
-    "message": "Bloquea permanentemente las imágenes después de que se hayan visto una vez.",
+    "message": "Bloqueia permanentemente as imagens depois de serem vistas uma vez.",
     "description": "Permanently blocks images after they've been viewed once.",
     "status": null
   },
   "tooltip__oom__description__2": {
-    "message": "Esto funciona calculando y comparando los hashes de las imágenes, lo que significa que una vez que una imagen está bloqueada, cualquier otra ocurrencia de la misma en la web también será bloqueada a partir de entonces.",
+    "message": "Isto funciona computando e comparando os hashes da imagem, o que significa que quando uma imagem é bloqueada, qualquer outra ocorrência dela pela web também será bloqueada dali em diante.",
     "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
     "status": null
   },
   "tooltip__remote-control__description": {
-    "message": "Le permite controlar remotamente las extensiones de otros usuarios.",
+    "message": "Lhe permite controlar remotamente a extensão de outros usuários.",
     "description": "Allows you to remotely control other users extensions.",
     "status": null
   },
   "tooltip__remote-control__description__1": {
-    "message": "<b>1.</b> Cree un nuevo control remoto.",
+    "message": "<b>1.</b> Crie um novo controle remoto.",
     "description": "<b>1.</b> Create a new remote control.",
     "status": null
   },
   "tooltip__remote-control__description__2": {
-    "message": "<b>2.</b> Vincule un ID de configuración de nube a su control remoto.",
+    "message": "<b>2.</b> Vincule um ID de configuração da nuvem ao seu controle remoto.",
     "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
     "status": null
   },
   "tooltip__remote-control__description__3": {
-    "message": "<b>3.</b> Haga que los usuarios que serán controlados remotamente se suscriban a su control remoto desde la página de configuración.",
+    "message": "<b>3.</b> Faça os usuários a serem controlados remotamente se inscreverem ao seu controle remoto através da página de configurações.",
     "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
     "status": null
   },
   "tooltip__remote-control__description__4": {
-    "message": "<b>4.</b> Cambie las configuraciones vinculadas como desee, cuando desee, ¡todos los suscriptores se actualizarán automáticamente!",
+    "message": "<b>4.</b> Troque as configurações vinculadas para o que você quiser, quando quiser, todos os inscritos serão automaticamente atualizados!",
     "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
     "status": null
   },
   "tooltip__remote-lock": {
-    "message": "¡Su suscripción está bloqueada!",
+    "message": "Sua inscrição está trancada!",
     "description": "Your subscription is locked!",
     "status": null
   },
   "tooltip__remote-lock__description": {
-    "message": "Su <b>única</b> manera de desbloquearla sería solicitándolo al propietario del control remoto, al personal de nuestro servidor de Discord, o si estas opciones no son deseables, uniéndose a nuestro <b>nivel de Patreon</b> relevante que le permite desbloquearla usted mismo.",
+    "message": "Sua <b>única</b> maneira de destrancar seria pedindo ao dono do controle remoto, ou ao staff do nosso server do Discord. Ou, se todas essas opções estivem indisponíveis, se tornando um <b>nível Patreon</b> relevante que o(a) habilitaria a se destrancar.",
     "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
     "status": null
   },
   "tooltip__remote-identifier": {
-    "message": "Haga que los usuarios que serán controlados remotamente peguen esto en la página de configuración.",
+    "message": "Faça os usuários a serem remotamente controlados a colar isto em suas páginas de configurações.",
     "description": "Have the users to be remotely controlled paste this over at the settings page.",
     "status": null
   },
   "tooltip__patreon-cache": {
-    "message": "Sus recompensas de Patreon caducarán en ${0} días.",
+    "message": "Suas recompensas do Patreon expiram em ${0} dias.",
     "description": "Your Patreon rewards will expire in ${0} days.",
     "status": null
   },
   "tooltip__patreon-cache__description": {
-    "message": "Si aún es suscriptor de Patreon, por favor, actualice el estado de su cuenta aquí, o si eso no funciona, vuelva a vincular su cuenta a Patreon.",
+    "message": "Se você ainda é inscrito ao nosso Patreon, por favor atualize seu status da conta por aqui, ou, se não funcionar, reconecte sua conta ao Patreon.",
     "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
     "status": null
   },
   "tooltip__timer-mode__duration": {
-    "message": "[Duración]: ",
+    "message": "[Duração]: ",
     "description": "[Duration]: ",
     "status": null
   },
   "tooltip__timer-mode__duration__description": {
-    "message": "Al bloquear, ajuste el temporizador a la duración especificada.",
+    "message": "Ao bloquear, ajuste o temporizador para a duração especificada.",
     "description": "Upon locking, set the timer to the duration specified.",
     "status": null
   },
   "tooltip__timer-mode__date": {
-    "message": "[Fecha]: ",
+    "message": "[Data]: ",
     "description": "[Date]: ",
     "status": null
   },
   "tooltip__timer-mode__date__description": {
-    "message": "Al bloquear, ajuste el temporizador al tiempo restante hasta la fecha especificada.",
+    "message": "Ao bloquear, ajuste o temporizador para tempo restante até a data especificada.",
     "description": "Upon locking, set the timer to the time remaining until the specified date.",
     "status": null
   },
   "tooltip__timer-mode__stable": {
-    "message": "[Estable]: ",
+    "message": "[Estável]: ",
     "description": "[Stable]: ",
     "status": null
   },
   "tooltip__timer-mode__stable__description": {
-    "message": "Espera hasta que el último frame haya sido procesado antes de procesar un nuevo frame.",
+    "message": "Espera até que o último frame tenha sido processado antes de processar um novo frame.",
     "description": "Waits until the latest frame has been processed before processing a new frame.",
     "status": null
   },
@@ -2870,292 +2870,292 @@
     "status": null
   },
   "tooltip__timer-mode__overdrive__description": {
-    "message": "Procesa múltiples frames a la vez hasta alcanzar el límite del hardware o una cierta tasa de fps.",
+    "message": "Processa múltiplos frames por vez até o limite do hardware ou até um certo framerate é alcançado.",
     "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
     "status": null
   },
   "popup__timer-container__locked-until": {
-    "message": "Bloqueado hasta:",
+    "message": "Bloqueado até:",
     "description": "Locked until:",
     "status": null
   },
   "popup__reverse-mode": {
-    "message": "Modo inverso:",
+    "message": "Modo Reverso:",
     "description": "Reverse Mode:",
     "status": null
   },
   "options__censor__word-wall__shadow-size": {
-    "message": "Tamaño de la Sombra",
+    "message": "Tamanho da Sombra",
     "description": "Shadow Size",
     "status": null
   },
   "options__censor__caption__shadow-color": {
-    "message": "Color de la Sombra",
+    "message": "Cor da Sombra",
     "description": "Shadow Color",
     "status": null
   },
   "tooltip__censor__modes__caption__add-tag": {
-    "message": "Añadir etiqueta",
+    "message": "Adicionar Tag",
     "description": "Add Tag",
     "status": null
   },
   "tooltip__censor__modes__caption__assign-tags": {
-    "message": "Asignar etiquetas",
+    "message": "Atribuir Tags",
     "description": "Assign Tags",
     "status": null
   },
   "tooltip__censor__modes__caption__add-entry": {
-    "message": "Añadir entrada",
+    "message": "Adicionar Termo",
     "description": "Add Entry",
     "status": null
   },
   "on-save-caption-config__storage-quota-exceeded-error": {
-    "message": "No se pudieron guardar los cambios: ¡Cuota de almacenamiento para Capciónes excedida!",
+    "message": "Alterações não podem ser salvas. Cota de armazenamento para Legendas excedida!",
     "description": "Changes could not be saved: Storage quota for Caption exceeded!",
     "status": null
   },
   "tooltip__censor__modes__caption__assign-tags-help": {
-    "message": "Haga clic en etiquetas para asignar o desasignarlas",
+    "message": "Clique nas tags para atribuir ou desatribuir",
     "description": "Click tags to assign or unassign",
     "status": null
   },
   "on-disable-sfw-icons__confirm__1": {
-    "message": "¿Estás seguro?",
+    "message": "Tem certeza?",
     "description": "Are you sure?",
     "status": null
   },
   "on-disable-sfw-icons__confirm__2": {
-    "message": "¿Pero estás realmente seguro?",
+    "message": "Mas tem certeza mesmo?",
     "description": "But are you really sure?",
     "status": null
   },
   "on-disable-sfw-icons__confirm__3": {
-    "message": "Hmmm... Está bien entonces.",
+    "message": "Hmmm... então tá bom.",
     "description": "Hmmm... Ok then.",
     "status": null
   },
   "on-settings-save__no-name-error": {
-    "message": "¡Se debe ingresar un nombre de configuración!",
+    "message": "Um nome para configuração deve ser inserido!",
     "description": "A settings name must be entered!",
     "status": null
   },
   "on-settings-save__forbidden-name-chars-error": {
-    "message": "¡El nombre de la configuración ${0} contiene caracteres prohibidos!",
+    "message": "O nome da configuração ${0} contém caracteres proibidos!",
     "description": "The settings name ${0} contains forbidden characters!",
     "status": null
   },
   "on-settings-upload__no-user-error": {
-    "message": "¡Debes iniciar sesión para subir configuraciones a la nube!",
+    "message": "Você deve fazer login para subir as configurações para a Nuvem!",
     "description": "You must login to upload settings to the cloud!",
     "status": null
   },
   "on-settings-upload__success": {
-    "message": "¡Configuraciones ${0} subidas exitosamente a la nube!<br/><br/>Comparte tus configuraciones con la siguiente ID:",
+    "message": "Configurações ${0} subidas a Nuvem com sucesso!<br/><br/>Compartilhe suas configurações com o seguinte ID:",
     "description": "Settings ${0} successfully uploaded to the cloud!<br/><br/>Share your settings with the following ID:",
     "status": null
   },
   "on-create-sticker-collection__db-error": {
-    "message": "¡La colección de pegatinas no pudo guardarse, probablemente porque excedió el límite de 255 MB!",
+    "message": "A coleção de stickers não pode ser salva, provavelmente porque excedeu o limite de 255 MB!",
     "description": "The sticker collection couldn't be saved, likely as it exceeded the 255 MB limit!",
     "status": null
   },
   "on-create-sticker-collection__no-name-error": {
-    "message": "¡Se debe ingresar un nombre para la colección!",
+    "message": "Um nome para a coleção deve ser inserido!",
     "description": "A collection name must be entered!",
     "status": null
   },
   "on-create-sticker-collection__forbidden-name-chars-error": {
-    "message": "¡El nombre de la colección ${0} contiene caracteres prohibidos!",
+    "message": "O nome da coleção ${0} contém caracteres proibidos!",
     "description": "The collection name of ${0} contains forbidden characters!",
     "status": null
   },
   "on-create-sticker-collection__duplicate-name-error": {
-    "message": "¡Una colección con el nombre ${0} ya existe!",
+    "message": "Uma coleção com o nome ${0} já existe!",
     "description": "A collection by the name of ${0} already exists!",
     "status": null
   },
   "on-create-sticker-collection__corrupted-error": {
-    "message": "¡El contenido de esta colección está dañado!",
+    "message": "Os conteúdos desta coleção estão corrompidos!",
     "description": "The contents of this collection are corrupted!",
     "status": null
   },
   "on-font-input-change__not-available-error": {
-    "message": "¡La fuente ingresada no está disponible en este dispositivo!",
+    "message": "A fonte escolhida não está disponível neste dispositivo!",
     "description": "The entered font is not available on this device!",
     "status": null
   },
   "on-restore-defaults__confirm": {
-    "message": "Todas tus configuraciones serán sobrescritas por sus valores predeterminados.<br/><br/>Lo siguiente no se verá afectado:",
+    "message": "Todas as suas configurações serão retornadas aos padrões predefinidos.<br/><br/>O seguinte não será afetado:",
     "description": "All of your configurations will be overriden by their defaults.<br/><br/>The following will not be affected:",
     "status": null
   },
   "on-disable-experimental-content__confirm": {
-    "message": "Todos los valores establecidos para el contenido experimental en tus configuraciones serán restablecidos.",
+    "message": "Todos os valores estabelecidos para conteúdo experimental nas suas configurações serão reestabelecidos.",
     "description": "All values set for experimental content across your configurations will be reset.",
     "status": null
   },
   "on-clear-oom-data__confirm": {
-    "message": "Todos tus datos OOM serán borrados, incluyendo las imágenes vistas y bloqueadas.",
+    "message": "Todos os seus dados OOM serão limpos. incluindo quais imagens foram visualizadas e bloqueadas.",
     "description": "All of your OOM data will be cleared, including what images have been viewed and blocked.",
     "status": null
   },
   "on-delete-remote__confirm": {
-    "message": "Se eliminará tu control remoto con la ID ${0}.",
+    "message": "Seu controle remoto de ID ${0} será deletado.",
     "description": "Your remote control by the ID of ${0} will be deleted.",
     "status": null
   },
   "on-unsubscribe-from-remote__error": {
-    "message": "Al proceder, aún te desuscribirás localmente.",
+    "message": "Ao proceder, você ainda irá se desinscrever localmente.",
     "description": "Proceeding will still unsubscribe you locally.",
     "status": null
   },
   "on-enable-lock-remote-subscription__not__easily__reversable__warning": {
-    "message": "¡Esta acción no es fácilmente reversible ni puede serlo por tu cuenta!",
+    "message": "Esta ação não é fácil de reverter e nem pode ser reversível por sua conta própria!",
     "description": "This action is not easily reversable nor can it be done so on your own!",
     "status": null
   },
   "on-enable-lock-remote-subscription__confirm": {
-    "message": "Esto <b>eliminará</b> tu capacidad de cancelar tu suscripción de control remoto.<br/><br/>Tu <b>única</b> forma de hacerlo será solicitándolo al propietario del control remoto o al personal de nuestro servidor de Discord.<br/><br/>Además, cualquier otro dispositivo que inicie sesión en tu cuenta de PuryFi estará sujeto a este control remoto hasta que se desuscriba.",
+    "message": "Isto <b>removerá</b> sua capacidade de cancelar sua inscrição do controle remoto.<br/><br/>Sua <b>única</b> forma de desinscrever será solicitando ao propietário do controle remoto ou ao staff do nosso servidor do Discord.<br/><br/>Observação: qualquer outro dispositivo que faça login na sua conta PuryFi estará sujeito a este controle remoto até que se desinscreva.",
     "description": "This will <b>remove</b> your ability to cancel your remote control subscription.<br/><br/>Your <b>only</b> way to do so will be by requesting so from either the remote control owner, or from staff at our Discord server.<br/><br/>Also note that any other devices that log into your PuryFi account will be subject to this remote control until unsubscribed.",
     "status": null
   },
   "on-subscribe-to-remote__confirm": {
-    "message": "Te suscribirás al control remoto con una ID de ${0}",
+    "message": "Você se inscreverá ao controle remoto com o ID ${0}",
     "description": "You will be subscribed to the remote control with an ID of ${0}",
     "status": null
   },
   "on-subscribe-to-remote__lock-subscription-warning": {
-    "message": "Tu suscripción estará bloqueada. ¡No podrás desuscribirte por tu cuenta!",
+    "message": "Sua inscrição será trancada. Você não poderá se desinscrever por conta própria!",
     "description": "Your subscription will be locked. You won't be able to unsubscribe on your own!",
     "status": null
   },
   "on-unsubscribe-other-from-remote__confirm": {
-    "message": "El usuario ${0} será desuscrito de tu control remoto",
+    "message": "O usuário ${0} será desinscrito do seu controle remoto",
     "description": "User ${0} will be unsubscribed from your remote",
     "status": null
   },
   "on-delete-settings__confirm": {
-    "message": "Se eliminarán tus configuraciones ${0}.",
+    "message": "Suas configurações ${0} serão deletadas.",
     "description": "Your settings ${0} will be deleted.",
     "status": null
   },
   "on-save-settings__duplicate-name-error": {
-    "message": "¡Las configuraciones con el nombre ${0} ya existen!",
+    "message": "As configurações com o nome ${0} já existem!",
     "description": "Settings by the name of ${0} already exist!",
     "status": null
   },
   "on-delete-cloud-settings__confirm": {
-    "message": "Se eliminarán tus configuraciones en la nube con una ID de ${0}.",
+    "message": "Suas configurações na Nuvem com ID ${0} serão deletadas.",
     "description": "Your cloud settings with an ID of ${0} will be deleted.",
     "status": null
   },
   "on-reset-all-sticker-collections__confirm": {
-    "message": "Todas tus colecciones de pegatinas importadas serán eliminadas y todas las predeterminadas serán restablecidas.",
+    "message": "Todas as suas coleções de stickers importadas serão deletadas e todas as coleções padrões serão resetadas.",
     "description": "All of your imported sticker collections will be deleted and all default ones will be reset.",
     "status": null
   },
   "on-non-reversible-action-warning": {
-    "message": "¡Esta acción no es reversible!",
+    "message": "Esta ação não é reversível!",
     "description": "This action is not reversible!",
     "status": null
   },
   "on-settings-import__non-png-image-error": {
-    "message": "¡Este archivo de imagen no contiene configuraciones incrustadas, solo los archivos PNG pueden contener configuraciones!",
+    "message": "Este arquivo de imagem não contém configurações embutidas, apenas arquivos PNG podem conter configurações!",
     "description": "This image file contains no embedded settings, only PNG files can contain settings!",
     "status": null
   },
   "on-settings-import__no-embedding": {
-    "message": "¡Este archivo de imagen no contiene configuraciones incrustadas!",
+    "message": "Este arquivo de imagem não contém configurações embutidas!",
     "description": "This image file contains no embedded settings!",
     "status": null
   },
   "on-settings-import__corrupted-error": {
-    "message": "¡Estas configuraciones están dañadas y no se pueden cargar!",
+    "message": "Estas configurações estão corrompidas e não podem ser carregadas!",
     "description": "These settings are corrupted and cannot be loaded!",
     "status": null
   },
   "on-settings-import__newer-version-error": {
-    "message": "¡Estas configuraciones son de una versión más nueva y no se pueden cargar!",
+    "message": "Estas configurações são de uma versão mais nova e não poderão ser carregadas!",
     "description": "These settings are from a newer version and cannot be loaded!",
     "status": null
   },
   "on-settings-import__confirm": {
-    "message": "Se importarán las siguientes configuraciones:",
+    "message": "As seguintes configurações serão importadas:",
     "description": "The following configurations will be imported:",
     "status": null
   },
   "on-settings-import__lock-warning": {
-    "message": "¡Estas configuraciones bloquearán tu extensión!",
+    "message": "Estas configurações trancarão sua extensão!",
     "description": "These settings will lock your extension!",
     "status": null
   },
   "on-settings-import__missing-censor-extra-presets-warning": {
-    "message": "¡Estas configuraciones dejarán una o más de tus configuraciones de censura haciendo referencia a presets de Clúster, Subtítulos y/o Pared de Palabras inexistentes!",
+    "message": "Estas configurações deixarão uma ou mais das suas configurações de censura referenciando presets de Cluster, Legendas e/ou Muro de Palavras não existentes!",
     "description": "These settings will leave one or more of your censor configurations referencing non-existent Cluster, Caption and/or Word Wall presets!",
     "status": null
   },
   "on-settings-import__missing-censor-presets-warning": {
-    "message": "¡Estas configuraciones dejarán tu configuración mixta haciendo referencia a presets de censura inexistentes!",
+    "message": "Estas configurações deixarão sua configuração Mista referenciando presets de censura não existentes!",
     "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
     "status": null
   },
   "on-settings-import__missing-patreon-features-warning": {
-    "message": "¡Estas configuraciones usan funciones de Patreon que no tienes y por lo tanto no se habilitarán!",
+    "message": "Estas configurações utilizam funções do Patreon que você não possui e não serão habilitadas!",
     "description": "These settings use Patreon features you don't have and thus won't be enabled!",
     "status": null
   },
   "on-settings-import__older-version-warning": {
-    "message": "¡Estas configuraciones son de una versión anterior y podrían no funcionar como se espera!",
+    "message": "Estas configurações são para uma versão anterior e podem não funcionar corretamente!",
     "description": "These settings are from an older version and might not work as intended!",
     "status": null
   },
   "on-bind-settings-to-remote__success": {
-    "message": "¡Configuraciones en la nube con una ID de ${0} vinculadas exitosamente al control remoto!",
+    "message": "Configurações na Nuvem com ID ${0} vinculadas ao controle remoto com sucesso!",
     "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
     "status": null
   },
   "on-update-remote-subscription__success": {
-    "message": "¡Configuraciones sincronizadas exitosamente con el control remoto!",
+    "message": "Configurações sincronizadas ao controle remote com sucesso!",
     "description": "Settings successfully synced with remote!",
     "status": null
   },
   "on-update-remote-subscription__new-remote-settings-alert": {
-    "message": "¡Se importaron nuevas configuraciones remotas!",
+    "message": "Novas configurações remotas foram importadas!",
     "description": "New remote settings were imported!",
     "status": null
   },
   "on-load-default-settings__success": {
-    "message": "¡Configuraciones predeterminadas cargadas exitosamente!",
+    "message": "Configurações padrões predefinidas carregadas com sucesso!",
     "description": "Default settings successfully loaded!",
     "status": null
   },
   "on-load-settings__success": {
-    "message": "¡Configuraciones ${0} cargadas exitosamente!",
+    "message": "Configurações ${0} carregadas com sucesso!",
     "description": "Settings ${0} successfully loaded!",
     "status": null
   },
   "on-import-settings__success": {
-    "message": "¡Configuraciones importadas exitosamente!",
+    "message": "Configurações importadas com sucesso!",
     "description": "Settings successfully imported!",
     "status": null
   },
   "on-delete-settings__success": {
-    "message": "¡Configuraciones ${0} eliminadas exitosamente!",
+    "message": "Configurações ${0} deletadas com sucesso!",
     "description": "Settings ${0} successfully deleted!",
     "status": null
   },
   "on-save-settings__success": {
-    "message": "¡Configuraciones ${0} guardadas exitosamente!",
+    "message": "Configurações ${0} salvadas com sucesso!",
     "description": "Settings ${0} successfully saved!",
     "status": null
   },
   "bar-type": {
-    "message": "Pinta el área del efecto con el color dado.",
+    "message": "Pinte a área de efeito com a cor selecionada.",
     "description": "Paint the effect area with the given color.",
     "status": null
   },
   "popup__censor__content": {
-    "message": "Contenido censurado",
+    "message": "Conteúdo Censurado",
     "description": "Censored Content",
     "status": null
   }
