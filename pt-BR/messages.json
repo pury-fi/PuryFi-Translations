@@ -1185,52 +1185,52 @@
     "status": null
   },
   "options__advanced__pre-scaling__description": {
-    "message": "Reduce la escala de las imágenes por segunda vez para su procesamiento. Las pruebas han demostrado resultados comparables al tiempo que\nproporcionan pequeñas ganancias de velocidad en todas, así como un ahorro de memoria considerable cuando se procesan por lotes imágenes grandes.",
+    "message": "Reduz imagens uma segunda vez para processamento. Testes mostram resultados parecidos enquanto apresenta um pequeno ganho de velocidade e considerável poupança de <b>memória</b> quando processando lotes de imagens grandes.",
     "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
     "status": null
   },
   "options__advanced__pre-scaling__description__note": {
-    "message": "Es muy recomendable habilitar esta opción cuando experimente problemas de memoria con el conversor por lotes o superposiciones de vídeo.",
+    "message": "É altamente recomendável abilitar está opção quando problemas de memória ocorrem com o conversor de lote ou com as camadas de censura de vídeo.",
     "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
     "status": null
   },
   "options__advanced__prefer-edited-detections": {
-    "message": "Preferir Detecciones Editadas",
+    "message": "Preferir Detecções Editadas",
     "description": "Prefer Edited Detections",
     "status": null
   },
   "options__advanced__prefer-edited-detections__description": {
-    "message": "Antes de ejecutar el modelo, comprueba si el usuario ha utilizado el editor para editar y guardar detecciones para la imagen, y si es así, prefiere utilizarlas en lugar de las del modelo.",
+    "message": "Antes de executar o modelo, confere se o usuário usou o editor para editar e salvar detecções da imagem, e se sim, prefere usá-las ao invés das geradas pelo modelo.",
     "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
     "status": null
   },
   "options__advanced__base64_support": {
-    "message": "Soporte de Base64",
+    "message": "Suporte para Base64",
     "description": "Base64 Support",
     "status": null
   },
   "options__advanced__base64_support__description": {
-    "message": "También escanea páginas web en busca de imágenes codificadas en Base64 para censurar, ya que éstas no son detectadas por la API de Extensiones de Firefox.",
+    "message": "Também escaneia os websites para censurar imagens codificadas em Base64 pois elas não são detectadas pela Firefox Extensions API.",
     "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
     "status": null
   },
   "options__advanced__ai-warmup": {
-    "message": "Calentamiento de IA",
+    "message": "Aquecimento da IA",
     "description": "AI Warm-Up",
     "status": null
   },
   "options__advanced__ai-warmup__description": {
-    "message": "Inicializa la IA cuando se inicia Firefox. Su navegador podría experimentar una breve congelación cuando esto suceda.",
+    "message": "Inicializa a IA quando o Firefox é inicializado. Seu browser pode travar brevemente enquanto isso acontece.",
     "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
     "status": null
   },
   "options__advanced__sfw-icons": {
-    "message": "Iconos SFW",
+    "message": "Ícones SFW",
     "description": "SFW Icons",
     "status": null
   },
   "options__advanced__sfw-icons__description": {
-    "message": "Censura la desnudez en todos los iconos de la extensión, como en los iconos de partes del cuerpo.",
+    "message": "Censura nudez em todos os ícones da extensão, como os ícones de partes do corpo.",
     "description": "Censors nudity across all icons in the extension, such as in the body part icons.",
     "status": null
   },
@@ -1240,7 +1240,7 @@
     "status": null
   },
   "options__advanced__theme__teal": {
-    "message": "Verde",
+    "message": "Azul Piscina",
     "description": "Teal",
     "status": null
   },
@@ -1250,7 +1250,7 @@
     "status": null
   },
   "options__advanced__theme__purple": {
-    "message": "Morado",
+    "message": "Roxo",
     "description": "Purple",
     "status": null
   },
@@ -1265,12 +1265,12 @@
     "status": null
   },
   "options__advanced__theme__cyberpunk": {
-    "message": "Ciberpunk",
+    "message": "Cyberpunk",
     "description": "Cyberpunk",
     "status": null
   },
   "options__advanced__theme__pink-doll": {
-    "message": "Muñeca Rosa",
+    "message": "Boneca Rosa",
     "description": "Pink Doll",
     "status": null
   },
@@ -1280,52 +1280,52 @@
     "status": null
   },
   "options__advanced__theme__accent-color": {
-    "message": "Color de énfasis:",
+    "message": "Cor de Ênfase:",
     "description": "Accent Color:",
     "status": null
   },
   "options__advanced__theme__main-bg-color": {
-    "message": "Color de fondo principal:",
+    "message": "Cor do Fundo Principal:",
     "description": "Main BG Color:",
     "status": null
   },
   "options__advanced__theme__secondary-bg-color": {
-    "message": "Color de fondo secundario:",
+    "message": "Cor do Fundo Secundário:",
     "description": "Secondary BG Color:",
     "status": null
   },
   "options__advanced__theme__text-color": {
-    "message": "Color de texto:",
+    "message": "Cor do Texto:",
     "description": "Text Color:",
     "status": null
   },
   "options__white-black-list__header": {
-    "message": "Lista blanca/negra",
+    "message": "Lista branca/negra",
     "description": "Whitelist & Blacklist",
     "status": null
   },
   "options__white-black-list__description": {
-    "message": "Páginas web en lista blanca o lista negra:",
+    "message": "Inseror páginas da web na lista branca ou negra:",
     "description": "Whitelist or blacklist certain webpages:",
     "status": null
   },
   "options__white-black-list__whitelist": {
-    "message": "Lista blanca",
+    "message": "Lista Branca",
     "description": "Whitelist",
     "status": null
   },
   "options__white-black-list__blacklist": {
-    "message": "Lista negra",
+    "message": "Lista Negra",
     "description": "Blacklist",
     "status": null
   },
   "options__white-black-list__whitelist__description": {
-    "message": "- Deshabilita la extensión para las siguientes páginas web",
+    "message": "- Desabilita a extensão para as seguintes páginas",
     "description": "- Disable the extension for the following webpages",
     "status": null
   },
   "options__white-black-list__blacklist__description": {
-    "message": "- Habilita la extensión solo para las siguientes páginas web",
+    "message": "- Habilita a extensão apenas para as seguintes páginas",
     "description": "- Enable the extension only for the following webpages",
     "status": null
   },
@@ -1340,62 +1340,62 @@
     "status": null
   },
   "options__white-black-list__lock-info-whitelist": {
-    "message": "¡Tu extensión está bloqueada! Puedes eliminar entradas de la lista blanca, pero no agregarlas.",
+    "message": "Sua extensão está bloqueada! Você pode remover itens da sua lista branca, mas não adicionar.",
     "description": "Your extension is locked! You may remove entries from the whitelist, but not add them.",
     "status": null
   },
   "options__white-black-list__lock-info-blacklist": {
-    "message": "¡Tu extensión está bloqueada! Puedes agregar entradas a la lista negra, pero no eliminarlas.",
+    "message": "Sua extensão está bloqueada! Você pode adicionar itens a sua lista negra, mas não remover.",
     "description": "Your extension is locked! You may add entries to the blacklist, but not remove them.",
     "status": null
   },
   "options__settings__header": {
-    "message": "Ajustes",
+    "message": "Configurações",
     "description": "Settings",
     "status": null
   },
   "options__settings__description": {
-    "message": "Administra tus colecciones de ajustes:",
+    "message": "Gerenciar suas coleções de configurações:",
     "description": "Manage your settings collections:",
     "status": null
   },
   "options__settings__import-settings": {
-    "message": "Importar Ajustes",
+    "message": "Importar Configurações",
     "description": "Import Settings",
     "status": null
   },
   "options__settings__remote-control": {
-    "message": "Control Remoto",
+    "message": "Controle Remoto",
     "description": "Remote Control",
     "status": null
   },
   "options__settings__subscribe": {
-    "message": "Suscribirse",
+    "message": "Inscrever",
     "description": "Subscribe",
     "status": null
   },
   "options__settings__unsubscribe": {
-    "message": "Cancelar Suscripción",
+    "message": "Cancelar Inscrição",
     "description": "Unsubscribe",
     "status": null
   },
   "options__settings__lock-subscription": {
-    "message": "Bloquear Suscripción",
+    "message": "Bloquear Inscrição",
     "description": "Lock Subscription",
     "status": null
   },
   "options__settings__send-statistics-data": {
-    "message": "Enviar Datos Estadísticos",
+    "message": "Enviar Dados Estatísticos",
     "description": "Send Statistics Data",
     "status": null
   },
   "options__settings__allow-older-settings": {
-    "message": "Permitir Ajustes Antiguos",
+    "message": "Permitir Configurações Antigas",
     "description": "Allow Older Settings",
     "status": null
   },
   "options__settings__auto-update": {
-    "message": "Actualización Automática:",
+    "message": "Atualização Automática:",
     "description": "Auto Update:",
     "status": null
   },
@@ -1410,7 +1410,7 @@
     "status": null
   },
   "options__settings__on-start": {
-    "message": "Al Iniciar:",
+    "message": "Ao Iniciar:",
     "description": "On Start:",
     "status": null
   },
@@ -1420,7 +1420,7 @@
     "status": null
   },
   "options__settings__cloud-settings": {
-    "message": "Ajustes en la Nube",
+    "message": "Configurações de Nuvem",
     "description": "Cloud Settings",
     "status": null
   },
@@ -1430,92 +1430,92 @@
     "status": null
   },
   "options__settings__local-data-mismatch": {
-    "message": "Datos Locales no Coinciden",
+    "message": "Dados Locais não Coincidem",
     "description": "Local Data Mismatch",
     "status": null
   },
   "options__settings__clear-cloud-data": {
-    "message": "Borrar Datos en la Nube",
+    "message": "Limpar Dados da Nuvem",
     "description": "Clear Cloud Data",
     "status": null
   },
   "options__settings__last-updated": {
-    "message": "Última Actualización:",
+    "message": "Última Atualização:",
     "description": "Last Updated:",
     "status": null
   },
   "options__settings__last-pinged": {
-    "message": "Última verificación",
+    "message": "Última verificação",
     "description": "Last Checked:",
     "status": null
   },
   "options__settings__local-file": {
-    "message": "Archivo Local",
+    "message": "Arquivo Local",
     "description": "Local File",
     "status": null
   },
   "options__settings__manage-settings": {
-    "message": "Administrar Ajustes",
+    "message": "Gerenciar Configurações",
     "description": "Manage Settings",
     "status": null
   },
   "options__settings__stored-settings": {
-    "message": "Ajustes Guardados",
+    "message": "Configurações Guardadas",
     "description": "Stored Settings",
     "status": null
   },
   "options__settings__save": {
-    "message": "Guardar",
+    "message": "Salvar",
     "description": "Save",
     "status": null
   },
   "options__settings__load": {
-    "message": "Cargar",
+    "message": "Carregar",
     "description": "Load",
     "status": null
   },
   "options__settings__save-configuration": {
-    "message": "Configuración De Guardado",
+    "message": "Configuração De Salvamento",
     "description": "Saving Configuration",
     "status": null
   },
   "options__settings__extension": {
-    "message": "Extensión:",
+    "message": "Extensão:",
     "description": "Extension:",
     "status": null
   },
   "options__settings__lock": {
-    "message": "Bloqueo:",
+    "message": "Bloqueio:",
     "description": "Lock:",
     "status": null
   },
   "options__settings__content": {
-    "message": "Contenido",
+    "message": "Conteúdo",
     "description": "Content",
     "status": null
   },
   "options__settings__censor": {
-    "message": "Censor",
+    "message": "Censura",
     "description": "Censor",
     "status": null
   },
   "options__settings__enabled-censor": {
-    "message": "Censor Activo",
+    "message": "Censura Ativada",
     "description": "Enabled Censor",
     "status": null
   },
   "options__settings__file-types": {
-    "message": "Tipos de Archivo",
+    "message": "Tipos de Arquivo",
     "description": "File Types",
     "status": null
   },
   "options__settings__enabled-types": {
-    "message": "Tipos Activos",
+    "message": "Tipos Ativados",
     "description": "Enabled Types",
     "status": null
   },
   "options__settings__video": {
-    "message": "Video",
+    "message": "Vídeo",
     "description": "Video",
     "status": null
   },
@@ -1530,32 +1530,32 @@
     "status": null
   },
   "options__settings__advanced": {
-    "message": "Avanzado",
+    "message": "Avançado",
     "description": "Advanced",
     "status": null
   },
   "options__settings__icons": {
-    "message": "Íconos",
+    "message": "Ícones",
     "description": "Icons",
     "status": null
   },
   "options__settings__pre-scaling": {
-    "message": "Pre-Escalado",
+    "message": "Pré-Escalamento",
     "description": "Pre-Scaling",
     "status": null
   },
   "options__settings__prefer-edited-detections": {
-    "message": "Preferir Detecciones Editadas",
+    "message": "Preferir Detecções Editadas",
     "description": "Prefer Edited Detections",
     "status": null
   },
   "options__settings__base64_support": {
-    "message": "Soporte Base64",
+    "message": "Suporte para Base64",
     "description": "Base64 Support",
     "status": null
   },
   "options__settings__ai-warm-up": {
-    "message": "Calentamiento IA",
+    "message": "Aquecimento da IA",
     "description": "AI Warm-Up",
     "status": null
   },
@@ -1565,37 +1565,37 @@
     "status": null
   },
   "options__help__header": {
-    "message": "Ayuda",
+    "message": "Ajuda",
     "description": "Help",
     "status": null
   },
   "options__help__find-us": {
-    "message": "Encuéntranos en",
+    "message": "Nos encontre em",
     "description": "Find us on",
     "status": null
   },
   "options__help__cache": {
-    "message": "Caché",
+    "message": "Cache",
     "description": "Cache",
     "status": null
   },
   "options__help__images": {
-    "message": "Imágenes",
+    "message": "Imagens",
     "description": "Images",
     "status": null
   },
   "options__help__size": {
-    "message": "Tamaño",
+    "message": "Tamanho",
     "description": "Size",
     "status": null
   },
   "options__help__reset-cache": {
-    "message": "Limpiar Caché",
+    "message": "Limpar Cache",
     "description": "Reset Cache",
     "status": null
   },
   "options__help__storage": {
-    "message": "Almacenamiento",
+    "message": "Armazenamento",
     "description": "Storage",
     "status": null
   },
@@ -1615,12 +1615,12 @@
     "status": null
   },
   "options__help__edited-detections": {
-    "message": "Detecciones Editadas",
+    "message": "Detecções Editadas",
     "description": "Edited Detections",
     "status": null
   },
   "options__help__lock-timer-logs": {
-    "message": "Registros del Temporizador de Bloqueo",
+    "message": "Registros do Temporizador de Bloqueio",
     "description": "Lock Timer Logs",
     "status": null
   },
@@ -1630,7 +1630,7 @@
     "status": null
   },
   "options__help__oom-containers": {
-    "message": "Contenedores OOM",
+    "message": "Containers OOM",
     "description": "OOM Containers",
     "status": null
   },
@@ -1665,12 +1665,12 @@
     "status": null
   },
   "options__help__data-buffers": {
-    "message": "Búferes de Datos",
+    "message": "Buffers de Dados",
     "description": "Data Buffers",
     "status": null
   },
   "options__help__stable": {
-    "message": "Estable",
+    "message": "Estável",
     "description": "Stable",
     "status": null
   },
@@ -1680,37 +1680,37 @@
     "status": null
   },
   "options__help__debugging": {
-    "message": "Depuración",
+    "message": "Debugging",
     "description": "Debugging",
     "status": null
   },
   "options__help__debug": {
-    "message": "Depurar",
+    "message": "Debug",
     "description": "Debug",
     "status": null
   },
   "options__help__default-settings": {
-    "message": "Configuración Predeterminada",
+    "message": "Configurações Predefinidas",
     "description": "Default Settings",
     "status": null
   },
   "options__help__restore-defaults": {
-    "message": "Restaurar Valores Predeterminados",
+    "message": "Restaurar Valores Predefinidos",
     "description": "Restore Defaults",
     "status": null
   },
   "options__help__restore-defaults__description": {
-    "message": "No eliminará ningún dato local, como stickers o configuraciones guardadas.",
+    "message": "Não excluirá qualquer dado local como stickers ou configurações salvas.",
     "description": "Will not delete any local data such as stickers or stored settings.",
     "status": null
   },
   "options__oom__header": {
-    "message": "Modo de Una Vista",
+    "message": "Modo Uma Vez",
     "description": "Only Once Mode",
     "status": null
   },
   "options__oom__description": {
-    "message": "Revela imágenes solo una vez:",
+    "message": "Mostra imagens apenas uma vez:",
     "description": "Display images only once:",
     "status": null
   },
@@ -1730,7 +1730,7 @@
     "status": null
   },
   "options__oom__modes__borderless": {
-    "message": "Sin Bordes",
+    "message": "Sem Bordes",
     "description": "Borderless",
     "status": null
   },
@@ -1740,52 +1740,52 @@
     "status": null
   },
   "options__oom__modes__grid": {
-    "message": "Cuadrícula",
+    "message": "Grid",
     "description": "Grid",
     "status": null
   },
   "options__oom__modes__strong-blur": {
-    "message": "Desenfoque Fuerte",
+    "message": "Desfoque Forte",
     "description": "Strong Blur",
     "status": null
   },
   "options__oom__modes__box-tease": {
-    "message": "Cajas Tentadoras",
+    "message": "Caixas Provocantes",
     "description": "Box Tease",
     "status": null
   },
   "options__oom__modes__reset-data": {
-    "message": "Borrar datos",
+    "message": "Limpar Dados",
     "description": "Clear Data",
     "status": null
   },
   "options__oom__mode-settings": {
-    "message": "Ajustes de Modo",
+    "message": "Configurações de Modo",
     "description": "Mode Settings",
     "status": null
   },
   "options__oom__transparency": {
-    "message": "Transparencia",
+    "message": "Transparência",
     "description": "Transparency",
     "status": null
   },
   "options__oom__distance": {
-    "message": "Distancia",
+    "message": "Distância",
     "description": "Distance",
     "status": null
   },
   "options__oom__border-radius": {
-    "message": "Radio de Borde",
+    "message": "Raio da Borda",
     "description": "Border Radius",
     "status": null
   },
   "options__oom__thumbnail-blur": {
-    "message": "Desenfoque de Miniatura",
+    "message": "Desfoque de Miniatura",
     "description": "Thumbnail Blur",
     "status": null
   },
   "options__oom__grid": {
-    "message": "Cuadrícula",
+    "message": "Grid",
     "description": "Grid",
     "status": null
   },
@@ -1795,57 +1795,57 @@
     "status": null
   },
   "options__oom__grid__fence": {
-    "message": "Valla",
+    "message": "Cerca",
     "description": "Fence",
     "status": null
   },
   "options__oom__grid__black-and-white": {
-    "message": "Blanco y Negro",
+    "message": "Preto & Branco",
     "description": "Black & White",
     "status": null
   },
   "options__oom__grid__wasp": {
-    "message": "Avispa",
+    "message": "Vespa",
     "description": "Wasp",
     "status": null
   },
   "options__oom__grid__purple": {
-    "message": "Morado",
+    "message": "Roxo",
     "description": "Purple",
     "status": null
   },
   "options__oom__grayscale": {
-    "message": "Escala de Grises",
+    "message": "Escala de Cinza",
     "description": "Grayscale",
     "status": null
   },
   "options__oom__reveal-faces": {
-    "message": "Revelar Rostros",
+    "message": "Revelar Rostos",
     "description": "Reveal Faces",
     "status": null
   },
   "options__oom__image-settings": {
-    "message": "Ajustes de Imagen",
+    "message": "Ajustes de Imagem",
     "description": "Image Settings",
     "status": null
   },
   "options__oom__hash-precision": {
-    "message": "Precisión de Hash",
+    "message": "Precisão do Hash",
     "description": "Hash Precision",
     "status": null
   },
   "options__oom__min-width": {
-    "message": "Ancho Mín.",
+    "message": "Largura Mín.",
     "description": "Min. Width",
     "status": null
   },
   "options__oom__min-height": {
-    "message": "Alto Mín.",
+    "message": "Altura Mín.",
     "description": "Min. Height",
     "status": null
   },
   "options__oom__triggers": {
-    "message": "Desencadenantes",
+    "message": "Gatilhos",
     "description": "Triggers",
     "status": null
   },
@@ -1855,12 +1855,12 @@
     "status": null
   },
   "labels__gentials": {
-    "message": "Genitales",
+    "message": "Genitais",
     "description": "Genitals",
     "status": null
   },
   "labels__gentials-covered": {
-    "message": "Genitales Cubiertos",
+    "message": "Genitais Cobertas",
     "description": "Genitals Covered",
     "status": null
   },
@@ -1870,12 +1870,12 @@
     "status": null
   },
   "options__oom__date-time-format": {
-    "message": "Formato de Fecha y Hora:",
+    "message": "Formato de Data e Hora:",
     "description": "Date Time Format:",
     "status": null
   },
   "options__none": {
-    "message": "Ninguno",
+    "message": "Nenhum",
     "description": "None",
     "status": null
   },
@@ -1885,12 +1885,12 @@
     "status": null
   },
   "options__oom__block-message": {
-    "message": "Mensaje de Bloqueo",
+    "message": "Mensagem de Bloqueio",
     "description": "Block Message",
     "status": null
   },
   "options__oom__list-image-content": {
-    "message": "Listar Contenido de Imagen",
+    "message": "Listar Conteúdo da Imagem",
     "description": "List Image Content",
     "status": null
   },
@@ -1900,17 +1900,17 @@
     "status": null
   },
   "options__oom__auto-refresh": {
-    "message": "Auto-Refresco",
+    "message": "Auto-Refresh",
     "description": "Auto Refresh",
     "status": null
   },
   "options__oom__min-duration": {
-    "message": "Duración Mín:",
+    "message": "Duração Mín:",
     "description": "Min. Duration:",
     "status": null
   },
   "options__oom__days": {
-    "message": "Días",
+    "message": "Dias",
     "description": "Days",
     "status": null
   },
@@ -1930,17 +1930,17 @@
     "status": null
   },
   "options__oom__max-duration": {
-    "message": "Duración Máx:",
+    "message": "Duração Máx:",
     "description": "Max. Duration:",
     "status": null
   },
   "options__oom__animation": {
-    "message": "Animación",
+    "message": "Animação",
     "description": "Animation",
     "status": null
   },
   "options__oom__none": {
-    "message": "Ninguno",
+    "message": "Nenhum",
     "description": "None",
     "status": null
   },
@@ -1950,97 +1950,97 @@
     "status": null
   },
   "options__oom__darken": {
-    "message": "Oscurecer",
+    "message": "Escurecer",
     "description": "Darken",
     "status": null
   },
   "options__oom__blur": {
-    "message": "Desenfocar",
+    "message": "Desfocar",
     "description": "Blur",
     "status": null
   },
   "options__batch-converter__header": {
-    "message": "Conversor por Lotes",
+    "message": "Conversor de Lotes",
     "description": "Batch-Converter",
     "status": null
   },
   "options__batch-converter__description": {
-    "message": "Censura archivos o carpetas locales:",
+    "message": "Censurar arquivos ou pastas locais:",
     "description": "Censor local files or folders:",
     "status": null
   },
   "options__batch-converter": {
-    "message": "Conversor por Lotes",
+    "message": "Conversor de Lotes",
     "description": "Batch Converter",
     "status": null
   },
   "options__batch-converter__multiple-files": {
-    "message": "Múltiples Archivos",
+    "message": "Múltiplos Arquivos",
     "description": "Multiple Files",
     "status": null
   },
   "options__general__or": {
-    "message": "O",
+    "message": "OU",
     "description": "OR",
     "status": null
   },
   "options__batch-converter__folder": {
-    "message": "Carpeta",
+    "message": "Pasta",
     "description": "Folder",
     "status": null
   },
   "options__batch-converter__files-selected": {
-    "message": "Archivos seleccionados:",
+    "message": "Arquivos selecionados:",
     "description": "Files selected:",
     "status": null
   },
   "options__batch-converter__total-images": {
-    "message": "Imágenes totales:",
+    "message": "Imagens totais:",
     "description": "Total images:",
     "status": null
   },
   "options__batch-converter__total-size": {
-    "message": "Tamaño total:",
+    "message": "Tamanho total:",
     "description": "Total size:",
     "status": null
   },
   "options__batch-converter__estimated-time": {
-    "message": "Tiempo estimado:",
+    "message": "Tempo estimado:",
     "description": "Estimated time:",
     "status": null
   },
   "options__batch-converter__estimated-time-left": {
-    "message": "Tiempo restante est.:",
+    "message": "Tempo restante est.:",
     "description": "Est. time left:",
     "status": null
   },
   "options__batch-converter__average": {
-    "message": "Promedio:",
+    "message": "Média:",
     "description": "Average:",
     "status": null
   },
   "options__batch-converter__start": {
-    "message": "Comenzar",
+    "message": "Iniciar",
     "description": "Start",
     "status": null
   },
   "options__statistics__header": {
-    "message": "Estadísticas",
+    "message": "Estatísticas",
     "description": "Statistics",
     "status": null
   },
   "options__statistics__description": {
-    "message": "Datos e Información:",
+    "message": "Dados e Informações:",
     "description": "Data & Information:",
     "status": null
   },
   "options__statistics__detection-statistics": {
-    "message": "Estadísticas de Detección",
+    "message": "Estatísticas de Detecção",
     "description": "Detection Statistics",
     "status": null
   },
   "options__statistics__average-duration": {
-    "message": "Duración Promedio:",
+    "message": "Duração Média:",
     "description": "Average Duration:",
     "status": null
   },
@@ -2055,22 +2055,22 @@
     "status": null
   },
   "options__statistics__files": {
-    "message": "Archivos",
+    "message": "Arquivos",
     "description": "Files",
     "status": null
   },
   "options__statistics__content": {
-    "message": "Contenido",
+    "message": "Conteúdo",
     "description": "Content",
     "status": null
   },
   "options__statistics__average-frame-count": {
-    "message": "Recuento de Frames Promedio",
+    "message": "Contagem de Frames Média",
     "description": "Avg. Frame Count",
     "status": null
   },
   "options__statistics__average-processing-time": {
-    "message": "Tiempo de Procesamiento Promedio",
+    "message": "Tempo de Processamento Médio",
     "description": "Avg. Processing Time",
     "status": null
   },
@@ -2080,52 +2080,52 @@
     "status": null
   },
   "options__statistics__scanned-images": {
-    "message": "Imágenes Escaneadas",
+    "message": "Imagens Escaneadas",
     "description": "Scanned Images",
     "status": null
   },
   "options__statistics__processed-images": {
-    "message": "Imágenes Procesadas",
+    "message": "Imagens Processadas",
     "description": "Processed Images",
     "status": null
   },
   "options__statistics__videos": {
-    "message": "Videos",
+    "message": "Vídeos",
     "description": "Videos",
     "status": null
   },
   "options__statistics__video-frames": {
-    "message": "Frames de Video",
+    "message": "Frames de Vídeo",
     "description": "Video Frames",
     "status": null
   },
   "options__statistics__local-files": {
-    "message": "Archivos Locales",
+    "message": "Arquivos Locais",
     "description": "Local Files",
     "status": null
   },
   "options__statistics__batch-files": {
-    "message": "Archivos por Lotes",
+    "message": "Arquivos por Lotes",
     "description": "Batch Files",
     "status": null
   },
   "options__statistics__oom-images": {
-    "message": "Imágenes OOM",
+    "message": "Imagens OOM",
     "description": "OOM-Images",
     "status": null
   },
   "options__statistics__reset-data": {
-    "message": "Reiniciar Datos",
+    "message": "Reiniciar Dados",
     "description": "Reset Data",
     "status": null
   },
   "options__security__header": {
-    "message": "Seguridad",
+    "message": "Segurança",
     "description": "Security",
     "status": null
   },
   "options__security__description": {
-    "message": "Bloquear y desbloquear la extensión:",
+    "message": "Bloquear e desbloquear a extensão:",
     "description": "Lock & unlock the extension:",
     "status": null
   },
@@ -2135,12 +2135,12 @@
     "status": null
   },
   "options__security__password": {
-    "message": "Contraseña",
+    "message": "Senha",
     "description": "Password",
     "status": null
   },
   "options__security__password-confirmation": {
-    "message": "Confirmación de Contraseña",
+    "message": "Confirmação da Senha",
     "description": "Password Confirmation",
     "status": null
   },
@@ -2150,7 +2150,7 @@
     "status": null
   },
   "options__security__days": {
-    "message": "Días",
+    "message": "Dias",
     "description": "Days",
     "status": null
   },
@@ -2170,12 +2170,12 @@
     "status": null
   },
   "options__security__duration": {
-    "message": "Duración",
+    "message": "Duração",
     "description": "Duration",
     "status": null
   },
   "options__security__date": {
-    "message": "Fecha",
+    "message": "Data",
     "description": "Date",
     "status": null
   },
@@ -2185,27 +2185,27 @@
     "status": null
   },
   "options__security__timer-plus__description": {
-    "message": "Aumenta o Disminuye la duración del bloqueo cuando se ve cierto contenido:",
+    "message": "Aumenta ou Diminui a duração do bloqueio quando certo conteúdo é visto:",
     "description": "Increase or Decrease the lock duration when certain content is viewed:",
     "status": null
   },
   "labels__genitals": {
-    "message": "Genitales",
+    "message": "Genitais",
     "description": "Genitals",
     "status": null
   },
   "labels__genitals-covered": {
-    "message": "Genitales Cubiertos",
+    "message": "Genitais Cobertas",
     "description": "Genitals Covered",
     "status": null
   },
   "options__security__timer-plus__min-size": {
-    "message": "Tamaño Mín.",
+    "message": "Tamanho Mín.",
     "description": "Min. Size",
     "status": null
   },
   "options__security__optional-locks": {
-    "message": "Bloqueos Opcionales",
+    "message": "Bloqueios Opcionais",
     "description": "Optional Locks",
     "status": null
   },
@@ -2215,12 +2215,12 @@
     "status": null
   },
   "options__security__enabled-censor": {
-    "message": "Censor Activo",
+    "message": "Censura Ativada",
     "description": "Enabled Censor",
     "status": null
   },
   "options__security__video": {
-    "message": "Video",
+    "message": "Vídeo",
     "description": "Video",
     "status": null
   },
@@ -2230,22 +2230,22 @@
     "status": null
   },
   "options__security__lock-me": {
-    "message": "¡BLOQUÉAME!",
+    "message": "ME BLOQUEIE!",
     "description": "LOCK ME!",
     "status": null
   },
   "options__security__locked": {
-    "message": "¡Bloqueado!",
+    "message": "Bloqueado!",
     "description": "Locked!",
     "status": null
   },
   "options__security__add-time": {
-    "message": "Añadir Tiempo",
+    "message": "Adicionar Tempo",
     "description": "Add Time",
     "status": null
   },
   "options__security__time-to-add": {
-    "message": "Tiempo para Añadir",
+    "message": "Tempo para Adicionar",
     "description": "Time to Add",
     "status": null
   },
@@ -2265,72 +2265,72 @@
     "status": null
   },
   "options__security__enter-password": {
-    "message": "Ingrese su contraseña.",
+    "message": "Digite sua senha.",
     "description": "Enter your password.",
     "status": null
   },
   "options__security__emergency-unlock": {
-    "message": "¿Necesitas desbloquear ahora?",
+    "message": "Precisa desbloquear agora?",
     "description": "Need to unlock now?",
     "status": null
   },
   "options__security__emergency-unlock__description": {
-    "message": "Puedes desbloquearte de emergencia convirtiéndote en un Patreon:",
+    "message": "Você pode se desbloquear por emergência se tornando um Patreon:",
     "description": "You can emergency unlock yourself by becoming a Patreon:",
     "status": null
   },
   "options__security__emergency-unlock__description__1": {
-    "message": "<b>1.</b> Únete a nuestro nivel de <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> relevante. Una vez que termines, puedes cancelar o reducir tu membresía como desees.",
+    "message": "<b>1.</b> Faça parte de um nível relevante do nosso <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a>. Depois disso, você pode cancelar ou diminuir seu nível como quiser.",
     "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
     "status": null
   },
   "options__security__emergency-unlock__description__2": {
-    "message": "<b>2.</b> Vincula tu <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">cuenta de PuryFi</a> con tu Patreon.",
+    "message": "<b>2.</b> Vincule sua <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">conta PuryFi</a> com o seu Patreon.",
     "description": "<b>2.</b> Bind your <a href=\"moz-extension://7ee55ef1-623c-446f-88ae-f126ab060e45/options/pury.fi\" target=\"_blank\">PuryFi account</a> to your Patreon.",
     "status": null
   },
   "options__security__emergency-unlock__description__3": {
-    "message": "<b>3.</b> Finalmente, inicia sesión con tu cuenta en la extensión y desbloquea aquí.",
+    "message": "<b>3.</b> Enfim, faça o seu login na extensão e a desbloqueie por aqui.",
     "description": "<b>3.</b> Finally, login with your account in the extension and unlock here.",
     "status": null
   },
   "options__security__emergency-unlock__button": {
-    "message": "Desbloqueo de emergencia",
+    "message": "Desbloqueio de Emergência",
     "description": "Emergency Unlock",
     "status": null
   },
   "options__security__emergency-unlock__description-alt": {
-    "message": "Alternativamente, puedes contactarnos en nuestro servidor de Discord si es la primera vez que necesitas un desbloqueo de emergencia:",
+    "message": "Alternativamente, você pode nos contatar pelo Discord se for sua primeira vez necessitando de um desbloqueio de emergência.",
     "description": "Alternatively, you can reach us on our Discord server if this is your first time requiring an emergency unlock:",
     "status": null
   },
   "options__security__emergency-unlock__description-alt__1": {
-    "message": "<b>1.</b> Únete a nuestro servidor de <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> y ponte en contacto con un moderador.",
+    "message": "<b>1.</b> Entre no nosso server do <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> e entre em contato com um moderador.",
     "description": "<b>1.</b> Join our <a href=\"https://discord.gg/geAAHY6fAW\" target=\"_blank\">Discord</a> server and get in contact with a moderator.",
     "status": null
   },
   "options__security__emergency-unlock__description-alt__2": {
-    "message": "<b>2.</b> Proporciónales el siguiente token de seguridad: ${0}",
+    "message": "<b>2.</b> Forneça a eles o seguinte token de segurança: ${0}",
     "description": "<b>2.</b> Provide them with the following security token: ${0}",
     "status": null
   },
   "options__security__emergency-unlock__description-alt__3": {
-    "message": "<b>3.</b> Finalmente, introduce aquí el token de desbloqueo que recibirás.",
+    "message": "<b>3.</b> Enfim, insira o token de desbloqueio que receber aqui.",
     "description": "<b>3.</b> Finally, enter here the unlock token you'll receive.",
     "status": null
   },
   "options__cloud__header": {
-    "message": "Nube",
+    "message": "Nuvem",
     "description": "Cloud",
     "status": null
   },
   "options__cloud__header__description": {
-    "message": "Administra tus datos en la nube:",
+    "message": "Gerenciar seus dados da Nuvem:",
     "description": "Manage your cloud data:",
     "status": null
   },
   "options__cloud__stored-settings": {
-    "message": "Ajustes guardados",
+    "message": "Configurações salvas",
     "description": "Stored settings",
     "status": null
   },
@@ -2340,62 +2340,62 @@
     "status": null
   },
   "options__cloud__name": {
-    "message": "Nombre",
+    "message": "Nome",
     "description": "Name",
     "status": null
   },
   "options__cloud__version": {
-    "message": "Versión",
+    "message": "Versão",
     "description": "Version",
     "status": null
   },
   "options__cloud__downloads": {
-    "message": "Descargas",
+    "message": "Downloads",
     "description": "Downloads",
     "status": null
   },
   "options__cloud__content": {
-    "message": "Contenido",
+    "message": "Conteúdo",
     "description": "Content",
     "status": null
   },
   "options__cloud__delete": {
-    "message": "Borrar",
+    "message": "Deletar",
     "description": "Delete",
     "status": null
   },
   "options__cloud__remote-control": {
-    "message": "Control Remoto",
+    "message": "Controle Remoto",
     "description": "Remote Control",
     "status": null
   },
   "options__cloud__settings": {
-    "message": "Ajustes",
+    "message": "Configurações",
     "description": "Settings",
     "status": null
   },
   "options__cloud__subscribe": {
-    "message": "Subscripciones",
+    "message": "Inscrições",
     "description": "Subs.",
     "status": null
   },
   "options__cloud__user-subscriptions": {
-    "message": "Suscripciones de Usuario",
+    "message": "Inscrições de Usuário",
     "description": "User Subscriptions",
     "status": null
   },
   "options__cloud__user": {
-    "message": "Usuario",
+    "message": "Usuário",
     "description": "User",
     "status": null
   },
   "options__cloud__subscription-date": {
-    "message": "Fecha de Suscripción",
+    "message": "Data de Inscrição",
     "description": "Subscription Date",
     "status": null
   },
   "options__cloud__info": {
-    "message": "Información",
+    "message": "Informacão",
     "description": "Info",
     "status": null
   },
@@ -2405,37 +2405,37 @@
     "status": null
   },
   "options__sidebar__oom": {
-    "message": "Modo de Una Vista",
+    "message": "Modo Uma Vez",
     "description": "Only Once Mode",
     "status": null
   },
   "options__sidebar__security": {
-    "message": "Seguridad",
+    "message": "Segurança",
     "description": "Security",
     "status": null
   },
   "options__sidebar__white-black-list": {
-    "message": "Lista Blanca/Negra",
+    "message": "Lista Branca/Negra",
     "description": "Whitelist & Blacklist",
     "status": null
   },
   "options__sidebar__cloud-remote": {
-    "message": "Nube y Remoto",
+    "message": "Nuvem & Remoto",
     "description": "Cloud & Remote",
     "status": null
   },
   "options__sidebar__tools": {
-    "message": "Herramientas:",
+    "message": "Ferramentas:",
     "description": "Tools:",
     "status": null
   },
   "options__sidebar__batch-converter": {
-    "message": "Conversor por Lotes",
+    "message": "Conversor de Lotes",
     "description": "Batch Converter",
     "status": null
   },
   "options__sidebar__gallery-viewer": {
-    "message": "Visor de Galería",
+    "message": "Visualizador de Galeria",
     "description": "Gallery Viewer",
     "status": null
   },
@@ -2445,117 +2445,117 @@
     "status": null
   },
   "options__sidebar__other": {
-    "message": "Otro:",
+    "message": "Outro:",
     "description": "Other:",
     "status": null
   },
   "options__sidebar__statistics": {
-    "message": "Estadísticas",
+    "message": "Estatísticas",
     "description": "Statistics",
     "status": null
   },
   "options__sidebar__help": {
-    "message": "Ayuda",
+    "message": "Ajuda",
     "description": "Help",
     "status": null
   },
   "tooltip__experimental-content-label": {
-    "message": "Este contenido es experimental y actualmente <b>no</b> es detectado por el modelo de IA. Solo puede ser asignado a imágenes a través del editor.",
+    "message": "Este conteúdo é experimental por enquanto <b>não</b> detectado pelo modelo da IA. Ele pode ser designado a imagens <b>apenas</b> através do editor.",
     "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
     "status": null
   },
   "tooltip__cluster-only-matching-content": {
-    "message": "Solo une detecciones del mismo contenido.",
+    "message": "Só une detecções do mesmo conteúdo.",
     "description": "Only joins detections of the same content.",
     "status": null
   },
   "tooltip__cluster-max-distance": {
-    "message": "La distancia máxima que puede haber entre detecciones para que aún se puedan unir, medida en una unidad determinada por el tamaño de las detecciones.",
+    "message": "A distância máxima entre detecções para que sejam unidas, medida em uma unidade determinada pelo tamanho das detecções.",
     "description": "The maximum distance there can be between detections in order to still join them, measured in an unit determined by the size of the detections.",
     "status": null
   },
   "tooltip__censor-mode-feathering": {
-    "message": "Cuánto suavizar los bordes del área de efecto.",
+    "message": "Quanto suavizar as bordas da área de efeito.",
     "description": "How much to smoothen the edges of the effect area.",
     "status": null
   },
   "tooltip__pixel-density": {
-    "message": "Qué tan juntos pintar los píxeles de semitono.",
+    "message": "Quão próximo pintar os pixels de halftone.",
     "description": "How closely together to paint the halftone pixels.",
     "status": null
   },
   "tooltip__pixel-channel-colors": {
-    "message": "El número de colores de canal a los que se deben limitar los píxeles.",
+    "message": "O número de canais de cor para limitar os pixels.",
     "description": "The number of channel colors to which to limit the pixels.",
     "status": null
   },
   "tooltip__pixel-accurate-sampling": {
-    "message": "Considera el color de toda el área cubierta por cada píxel al determinar su color o tamaño, en lugar de solo el color en el centro del área.",
+    "message": "Considera a cor de toda a área coberta por cada pixel quando determinando sua cor ou tamanho, ao invés de apenas a cor no centro da área.",
     "description": "Considers the color of the entire area covered by each pixel when determining its color or size, instead of just the color at the very center of the area.",
     "status": null
   },
   "tooltip__pixel-detection-size-aware": {
-    "message": "Ajusta la fuerza del efecto según el tamaño de la detección.",
+    "message": "Ajusta a força do efeito de acordo com o tamanho da detecção.",
     "description": "Scales the strength of the effect according to the detection size",
     "status": null
   },
   "tooltip__triangle-threshold": {
-    "message": "El umbral que los detalles en el área de efecto deben superar para ser capturados, donde un umbral más alto excluye detalles más pequeños.",
+    "message": "O limiar de detalhes na área de efeito precisa ser superado para ser capturado, de modo que um limiar maior exclui detalhes menores.",
     "description": "The threshold details in the effect area must pass in order to be captured, where a higher threshold excludes smaller details.",
     "status": null
   },
   "tooltip__triangle-accuracy": {
-    "message": "Qué tan precisamente se trazan los triángulos a lo largo de los detalles capturados en el área de efecto.",
+    "message": "Quão precisamente traçados são os triângulos ao redor dos detalhes capturados na área de efeito.",
     "description": "How accurately the triangles are traced along the captured details in the effect area.",
     "status": null
   },
   "tooltip__triangle-blurring": {
-    "message": "Cuánto desenfocar el área de efecto antes de triangularla.",
+    "message": "Quanto desfocar a área de efeito antes de a triangularizar.",
     "description": "How much to blur the effect area prior to triangulazing it.",
     "status": null
   },
   "tooltip__triangle-stroke-width": {
-    "message": "El ancho del trazo antes de escalarlo según el tamaño de la imagen, donde un tamaño de imagen de 1024px x 1024px resultaría en no escalado.",
+    "message": "A largura do traço antes de escalar de acordo com o tamanho da imagem, de mode que um imagem de 1024px x 1024px resultaria em nenhuma escalada.",
     "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
     "status": null
   },
   "tooltip__triangle-gradients": {
-    "message": "Crea degradados de color entre los vértices.",
+    "message": "Cria gradientes de cor entre vértices.",
     "description": "Creates color gradients between vertices.",
     "status": null
   },
   "tooltip__triangle-gradient-stops": {
-    "message": "El número de veces que se muestrea un color a lo largo del recorrido de un degradado de color.",
+    "message": "O número de vezes que se \"Amostras\" uma cor no decorrer do caminho de um gradiente de cor.",
     "description": "The number of times to Samples a color along the path of a color gradient.",
     "status": null
   },
   "tooltip__glitch-multiple-panels-min-size": {
-    "message": "El tamaño mínimo posible del panel en relación con el tamaño del área de efecto.",
+    "message": "O menor tamanho possível do painel relativo ao tamanho da área de efeito.",
     "description": "The minimum possible panel size relative to the effect area size.",
     "status": null
   },
   "tooltip__glitch-multiple-panels-max-size": {
-    "message": "El tamaño máximo posible del panel en relación con el tamaño del área de efecto.",
+    "message": "O maior tamanho possível do painel relativo ao tamanho da área de efeito.",
     "description": "The maximum possible panel size relative to the effect area size.",
     "status": null
   },
   "tooltip__glitch-multiple-panels-scatter": {
-    "message": "La distancia máxima posible que un panel puede ser desplazado, medida en la altura o el ancho del área de efecto.",
+    "message": "A maior distância possível que um painel pode ser deslocado, medida na altura ou largura da área de efeito.",
     "description": "The maximum possible distance a panel can be shifted by, measured in the height or width of the effect area.",
     "status": null
   },
   "tooltip__glitch-multiple-panels-split-chance": {
-    "message": "La probabilidad de que un panel se divida una vez en dos más pequeños.",
+    "message": "A chance de um painel ser dividido uma vez em dois painéis menores.",
     "description": "The chance for a panel to be split once into two smaller ones.",
     "status": null
   },
   "tooltip__sticker-pick-single-source": {
-    "message": "Elabora una única colección o grupo del que se elaboran todas las pegatinas.",
+    "message": "Escolhe uma única coleção ou grupo onde todos os stickers são então escolhidos.",
     "description": "Picks a single collection or group from which all stickers are then picked.",
     "status": null
   },
   "tooltip__sobel-inverted-color": {
-    "message": "Invierte el blanco y negro del efecto sobel.",
+    "message": "Inverte o branco e o preto do efeito sobel.",
     "description": "Inverts the black and white of the sobel effect.",
     "status": null
   },
