@@ -30,7 +30,7 @@
       "status": null
    },
    "censor-type__box": {
-      "message": "方块",
+      "message": "方框",
       "description": "Box",
       "status": null
    },
@@ -75,7 +75,7 @@
       "status": null
    },
    "options__login__forgot-password": {
-      "message": "我忘记了密码",
+      "message": "忘记密码",
       "description": "I forgot my password",
       "status": null
    },
@@ -2695,17 +2695,17 @@
       "status": null
    },
    "tooltip__triangle-stroke-color-mode__auto__description": {
-      "message": "효과 영역에서 선 색상을 샘플링합니다.",
+      "message": "采样颜色。",
       "description": "Samples the stroke color from the effect area.",
       "status": null
    },
    "tooltip__triangle-stroke-color-mode__custom": {
-      "message": "[사용자 지정]: ",
+      "message": "[定制]: ",
       "description": "[Custom]: ",
       "status": null
    },
    "tooltip__triangle-stroke-color-mode__custom__description": {
-      "message": "사용자 지정 선 색상을 사용합니다.",
+      "message": "使用自定义的笔划颜色。",
       "description": "Uses a custom stroke color.",
       "status": null
    },
@@ -2880,7 +2880,7 @@
       "status": null
    },
    "popup__reverse-mode": {
-      "message": "反向模式：",
+      "message": "反选模式：",
       "description": "Reverse Mode:",
       "status": null
    },
