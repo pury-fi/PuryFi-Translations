@@ -105,8 +105,8 @@
       "status": null
    },
    "options__sidebar__advanced": {
-      "message": "高级",
-      "description": "Advanced",
+      "message": "外观",
+      "description": "Appearance",
       "status": null
    },
    "options__content__header": {
@@ -115,8 +115,8 @@
       "status": null
    },
    "options__content__description": {
-      "message": "确定要审查的内容：",
-      "description": "Determine which content to censor:",
+      "message": "配置要屏蔽的内容：",
+      "description": "Configure what content to censor:",
       "status": null
    },
    "options__content__experimental-content": {
@@ -230,8 +230,8 @@
       "status": null
    },
    "options__filetypes__description": {
-      "message": "确定要处理的文件类型及方式：",
-      "description": "Determine which file types to process and how:",
+      "message": "配置要处理的文件类型及其处理方式：",
+      "description": "Configure what file types to process and how:",
       "status": null
    },
    "options__filetypes__gif__thumb": {
@@ -285,138 +285,13 @@
       "status": null
    },
    "options__filetypes__gif__thumbnail-fallback__description": {
-      "message": "如果 GIF 超过最大文件大小或帧数，则审查并显示缩略图。小于最小文件大小的 GIF 仍然会被忽略。",
-      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode": {
-      "message": "处理模式",
-      "description": "Processing Mode",
-      "status": null
-   },
-   "options__filetypes__gif__sync-slow": {
-      "message": "同步 (慢)",
-      "description": "Sync (slow)",
-      "status": null
-   },
-   "options__filetypes__gif__sync-fast": {
-      "message": "异步 (快)",
-      "description": "Async (fast)",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode__description": {
-      "message": "通过异步处理所有帧来减少处理时间，但如果处理足够大的 GIF，则存在浏览器冻结或崩溃的风险。",
-      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping": {
-      "message": "AI 帧跳过",
-      "description": "AI Frame Skipping",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping__description": {
-      "message": "通过在运行 AI 后跳过设置数量的帧来减少处理时间。未运行 AI 的帧中的检测结果是从运行 AI 的帧中推断出来的。",
-      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending": {
-      "message": "检测扩展",
-      "description": "Detection Extending",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending__description": {
-      "message": "通过将所有检测结果扩展到设置数量的前后帧来弥补 AI 短暂未能检测到身体部位的情况。",
-      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity": {
-      "message": "检测相似度阈值",
-      "description": "Detection Similarity Threshold",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity__description": {
-      "message": "设置两个不同帧中检测到的位置和大小的相似程度，以便假设它们检测到相同的身体部位。此信息用于推断未运行 AI 的帧中的检测结果。",
-      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "message": "如果 GIF 超过最大文件大小或帧数，则退而仅审查缩略图。",
+      "description": "Fall back to censoring the thumbnail if the GIF exceeds the max. file size or frame count.",
       "status": null
    },
    "options__filetypes__gif__frames-max": {
       "message": "帧 (最大)",
       "description": "Frames (Max)",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay": {
-      "message": "自动覆盖视频",
-      "description": "Automatically Overlay Videos",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay__description": {
-      "message": "在视频上创建审查叠加层。由于帧是实时处理的，因此产生的 FPS 将很大程度上取决于您的硬件性能。请注意，这不会审查实际的视频。",
-      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
-      "status": null
-   },
-   "options__general__note": {
-      "message": "注意：",
-      "description": "Note:",
-      "status": null
-   },
-   "options__filetypes__video__note__description": {
-      "message": "建议使用上下文菜单按需创建叠加层，而不是启用此选项，因为生成不必要的叠加层可能会非常浪费资源！",
-      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
-      "status": null
-   },
-   "options__filetypes__video__note__account": {
-      "message": "不起作用？",
-      "description": "Not Working?",
-      "status": null
-   },
-   "options__filetypes__video__note__account__description": {
-      "message": "此功能需要免费的 PuryFi 帐户，请登录！",
-      "description": "This feature requires a free PuryFi account, so please, login!",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode": {
-      "message": "处理模式：",
-      "description": "Processing Mode:",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__stable": {
-      "message": "稳定",
-      "description": "Stable",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__overdrive": {
-      "message": "超频",
-      "description": "Overdrive",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__fps-limit": {
-      "message": "FPS 限制",
-      "description": "FPS-Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export": {
-      "message": "GIF 导出",
-      "description": "GIF-Export",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit": {
-      "message": "GIF 大小限制",
-      "description": "GIF Size Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit__description": {
-      "message": "将导出的 GIF 的图像大小限制为最大高度或宽度，同时保持纵横比。值可以设置为 0 以禁用 GIF 的缩小。",
-      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory": {
-      "message": "缓存内存",
-      "description": "Cache Memory",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory__description": {
-      "message": "定义视频叠加层允许缓存的帧数。影响您可以一次从给定视频中最多导出多少帧。值可以设置为 0 以禁用所有帧缓存 (GIF 导出需要帧缓存)。",
-      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
       "status": null
    },
    "options__censor__header": {
@@ -425,8 +300,8 @@
       "status": null
    },
    "options__censor__description": {
-      "message": "确定最终审查结果：",
-      "description": "Determine the resulting censor:",
+      "message": "配置结果审查器：",
+      "description": "Configure the resulting censor:",
       "status": null
    },
    "popup__censor__mode": {
@@ -509,9 +384,9 @@
       "description": "Opacity",
       "status": null
    },
-   "options__censor__modes__border-width": {
-      "message": "边框宽度",
-      "description": "Border Width",
+   "options__censor__modes__border": {
+      "message": "边框",
+      "description": "Border",
       "status": null
    },
    "options__censor__modes__border-color": {
@@ -614,19 +489,9 @@
       "description": "Simple",
       "status": null
    },
-   "options__censor__modes__grid-width": {
-      "message": "网格宽度",
-      "description": "Grid Width",
-      "status": null
-   },
-   "options__censor__modes__grid-color": {
-      "message": "网格颜色",
-      "description": "Grid Color",
-      "status": null
-   },
-   "options__censor__modes__background-color": {
-      "message": "背景颜色",
-      "description": "Background Color",
+   "options__censor__modes__grid": {
+      "message": "网格",
+      "description": "Grid",
       "status": null
    },
    "options__censor__modes__vertext-count": {
@@ -1009,11 +874,6 @@
       "description": "Content",
       "status": null
    },
-   "options__censor__reverse": {
-      "message": "反转",
-      "description": "Reverse",
-      "status": null
-   },
    "options__censor__censor-extras": {
       "message": "额外审查",
       "description": "Censor Extras",
@@ -1124,34 +984,14 @@
       "description": "Angle",
       "status": null
    },
-   "options__censor__reverse__censor": {
-      "message": "审查",
-      "description": "Censor",
+   "options__appearance__header": {
+      "message": "外观",
+      "description": "Appearance",
       "status": null
    },
-   "options__censor__reverse__all-images": {
-      "message": "所有图片",
-      "description": "all images",
-      "status": null
-   },
-   "options__censor__reverse__images-with-content": {
-      "message": "包含内容的图片",
-      "description": "images with content",
-      "status": null
-   },
-   "options__censor__reverse__images-with-censor-content": {
-      "message": "包含要审查内容的图片",
-      "description": "images with content to censor",
-      "status": null
-   },
-   "options__advanced__header": {
-      "message": "高级",
-      "description": "Advanced",
-      "status": null
-   },
-   "options__advanced__description": {
-      "message": "高级和其他设置：",
-      "description": "Advanced and miscellaneous settings:",
+   "options__appearance__description": {
+      "message": "配置扩展的外观：",
+      "description": "Configure the appearance of the extension:",
       "status": null
    },
    "options__advanced__extension-icon": {
@@ -1174,54 +1014,34 @@
       "description": "Minimalistic",
       "status": null
    },
-   "options__advanced__advanced-options": {
-      "message": "高级选项",
-      "description": "Advanced Options",
+   "options__performance__downscale-input": {
+      "message": "缩小输入",
+      "description": "Downscale Input",
       "status": null
    },
-   "options__advanced__pre-scaling": {
-      "message": "预缩放",
-      "description": "Pre-Scaling",
+   "options__performance__downscale-input__description": {
+      "message": "在将图像转换为张量之前，将其缩小到模型输入大小。这在无明显输出差异的情况下提高了速度和内存使用效率。",
+      "description": "Downscales images to the model input size before turning them into tensors. This improves speed and memory usage at no measurable output difference.",
       "status": null
    },
-   "options__advanced__pre-scaling__description": {
-      "message": "在处理之前再次缩小图片。测试表明，在批量处理大图像时，输出相当，同时略微提高了速度，并节省了大量内存。",
-      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
-      "status": null
-   },
-   "options__advanced__pre-scaling__description__note": {
-      "message": "当批量转换器或视频覆盖遇到内存问题时，强烈建议启用此选项。",
-      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
-      "status": null
-   },
-   "options__advanced__prefer-edited-detections": {
+   "options__performance__prefer-edited-detections": {
       "message": "优先使用编辑过的检测",
       "description": "Prefer Edited Detections",
       "status": null
    },
-   "options__advanced__prefer-edited-detections__description": {
-      "message": "在运行模型之前，查找用户是否已使用编辑器编辑并保存了图像的检测，如果是，则优先使用这些检测，而不是模型检测。",
-      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+   "options__performance__prefer-edited-detections__description": {
+      "message": "检查图像是否存在已编辑的检测结果，如果存在，则优先使用这些结果而非模型的结果。",
+      "description": "Checks whether edited detections for images exist, and if they do, prefers using those over of the model ones.",
       "status": null
    },
-   "options__advanced__base64_support": {
-      "message": "Base64 支持",
-      "description": "Base64 Support",
+   "options__performance__warm-up": {
+      "message": "热身",
+      "description": "Warm Up",
       "status": null
    },
-   "options__advanced__base64_support__description": {
-      "message": "还会扫描网页中 Base64 编码的图片进行审查，因为 Firefox 扩展 API 无法检测到这些图片。",
-      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
-      "status": null
-   },
-   "options__advanced__ai-warmup": {
-      "message": "AI 预热",
-      "description": "AI Warm-Up",
-      "status": null
-   },
-   "options__advanced__ai-warmup__description": {
-      "message": "当 Firefox 启动时初始化 AI。此时您的浏览器可能会短暂冻结。",
-      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+   "options__performance__warm-up__description": {
+      "message": "在扩展启动时预热模型。",
+      "description": "Warms up the model when the extension starts up.",
       "status": null
    },
    "options__advanced__sfw-icons": {
@@ -1355,8 +1175,8 @@
       "status": null
    },
    "options__settings__description": {
-      "message": "管理您的设置集合：",
-      "description": "Manage your settings collections:",
+      "message": "管理、导入和导出设置：",
+      "description": "Manage, import, and export settings:",
       "status": null
    },
    "options__settings__import-settings": {
@@ -1529,34 +1349,9 @@
       "description": "W/B List",
       "status": null
    },
-   "options__settings__advanced": {
-      "message": "高级",
-      "description": "Advanced",
-      "status": null
-   },
    "options__settings__icons": {
       "message": "图标",
       "description": "Icons",
-      "status": null
-   },
-   "options__settings__pre-scaling": {
-      "message": "预缩放",
-      "description": "Pre-Scaling",
-      "status": null
-   },
-   "options__settings__prefer-edited-detections": {
-      "message": "优先使用编辑过的检测",
-      "description": "Prefer Edited Detections",
-      "status": null
-   },
-   "options__settings__base64_support": {
-      "message": "Base64支持",
-      "description": "Base64 Support",
-      "status": null
-   },
-   "options__settings__ai-warm-up": {
-      "message": "AI预热",
-      "description": "AI Warm-Up",
       "status": null
    },
    "options__settings__theme": {
@@ -1590,8 +1385,8 @@
       "status": null
    },
    "options__help__reset-cache": {
-      "message": "重置缓存",
-      "description": "Reset Cache",
+      "message": "清除缓存",
+      "description": "Clear Cache",
       "status": null
    },
    "options__help__storage": {
@@ -1687,21 +1482,6 @@
    "options__help__debug": {
       "message": "调试",
       "description": "Debug",
-      "status": null
-   },
-   "options__help__default-settings": {
-      "message": "默认设置",
-      "description": "Default Settings",
-      "status": null
-   },
-   "options__help__restore-defaults": {
-      "message": "恢复默认值",
-      "description": "Restore Defaults",
-      "status": null
-   },
-   "options__help__restore-defaults__description": {
-      "message": "不会删除任何本地数据，如贴纸或存储的设置。",
-      "description": "Will not delete any local data such as stickers or stored settings.",
       "status": null
    },
    "options__oom__header": {
@@ -1864,9 +1644,9 @@
       "description": "Genitals Covered",
       "status": null
    },
-   "options__oom__lock-settings": {
-      "message": "锁定设置",
-      "description": "Lock Settings",
+   "options__oom__block-settings": {
+      "message": "阻止设置",
+      "description": "Block Settings",
       "status": null
    },
    "options__oom__date-time-format": {
@@ -1885,8 +1665,8 @@
       "status": null
    },
    "options__oom__block-message": {
-      "message": "遮挡信息",
-      "description": "Block Message",
+      "message": "遮挡信息:",
+      "description": "Block Message:",
       "status": null
    },
    "options__oom__list-image-content": {
@@ -1899,9 +1679,9 @@
       "description": "Timer",
       "status": null
    },
-   "options__oom__auto-refresh": {
+   "options__oom__automatic-refresh": {
       "message": "自动刷新",
-      "description": "Auto Refresh",
+      "description": "Automatic Refresh",
       "status": null
    },
    "options__oom__min-duration": {
@@ -2280,8 +2060,8 @@
       "status": null
    },
    "options__security__emergency-unlock__description__1": {
-      "message": "<b>1.</b> 加入我们相关的 <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> 等级。完成后，你可以随意取消或降级你的会员资格。",
-      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "message": "<b>1.</b> 加入我们相关的 <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> 层级。完成后，您可以随意取消或降级您的会员资格。",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
       "status": null
    },
    "options__security__emergency-unlock__description__2": {
@@ -2460,8 +2240,8 @@
       "status": null
    },
    "tooltip__experimental-content-label": {
-      "message": "此内容是实验性的，当前<b>未</b>被AI模型检测到。只能通过编辑器分配给图像。",
-      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "message": "此内容是实验性的，目前无法被AI模型检测到。只能通过编辑器分配到图像。",
+      "description": "This content is experimental and not currently detected by the AI model. It can only be assigned to images through the editor.",
       "status": null
    },
    "tooltip__cluster-only-matching-content": {
@@ -2496,7 +2276,7 @@
    },
    "tooltip__pixel-detection-size-aware": {
       "message": "根据检测大小调整效果的强度。",
-      "description": "Scales the strength of the effect according to the detection size",
+      "description": "Scales the strength of the effect according to the detection size.",
       "status": null
    },
    "tooltip__triangle-threshold": {
@@ -2512,11 +2292,6 @@
    "tooltip__triangle-blurring": {
       "message": "在三角化之前模糊效果区域的程度。",
       "description": "How much to blur the effect area prior to triangulazing it.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-width": {
-      "message": "在根据图像大小进行缩放之前的描边宽度，其中1024px x 1024px的图像大小不会进行缩放。",
-      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
       "status": null
    },
    "tooltip__triangle-gradients": {
@@ -2619,124 +2394,29 @@
       "description": "Mode not supported in video overlays.",
       "status": null
    },
-   "tooltip__bar-type__paint": {
-      "message": "[绘画]: ",
-      "description": "[Paint]: ",
+   "tooltip__bar-type": {
+      "message": "[绘画]: 用指定的颜色绘制效果区域。<br/>[擦除]: 用指定的不透明度擦除效果区域。",
+      "description": "[Paint]: Paint the effect area with the given color.<br/>[Erase]: Erase the effect area at the given opacity.",
       "status": null
    },
-   "tooltip__bar-type__paint__description": {
-      "message": "用指定的颜色绘制效果区域。",
-      "description": "Paint the effect area with the given color.",
+   "tooltip__triangle-fill-color-mode": {
+      "message": "[自动]: 从效果区域采样填充颜色。<br/>[自定义]: 使用自定义填充颜色。",
+      "description": "[Auto]: Samples the fill color from the effect area.<br/>[Custom]: Uses a custom fill color.",
       "status": null
    },
-   "tooltip__bar-type__erase": {
-      "message": "[擦除]: ",
-      "description": "[Erase]: ",
+   "tooltip__sticker-pick-mode": {
+      "message": "[按身体部位]: 为每个身体部位的所有检测选择贴纸。<br/>[按检测]: 为每次检测选择贴纸。",
+      "description": "[Per Body Part]: Picks a sticker for all detections of each body part.<br/>[Per Detection]: Picks a sticker for each detection.",
       "status": null
    },
-   "tooltip__bar-type__erase__description": {
-      "message": "用指定的不透明度擦除效果区域。",
-      "description": "Erase the effect area at the given opacity.",
+   "tooltip__triangle-stroke-color-mode": {
+      "message": "[자동]: 采样颜色。<br/>[定制]: 使用自定义的笔划颜色。",
+      "description": "[Auto]: Samples the stroke color from the effect area.<br/>[Custom]: Uses a custom stroke color.",
       "status": null
    },
-   "tooltip__bar-type__note": {
-      "message": "注意: ",
-      "description": "NOTE: ",
-      "status": null
-   },
-   "tooltip__bar-type__note__description": {
-      "message": "在不支持透明度的输出文件类型（如JPEG）上，擦除可能无法按预期工作。",
-      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto": {
-      "message": "[自动]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto__description": {
-      "message": "从效果区域采样填充颜色。",
-      "description": "Samples the fill color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom": {
-      "message": "[自定义]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom__description": {
-      "message": "使用自定义填充颜色。",
-      "description": "Uses a custom fill color.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part": {
-      "message": "[按身体部位]: ",
-      "description": "[Per Body Part]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part__description": {
-      "message": "为每个身体部位的所有检测选择贴纸。",
-      "description": "Picks a sticker for all detections of each body part.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection": {
-      "message": "[按检测]: ",
-      "description": "[Per Detection]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection__description": {
-      "message": "为每次检测选择贴纸。",
-      "description": "Picks a sticker for each detection.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto": {
-      "message": "[자동]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto__description": {
-      "message": "采样颜色。",
-      "description": "Samples the stroke color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom": {
-      "message": "[定制]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom__description": {
-      "message": "使用自定义的笔划颜色。",
-      "description": "Uses a custom stroke color.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto": {
-      "message": "[自动]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto__description": {
-      "message": "从效果区域采样喷溅颜色。",
-      "description": "Samples the splatter color from the effect area.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom": {
-      "message": "[自定义]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom__description": {
-      "message": "从自定义颜色池中选择喷溅颜色。",
-      "description": "Picks a splatter color from a pool of custom colors.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__1": {
-      "message": "可以进行审查的每个部分的审查模式和预设。",
-      "description": "The censor modes and preset for each section that can be censored.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__2": {
-      "message": "使用 Shift/Ctrl + 单击可同时选择多个条目进行编辑。",
-      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
+   "tooltip__splatter-color-mode": {
+      "message": "[自动]: 从效果区域采样喷溅颜色。<br/>[自定义]: 从自定义颜色池中选择喷溅颜色。",
+      "description": "[Auto]: Samples the splatter color from the effect area.<br/>[Custom]: Picks a splatter color from a pool of custom colors.",
       "status": null
    },
    "on-add-caption-tag__count-limit-error": {
@@ -2754,69 +2434,19 @@
       "description": "Select some entries to assign tags to!",
       "status": null
    },
-   "tooltip__word-wall-color-mode__cutout": {
-      "message": "[切割]: ",
-      "description": "[Cutout]: ",
+   "tooltip__word-wall-color-mode": {
+      "message": "[切割]: 创建文字的切割。<br/>[绘画]: 以自定义颜色绘制文字。",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
       "status": null
    },
-   "tooltip__word-wall-color-mode__cutout__description": {
-      "message": "创建文字的切割。",
-      "description": "Creates a cutout of the text.",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint": {
-      "message": "[绘画]: ",
-      "description": "[Paint]: ",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint__description": {
-      "message": "以自定义颜色绘制文字。",
-      "description": "Paints the text in a custom color.",
-      "status": null
-   },
-   "tooltip__oom__description__1": {
-      "message": "在图片被浏览一次后永久阻止它们。",
-      "description": "Permanently blocks images after they've been viewed once.",
-      "status": null
-   },
-   "tooltip__oom__description__2": {
-      "message": "这是通过计算和比较图像哈希值来实现的，这意味着一旦图像被阻止，它在整个网络上的任何其他出现也将从此被阻止。",
-      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
-      "status": null
-   },
-   "tooltip__remote-control__description": {
-      "message": "允许您远程控制其他用户的扩展程序。",
-      "description": "Allows you to remotely control other users extensions.",
-      "status": null
-   },
-   "tooltip__remote-control__description__1": {
-      "message": "<b>1.</b> 创建一个新的遥控器。",
-      "description": "<b>1.</b> Create a new remote control.",
-      "status": null
-   },
-   "tooltip__remote-control__description__2": {
-      "message": "<b>2.</b> 将一个云设置ID绑定到您的遥控器。",
-      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
-      "status": null
-   },
-   "tooltip__remote-control__description__3": {
-      "message": "<b>3.</b> 让要远程控制的用户从设置页面订阅您的遥控器。",
-      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
-      "status": null
-   },
-   "tooltip__remote-control__description__4": {
-      "message": "<b>4.</b> 随时随地更改绑定的设置，所有订阅者将自动更新！",
-      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+   "tooltip__oom__description": {
+      "message": "在图片被浏览一次后永久阻止它们。<br/><br/>这是通过计算和比较图像哈希值来实现的，这意味着一旦图像被阻止，它在整个网络上的任何其他出现也将从此被阻止。<br/><br/>允许您远程控制其他用户的扩展程序。<br/>1. 创建一个新的遥控器。<br/>2. 将一个云设置ID绑定到您的遥控器。<br/>3. 让要远程控制的用户从设置页面订阅您的遥控器。<br/>4. 随时随地更改绑定的设置，所有订阅者将自动更新！",
+      "description": "Permanently blocks images after they've been viewed once.<br/><br/>This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
       "status": null
    },
    "tooltip__remote-lock": {
-      "message": "您的订阅已被锁定！",
-      "description": "Your subscription is locked!",
-      "status": null
-   },
-   "tooltip__remote-lock__description": {
-      "message": "解锁它的<b>唯一</b>方法是向远程所有者请求，或向我们Discord服务器的工作人员请求，或者如果这些选项不可取，加入我们相关的<b>Patreon层级</b>，这允许您自己解锁。",
-      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "message": "您的订阅已被锁定！<br/><br/>解锁它的唯一方法是向远程所有者请求，或向我们Discord服务器的工作人员请求，或者如果这些选项不可取，加入我们相关的Patreon层级，这允许您自己解锁。",
+      "description": "Your subscription is locked.<br/><br/>Your only way to unsubscribe would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant Patreon tier.",
       "status": null
    },
    "tooltip__remote-identifier": {
@@ -2825,53 +2455,18 @@
       "status": null
    },
    "tooltip__patreon-cache": {
-      "message": "您的Patreon奖励将在${0}天后过期。",
-      "description": "Your Patreon rewards will expire in ${0} days.",
+      "message": "您的Patreon奖励将在${0}天后过期。<br/><br/>如果您仍然是Patreon订阅者，请在此处刷新您的账户状态，或者如果这不起作用，请重新绑定您的账户到Patreon。",
+      "description": "Your Patreon rewards will expire in ${0} days.<br/><br/>If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon.",
       "status": null
    },
-   "tooltip__patreon-cache__description": {
-      "message": "如果您仍然是Patreon订阅者，请在此处刷新您的账户状态，或者如果这不起作用，请重新绑定您的账户到Patreon。",
-      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
+   "tooltip__timer-mode": {
+      "message": "[持续时间]: 锁定时，将计时器设置为指定的持续时间。<br/>[日期]: 锁定时，将计时器设置为指定日期前的剩余时间。",
+      "description": "[Duration]: Upon locking, set the timer to the duration specified.<br/>[Date]: Upon locking, set the timer to the time remaining until the specified date.",
       "status": null
    },
-   "tooltip__timer-mode__duration": {
-      "message": "[持续时间]: ",
-      "description": "[Duration]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__duration__description": {
-      "message": "锁定时，将计时器设置为指定的持续时间。",
-      "description": "Upon locking, set the timer to the duration specified.",
-      "status": null
-   },
-   "tooltip__timer-mode__date": {
-      "message": "[日期]: ",
-      "description": "[Date]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__date__description": {
-      "message": "锁定时，将计时器设置为指定日期前的剩余时间。",
-      "description": "Upon locking, set the timer to the time remaining until the specified date.",
-      "status": null
-   },
-   "tooltip__timer-mode__stable": {
-      "message": "[稳定]: ",
-      "description": "[Stable]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__stable__description": {
-      "message": "等待最新帧处理完毕后再处理新帧。",
-      "description": "Waits until the latest frame has been processed before processing a new frame.",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive": {
-      "message": "[超速]: ",
-      "description": "[Overdrive]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive__description": {
-      "message": "一次处理多个帧，直到达到硬件限制或特定的fps率。",
-      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+   "tooltip__overlay-mode": {
+      "message": "[稳定]: 等待最新帧处理完毕后再处理新帧。<br/>[超速]: 一次处理多个帧，直到达到硬件限制或特定的fps率。",
+      "description": "[Stable]: Waits until the latest frame has been processed before processing a new frame.<br/>[Overdrive]: Processes multiple frames at once until the hardware limit or a certain FPS rate is reached.",
       "status": null
    },
    "popup__timer-container__locked-until": {
@@ -2882,16 +2477,6 @@
    "popup__reverse-mode": {
       "message": "反选模式：",
       "description": "Reverse Mode:",
-      "status": null
-   },
-   "options__censor__word-wall__shadow-size": {
-      "message": "阴影大小",
-      "description": "Shadow Size",
-      "status": null
-   },
-   "options__censor__caption__shadow-color": {
-      "message": "阴影颜色",
-      "description": "Shadow Color",
       "status": null
    },
    "tooltip__censor__modes__caption__add-tag": {
@@ -3095,8 +2680,8 @@
       "status": null
    },
    "on-settings-import__missing-censor-presets-warning": {
-      "message": "这些设置将使您的混合配置引用不存在的审查预设！",
-      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "message": "这些设置将导致您的某些配置引用不存在的审查预设！",
+      "description": "These settings will leave some of your configurations referencing non-existent censor presets!",
       "status": null
    },
    "on-settings-import__missing-patreon-features-warning": {
@@ -3110,13 +2695,13 @@
       "status": null
    },
    "on-bind-settings-to-remote__success": {
-      "message": "ID为 ${0} 的云设置已成功绑定到远程控制！",
-      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "message": "ID为 ${0} 的云设置已成功绑定到远程控制",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control",
       "status": null
    },
    "on-update-remote-subscription__success": {
-      "message": "设置已成功与远程同步！",
-      "description": "Settings successfully synced with remote!",
+      "message": "设置已成功与远程同步",
+      "description": "Settings successfully synced with remote",
       "status": null
    },
    "on-update-remote-subscription__new-remote-settings-alert": {
@@ -3125,28 +2710,28 @@
       "status": null
    },
    "on-load-default-settings__success": {
-      "message": "默认设置已成功加载！",
-      "description": "Default settings successfully loaded!",
+      "message": "默认设置已成功加载",
+      "description": "Default settings successfully loaded",
       "status": null
    },
    "on-load-settings__success": {
-      "message": "设置 ${0} 已成功加载！",
-      "description": "Settings ${0} successfully loaded!",
+      "message": "设置 ${0} 已成功加载",
+      "description": "Settings ${0} successfully loaded",
       "status": null
    },
    "on-import-settings__success": {
-      "message": "设置已成功导入！",
-      "description": "Settings successfully imported!",
+      "message": "设置已成功导入",
+      "description": "Settings successfully imported",
       "status": null
    },
    "on-delete-settings__success": {
-      "message": "设置 ${0} 已成功删除！",
-      "description": "Settings ${0} successfully deleted!",
+      "message": "设置 ${0} 已成功删除",
+      "description": "Settings ${0} successfully deleted",
       "status": null
    },
    "on-save-settings__success": {
-      "message": "设置 ${0} 已成功保存！",
-      "description": "Settings ${0} successfully saved!",
+      "message": "设置 ${0} 已成功保存",
+      "description": "Settings ${0} successfully saved",
       "status": null
    },
    "bar-type": {
@@ -3158,5 +2743,555 @@
       "message": "被审查的内容",
       "description": "Censored Content",
       "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-all-content": {
+      "message": "在所有内容上启用",
+      "description": "Enable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-none-content": {
+      "message": "在所有内容上禁用",
+      "description": "Disable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__export-entries": {
+      "message": "导出",
+      "description": "Export",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__import-entries": {
+      "message": "导入",
+      "description": "Import",
+      "status": null
+   },
+   "on-export-caption-collection__success": {
+      "message": "带有 ${0} 条目和 ${1} 标签的字幕集合已成功导出",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully exported",
+      "status": null
+   },
+   "on-import-caption-collection__success": {
+      "message": "带有 ${0} 条目和 ${1} 标签的字幕集合已成功导入",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully imported",
+      "status": null
+   },
+   "on-import-caption-collection__entry-count-limit-error": {
+      "message": "带有 ${0} 条目的字幕集合无法导入：已超出 ${1} 条目的总数！",
+      "description": "Caption collection with ${0} entries could not be imported: ${1} total entries exceeded!",
+      "status": null
+   },
+   "on-import-caption-collection__tag-count-limit-error": {
+      "message": "带有 ${0} 标签的字幕集合无法导入：已超出 ${1} 标签的总数！",
+      "description": "Caption collection with ${0} tags could not be imported: ${1} total tags exceeded!",
+      "status": null
+   },
+   "on-export-caption-collection__no-entries-or-tags-selected-error": {
+      "message": "选择一些条目和标签以导出！",
+      "description": "Select some entries and tags to export!",
+      "status": null
+   },
+   "options__unaddressed-issues__text": {
+      "message": "未解决的问题",
+      "description": "unaddressed issues",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__title": {
+      "message": "您的浏览器设置可能会阻止某些数据的保存和加载！",
+      "description": "Your browser settings might be preventing some data from saving and loading!",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__description": {
+      "message": "您的贴纸收藏和编辑的检测无法保存或加载。</br></br>这可能是由于当前 Firefox 的一个错误，选择 <b>[从不记住历史]</b> 或选择 <b>[使用自定义历史记录设置]</b> 并在设置中启用了 <b>[始终使用隐私浏览模式]</b> 会阻止我们和所有其他扩展程序打开 Indexed DB，我们使用它来存储上述数据。</br></br>如果您确实应用了前述的设置之一，应用其他设置并重新启动浏览器应能解决此问题。如果没有，或者您一开始就没有应用这些设置，请通过 <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> 或 <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> 联系开发人员，他们会进一步协助您。</br></br>您也可以选择不采取行动，在这种情况下，除了贴纸收藏和编辑的检测在会话之间不被记住外，该扩展程序将继续正常运行。",
+      "description": "Your stickers collections and edited detections cannot be saved nor loaded.</br></br>This might be due to a current Firefox bug in which selecting <b>[Never remember history]</b> or selecting <b>[Use custom settings for history]</b> with <b>[Always use private browsing mode]</b> enabled in your settings prevents ours and all other extensions from opening Indexed DBs, which we use to store the aforementioned data.</br></br>If you indeed have either of the previous settings applied, applying something else and restarting your browser should resolve this issue. If it doesn't or if you didn't have said settings applied to begin with, please get in contact with a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> who will assist you further.</br></br>You can also choose not to take action, in which case the extension will continue to operate as usual except for sticker collections and edited detections not being remembered between sessions.",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__title": {
+      "message": "处理视频时遇到异常！",
+      "description": "Exceptions have been encountered while processing videos!",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__description": {
+      "message": "由于处理过程中遇到异常，某些视频可能未能成功审查。<br/><br/>这些异常很可能是由于扩展或视频处理器中的错误或损坏状态导致的，而非您的操作所致。如果您愿意，可以通过<a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a>或<a href=\"https://github.com/pury-fi\" target=\"_blank\" style=\"color:inherit\">Github</a>联系开发者报告此问题，我们将非常感谢，并且开发者会亲自协助您解决问题。但如果您不愿意，您也可以尝试重新启动或重新安装扩展程序和/或视频处理器，并查看问题是否仍然存在。",
+      "description": "Some videos might have failed to censor due to exceptions encountered during processing.<br/><br/>These exceptions are likely the fault of bugs or corrupted state in either the extension or the video processor and not caused by your doing. Contacting a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\" target=\"_blank\" style=\"color:inherit\">Github</a> to report the issue would be greatly appreciated and they would personally assist you in resolving the issue, but if you'd rather not, you could still try restarting or reinstalling the extension and/or video processor and see if the issue comes up again.",
+      "status": null
+   },
+   "on-modal__acknowledge-and-dismiss-checkbox": {
+      "message": "确认并关闭。",
+      "description": "Acknowledge and Dismiss.",
+      "status": null
+   },
+   "options__help__export-data": {
+      "message": "导出数据",
+      "description": "Export Data",
+      "status": null
+   },
+   "options__help__import-data": {
+      "message": "导入数据",
+      "description": "Import Data",
+      "status": null
+   },
+   "on-clear-data__confirm": {
+      "message": "您的所有数据将被清除，包括<b>设置</b>、<b>贴纸收藏</b>、<b>编辑的检测</b>、<b>锁定计时器日志</b>和<b>OOM数据</b>。<br/><br/>您还将被注销，并且本地取消订阅任何远程控制。",
+      "description": "All of your data will be cleared including <b>Settings</b>, <b>Sticker Collections</b>, <b>Edited Detections</b>, <b>Lock Timer Logs</b>, and <b>OOM Data</b>.<br/><br/>You will also be logged out and locally unsubscribed from any remote control.",
+      "status": null
+   },
+   "on-create-report__permissions-request": {
+      "message": "您的浏览器现在应该提示您授予扩展程序<b>管理</b>和<b>隐私</b>权限。<br/><br/>这些权限将分别用于收集有关已安装浏览器扩展程序和浏览器设置的信息。<br/><br/>授予权限以继续...",
+      "description": "Your browser should now be prompting you to grant the extension <b>management</b> and <b>privacy</b> permissions.<br/><br/>These will be used to collect information about installed browser extensions and about browser settings respectively.<br/><br/>Grant the permissions to proceed...",
+      "status": null
+   },
+   "options__help__clear-data": {
+      "message": "清除数据",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__help__create-report": {
+      "message": "创建报告",
+      "description": "Create Report",
+      "status": null
+   },
+   "options__help__create-report__description": {
+      "message": "收集并导出有关您的扩展程序、浏览器和系统的信息，以便在开发人员请求时与其共享。",
+      "description": "Collects and exports information about your extension, browser, and system for sharing with developers when requested.",
+      "status": null
+   },
+   "options__censor__reverse-mode__all-images": {
+      "message": "审查所有图像",
+      "description": "Censor All Images",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content": {
+      "message": "审查有内容的图像",
+      "description": "Censor Images With Content",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content-to-censor": {
+      "message": "审查需审查的内容图像",
+      "description": "Censor Images With Content To Censor",
+      "status": null
+   },
+   "options__censor__reverse-mode": {
+      "message": "反向模式",
+      "description": "Reverse Mode",
+      "status": null
+   },
+   "options__censor__modes__blur-gaussian": {
+      "message": "高斯",
+      "description": "Gaussian",
+      "status": null
+   },
+   "options__censor__modes__blur-diffusion": {
+      "message": "扩散",
+      "description": "Diffusion",
+      "status": null
+   },
+   "options__censor__cluster__rotation": {
+      "message": "旋转",
+      "description": "Rotation",
+      "status": null
+   },
+   "options__censor__modes__shadow": {
+      "message": "阴影",
+      "description": "Shadow",
+      "status": null
+   },
+   "on-import-data__invalid-file": {
+      "message": "无法导入数据：文件已损坏或版本不匹配！",
+      "description": "No data could be imported: File is either corrupted or for a different version!",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not-easily-reversable-warning": {
+      "message": "此操作不可轻易撤销！",
+      "description": "This action is not easily reversable!",
+      "status": null
+   },
+   "tooltip__cluster-rotation": {
+      "message": "允许根据需要旋转结果检测，以有效覆盖组合的检测。",
+      "description": "Allows rotating the resulting detections as needed to efficiently cover the joined detections.",
+      "status": null
+   },
+   "tooltip__oom-timer": {
+      "message": "与其阻止第二次查看图像，不如在第一次查看后阻止超时的查看。",
+      "description": "Instead of blocking the image from the second view, blocks it for views past a given ellapsed time from when first viewed.",
+      "status": null
+   },
+   "tooltip__oom-automatic-refresh": {
+      "message": "当计时器开启时，在计时结束时自动刷新已打开选项卡中的图像，使被阻止的图像立即替换原图。",
+      "description": "When timer is on, automatically refreshes images in opened tabs when their timer runs down, having the blocked image to immediately take its place.",
+      "status": null
+   },
+   "on-import-caption-collection__invalid-file-error": {
+      "message": "无法导入字幕集：文件无效！",
+      "description": "No caption collection could be imported: Invalid file!",
+      "status": null
+   },
+   "tooltip__reverse-mode__description": {
+      "message": "与其屏蔽检测到的启用内容，不如屏蔽整张图像，除了该内容。",
+      "description": "Instead of censoring the enabled content detected, censors the entire image except for said content.",
+      "status": null
+   },
+   "tooltip__caption-mode": {
+      "message": "[裁剪]: 创建文本的裁剪。<br/>[绘制]: 以自定义颜色绘制文本。",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__caption-tags": {
+      "message": "在每张图片上选择一个标签，然后仅选择具有该标签的条目。",
+      "description": "On each image a tag is picked and only entries with said tag are then picked for the image.",
+      "status": null
+   },
+   "tooltip__performance__interpolation": {
+      "message": "通过仅扫描每隔几帧并执行插值填补空白，从而缩短动画媒体的处理时间。",
+      "description": "Cuts processing times of animated media by scanning only every few frames and performing interpolation to fill the gaps.",
+      "status": null
+   },
+   "tooltip__download": {
+      "message": "下载",
+      "description": "Download",
+      "status": null
+   },
+   "tooltip__concurrent-processes": {
+      "message": "同时处理的最大图像数量。",
+      "description": "The maximum number of images that get processed concurrently.",
+      "status": null
+   },
+   "tooltip__remote-control__description": {
+      "message": "允许您远程控制其他用户的扩展。<br/><br/>1. 创建一个新的远程控制。<br/>2. 将一个云设置ID绑定到您的遥控器上。<br/>3. 让要被远程控制的用户从设置页面订阅您的遥控器。<br/>4. 随时更改绑定的设置，所有订阅者将自动更新！",
+      "description": "Allows you to remotely control other users extensions.<br/><br/>1. Create a new remote control.<br/>2. Bind a cloud settings ID to your remote.<br/>3. Have the users to be remotely controlled subscribe to your remote from the settings page.<br/>4. Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "status": null
+   },
+   "options__sidebar__performance": {
+      "message": "性能",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__header": {
+      "message": "性能",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__description": {
+      "message": "配置扩展的性能：",
+      "description": "Configure the extension's performance:",
+      "status": null
+   },
+   "options__performance__ai-model": {
+      "message": "AI 模型",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__performance__editor": {
+      "message": "编辑器",
+      "description": "Editor",
+      "status": null
+   },
+   "options__performance__animated-media": {
+      "message": "动画媒体",
+      "description": "Animated Media",
+      "status": null
+   },
+   "options__performance_interpolation": {
+      "message": "插值",
+      "description": "Interpolation",
+      "status": null
+   },
+   "options__performance__scan-rate": {
+      "message": "扫描率",
+      "description": "Scan Rate",
+      "status": null
+   },
+   "options__performance__scan-rate__description": {
+      "message": "每隔这些帧执行一次扫描。",
+      "description": "Performs a scan every this many frames.",
+      "status": null
+   },
+   "options__performance__confidence": {
+      "message": "置信度",
+      "description": "Confidence",
+      "status": null
+   },
+   "options__performance__confidence__description": {
+      "message": "确定两个不同帧中的检测内容必须多么相似，才能在它们之间执行插值。",
+      "description": "Determines how similar detections in two different frames must be to perform interpolation between them.",
+      "status": null
+   },
+   "options__performance__extra-interpolation": {
+      "message": "额外插值",
+      "description": "Extra Interpolation",
+      "status": null
+   },
+   "options__performance__extra-interpolation__description": {
+      "message": "执行多于所需帧数的插值，以弥补未扫描的帧。这有助于补偿模型暂时未能检测到的内容。",
+      "description": "Performs interpolation for this many frames beyond the needed to cover for frames not scanned. This can help cover for the model briefly failing to detect some content.",
+      "status": null
+   },
+   "options__filetypes__concurrent-processes": {
+      "message": "并发处理",
+      "description": "Concurrent Processes",
+      "status": null
+   },
+   "options__filetypes__video-file-processor": {
+      "message": "文件处理器",
+      "description": "File Processor",
+      "status": null
+   },
+   "popup__missing-video-processor-app": {
+      "message": "需要在您的桌面上安装我们的视频处理器应用程序。",
+      "description": "Requires our Video Processor app to be installed on your desktop.",
+      "status": null
+   },
+   "popup__upgrade-required-video-processor-app": {
+      "message": "已安装的视频处理器应用程序不兼容，请升级到 ${0}。",
+      "description": "The installed Video Processor app is incompatible, please upgrade to ${0}.",
+      "status": null
+   },
+   "popup__downgrade-required-video-processor-app": {
+      "message": "已安装的视频处理器应用程序不兼容，请降级到 ${0}。",
+      "description": "The installed Video Processor app is incompatible, please downgrade to ${0}.",
+      "status": null
+   },
+   "popup__upgrade-recommended-video-processor-app": {
+      "message": "已安装的视频处理器应用程序已过时，请升级到 ${0}。",
+      "description": "The installed Video Processor app is outdated, please upgrade to ${0}.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__not-supported-device-message": {
+      "message": "仅在 64 位 Windows 桌面上可用。",
+      "description": "Available only on 64 bits Windows desktop.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__glitch-type-for-pixel-not-supported": {
+      "message": "Pixel 的故障类型尚不支持。",
+      "description": "Glitch type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__halftone-type-for-pixel-not-supported": {
+      "message": "Pixel 的半色调类型尚不支持。",
+      "description": "Halftone type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__super-random-mode-for-random-not-supported": {
+      "message": "Random 的超随机模式尚不支持。",
+      "description": "Super random mode for Random is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__random-entries-in-mixed-not-supported": {
+      "message": "Mixed 中的随机条目尚不支持。",
+      "description": "Random entries in Mixed are not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__general": {
+      "message": "常规",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps": {
+      "message": "最大 FPS",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps__description": {
+      "message": "在处理视频时丢弃超过此FPS的帧。",
+      "description": "Drops frames in videos over this FPS for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution": {
+      "message": "最大分辨率",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution__description": {
+      "message": "对分辨率超过此值的视频进行缩放处理。",
+      "description": "Downscales videos over this resolution for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality": {
+      "message": "质量",
+      "description": "Quality",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__worst": {
+      "message": "差",
+      "description": "Poor",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__balanced": {
+      "message": "平衡",
+      "description": "Balanced",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__good": {
+      "message": "好",
+      "description": "Good",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__best": {
+      "message": "最佳",
+      "description": "Best",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__description": {
+      "message": "设置没有无损选项的编码器的输出质量，如 libvpx。",
+      "description": "Sets the output quality for encoders with no lossless option, such as libvpx.",
+      "status": null
+   },
+   "options__filetypes__video-overlay": {
+      "message": "叠加",
+      "description": "Overlay",
+      "status": null
+   },
+   "options__filetypes__video-overlay__not-supported-device-message": {
+      "message": "仅在桌面端可用。",
+      "description": "Available only on desktop.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__general": {
+      "message": "常规",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-overlay__gif-exporting": {
+      "message": "GIF 导出",
+      "description": "GIF Exporting",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode": {
+      "message": "处理模式",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__sync": {
+      "message": "同步",
+      "description": "Sync",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__async": {
+      "message": "异步",
+      "description": "Async",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__description": {
+      "message": "是否逐帧处理 [同步] 或同时处理直到达到 FPS 限制 [异步]。",
+      "description": "Whether to process frames one at a time [Sync] or to simultaneously process frames until the FPS limit is met [Async].",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit": {
+      "message": "最大FPS",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit__description": {
+      "message": "在异步处理时，处理的 FPS 不超过此值。",
+      "description": "Processes no more than this many FPS when async processing.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution": {
+      "message": "最大分辨率",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution__description": {
+      "message": "导出 GIF 时，对超出此分辨率的帧进行缩放。可以设置为零以禁用。",
+      "description": "Downscales frames over this resolution when exporting a GIF. Can be set to zero to disable.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size": {
+      "message": "缓存大小",
+      "description": "Cache Size",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size__description": {
+      "message": "存储处理帧的缓存大小，因此也决定了可导出为GIF的总帧数。",
+      "description": "The size of the cache for storing processed frames, and consequently, the total frames that can be exported as a GIF.",
+      "status": null
+   },
+   "options__settings__scan": {
+      "message": "扫描",
+      "description": "Scan",
+      "status": null
+   },
+   "options__settings__appearance": {
+      "message": "外观",
+      "description": "Appearance",
+      "status": null
+   },
+   "options__help__unfreeze": {
+      "message": "解除冻结",
+      "description": "Unfreeze",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads": {
+      "message": "线程",
+      "description": "Threads",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads__description": {
+      "message": "用于扫描和绘制帧的线程数量。",
+      "description": "The number of threads to use for scanning and painting frames.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout": {
+      "message": "空闲超时",
+      "description": "Inactivity Timeout",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout__description": {
+      "message": "在此空闲时间后使视频处理器应用程序进入休眠状态。",
+      "description": "Puts the video processsor app to sleep after this period of inactivity.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity__none": {
+      "message": "无",
+      "description": "None",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1m": {
+      "message": "1 分钟",
+      "description": "1 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2m": {
+      "message": "2 分钟",
+      "description": "2 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__3m": {
+      "message": "3 分钟",
+      "description": "3 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__5m": {
+      "message": "5 分钟",
+      "description": "5 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__10m": {
+      "message": "10 分钟",
+      "description": "10 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__15m": {
+      "message": "15 分钟",
+      "description": "15 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__20m": {
+      "message": "20 分钟",
+      "description": "20 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__30m": {
+      "message": "30 分钟",
+      "description": "30 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1h": {
+      "message": "1 小时",
+      "description": "1 hr",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2h": {
+      "message": "2 小时",
+      "description": "2 hr",
+      "status": "new"
    }
 }

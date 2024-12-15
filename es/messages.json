@@ -105,8 +105,8 @@
       "status": null
    },
    "options__sidebar__advanced": {
-      "message": "Avanzado",
-      "description": "Advanced",
+      "message": "Apariencia",
+      "description": "Appearance",
       "status": null
    },
    "options__content__header": {
@@ -115,8 +115,8 @@
       "status": null
    },
    "options__content__description": {
-      "message": "Determinar qué contenido censurar:",
-      "description": "Determine which content to censor:",
+      "message": "Configura qué contenido censurar:",
+      "description": "Configure what content to censor:",
       "status": null
    },
    "options__content__experimental-content": {
@@ -230,8 +230,8 @@
       "status": null
    },
    "options__filetypes__description": {
-      "message": "Determinar qué tipos de archivo procesar y cómo:",
-      "description": "Determine which file types to process and how:",
+      "message": "Configure qué tipos de archivos procesar y cómo:",
+      "description": "Configure what file types to process and how:",
       "status": null
    },
    "options__filetypes__gif__thumb": {
@@ -285,138 +285,13 @@
       "status": null
    },
    "options__filetypes__gif__thumbnail-fallback__description": {
-      "message": "Censura y muestra la miniatura si el GIF excede el tamaño máximo de archivo o el número de frames. Los GIF por debajo del tamaño mínimo de archivo permanecen ignorados.",
-      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode": {
-      "message": "Modo de Procesamiento",
-      "description": "Processing Mode",
-      "status": null
-   },
-   "options__filetypes__gif__sync-slow": {
-      "message": "Síncrono (lento)",
-      "description": "Sync (slow)",
-      "status": null
-   },
-   "options__filetypes__gif__sync-fast": {
-      "message": "Asíncrono (rápido)",
-      "description": "Async (fast)",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode__description": {
-      "message": "Reduce los tiempos de procesamiento al procesar todos los frames de forma asíncrona, con el riesgo de congelar o bloquear el navegador si se procesan GIF lo suficientemente grandes.",
-      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping": {
-      "message": "Omisión de Frames IA",
-      "description": "AI Frame Skipping",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping__description": {
-      "message": "Reduce los tiempos de procesamiento al omitir la ejecución de la IA para la cantidad establecida de frames después de haberla ejecutado. Las detecciones en frames donde no se ejecuta la IA se deducen de los frames en los que sí se ejecuta.",
-      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending": {
-      "message": "Extensión de Detección",
-      "description": "Detection Extending",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending__description": {
-      "message": "Cubre instancias en las que la IA falla brevemente en detectar una parte del cuerpo al extender todas las detecciones por la cantidad establecida de frames anteriores y siguientes.",
-      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity": {
-      "message": "Umbral de Similitud de Detección",
-      "description": "Detection Similarity Threshold",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity__description": {
-      "message": "Establece qué tan similarmente posicionadas y dimensionadas deben ser las detecciones en dos frames diferentes para asumir que detectaron la misma parte del cuerpo. Esta información se utiliza para deducir detecciones en frames donde la IA no se ejecuta.",
-      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "message": "Recurrir a censurar la miniatura si el GIF excede el tamaño máximo de archivo o el número de cuadros.",
+      "description": "Fall back to censoring the thumbnail if the GIF exceeds the max. file size or frame count.",
       "status": null
    },
    "options__filetypes__gif__frames-max": {
       "message": "Frames (Máx.)",
       "description": "Frames (Max)",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay": {
-      "message": "Superponer Videos Automáticamente",
-      "description": "Automatically Overlay Videos",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay__description": {
-      "message": "Crea una superposición censurada sobre los videos. Dado que los frames se procesan en tiempo real, los FPS resultantes dependerán en gran medida de las capacidades de su hardware. Tenga en cuenta que esto no censura el video en realidad.",
-      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
-      "status": null
-   },
-   "options__general__note": {
-      "message": "Nota:",
-      "description": "Note:",
-      "status": null
-   },
-   "options__filetypes__video__note__description": {
-      "message": "¡Se recomienda usar el menú contextual para crear superposiciones a pedido en lugar de habilitar esta opción, ya que generar superposiciones innecesarias puede ser un gran desperdicio de recursos!",
-      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
-      "status": null
-   },
-   "options__filetypes__video__note__account": {
-      "message": "¿No Funciona?",
-      "description": "Not Working?",
-      "status": null
-   },
-   "options__filetypes__video__note__account__description": {
-      "message": "Esta función requiere una cuenta gratuita de PuryFi, ¡así que por favor inicie sesión!",
-      "description": "This feature requires a free PuryFi account, so please, login!",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode": {
-      "message": "Modo de Procesamiento:",
-      "description": "Processing Mode:",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__stable": {
-      "message": "Estable",
-      "description": "Stable",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__overdrive": {
-      "message": "Overdrive",
-      "description": "Overdrive",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__fps-limit": {
-      "message": "Límite de FPS",
-      "description": "FPS-Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export": {
-      "message": "Exportar GIF",
-      "description": "GIF-Export",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit": {
-      "message": "Límite de Tamaño de GIF",
-      "description": "GIF Size Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit__description": {
-      "message": "Limita el tamaño de la imagen del GIF exportado al alto o ancho máximo manteniendo la relación de aspecto. El valor se puede establecer en 0 para deshabilitar la reducción de los GIF.",
-      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory": {
-      "message": "Memoria Caché",
-      "description": "Cache Memory",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory__description": {
-      "message": "Define cuántos frames puede almacenar en caché la superposición de video. Afecta la cantidad máxima de frames que puede exportar de un video determinado a la vez. El valor se puede establecer en 0 para deshabilitar todo el almacenamiento en caché de frames (la exportación de GIF requiere almacenamiento en caché de frames).",
-      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
       "status": null
    },
    "options__censor__header": {
@@ -425,8 +300,8 @@
       "status": null
    },
    "options__censor__description": {
-      "message": "Determina el censor resultante:",
-      "description": "Determine the resulting censor:",
+      "message": "Configurar el censor resultante:",
+      "description": "Configure the resulting censor:",
       "status": null
    },
    "popup__censor__mode": {
@@ -509,9 +384,9 @@
       "description": "Opacity",
       "status": null
    },
-   "options__censor__modes__border-width": {
-      "message": "Ancho de Borde",
-      "description": "Border Width",
+   "options__censor__modes__border": {
+      "message": "Borde",
+      "description": "Border",
       "status": null
    },
    "options__censor__modes__border-color": {
@@ -614,19 +489,9 @@
       "description": "Simple",
       "status": null
    },
-   "options__censor__modes__grid-width": {
-      "message": "Ancho de Cuadrícula",
-      "description": "Grid Width",
-      "status": null
-   },
-   "options__censor__modes__grid-color": {
-      "message": "Color de Cuadrícula",
-      "description": "Grid Color",
-      "status": null
-   },
-   "options__censor__modes__background-color": {
-      "message": "Color de Fondo",
-      "description": "Background Color",
+   "options__censor__modes__grid": {
+      "message": "Cuadrícula",
+      "description": "Grid",
       "status": null
    },
    "options__censor__modes__vertext-count": {
@@ -1009,11 +874,6 @@
       "description": "Content",
       "status": null
    },
-   "options__censor__reverse": {
-      "message": "Inverso",
-      "description": "Reverse",
-      "status": null
-   },
    "options__censor__censor-extras": {
       "message": "Extras de Censura",
       "description": "Censor Extras",
@@ -1124,34 +984,14 @@
       "description": "Angle",
       "status": null
    },
-   "options__censor__reverse__censor": {
-      "message": "Censor",
-      "description": "Censor",
+   "options__appearance__header": {
+      "message": "Apariencia",
+      "description": "Appearance",
       "status": null
    },
-   "options__censor__reverse__all-images": {
-      "message": "todas las imágenes",
-      "description": "all images",
-      "status": null
-   },
-   "options__censor__reverse__images-with-content": {
-      "message": "imágenes con contenido",
-      "description": "images with content",
-      "status": null
-   },
-   "options__censor__reverse__images-with-censor-content": {
-      "message": "imágenes con contenido a censurar",
-      "description": "images with content to censor",
-      "status": null
-   },
-   "options__advanced__header": {
-      "message": "Avanzado",
-      "description": "Advanced",
-      "status": null
-   },
-   "options__advanced__description": {
-      "message": "Ajustes avanzados y misceláneos:",
-      "description": "Advanced and miscellaneous settings:",
+   "options__appearance__description": {
+      "message": "Configura la apariencia de la extensión:",
+      "description": "Configure the appearance of the extension:",
       "status": null
    },
    "options__advanced__extension-icon": {
@@ -1174,54 +1014,34 @@
       "description": "Minimalistic",
       "status": null
    },
-   "options__advanced__advanced-options": {
-      "message": "Opciones Avanzadas",
-      "description": "Advanced Options",
+   "options__performance__downscale-input": {
+      "message": "Reducir escala de entrada",
+      "description": "Downscale Input",
       "status": null
    },
-   "options__advanced__pre-scaling": {
-      "message": "Pre-Escalado",
-      "description": "Pre-Scaling",
+   "options__performance__downscale-input__description": {
+      "message": "Reduce la escala de las imágenes al tamaño de entrada del modelo antes de convertirlas en tensores. Esto mejora la velocidad y el uso de memoria sin diferencias medibles en la salida.",
+      "description": "Downscales images to the model input size before turning them into tensors. This improves speed and memory usage at no measurable output difference.",
       "status": null
    },
-   "options__advanced__pre-scaling__description": {
-      "message": "Reduce la escala de las imágenes por segunda vez para su procesamiento. Las pruebas han demostrado resultados comparables al tiempo que\nproporcionan pequeñas ganancias de velocidad en todas, así como un ahorro de memoria considerable cuando se procesan por lotes imágenes grandes.",
-      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
-      "status": null
-   },
-   "options__advanced__pre-scaling__description__note": {
-      "message": "Es muy recomendable habilitar esta opción cuando experimente problemas de memoria con el conversor por lotes o superposiciones de vídeo.",
-      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
-      "status": null
-   },
-   "options__advanced__prefer-edited-detections": {
+   "options__performance__prefer-edited-detections": {
       "message": "Preferir Detecciones Editadas",
       "description": "Prefer Edited Detections",
       "status": null
    },
-   "options__advanced__prefer-edited-detections__description": {
-      "message": "Antes de ejecutar el modelo, comprueba si el usuario ha utilizado el editor para editar y guardar detecciones para la imagen, y si es así, prefiere utilizarlas en lugar de las del modelo.",
-      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+   "options__performance__prefer-edited-detections__description": {
+      "message": "Comprueba si existen detecciones editadas para las imágenes y, de ser así, prefiere usarlas en lugar de las del modelo.",
+      "description": "Checks whether edited detections for images exist, and if they do, prefers using those over of the model ones.",
       "status": null
    },
-   "options__advanced__base64_support": {
-      "message": "Soporte de Base64",
-      "description": "Base64 Support",
+   "options__performance__warm-up": {
+      "message": "Calentamiento",
+      "description": "Warm Up",
       "status": null
    },
-   "options__advanced__base64_support__description": {
-      "message": "También escanea páginas web en busca de imágenes codificadas en Base64 para censurar, ya que éstas no son detectadas por la API de Extensiones de Firefox.",
-      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
-      "status": null
-   },
-   "options__advanced__ai-warmup": {
-      "message": "Calentamiento de IA",
-      "description": "AI Warm-Up",
-      "status": null
-   },
-   "options__advanced__ai-warmup__description": {
-      "message": "Inicializa la IA cuando se inicia Firefox. Su navegador podría experimentar una breve congelación cuando esto suceda.",
-      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+   "options__performance__warm-up__description": {
+      "message": "Calienta el modelo cuando se inicia la extensión.",
+      "description": "Warms up the model when the extension starts up.",
       "status": null
    },
    "options__advanced__sfw-icons": {
@@ -1355,8 +1175,8 @@
       "status": null
    },
    "options__settings__description": {
-      "message": "Administra tus colecciones de ajustes:",
-      "description": "Manage your settings collections:",
+      "message": "Gestionar, importar y exportar configuraciones:",
+      "description": "Manage, import, and export settings:",
       "status": null
    },
    "options__settings__import-settings": {
@@ -1529,34 +1349,9 @@
       "description": "W/B List",
       "status": null
    },
-   "options__settings__advanced": {
-      "message": "Avanzado",
-      "description": "Advanced",
-      "status": null
-   },
    "options__settings__icons": {
       "message": "Íconos",
       "description": "Icons",
-      "status": null
-   },
-   "options__settings__pre-scaling": {
-      "message": "Pre-Escalado",
-      "description": "Pre-Scaling",
-      "status": null
-   },
-   "options__settings__prefer-edited-detections": {
-      "message": "Preferir Detecciones Editadas",
-      "description": "Prefer Edited Detections",
-      "status": null
-   },
-   "options__settings__base64_support": {
-      "message": "Soporte Base64",
-      "description": "Base64 Support",
-      "status": null
-   },
-   "options__settings__ai-warm-up": {
-      "message": "Calentamiento IA",
-      "description": "AI Warm-Up",
       "status": null
    },
    "options__settings__theme": {
@@ -1590,8 +1385,8 @@
       "status": null
    },
    "options__help__reset-cache": {
-      "message": "Limpiar Caché",
-      "description": "Reset Cache",
+      "message": "Borrar Caché",
+      "description": "Clear Cache",
       "status": null
    },
    "options__help__storage": {
@@ -1687,21 +1482,6 @@
    "options__help__debug": {
       "message": "Depurar",
       "description": "Debug",
-      "status": null
-   },
-   "options__help__default-settings": {
-      "message": "Configuración Predeterminada",
-      "description": "Default Settings",
-      "status": null
-   },
-   "options__help__restore-defaults": {
-      "message": "Restaurar Valores Predeterminados",
-      "description": "Restore Defaults",
-      "status": null
-   },
-   "options__help__restore-defaults__description": {
-      "message": "No eliminará ningún dato local, como stickers o configuraciones guardadas.",
-      "description": "Will not delete any local data such as stickers or stored settings.",
       "status": null
    },
    "options__oom__header": {
@@ -1864,9 +1644,9 @@
       "description": "Genitals Covered",
       "status": null
    },
-   "options__oom__lock-settings": {
-      "message": "Bloquear Ajustes",
-      "description": "Lock Settings",
+   "options__oom__block-settings": {
+      "message": "Bloquear Configuración",
+      "description": "Block Settings",
       "status": null
    },
    "options__oom__date-time-format": {
@@ -1885,8 +1665,8 @@
       "status": null
    },
    "options__oom__block-message": {
-      "message": "Mensaje de Bloqueo",
-      "description": "Block Message",
+      "message": "Mensaje de Bloqueo:",
+      "description": "Block Message:",
       "status": null
    },
    "options__oom__list-image-content": {
@@ -1899,9 +1679,9 @@
       "description": "Timer",
       "status": null
    },
-   "options__oom__auto-refresh": {
-      "message": "Auto-Refresco",
-      "description": "Auto Refresh",
+   "options__oom__automatic-refresh": {
+      "message": "Actualización Automática",
+      "description": "Automatic Refresh",
       "status": null
    },
    "options__oom__min-duration": {
@@ -2280,8 +2060,8 @@
       "status": null
    },
    "options__security__emergency-unlock__description__1": {
-      "message": "<b>1.</b> Únete a nuestro nivel de <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> relevante. Una vez que termines, puedes cancelar o reducir tu membresía como desees.",
-      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "message": "<b>1.</b> Únase a nuestro nivel de <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> correspondiente. Una vez que haya terminado, puede cancelar o bajar su membresía según desee.",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
       "status": null
    },
    "options__security__emergency-unlock__description__2": {
@@ -2460,8 +2240,8 @@
       "status": null
    },
    "tooltip__experimental-content-label": {
-      "message": "Este contenido es experimental y actualmente <b>no</b> es detectado por el modelo de IA. Solo puede ser asignado a imágenes a través del editor.",
-      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "message": "Este contenido es experimental y no está actualmente detectado por el modelo de IA. Solo puede asignarse a imágenes a través del editor.",
+      "description": "This content is experimental and not currently detected by the AI model. It can only be assigned to images through the editor.",
       "status": null
    },
    "tooltip__cluster-only-matching-content": {
@@ -2496,7 +2276,7 @@
    },
    "tooltip__pixel-detection-size-aware": {
       "message": "Ajusta la fuerza del efecto según el tamaño de la detección.",
-      "description": "Scales the strength of the effect according to the detection size",
+      "description": "Scales the strength of the effect according to the detection size.",
       "status": null
    },
    "tooltip__triangle-threshold": {
@@ -2512,11 +2292,6 @@
    "tooltip__triangle-blurring": {
       "message": "Cuánto desenfocar el área de efecto antes de triangularla.",
       "description": "How much to blur the effect area prior to triangulazing it.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-width": {
-      "message": "El ancho del trazo antes de escalarlo según el tamaño de la imagen, donde un tamaño de imagen de 1024px x 1024px resultaría en no escalado.",
-      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
       "status": null
    },
    "tooltip__triangle-gradients": {
@@ -2619,124 +2394,29 @@
       "description": "Mode not supported in video overlays.",
       "status": null
    },
-   "tooltip__bar-type__paint": {
-      "message": "[Pintar]: ",
-      "description": "[Paint]: ",
+   "tooltip__bar-type": {
+      "message": "[Pintar]: Pinta el área de efecto con el color indicado.<br/>[Borrar]: Borra el área de efecto con la opacidad indicada.",
+      "description": "[Paint]: Paint the effect area with the given color.<br/>[Erase]: Erase the effect area at the given opacity.",
       "status": null
    },
-   "tooltip__bar-type__paint__description": {
-      "message": "Pinte el área de efecto con el color indicado.",
-      "description": "Paint the effect are with the given color.",
+   "tooltip__triangle-fill-color-mode": {
+      "message": "[Auto]: Selecciona el color de relleno del área de efecto.<br/>[Personalizado]: Usa un color de relleno personalizado.",
+      "description": "[Auto]: Samples the fill color from the effect area.<br/>[Custom]: Uses a custom fill color.",
       "status": null
    },
-   "tooltip__bar-type__erase": {
-      "message": "[Borrar]: ",
-      "description": "[Erase]: ",
+   "tooltip__sticker-pick-mode": {
+      "message": "[Por parte del cuerpo]: Elige una etiqueta para todas las detecciones de cada parte del cuerpo.<br/>[Por detección]: Elige una etiqueta para cada detección.",
+      "description": "[Per Body Part]: Picks a sticker for all detections of each body part.<br/>[Per Detection]: Picks a sticker for each detection.",
       "status": null
    },
-   "tooltip__bar-type__erase__description": {
-      "message": "Borre el área de efecto con la opacidad indicada.",
-      "description": "Erase the effect area at the given opacity.",
+   "tooltip__triangle-stroke-color-mode": {
+      "message": "[Auto]: Toma el color de trazo del área de efecto.<br/>[Personalizado]: Utiliza un color de trazo personalizado.",
+      "description": "[Auto]: Samples the stroke color from the effect area.<br/>[Custom]: Uses a custom stroke color.",
       "status": null
    },
-   "tooltip__bar-type__note": {
-      "message": "NOTA: ",
-      "description": "NOTE: ",
-      "status": null
-   },
-   "tooltip__bar-type__note__description": {
-      "message": "El borrado podría no funcionar como se espera en tipos de archivo de salida que no soportan transparencia, como JPEG.",
-      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto": {
-      "message": "[Auto]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto__description": {
-      "message": "Selecciona el color de relleno del área de efecto.",
-      "description": "Samples the fill color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom": {
-      "message": "[Personalizado]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom__description": {
-      "message": "Usa un color de relleno personalizado.",
-      "description": "Uses a custom fill color.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part": {
-      "message": "[Por parte del cuerpo]: ",
-      "description": "[Per Body Part]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part__description": {
-      "message": "Elige una etiqueta para todas las detecciones de cada parte del cuerpo.",
-      "description": "Picks a sticker for all detections of each body part.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection": {
-      "message": "[Por detección]: ",
-      "description": "[Per Detection]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection__description": {
-      "message": "Elige una etiqueta para cada detección.",
-      "description": "Picks a sticker for each detection.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto": {
-      "message": "[Auto]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto__description": {
-      "message": "Muestra el color del trazo desde el área de efecto.",
-      "description": "Samples the stroke color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom": {
-      "message": "[Personalizado]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom__description": {
-      "message": "Utiliza un color de trazo personalizado.",
-      "description": "Uses a custom stroke color.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto": {
-      "message": "[Auto]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto__description": {
-      "message": "Muestra el color salpicado del área de efecto.",
-      "description": "Samples the splatter color from the effect area.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom": {
-      "message": "[Personalizado]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom__description": {
-      "message": "Elige un color salpicado de una selección de colores personalizados.",
-      "description": "Picks a splatter color from a pool of custom colors.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__1": {
-      "message": "Los modos de censura y preajustes para cada sección que se pueden censurar.",
-      "description": "The censor modes and preset for each section that can be censored.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__2": {
-      "message": "Utilice Mayús/ctrl + clic para seleccionar múltiples entradas para editar al mismo tiempo.",
-      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
+   "tooltip__splatter-color-mode": {
+      "message": "[Auto]: Toma el color de salpicado del área de efecto.<br/>[Personalizado]: Elige un color salpicado de una selección de colores personalizados.",
+      "description": "[Auto]: Samples the splatter color from the effect area.<br/>[Custom]: Picks a splatter color from a pool of custom colors.",
       "status": null
    },
    "on-add-caption-tag__count-limit-error": {
@@ -2754,69 +2434,24 @@
       "description": "Select some entries to assign tags to!",
       "status": null
    },
-   "tooltip__word-wall-color-mode__cutout": {
-      "message": "[Recorte]: ",
-      "description": "[Cutout]: ",
+   "tooltip__word-wall-color-mode": {
+      "message": "[Recorte]: Crea un recorte del texto.<br/>[Pintar]: Pinta el texto en un color personalizado.",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
       "status": null
    },
-   "tooltip__word-wall-color-mode__cutout__description": {
-      "message": "Crea un recorte del texto.",
-      "description": "Creates a cutout of the text.",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint": {
-      "message": "[Pintar]: ",
-      "description": "[Paint]: ",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint__description": {
-      "message": "Pinta el texto en un color personalizado.",
-      "description": "Paints the text in a custom color.",
-      "status": null
-   },
-   "tooltip__oom__description__1": {
-      "message": "Bloquea permanentemente las imágenes después de que se hayan visto una vez.",
-      "description": "Permanently blocks images after they've been viewed once.",
-      "status": null
-   },
-   "tooltip__oom__description__2": {
-      "message": "Esto funciona calculando y comparando los hashes de las imágenes, lo que significa que una vez que una imagen está bloqueada, cualquier otra ocurrencia de la misma en la web también será bloqueada a partir de entonces.",
-      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+   "tooltip__oom__description": {
+      "message": "Bloquea permanentemente las imágenes después de que se hayan visto una vez.<br/><br/>Esto funciona calculando y comparando los hashes de las imágenes, lo que significa que una vez que una imagen es bloqueada, cualquier otra ocurrencia de la misma en la web también será bloqueada a partir de entonces.",
+      "description": "Permanently blocks images after they've been viewed once.<br/><br/>This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
       "status": null
    },
    "tooltip__remote-control__description": {
-      "message": "Le permite controlar remotamente las extensiones de otros usuarios.",
-      "description": "Allows you to remotely control other users extensions.",
-      "status": null
-   },
-   "tooltip__remote-control__description__1": {
-      "message": "<b>1.</b> Cree un nuevo control remoto.",
-      "description": "<b>1.</b> Create a new remote control.",
-      "status": null
-   },
-   "tooltip__remote-control__description__2": {
-      "message": "<b>2.</b> Vincule un ID de configuración de nube a su control remoto.",
-      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
-      "status": null
-   },
-   "tooltip__remote-control__description__3": {
-      "message": "<b>3.</b> Haga que los usuarios que serán controlados remotamente se suscriban a su control remoto desde la página de configuración.",
-      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
-      "status": null
-   },
-   "tooltip__remote-control__description__4": {
-      "message": "<b>4.</b> Cambie las configuraciones vinculadas como desee, cuando desee, ¡todos los suscriptores se actualizarán automáticamente!",
-      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "message": "Te permite controlar remotamente las extensiones de otros usuarios.<br/><br/>1. Cree un nuevo control remoto.<br/>2. Vincule un ID de configuración de nube a su control remoto.<br/>3. Haga que los usuarios que serán controlados remotamente se suscriban a su control remoto desde la página de configuración.<br/>4. Cambie las configuraciones vinculadas como desee, cuando desee, ¡todos los suscriptores se actualizarán automáticamente!",
+      "description": "Allows you to remotely control other users extensions.<br/><br/>1. Create a new remote control.<br/>2. Bind a cloud settings ID to your remote.<br/>3. Have the users to be remotely controlled subscribe to your remote from the settings page.<br/>4. Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
       "status": null
    },
    "tooltip__remote-lock": {
-      "message": "¡Su suscripción está bloqueada!",
-      "description": "Your subscription is locked!",
-      "status": null
-   },
-   "tooltip__remote-lock__description": {
-      "message": "Su <b>única</b> manera de desbloquearla sería solicitándolo al propietario del control remoto, al personal de nuestro servidor de Discord, o si estas opciones no son deseables, uniéndose a nuestro <b>nivel de Patreon</b> relevante que le permite desbloquearla usted mismo.",
-      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "message": "¡Su suscripción está bloqueada!<br/><br/>Su única manera de desbloquearla sería solicitándolo al propietario del control remoto, al personal de nuestro servidor de Discord, o si estas opciones no son deseables, uniéndose a nuestro nivel de Patreon relevante que le permite desbloquearla usted mismo.",
+      "description": "Your subscription is locked.<br/><br/>Your only way to unsubscribe would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant Patreon tier.",
       "status": null
    },
    "tooltip__remote-identifier": {
@@ -2825,53 +2460,18 @@
       "status": null
    },
    "tooltip__patreon-cache": {
-      "message": "Sus recompensas de Patreon caducarán en ${0} días.",
-      "description": "Your Patreon rewards will expire in ${0} days.",
+      "message": "Sus recompensas de Patreon caducarán en ${0} días.<br/><br/>Si aún es suscriptor de Patreon, por favor, actualice el estado de su cuenta aquí, o si eso no funciona, vuelva a vincular su cuenta a Patreon.",
+      "description": "Your Patreon rewards will expire in ${0} days.<br/><br/>If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon.",
       "status": null
    },
-   "tooltip__patreon-cache__description": {
-      "message": "Si aún es suscriptor de Patreon, por favor, actualice el estado de su cuenta aquí, o si eso no funciona, vuelva a vincular su cuenta a Patreon.",
-      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
+   "tooltip__timer-mode": {
+      "message": "[Duración]: Al bloquear, ajusta el temporizador a la duración especificada.<br/>[Fecha]: Al bloquear, ajusta el temporizador al tiempo restante hasta la fecha especificada.",
+      "description": "[Duration]: Upon locking, set the timer to the duration specified.<br/>[Date]: Upon locking, set the timer to the time remaining until the specified date.",
       "status": null
    },
-   "tooltip__timer-mode__duration": {
-      "message": "[Duración]: ",
-      "description": "[Duration]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__duration__description": {
-      "message": "Al bloquear, ajuste el temporizador a la duración especificada.",
-      "description": "Upon locking, set the timer to the duration specified.",
-      "status": null
-   },
-   "tooltip__timer-mode__date": {
-      "message": "[Fecha]: ",
-      "description": "[Date]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__date__description": {
-      "message": "Al bloquear, ajuste el temporizador al tiempo restante hasta la fecha especificada.",
-      "description": "Upon locking, set the timer to the time remaining until the specified date.",
-      "status": null
-   },
-   "tooltip__timer-mode__stable": {
-      "message": "[Estable]: ",
-      "description": "[Stable]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__stable__description": {
-      "message": "Espera hasta que el último frame haya sido procesado antes de procesar un nuevo frame.",
-      "description": "Waits until the latest frame has been processed before processing a new frame.",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive": {
-      "message": "[Overdrive]: ",
-      "description": "[Overdrive]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive__description": {
-      "message": "Procesa múltiples frames a la vez hasta alcanzar el límite del hardware o una cierta tasa de fps.",
-      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+   "tooltip__overlay-mode": {
+      "message": "[Estable]: Espera hasta que el último frame haya sido procesado antes de procesar un nuevo frame.<br/>[Overdrive]: Procesa múltiples frames a la vez hasta alcanzar el límite del hardware o una cierta tasa de fps.",
+      "description": "[Stable]: Waits until the latest frame has been processed before processing a new frame.<br/>[Overdrive]: Processes multiple frames at once until the hardware limit or a certain FPS rate is reached.",
       "status": null
    },
    "popup__timer-container__locked-until": {
@@ -2882,16 +2482,6 @@
    "popup__reverse-mode": {
       "message": "Modo inverso:",
       "description": "Reverse Mode:",
-      "status": null
-   },
-   "options__censor__word-wall__shadow-size": {
-      "message": "Tamaño de la Sombra",
-      "description": "Shadow Size",
-      "status": null
-   },
-   "options__censor__caption__shadow-color": {
-      "message": "Color de la Sombra",
-      "description": "Shadow Color",
       "status": null
    },
    "tooltip__censor__modes__caption__add-tag": {
@@ -3095,8 +2685,8 @@
       "status": null
    },
    "on-settings-import__missing-censor-presets-warning": {
-      "message": "¡Estas configuraciones dejarán tu configuración mixta haciendo referencia a presets de censura inexistentes!",
-      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "message": "¡Estas configuraciones dejarán algunas de sus configuraciones haciendo referencia a preajustes de censura inexistentes!",
+      "description": "These settings will leave some of your configurations referencing non-existent censor presets!",
       "status": null
    },
    "on-settings-import__missing-patreon-features-warning": {
@@ -3110,13 +2700,13 @@
       "status": null
    },
    "on-bind-settings-to-remote__success": {
-      "message": "¡Configuraciones en la nube con una ID de ${0} vinculadas exitosamente al control remoto!",
-      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "message": "¡Configuraciones en la nube con una ID de ${0} vinculadas exitosamente al control remoto",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control",
       "status": null
    },
    "on-update-remote-subscription__success": {
-      "message": "¡Configuraciones sincronizadas exitosamente con el control remoto!",
-      "description": "Settings successfully synced with remote!",
+      "message": "¡Configuraciones sincronizadas exitosamente con el control remoto",
+      "description": "Settings successfully synced with remote",
       "status": null
    },
    "on-update-remote-subscription__new-remote-settings-alert": {
@@ -3125,28 +2715,28 @@
       "status": null
    },
    "on-load-default-settings__success": {
-      "message": "¡Configuraciones predeterminadas cargadas exitosamente!",
-      "description": "Default settings successfully loaded!",
+      "message": "¡Configuraciones predeterminadas cargadas exitosamente",
+      "description": "Default settings successfully loaded",
       "status": null
    },
    "on-load-settings__success": {
-      "message": "¡Configuraciones ${0} cargadas exitosamente!",
-      "description": "Settings ${0} successfully loaded!",
+      "message": "¡Configuraciones ${0} cargadas exitosamente",
+      "description": "Settings ${0} successfully loaded",
       "status": null
    },
    "on-import-settings__success": {
-      "message": "¡Configuraciones importadas exitosamente!",
-      "description": "Settings successfully imported!",
+      "message": "¡Configuraciones importadas exitosamente",
+      "description": "Settings successfully imported",
       "status": null
    },
    "on-delete-settings__success": {
-      "message": "¡Configuraciones ${0} eliminadas exitosamente!",
-      "description": "Settings ${0} successfully deleted!",
+      "message": "¡Configuraciones ${0} eliminadas exitosamente",
+      "description": "Settings ${0} successfully deleted",
       "status": null
    },
    "on-save-settings__success": {
-      "message": "¡Configuraciones ${0} guardadas exitosamente!",
-      "description": "Settings ${0} successfully saved!",
+      "message": "¡Configuraciones ${0} guardadas exitosamente",
+      "description": "Settings ${0} successfully saved",
       "status": null
    },
    "bar-type": {
@@ -3158,5 +2748,550 @@
       "message": "Contenido censurado",
       "description": "Censored Content",
       "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-all-content": {
+      "message": "Habilitar en todo el contenido",
+      "description": "Enable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-none-content": {
+      "message": "Deshabilitar en todo el contenido",
+      "description": "Disable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__export-entries": {
+      "message": "Exportar",
+      "description": "Export",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__import-entries": {
+      "message": "Importar",
+      "description": "Import",
+      "status": null
+   },
+   "on-export-caption-collection__success": {
+      "message": "¡Colección de subtítulos con ${0} entradas y ${1} etiquetas exportada con éxito",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully exported",
+      "status": null
+   },
+   "on-import-caption-collection__success": {
+      "message": "¡Colección de subtítulos con ${0} entradas y ${1} etiquetas importada con éxito",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully imported",
+      "status": null
+   },
+   "on-import-caption-collection__entry-count-limit-error": {
+      "message": "No se pudo importar la colección de subtítulos con ${0} entradas: ¡excedió ${1} entradas totales!",
+      "description": "Caption collection with ${0} entries could not be imported: ${1} total entries exceeded!",
+      "status": null
+   },
+   "on-import-caption-collection__tag-count-limit-error": {
+      "message": "No se pudo importar la colección de subtítulos con ${0} etiquetas: ¡excedió ${1} etiquetas totales!",
+      "description": "Caption collection with ${0} tags could not be imported: ${1} total tags exceeded!",
+      "status": null
+   },
+   "on-export-caption-collection__no-entries-or-tags-selected-error": {
+      "message": "¡Seleccione algunas entradas y etiquetas para exportar!",
+      "description": "Select some entries and tags to export!",
+      "status": null
+   },
+   "options__unaddressed-issues__text": {
+      "message": "Problemas no resueltos",
+      "description": "unaddressed issues",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__title": {
+      "message": "¡La configuración de su navegador podría estar impidiendo que algunos datos se guarden y carguen!",
+      "description": "Your browser settings might be preventing some data from saving and loading!",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__description": {
+      "message": "Sus colecciones de stickers y detecciones editadas no pueden ser guardadas ni cargadas.</br></br>Esto podría deberse a un error actual de Firefox en el que seleccionar <b>[Nunca recordar historial]</b> o seleccionar <b>[Usar configuración personalizada para el historial]</b> con <b>[Siempre usar el modo de navegación privada]</b> habilitado en su configuración impide que nuestras y todas las demás extensiones abran Indexed DBs, que usamos para almacenar los datos mencionados.</br></br>Si si tiene alguna de las configuraciones anteriores aplicadas, aplicar otra configuración y reiniciar su navegador debería resolver este problema. Si no lo hace o si no tenía dichas configuraciones aplicadas para empezar, póngase en contacto con un desarrollador a través de <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> o <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> quien le asistirá más.</br></br>También puede optar por no tomar ninguna acción, en cuyo caso la extensión seguirá funcionando como de costumbre, excepto por las colecciones de stickers y las detecciones editadas que no se recordarán entre sesiones.",
+      "description": "Your stickers collections and edited detections cannot be saved nor loaded.</br></br>This might be due to a current Firefox bug in which selecting <b>[Never remember history]</b> or selecting <b>[Use custom settings for history]</b> with <b>[Always use private browsing mode]</b> enabled in your settings prevents ours and all other extensions from opening Indexed DBs, which we use to store the aforementioned data.</br></br>If you indeed have either of the previous settings applied, applying something else and restarting your browser should resolve this issue. If it doesn't or if you didn't have said settings applied to begin with, please get in contact with a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> who will assist you further.</br></br>You can also choose not to take action, in which case the extension will continue to operate as usual except for sticker collections and edited detections not being remembered between sessions.",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__title": {
+      "message": "¡Se han encontrado excepciones al procesar videos!",
+      "description": "Exceptions have been encountered while processing videos!",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__description": {
+      "message": "Es posible que algunos videos no hayan podido ser censurados debido a excepciones encontradas durante el procesamiento.<br/><br/>Estas excepciones probablemente sean causadas por errores o un estado dañado en la extensión o el procesador de video, y no por algo que haya hecho usted. Sería muy apreciado si pudiera contactar a un desarrollador a través de <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> o <a href=\"https://github.com/pury-fi\" target=\"_blank\" style=\"color:inherit\">Github</a> para reportar el problema; el desarrollador le ayudará personalmente a resolverlo. Sin embargo, si prefiere no hacerlo, puede intentar reiniciar o reinstalar la extensión y/o el procesador de video y ver si el problema persiste.",
+      "description": "Some videos might have failed to censor due to exceptions encountered during processing.<br/><br/>These exceptions are likely the fault of bugs or corrupted state in either the extension or the video processor and not caused by your doing. Contacting a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\" target=\"_blank\" style=\"color:inherit\">Github</a> to report the issue would be greatly appreciated and they would personally assist you in resolving the issue, but if you'd rather not, you could still try restarting or reinstalling the extension and/or video processor and see if the issue comes up again.",
+      "status": null
+   },
+   "on-modal__acknowledge-and-dismiss-checkbox": {
+      "message": "Reconocer y Cerrar.",
+      "description": "Acknowledge and Dismiss.",
+      "status": null
+   },
+   "options__help__export-data": {
+      "message": "Exportar datos",
+      "description": "Export Data",
+      "status": null
+   },
+   "options__help__import-data": {
+      "message": "Importar datos",
+      "description": "Import Data",
+      "status": null
+   },
+   "on-clear-data__confirm": {
+      "message": "Todos sus datos se borrarán, incluidos <b>Ajustes</b>, <b>Colecciones de pegatinas</b>, <b>Detecciones editadas</b>, <b>Registros del temporizador de bloqueo</b> y <b>Datos OOM</b>.<br/><br/>También se cerrará la sesión y se cancelará la suscripción local de cualquier control remoto.",
+      "description": "All of your data will be cleared including <b>Settings</b>, <b>Sticker Collections</b>, <b>Edited Detections</b>, <b>Lock Timer Logs</b>, and <b>OOM Data</b>.<br/><br/>You will also be logged out and locally unsubscribed from any remote control.",
+      "status": null
+   },
+   "on-create-report__permissions-request": {
+      "message": "Su navegador debería estar solicitándole que conceda los permisos de <b>gestión</b> y <b>privacidad</b> a la extensión.<br/><br/>Estos se utilizarán para recopilar información sobre las extensiones del navegador instaladas y sobre la configuración del navegador, respectivamente.<br/><br/>Conceda los permisos para continuar...",
+      "description": "Your browser should now be prompting you to grant the extension <b>management</b> and <b>privacy</b> permissions.<br/><br/>These will be used to collect information about installed browser extensions and about browser settings respectively.<br/><br/>Grant the permissions to proceed...",
+      "status": null
+   },
+   "options__help__clear-data": {
+      "message": "Borrar datos",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__help__create-report": {
+      "message": "Crear informe",
+      "description": "Create Report",
+      "status": null
+   },
+   "options__help__create-report__description": {
+      "message": "Recopila y exporta información sobre su extensión, navegador y sistema para compartir con los desarrolladores cuando se solicite.",
+      "description": "Collects and exports information about your extension, browser, and system for sharing with developers when requested.",
+      "status": null
+   },
+   "options__censor__reverse-mode__all-images": {
+      "message": "Censurar Todas Las Imágenes",
+      "description": "Censor All Images",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content": {
+      "message": "Censurar Imágenes Con Contenido",
+      "description": "Censor Images With Content",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content-to-censor": {
+      "message": "Censurar Imágenes Con Contenido Para Censurar",
+      "description": "Censor Images With Content To Censor",
+      "status": null
+   },
+   "options__censor__reverse-mode": {
+      "message": "Modo Inverso",
+      "description": "Reverse Mode",
+      "status": null
+   },
+   "options__censor__modes__blur-gaussian": {
+      "message": "Gaussiano",
+      "description": "Gaussian",
+      "status": null
+   },
+   "options__censor__modes__blur-diffusion": {
+      "message": "Difusión",
+      "description": "Diffusion",
+      "status": null
+   },
+   "options__censor__cluster__rotation": {
+      "message": "Rotación",
+      "description": "Rotation",
+      "status": null
+   },
+   "options__censor__modes__shadow": {
+      "message": "Sombra",
+      "description": "Shadow",
+      "status": null
+   },
+   "on-import-data__invalid-file": {
+      "message": "No se pudieron importar datos: ¡El archivo está dañado o es para una versión diferente!",
+      "description": "No data could be imported: File is either corrupted or for a different version!",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not-easily-reversable-warning": {
+      "message": "¡Esta acción no es fácilmente reversible!",
+      "description": "This action is not easily reversable!",
+      "status": null
+   },
+   "tooltip__cluster-rotation": {
+      "message": "Permite rotar las detecciones resultantes según sea necesario para cubrir eficientemente las detecciones unidas.",
+      "description": "Allows rotating the resulting detections as needed to efficiently cover the joined detections.",
+      "status": null
+   },
+   "tooltip__oom-timer": {
+      "message": "En lugar de bloquear la imagen en la segunda vista, la bloquea para vistas después de un tiempo determinado desde la primera visualización.",
+      "description": "Instead of blocking the image from the second view, blocks it for views past a given ellapsed time from when first viewed.",
+      "status": null
+   },
+   "tooltip__oom-automatic-refresh": {
+      "message": "Cuando el temporizador está activado, las imágenes en las pestañas abiertas se actualizan automáticamente cuando su temporizador se agota, haciendo que la imagen bloqueada la reemplace inmediatamente.",
+      "description": "When timer is on, automatically refreshes images in opened tabs when their timer runs down, having the blocked image to immediately take its place.",
+      "status": null
+   },
+   "on-import-caption-collection__invalid-file-error": {
+      "message": "No se pudo importar la colección de subtítulos: ¡Archivo inválido!",
+      "description": "No caption collection could be imported: Invalid file!",
+      "status": null
+   },
+   "tooltip__reverse-mode__description": {
+      "message": "En lugar de censurar el contenido habilitado detectado, censura toda la imagen excepto dicho contenido.",
+      "description": "Instead of censoring the enabled content detected, censors the entire image except for said content.",
+      "status": null
+   },
+   "tooltip__caption-mode": {
+      "message": "[Recorte]: Crea un recorte del texto.<br/>[Pintura]: Pinta el texto en un color personalizado.",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__caption-tags": {
+      "message": "En cada imagen se selecciona una etiqueta y solo se eligen las entradas con dicha etiqueta para la imagen.",
+      "description": "On each image a tag is picked and only entries with said tag are then picked for the image.",
+      "status": null
+   },
+   "tooltip__performance__interpolation": {
+      "message": "Reduce los tiempos de procesamiento de medios animados al escanear solo cada pocos fotogramas y realizar interpolación para llenar los huecos.",
+      "description": "Cuts processing times of animated media by scanning only every few frames and performing interpolation to fill the gaps.",
+      "status": null
+   },
+   "tooltip__download": {
+      "message": "Descargar",
+      "description": "Download",
+      "status": null
+   },
+   "tooltip__concurrent-processes": {
+      "message": "El número máximo de imágenes que se procesan simultáneamente.",
+      "description": "The maximum number of images that get processed concurrently.",
+      "status": null
+   },
+   "options__sidebar__performance": {
+      "message": "Rendimiento",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__header": {
+      "message": "Rendimiento",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__description": {
+      "message": "Configura el rendimiento de la extensión:",
+      "description": "Configure the extension's performance:",
+      "status": null
+   },
+   "options__performance__ai-model": {
+      "message": "Modelo de IA",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__performance__editor": {
+      "message": "Editor",
+      "description": "Editor",
+      "status": null
+   },
+   "options__performance__animated-media": {
+      "message": "Medios animados",
+      "description": "Animated Media",
+      "status": null
+   },
+   "options__performance_interpolation": {
+      "message": "Interpolación",
+      "description": "Interpolation",
+      "status": null
+   },
+   "options__performance__scan-rate": {
+      "message": "Tasa de escaneo",
+      "description": "Scan Rate",
+      "status": null
+   },
+   "options__performance__scan-rate__description": {
+      "message": "Realiza un escaneo cada tantos fotogramas.",
+      "description": "Performs a scan every this many frames.",
+      "status": null
+   },
+   "options__performance__confidence": {
+      "message": "Confianza",
+      "description": "Confidence",
+      "status": null
+   },
+   "options__performance__confidence__description": {
+      "message": "Determina qué tan similares deben ser las detecciones en dos fotogramas diferentes para realizar una interpolación entre ellos.",
+      "description": "Determines how similar detections in two different frames must be to perform interpolation between them.",
+      "status": null
+   },
+   "options__performance__extra-interpolation": {
+      "message": "Interpolación adicional",
+      "description": "Extra Interpolation",
+      "status": null
+   },
+   "options__performance__extra-interpolation__description": {
+      "message": "Realiza interpolación para este número de fotogramas más allá de lo necesario para cubrir los fotogramas no escaneados. Esto puede ayudar a cubrir cuando el modelo falla brevemente al detectar contenido.",
+      "description": "Performs interpolation for this many frames beyond the needed to cover for frames not scanned. This can help cover for the model briefly failing to detect some content.",
+      "status": null
+   },
+   "options__filetypes__concurrent-processes": {
+      "message": "Procesos concurrentes",
+      "description": "Concurrent Processes",
+      "status": null
+   },
+   "options__filetypes__video-file-processor": {
+      "message": "Procesador de archivos",
+      "description": "File Processor",
+      "status": null
+   },
+   "popup__missing-video-processor-app": {
+      "message": "Requiere que nuestra aplicación de procesamiento de video esté instalada en su escritorio.",
+      "description": "Requires our Video Processor app to be installed on your desktop.",
+      "status": null
+   },
+   "popup__upgrade-required-video-processor-app": {
+      "message": "La aplicación de procesamiento de video instalada no es compatible, actualice a ${0}.",
+      "description": "The installed Video Processor app is incompatible, please upgrade to ${0}.",
+      "status": null
+   },
+   "popup__downgrade-required-video-processor-app": {
+      "message": "La aplicación de procesamiento de video instalada no es compatible, reduzca a ${0}.",
+      "description": "The installed Video Processor app is incompatible, please downgrade to ${0}.",
+      "status": null
+   },
+   "popup__upgrade-recommended-video-processor-app": {
+      "message": "La aplicación de procesamiento de video instalada está desactualizada, actualice a ${0}.",
+      "description": "The installed Video Processor app is outdated, please upgrade to ${0}.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__not-supported-device-message": {
+      "message": "Disponible solo en escritorios Windows de 64 bits.",
+      "description": "Available only on 64 bits Windows desktop.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__glitch-type-for-pixel-not-supported": {
+      "message": "El tipo de error para Pixel aún no es compatible.",
+      "description": "Glitch type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__halftone-type-for-pixel-not-supported": {
+      "message": "El tipo de semitono para Pixel aún no es compatible.",
+      "description": "Halftone type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__super-random-mode-for-random-not-supported": {
+      "message": "El modo Súper aleatorio para Aleatorio aún no es compatible.",
+      "description": "Super random mode for Random is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__random-entries-in-mixed-not-supported": {
+      "message": "Las entradas aleatorias en Mezclado aún no son compatibles.",
+      "description": "Random entries in Mixed are not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__general": {
+      "message": "General",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps": {
+      "message": "FPS máximo",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps__description": {
+      "message": "Descarta fotogramas en videos que superen este FPS para su procesamiento.",
+      "description": "Drops frames in videos over this FPS for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution": {
+      "message": "Resolución máxima",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution__description": {
+      "message": "Reduce la resolución de los videos que superen esta resolución para su procesamiento.",
+      "description": "Downscales videos over this resolution for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality": {
+      "message": "Calidad",
+      "description": "Quality",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__worst": {
+      "message": "Pobre",
+      "description": "Poor",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__balanced": {
+      "message": "Equilibrado",
+      "description": "Balanced",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__good": {
+      "message": "Bueno",
+      "description": "Good",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__best": {
+      "message": "Mejor",
+      "description": "Best",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__description": {
+      "message": "Establece la calidad de salida para los codificadores sin opción sin pérdidas, como libvpx.",
+      "description": "Sets the output quality for encoders with no lossless option, such as libvpx.",
+      "status": null
+   },
+   "options__filetypes__video-overlay": {
+      "message": "Superposición",
+      "description": "Overlay",
+      "status": null
+   },
+   "options__filetypes__video-overlay__not-supported-device-message": {
+      "message": "Disponible solo en escritorio.",
+      "description": "Available only on desktop.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__general": {
+      "message": "General",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-overlay__gif-exporting": {
+      "message": "Exportación de GIF",
+      "description": "GIF Exporting",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode": {
+      "message": "Modo de procesamiento",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__sync": {
+      "message": "Sincronizado",
+      "description": "Sync",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__async": {
+      "message": "Asíncrono",
+      "description": "Async",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__description": {
+      "message": "Si procesar los fotogramas uno a la vez [Sincronizado] o procesarlos simultáneamente hasta que se alcance el límite de FPS [Asíncrono].",
+      "description": "Whether to process frames one at a time [Sync] or to simultaneously process frames until the FPS limit is met [Async].",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit": {
+      "message": "FPS máx.",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit__description": {
+      "message": "Procesa no más de esta cantidad de FPS cuando el procesamiento es asíncrono.",
+      "description": "Processes no more than this many FPS when async processing.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution": {
+      "message": "Resolución máxima",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution__description": {
+      "message": "Reduce la resolución de los fotogramas que superen esta resolución al exportar un GIF. Se puede establecer en cero para desactivar.",
+      "description": "Downscales frames over this resolution when exporting a GIF. Can be set to zero to disable.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size": {
+      "message": "Tamaño de la caché",
+      "description": "Cache Size",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size__description": {
+      "message": "El tamaño de la caché para almacenar fotogramas procesados y, en consecuencia, la cantidad total de fotogramas que se pueden exportar como GIF.",
+      "description": "The size of the cache for storing processed frames, and consequently, the total frames that can be exported as a GIF.",
+      "status": null
+   },
+   "options__settings__scan": {
+      "message": "Escanear",
+      "description": "Scan",
+      "status": null
+   },
+   "options__settings__appearance": {
+      "message": "Apariencia",
+      "description": "Appearance",
+      "status": null
+   },
+   "options__help__unfreeze": {
+      "message": "Desbloquear",
+      "description": "Unfreeze",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads": {
+      "message": "Hilos",
+      "description": "Threads",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads__description": {
+      "message": "El número de hilos a utilizar para escanear y pintar fotogramas.",
+      "description": "The number of threads to use for scanning and painting frames.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout": {
+      "message": "Tiempo de espera por inactividad",
+      "description": "Inactivity Timeout",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout__description": {
+      "message": "Pone la aplicación de procesamiento de video en modo de suspensión después de este período de inactividad.",
+      "description": "Puts the video processsor app to sleep after this period of inactivity.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity__none": {
+      "message": "Ninguno",
+      "description": "None",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1m": {
+      "message": "1 min",
+      "description": "1 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2m": {
+      "message": "2 min",
+      "description": "2 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__3m": {
+      "message": "3 min",
+      "description": "3 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__5m": {
+      "message": "5 min",
+      "description": "5 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__10m": {
+      "message": "10 min",
+      "description": "10 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__15m": {
+      "message": "15 min",
+      "description": "15 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__20m": {
+      "message": "20 min",
+      "description": "20 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__30m": {
+      "message": "30 min",
+      "description": "30 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1h": {
+      "message": "1 hr",
+      "description": "1 hr",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2h": {
+      "message": "2 hr",
+      "description": "2 hr",
+      "status": "new"
    }
 }

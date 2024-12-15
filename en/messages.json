@@ -105,8 +105,8 @@
       "status": null
    },
    "options__sidebar__advanced": {
-      "message": "Advanced",
-      "description": "Advanced",
+      "message": "Appearance",
+      "description": "Appearance",
       "status": null
    },
    "options__content__header": {
@@ -115,8 +115,8 @@
       "status": null
    },
    "options__content__description": {
-      "message": "Determine which content to censor:",
-      "description": "Determine which content to censor:",
+      "message": "Configure what content to censor:",
+      "description": "Configure what content to censor:",
       "status": null
    },
    "options__content__experimental-content": {
@@ -230,8 +230,8 @@
       "status": null
    },
    "options__filetypes__description": {
-      "message": "Determine which file types to process and how:",
-      "description": "Determine which file types to process and how:",
+      "message": "Configure what file types to process and how:",
+      "description": "Configure what file types to process and how:",
       "status": null
    },
    "options__filetypes__gif__thumb": {
@@ -285,138 +285,13 @@
       "status": null
    },
    "options__filetypes__gif__thumbnail-fallback__description": {
-      "message": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
-      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode": {
-      "message": "Processing Mode",
-      "description": "Processing Mode",
-      "status": null
-   },
-   "options__filetypes__gif__sync-slow": {
-      "message": "Sync (slow)",
-      "description": "Sync (slow)",
-      "status": null
-   },
-   "options__filetypes__gif__sync-fast": {
-      "message": "Async (fast)",
-      "description": "Async (fast)",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode__description": {
-      "message": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
-      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping": {
-      "message": "AI Frame Skipping",
-      "description": "AI Frame Skipping",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping__description": {
-      "message": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
-      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending": {
-      "message": "Detection Extending",
-      "description": "Detection Extending",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending__description": {
-      "message": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
-      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity": {
-      "message": "Detection Similarity Threshold",
-      "description": "Detection Similarity Threshold",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity__description": {
-      "message": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
-      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "message": "Fall back to censoring the thumbnail if the GIF exceeds the max. file size or frame count.",
+      "description": "Fall back to censoring the thumbnail if the GIF exceeds the max. file size or frame count.",
       "status": null
    },
    "options__filetypes__gif__frames-max": {
       "message": "Frames (Max)",
       "description": "Frames (Max)",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay": {
-      "message": "Automatically Overlay Videos",
-      "description": "Automatically Overlay Videos",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay__description": {
-      "message": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
-      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
-      "status": null
-   },
-   "options__general__note": {
-      "message": "Note:",
-      "description": "Note:",
-      "status": null
-   },
-   "options__filetypes__video__note__description": {
-      "message": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
-      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
-      "status": null
-   },
-   "options__filetypes__video__note__account": {
-      "message": "Not Working?",
-      "description": "Not Working?",
-      "status": null
-   },
-   "options__filetypes__video__note__account__description": {
-      "message": "This feature requires a free PuryFi account, so please, login!",
-      "description": "This feature requires a free PuryFi account, so please, login!",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode": {
-      "message": "Processing Mode:",
-      "description": "Processing Mode:",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__stable": {
-      "message": "Stable",
-      "description": "Stable",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__overdrive": {
-      "message": "Overdrive",
-      "description": "Overdrive",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__fps-limit": {
-      "message": "FPS-Limit",
-      "description": "FPS-Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export": {
-      "message": "GIF-Export",
-      "description": "GIF-Export",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit": {
-      "message": "GIF Size Limit",
-      "description": "GIF Size Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit__description": {
-      "message": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
-      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory": {
-      "message": "Cache Memory",
-      "description": "Cache Memory",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory__description": {
-      "message": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
-      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
       "status": null
    },
    "options__censor__header": {
@@ -425,8 +300,8 @@
       "status": null
    },
    "options__censor__description": {
-      "message": "Determine the resulting censor:",
-      "description": "Determine the resulting censor:",
+      "message": "Configure the resulting censor:",
+      "description": "Configure the resulting censor:",
       "status": null
    },
    "popup__censor__mode": {
@@ -509,9 +384,9 @@
       "description": "Opacity",
       "status": null
    },
-   "options__censor__modes__border-width": {
-      "message": "Border Width",
-      "description": "Border Width",
+   "options__censor__modes__border": {
+      "message": "Border",
+      "description": "Border",
       "status": null
    },
    "options__censor__modes__border-color": {
@@ -569,6 +444,16 @@
       "description": "Halftone",
       "status": null
    },
+   "options__censor__modes__blur-gaussian": {
+      "message": "Gaussian",
+      "description": "Gaussian",
+      "status": null
+   },
+   "options__censor__modes__blur-diffusion": {
+      "message": "Diffusion",
+      "description": "Diffusion",
+      "status": null
+   },
    "options__censor__modes__strength": {
       "message": "Strength",
       "description": "Strength",
@@ -614,19 +499,9 @@
       "description": "Simple",
       "status": null
    },
-   "options__censor__modes__grid-width": {
-      "message": "Grid Width",
-      "description": "Grid Width",
-      "status": null
-   },
-   "options__censor__modes__grid-color": {
-      "message": "Grid Color",
-      "description": "Grid Color",
-      "status": null
-   },
-   "options__censor__modes__background-color": {
-      "message": "Background Color",
-      "description": "Background Color",
+   "options__censor__modes__grid": {
+      "message": "Grid",
+      "description": "Grid",
       "status": null
    },
    "options__censor__modes__vertext-count": {
@@ -1009,11 +884,6 @@
       "description": "Content",
       "status": null
    },
-   "options__censor__reverse": {
-      "message": "Reverse",
-      "description": "Reverse",
-      "status": null
-   },
    "options__censor__censor-extras": {
       "message": "Censor Extras",
       "description": "Censor Extras",
@@ -1022,6 +892,11 @@
    "options__censor__cluster__only-matching-content": {
       "message": "Only Matching Content",
       "description": "Only Matching Content",
+      "status": null
+   },
+   "options__censor__cluster__rotation": {
+      "message": "Rotation",
+      "description": "Rotation",
       "status": null
    },
    "options__censor__cluster__max-distance": {
@@ -1124,34 +999,14 @@
       "description": "Angle",
       "status": null
    },
-   "options__censor__reverse__censor": {
-      "message": "Censor",
-      "description": "Censor",
+   "options__appearance__header": {
+      "message": "Appearance",
+      "description": "Appearance",
       "status": null
    },
-   "options__censor__reverse__all-images": {
-      "message": "all images",
-      "description": "all images",
-      "status": null
-   },
-   "options__censor__reverse__images-with-content": {
-      "message": "images with content",
-      "description": "images with content",
-      "status": null
-   },
-   "options__censor__reverse__images-with-censor-content": {
-      "message": "images with content to censor",
-      "description": "images with content to censor",
-      "status": null
-   },
-   "options__advanced__header": {
-      "message": "Advanced",
-      "description": "Advanced",
-      "status": null
-   },
-   "options__advanced__description": {
-      "message": "Advanced and miscellaneous settings:",
-      "description": "Advanced and miscellaneous settings:",
+   "options__appearance__description": {
+      "message": "Configure the appearance of the extension:",
+      "description": "Configure the appearance of the extension:",
       "status": null
    },
    "options__advanced__extension-icon": {
@@ -1174,54 +1029,29 @@
       "description": "Minimalistic",
       "status": null
    },
-   "options__advanced__advanced-options": {
-      "message": "Advanced Options",
-      "description": "Advanced Options",
+   "options__performance__downscale-input": {
+      "message": "Downscale Input",
+      "description": "Downscale Input",
       "status": null
    },
-   "options__advanced__pre-scaling": {
-      "message": "Pre-Scaling",
-      "description": "Pre-Scaling",
-      "status": null
-   },
-   "options__advanced__pre-scaling__description": {
-      "message": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
-      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
-      "status": null
-   },
-   "options__advanced__pre-scaling__description__note": {
-      "message": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
-      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
-      "status": null
-   },
-   "options__advanced__prefer-edited-detections": {
+   "options__performance__prefer-edited-detections": {
       "message": "Prefer Edited Detections",
       "description": "Prefer Edited Detections",
       "status": null
    },
-   "options__advanced__prefer-edited-detections__description": {
-      "message": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
-      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+   "options__performance__prefer-edited-detections__description": {
+      "message": "Checks whether edited detections for images exist, and if they do, prefers using those over of the model ones.",
+      "description": "Checks whether edited detections for images exist, and if they do, prefers using those over of the model ones.",
       "status": null
    },
-   "options__advanced__base64_support": {
-      "message": "Base64 Support",
-      "description": "Base64 Support",
+   "options__performance__warm-up": {
+      "message": "Warm Up",
+      "description": "Warm Up",
       "status": null
    },
-   "options__advanced__base64_support__description": {
-      "message": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
-      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
-      "status": null
-   },
-   "options__advanced__ai-warmup": {
-      "message": "AI Warm-Up",
-      "description": "AI Warm-Up",
-      "status": null
-   },
-   "options__advanced__ai-warmup__description": {
-      "message": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
-      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+   "options__performance__warm-up__description": {
+      "message": "Warms up the model when the extension starts up.",
+      "description": "Warms up the model when the extension starts up.",
       "status": null
    },
    "options__advanced__sfw-icons": {
@@ -1355,8 +1185,8 @@
       "status": null
    },
    "options__settings__description": {
-      "message": "Manage your settings collections:",
-      "description": "Manage your settings collections:",
+      "message": "Manage, import, and export settings:",
+      "description": "Manage, import, and export settings:",
       "status": null
    },
    "options__settings__import-settings": {
@@ -1529,34 +1359,9 @@
       "description": "W/B List",
       "status": null
    },
-   "options__settings__advanced": {
-      "message": "Advanced",
-      "description": "Advanced",
-      "status": null
-   },
    "options__settings__icons": {
       "message": "Icons",
       "description": "Icons",
-      "status": null
-   },
-   "options__settings__pre-scaling": {
-      "message": "Pre-Scaling",
-      "description": "Pre-Scaling",
-      "status": null
-   },
-   "options__settings__prefer-edited-detections": {
-      "message": "Prefer Edited Detections",
-      "description": "Prefer Edited Detections",
-      "status": null
-   },
-   "options__settings__base64_support": {
-      "message": "Base64 Support",
-      "description": "Base64 Support",
-      "status": null
-   },
-   "options__settings__ai-warm-up": {
-      "message": "AI Warm-Up",
-      "description": "AI Warm-Up",
       "status": null
    },
    "options__settings__theme": {
@@ -1590,8 +1395,8 @@
       "status": null
    },
    "options__help__reset-cache": {
-      "message": "Reset Cache",
-      "description": "Reset Cache",
+      "message": "Clear Cache",
+      "description": "Clear Cache",
       "status": null
    },
    "options__help__storage": {
@@ -1689,19 +1494,34 @@
       "description": "Debug",
       "status": null
    },
-   "options__help__default-settings": {
-      "message": "Default Settings",
-      "description": "Default Settings",
+   "options__help__export-data": {
+      "message": "Export Data",
+      "description": "Export Data",
       "status": null
    },
-   "options__help__restore-defaults": {
-      "message": "Restore Defaults",
-      "description": "Restore Defaults",
+   "options__help__import-data": {
+      "message": "Import Data",
+      "description": "Import Data",
       "status": null
    },
-   "options__help__restore-defaults__description": {
-      "message": "Will not delete any local data such as stickers or stored settings.",
-      "description": "Will not delete any local data such as stickers or stored settings.",
+   "on-import-data__invalid-file": {
+      "message": "No data could be imported: File is either corrupted or for a different version!",
+      "description": "No data could be imported: File is either corrupted or for a different version!",
+      "status": null
+   },
+   "options__help__clear-data": {
+      "message": "Clear Data",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__help__create-report": {
+      "message": "Create Report",
+      "description": "Create Report",
+      "status": null
+   },
+   "options__help__create-report__description": {
+      "message": "Collects and exports information about your extension, browser, and system for sharing with developers when requested.",
+      "description": "Collects and exports information about your extension, browser, and system for sharing with developers when requested.",
       "status": null
    },
    "options__oom__header": {
@@ -1864,9 +1684,9 @@
       "description": "Genitals Covered",
       "status": null
    },
-   "options__oom__lock-settings": {
-      "message": "Lock Settings",
-      "description": "Lock Settings",
+   "options__oom__block-settings": {
+      "message": "Block Settings",
+      "description": "Block Settings",
       "status": null
    },
    "options__oom__date-time-format": {
@@ -1885,8 +1705,8 @@
       "status": null
    },
    "options__oom__block-message": {
-      "message": "Block Message",
-      "description": "Block Message",
+      "message": "Block Message:",
+      "description": "Block Message:",
       "status": null
    },
    "options__oom__list-image-content": {
@@ -1899,9 +1719,9 @@
       "description": "Timer",
       "status": null
    },
-   "options__oom__auto-refresh": {
-      "message": "Auto Refresh",
-      "description": "Auto Refresh",
+   "options__oom__automatic-refresh": {
+      "message": "Automatic Refresh",
+      "description": "Automatic Refresh",
       "status": null
    },
    "options__oom__min-duration": {
@@ -2280,8 +2100,8 @@
       "status": null
    },
    "options__security__emergency-unlock__description__1": {
-      "message": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
-      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "message": "<b>1.</b> Join our relevant <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
       "status": null
    },
    "options__security__emergency-unlock__description__2": {
@@ -2524,9 +2344,14 @@
       "description": "The entered font is not available on this device!",
       "status": null
    },
-   "on-restore-defaults__confirm": {
-      "message": "All of your configurations will be overriden by their defaults.<br/><br/>The following will not be affected:",
-      "description": "All of your configurations will be overriden by their defaults.<br/><br/>The following will not be affected:",
+   "on-clear-data__confirm": {
+      "message": "All of your data will be cleared including <b>Settings</b>, <b>Sticker Collections</b>, <b>Edited Detections</b>, <b>Lock Timer Logs</b>, and <b>OOM Data</b>.<br/><br/>You will also be logged out and locally unsubscribed from any remote control.",
+      "description": "All of your data will be cleared including <b>Settings</b>, <b>Sticker Collections</b>, <b>Edited Detections</b>, <b>Lock Timer Logs</b>, and <b>OOM Data</b>.<br/><br/>You will also be logged out and locally unsubscribed from any remote control.",
+      "status": null
+   },
+   "on-create-report__permissions-request": {
+      "message": "Your browser should now be prompting you to grant the extension <b>management</b> and <b>privacy</b> permissions.<br/><br/>These will be used to collect information about installed browser extensions and about browser settings respectively.<br/><br/>Grant the permissions to proceed...",
+      "description": "Your browser should now be prompting you to grant the extension <b>management</b> and <b>privacy</b> permissions.<br/><br/>These will be used to collect information about installed browser extensions and about browser settings respectively.<br/><br/>Grant the permissions to proceed...",
       "status": null
    },
    "on-disable-experimental-content__confirm": {
@@ -2557,6 +2382,11 @@
    "on-enable-lock-remote-subscription__confirm": {
       "message": "This will <b>remove</b> your ability to cancel your remote control subscription.<br/><br/>Your <b>only</b> way to do so will be by requesting so from either the remote control owner, or from staff at our Discord server.<br/><br/>Also note that any other devices that log into your PuryFi account will be subject to this remote control until unsubscribed.",
       "description": "This will <b>remove</b> your ability to cancel your remote control subscription.<br/><br/>Your <b>only</b> way to do so will be by requesting so from either the remote control owner, or from staff at our Discord server.<br/><br/>Also note that any other devices that log into your PuryFi account will be subject to this remote control until unsubscribed.",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not-easily-reversable-warning": {
+      "message": "This action is not easily reversable!",
+      "description": "This action is not easily reversable!",
       "status": null
    },
    "on-subscribe-to-remote__confirm": {
@@ -2650,8 +2480,8 @@
       "status": null
    },
    "on-settings-import__missing-censor-presets-warning": {
-      "message": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
-      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "message": "These settings will leave some of your configurations referencing non-existent censor presets!",
+      "description": "These settings will leave some of your configurations referencing non-existent censor presets!",
       "status": null
    },
    "on-settings-import__missing-patreon-features-warning": {
@@ -2665,13 +2495,13 @@
       "status": null
    },
    "on-bind-settings-to-remote__success": {
-      "message": "Cloud settings with an ID of ${0} successfully bound to remote control!",
-      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "message": "Cloud settings with an ID of ${0} successfully bound to remote control",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control",
       "status": null
    },
    "on-update-remote-subscription__success": {
-      "message": "Settings successfully synced with remote!",
-      "description": "Settings successfully synced with remote!",
+      "message": "Settings successfully synced with remote",
+      "description": "Settings successfully synced with remote",
       "status": null
    },
    "on-update-remote-subscription__new-remote-settings-alert": {
@@ -2680,28 +2510,28 @@
       "status": null
    },
    "on-load-default-settings__success": {
-      "message": "Default settings successfully loaded!",
-      "description": "Default settings successfully loaded!",
+      "message": "Default settings successfully loaded",
+      "description": "Default settings successfully loaded",
       "status": null
    },
    "on-load-settings__success": {
-      "message": "Settings ${0} successfully loaded!",
-      "description": "Settings ${0} successfully loaded!",
+      "message": "Settings ${0} successfully loaded",
+      "description": "Settings ${0} successfully loaded",
       "status": null
    },
    "on-import-settings__success": {
-      "message": "Settings successfully imported!",
-      "description": "Settings successfully imported!",
+      "message": "Settings successfully imported",
+      "description": "Settings successfully imported",
       "status": null
    },
    "on-delete-settings__success": {
-      "message": "Settings ${0} successfully deleted!",
-      "description": "Settings ${0} successfully deleted!",
+      "message": "Settings ${0} successfully deleted",
+      "description": "Settings ${0} successfully deleted",
       "status": null
    },
    "on-save-settings__success": {
-      "message": "Settings ${0} successfully saved!",
-      "description": "Settings ${0} successfully saved!",
+      "message": "Settings ${0} successfully saved",
+      "description": "Settings ${0} successfully saved",
       "status": null
    },
    "bar-type": {
@@ -2710,8 +2540,8 @@
       "status": null
    },
    "tooltip__experimental-content-label": {
-      "message": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
-      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "message": "This content is experimental and not currently detected by the AI model. It can only be assigned to images through the editor.",
+      "description": "This content is experimental and not currently detected by the AI model. It can only be assigned to images through the editor.",
       "status": null
    },
    "tooltip__cluster-only-matching-content": {
@@ -2722,6 +2552,11 @@
    "tooltip__cluster-max-distance": {
       "message": "The maximum distance there can be between detections in order to still join them, measured in an unit determined by the size of the detections.",
       "description": "The maximum distance there can be between detections in order to still join them, measured in an unit determined by the size of the detections.",
+      "status": null
+   },
+   "tooltip__cluster-rotation": {
+      "message": "Allows rotating the resulting detections as needed to efficiently cover the joined detections.",
+      "description": "Allows rotating the resulting detections as needed to efficiently cover the joined detections.",
       "status": null
    },
    "tooltip__censor-mode-feathering": {
@@ -2740,13 +2575,13 @@
       "status": null
    },
    "tooltip__pixel-accurate-sampling": {
-      "message": "Considers the color of the entire area covered by each pixel when determining its color or size, instead of just the color at the very center of the area.",
-      "description": "Considers the color of the entire area covered by each pixel when determining its color or size, instead of just the color at the very center of the area.",
+      "message": "Samples the color of the entire area covered by the new pixel, instead of just the color of the center pixel.",
+      "description": "Samples the color of the entire area covered by the new pixel, instead of just the color of the center pixel.",
       "status": null
    },
    "tooltip__pixel-detection-size-aware": {
-      "message": "Scales the strength of the effect according to the detection size",
-      "description": "Scales the strength of the effect according to the detection size",
+      "message": "Scales the strength of the effect according to the detection size.",
+      "description": "Scales the strength of the effect according to the detection size.",
       "status": null
    },
    "tooltip__triangle-threshold": {
@@ -2762,11 +2597,6 @@
    "tooltip__triangle-blurring": {
       "message": "How much to blur the effect area prior to triangulazing it.",
       "description": "How much to blur the effect area prior to triangulazing it.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-width": {
-      "message": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
-      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
       "status": null
    },
    "tooltip__triangle-gradients": {
@@ -2839,14 +2669,29 @@
       "description": "Instead of censoring the detections, censors everything else in the image.",
       "status": null
    },
+   "options__censor__reverse-mode__all-images": {
+      "message": "Censor All Images",
+      "description": "Censor All Images",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content": {
+      "message": "Censor Images With Content",
+      "description": "Censor Images With Content",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content-to-censor": {
+      "message": "Censor Images With Content To Censor",
+      "description": "Censor Images With Content To Censor",
+      "status": null
+   },
    "tooltip__word-wall": {
       "message": "Overlays all censor effects with a word wall.",
       "description": "Overlays all censor effects with a word wall.",
       "status": null
    },
    "tooltip__word-wall-pick-mode-single": {
-      "message": "Picks a single entry from the word pool.",
-      "description": "Picks a single entry from the word pool.",
+      "message": "Picks a single random entry from the word pool.",
+      "description": "Picks a single random entry from the word pool.",
       "status": null
    },
    "tooltip__word-wall-pick-mode-multiple": {
@@ -2864,194 +2709,64 @@
       "description": "Lists all detected content on each blocked image.",
       "status": null
    },
+   "tooltip__oom-timer": {
+      "message": "Instead of blocking the image from the second view, blocks it for views past a given ellapsed time from when first viewed.",
+      "description": "Instead of blocking the image from the second view, blocks it for views past a given ellapsed time from when first viewed.",
+      "status": null
+   },
+   "tooltip__oom-automatic-refresh": {
+      "message": "When timer is on, automatically refreshes images in opened tabs when their timer runs down, having the blocked image to immediately take its place.",
+      "description": "When timer is on, automatically refreshes images in opened tabs when their timer runs down, having the blocked image to immediately take its place.",
+      "status": null
+   },
    "tooltip__overlay-unsupported": {
       "message": "Mode not supported in video overlays.",
       "description": "Mode not supported in video overlays.",
       "status": null
    },
-   "tooltip__bar-type__paint": {
-      "message": "[Paint]: ",
-      "description": "[Paint]: ",
+   "tooltip__bar-type": {
+      "message": "[Paint]: Paint the effect area with the given color.<br/>[Erase]: Erase the effect area at the given opacity.",
+      "description": "[Paint]: Paint the effect area with the given color.<br/>[Erase]: Erase the effect area at the given opacity.",
       "status": null
    },
-   "tooltip__bar-type__paint__description": {
-      "message": "Paint the effect are with the given color.",
-      "description": "Paint the effect are with the given color.",
+   "tooltip__triangle-fill-color-mode": {
+      "message": "[Auto]: Samples the fill color from the effect area.<br/>[Custom]: Uses a custom fill color.",
+      "description": "[Auto]: Samples the fill color from the effect area.<br/>[Custom]: Uses a custom fill color.",
       "status": null
    },
-   "tooltip__bar-type__erase": {
-      "message": "[Erase]: ",
-      "description": "[Erase]: ",
+   "tooltip__triangle-stroke-color-mode": {
+      "message": "[Auto]: Samples the stroke color from the effect area.<br/>[Custom]: Uses a custom stroke color.",
+      "description": "[Auto]: Samples the stroke color from the effect area.<br/>[Custom]: Uses a custom stroke color.",
       "status": null
    },
-   "tooltip__bar-type__erase__description": {
-      "message": "Erase the effect area at the given opacity.",
-      "description": "Erase the effect area at the given opacity.",
+   "tooltip__sticker-pick-mode": {
+      "message": "[Per Body Part]: Picks a sticker for all detections of each body part.<br/>[Per Detection]: Picks a sticker for each detection.",
+      "description": "[Per Body Part]: Picks a sticker for all detections of each body part.<br/>[Per Detection]: Picks a sticker for each detection.",
       "status": null
    },
-   "tooltip__bar-type__note": {
-      "message": "NOTE: ",
-      "description": "NOTE: ",
+   "tooltip__splatter-color-mode": {
+      "message": "[Auto]: Samples the splatter color from the effect area.<br/>[Custom]: Picks a splatter color from a pool of custom colors.",
+      "description": "[Auto]: Samples the splatter color from the effect area.<br/>[Custom]: Picks a splatter color from a pool of custom colors.",
       "status": null
    },
-   "tooltip__bar-type__note__description": {
-      "message": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
-      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
+   "tooltip__word-wall-color-mode": {
+      "message": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
       "status": null
    },
-   "tooltip__triangle-fill-color-mode__auto": {
-      "message": "[Auto]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto__description": {
-      "message": "Samples the fill color from the effect area.",
-      "description": "Samples the fill color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom": {
-      "message": "[Custom]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom__description": {
-      "message": "Uses a custom fill color.",
-      "description": "Uses a custom fill color.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part": {
-      "message": "[Per Body Part]: ",
-      "description": "[Per Body Part]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part__description": {
-      "message": "Picks a sticker for all detections of each body part.",
-      "description": "Picks a sticker for all detections of each body part.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection": {
-      "message": "[Per Detection]: ",
-      "description": "[Per Detection]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection__description": {
-      "message": "Picks a sticker for each detection.",
-      "description": "Picks a sticker for each detection.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto": {
-      "message": "[Auto]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto__description": {
-      "message": "Samples the stroke color from the effect area.",
-      "description": "Samples the stroke color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom": {
-      "message": "[Custom]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom__description": {
-      "message": "Uses a custom stroke color.",
-      "description": "Uses a custom stroke color.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto": {
-      "message": "[Auto]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto__description": {
-      "message": "Samples the splatter color from the effect area.",
-      "description": "Samples the splatter color from the effect area.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom": {
-      "message": "[Custom]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom__description": {
-      "message": "Picks a splatter color from a pool of custom colors.",
-      "description": "Picks a splatter color from a pool of custom colors.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__1": {
-      "message": "The censor modes and preset for each section that can be censored.",
-      "description": "The censor modes and preset for each section that can be censored.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__2": {
-      "message": "Use shift/ctrl + click to select multiple entries for editing at once.",
-      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__cutout": {
-      "message": "[Cutout]: ",
-      "description": "[Cutout]: ",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__cutout__description": {
-      "message": "Creates a cutout of the text.",
-      "description": "Creates a cutout of the text.",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint": {
-      "message": "[Paint]: ",
-      "description": "[Paint]: ",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint__description": {
-      "message": "Paints the text in a custom color.",
-      "description": "Paints the text in a custom color.",
-      "status": null
-   },
-   "tooltip__oom__description__1": {
-      "message": "Permanently blocks images after they've been viewed once.",
-      "description": "Permanently blocks images after they've been viewed once.",
-      "status": null
-   },
-   "tooltip__oom__description__2": {
-      "message": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
-      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+   "tooltip__oom__description": {
+      "message": "Permanently blocks images after they've been viewed once.<br/><br/>This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+      "description": "Permanently blocks images after they've been viewed once.<br/><br/>This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
       "status": null
    },
    "tooltip__remote-control__description": {
-      "message": "Allows you to remotely control other users extensions.",
-      "description": "Allows you to remotely control other users extensions.",
-      "status": null
-   },
-   "tooltip__remote-control__description__1": {
-      "message": "<b>1.</b> Create a new remote control.",
-      "description": "<b>1.</b> Create a new remote control.",
-      "status": null
-   },
-   "tooltip__remote-control__description__2": {
-      "message": "<b>2.</b> Bind a cloud settings ID to your remote.",
-      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
-      "status": null
-   },
-   "tooltip__remote-control__description__3": {
-      "message": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
-      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
-      "status": null
-   },
-   "tooltip__remote-control__description__4": {
-      "message": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
-      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "message": "Allows you to remotely control other users extensions.<br/><br/>1. Create a new remote control.<br/>2. Bind a cloud settings ID to your remote.<br/>3. Have the users to be remotely controlled subscribe to your remote from the settings page.<br/>4. Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "description": "Allows you to remotely control other users extensions.<br/><br/>1. Create a new remote control.<br/>2. Bind a cloud settings ID to your remote.<br/>3. Have the users to be remotely controlled subscribe to your remote from the settings page.<br/>4. Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
       "status": null
    },
    "tooltip__remote-lock": {
-      "message": "Your subscription is locked!",
-      "description": "Your subscription is locked!",
-      "status": null
-   },
-   "tooltip__remote-lock__description": {
-      "message": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
-      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "message": "Your subscription is locked.<br/><br/>Your only way to unsubscribe would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant Patreon tier.",
+      "description": "Your subscription is locked.<br/><br/>Your only way to unsubscribe would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant Patreon tier.",
       "status": null
    },
    "tooltip__remote-identifier": {
@@ -3060,53 +2775,13 @@
       "status": null
    },
    "tooltip__patreon-cache": {
-      "message": "Your Patreon rewards will expire in ${0} days.",
-      "description": "Your Patreon rewards will expire in ${0} days.",
+      "message": "Your Patreon rewards will expire in ${0} days.<br/><br/>If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon.",
+      "description": "Your Patreon rewards will expire in ${0} days.<br/><br/>If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon.",
       "status": null
    },
-   "tooltip__patreon-cache__description": {
-      "message": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
-      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
-      "status": null
-   },
-   "tooltip__timer-mode__duration": {
-      "message": "[Duration]: ",
-      "description": "[Duration]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__duration__description": {
-      "message": "Upon locking, set the timer to the duration specified.",
-      "description": "Upon locking, set the timer to the duration specified.",
-      "status": null
-   },
-   "tooltip__timer-mode__date": {
-      "message": "[Date]: ",
-      "description": "[Date]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__date__description": {
-      "message": "Upon locking, set the timer to the time remaining until the specified date.",
-      "description": "Upon locking, set the timer to the time remaining until the specified date.",
-      "status": null
-   },
-   "tooltip__timer-mode__stable": {
-      "message": "[Stable]: ",
-      "description": "[Stable]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__stable__description": {
-      "message": "Waits until the latest frame has been processed before processing a new frame.",
-      "description": "Waits until the latest frame has been processed before processing a new frame.",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive": {
-      "message": "[Overdrive]: ",
-      "description": "[Overdrive]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive__description": {
-      "message": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
-      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+   "tooltip__timer-mode": {
+      "message": "[Duration]: Upon locking, set the timer to the duration specified.<br/>[Date]: Upon locking, set the timer to the time remaining until the specified date.",
+      "description": "[Duration]: Upon locking, set the timer to the duration specified.<br/>[Date]: Upon locking, set the timer to the time remaining until the specified date.",
       "status": null
    },
    "popup__timer-container__locked-until": {
@@ -3114,19 +2789,14 @@
       "description": "Locked until:",
       "status": null
    },
+   "options__censor__reverse-mode": {
+      "message": "Reverse Mode",
+      "description": "Reverse Mode",
+      "status": null
+   },
    "popup__reverse-mode": {
       "message": "Reverse Mode:",
       "description": "Reverse Mode:",
-      "status": null
-   },
-   "options__censor__word-wall__shadow-size": {
-      "message": "Shadow Size",
-      "description": "Shadow Size",
-      "status": null
-   },
-   "options__censor__caption__shadow-color": {
-      "message": "Shadow Color",
-      "description": "Shadow Color",
       "status": null
    },
    "on-save-caption-config__storage-quota-exceeded-error": {
@@ -3154,9 +2824,469 @@
       "description": "Click tags to assign or unassign",
       "status": null
    },
+   "tooltip__censor__modes__caption__toggle-all-content": {
+      "message": "Enable On All Content",
+      "description": "Enable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-none-content": {
+      "message": "Disable On All Content",
+      "description": "Disable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__export-entries": {
+      "message": "Export",
+      "description": "Export",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__import-entries": {
+      "message": "Import",
+      "description": "Import",
+      "status": null
+   },
+   "on-export-caption-collection__success": {
+      "message": "Caption collection with ${0} entries and ${1} tags succesfully exported",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully exported",
+      "status": null
+   },
+   "on-import-caption-collection__success": {
+      "message": "Caption collection with ${0} entries and ${1} tags succesfully imported",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully imported",
+      "status": null
+   },
+   "on-import-caption-collection__entry-count-limit-error": {
+      "message": "Caption collection with ${0} entries could not be imported: ${1} total entries exceeded!",
+      "description": "Caption collection with ${0} entries could not be imported: ${1} total entries exceeded!",
+      "status": null
+   },
+   "on-import-caption-collection__tag-count-limit-error": {
+      "message": "Caption collection with ${0} tags could not be imported: ${1} total tags exceeded!",
+      "description": "Caption collection with ${0} tags could not be imported: ${1} total tags exceeded!",
+      "status": null
+   },
+   "on-import-caption-collection__invalid-file-error": {
+      "message": "No caption collection could be imported: Invalid file!",
+      "description": "No caption collection could be imported: Invalid file!",
+      "status": null
+   },
+   "on-export-caption-collection__no-entries-or-tags-selected-error": {
+      "message": "Select some entries and tags to export!",
+      "description": "Select some entries and tags to export!",
+      "status": null
+   },
    "popup__censor__content": {
       "message": "Censored Content",
       "description": "Censored Content",
       "status": null
+   },
+   "options__unaddressed-issues__text": {
+      "message": "unaddressed issues",
+      "description": "unaddressed issues",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__title": {
+      "message": "Your browser settings might be preventing some data from saving and loading!",
+      "description": "Your browser settings might be preventing some data from saving and loading!",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__description": {
+      "message": "Your stickers collections and edited detections cannot be saved nor loaded.</br></br>This might be due to a current Firefox bug in which selecting <b>[Never remember history]</b> or selecting <b>[Use custom settings for history]</b> with <b>[Always use private browsing mode]</b> enabled in your settings prevents ours and all other extensions from opening Indexed DBs, which we use to store the aforementioned data.</br></br>If you indeed have either of the previous settings applied, applying something else and restarting your browser should resolve this issue. If it doesn't or if you didn't have said settings applied to begin with, please get in contact with a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> who will assist you further.</br></br>You can also choose not to take action, in which case the extension will continue to operate as usual except for sticker collections and edited detections not being remembered between sessions.",
+      "description": "Your stickers collections and edited detections cannot be saved nor loaded.</br></br>This might be due to a current Firefox bug in which selecting <b>[Never remember history]</b> or selecting <b>[Use custom settings for history]</b> with <b>[Always use private browsing mode]</b> enabled in your settings prevents ours and all other extensions from opening Indexed DBs, which we use to store the aforementioned data.</br></br>If you indeed have either of the previous settings applied, applying something else and restarting your browser should resolve this issue. If it doesn't or if you didn't have said settings applied to begin with, please get in contact with a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> who will assist you further.</br></br>You can also choose not to take action, in which case the extension will continue to operate as usual except for sticker collections and edited detections not being remembered between sessions.",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__title": {
+      "message": "Exceptions have been encountered while processing videos!",
+      "description": "Exceptions have been encountered while processing videos!",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__description": {
+      "message": "Some videos might have failed to censor due to exceptions encountered during processing.<br/><br/>These exceptions are likely the fault of bugs or corrupted state in either the extension or the video processor and not caused by your doing. Contacting a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> to report the issue would be greatly appreciated and they would personally assist you in resolving the issue, but if you'd rather not, you could still try restarting or reinstalling the extension and/or video processor and see if the issue comes up again.",
+      "description": "Some videos might have failed to censor due to exceptions encountered during processing.<br/><br/>These exceptions are more than likely the fault of bugs or corrupted state in either the extension or the video processor and not caused by your doing. Contacting a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> to report the issue would be greatly appreciated and they would personally assist you in resolving the issue, but if you'd rather not, you could still try restarting or reinstalling the extension and/or video processor and see if the issue comes up again.",
+      "status": null
+   },
+   "on-modal__acknowledge-and-dismiss-checkbox": {
+      "message": "Acknowledge and Dismiss.",
+      "description": "Acknowledge and Dismiss.",
+      "status": null
+   },
+   "tooltip__reverse-mode__description": {
+      "message": "Instead of censoring the enabled content detected, censors the entire image except for said content.",
+      "description": "Instead of censoring the enabled content detected, censors the entire image except for said content.",
+      "status": null
+   },
+   "tooltip__caption-mode": {
+      "message": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__overlay-mode": {
+      "message": "[Stable]: Waits until the latest frame has been processed before processing a new frame.<br/>[Overdrive]: Processes multiple frames at once until the hardware limit or a certain FPS rate is reached.",
+      "description": "[Stable]: Waits until the latest frame has been processed before processing a new frame.<br/>[Overdrive]: Processes multiple frames at once until the hardware limit or a certain FPS rate is reached.",
+      "status": null
+   },
+   "options__censor__modes__shadow": {
+      "message": "Shadow",
+      "description": "Shadow",
+      "status": null
+   },
+   "tooltip__caption-tags": {
+      "message": "On each image a tag is picked and only entries with said tag are then picked for the image.",
+      "description": "On each image a tag is picked and only entries with said tag are then picked for the image.",
+      "status": null
+   },
+   "tooltip__performance__interpolation": {
+      "message": "Cuts processing times of animated media by scanning only every few frames and performing interpolation to fill the gaps.",
+      "description": "Cuts processing times of animated media by scanning only every few frames and performing interpolation to fill the gaps.",
+      "status": null
+   },
+   "tooltip__download": {
+      "message": "Download",
+      "description": "Download",
+      "status": null
+   },
+   "tooltip__concurrent-processes": {
+      "message": "The maximum number of images that get processed concurrently.",
+      "description": "The maximum number of images that get processed concurrently.",
+      "status": null
+   },
+   "options__sidebar__performance": {
+      "message": "Performance",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__header": {
+      "message": "Performance",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__description": {
+      "message": "Configure the extension's performance:",
+      "description": "Configure the extension's performance:",
+      "status": null
+   },
+   "options__performance__ai-model": {
+      "message": "AI Model",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__performance__editor": {
+      "message": "Editor",
+      "description": "Editor",
+      "status": null
+   },
+   "options__performance__animated-media": {
+      "message": "Animated Media",
+      "description": "Animated Media",
+      "status": null
+   },
+   "options__performance_interpolation": {
+      "message": "Interpolation",
+      "description": "Interpolation",
+      "status": null
+   },
+   "options__performance__scan-rate": {
+      "message": "Scan Rate",
+      "description": "Scan Rate",
+      "status": null
+   },
+   "options__performance__scan-rate__description": {
+      "message": "Performs a scan every this many frames.",
+      "description": "Performs a scan every this many frames.",
+      "status": null
+   },
+   "options__performance__confidence": {
+      "message": "Confidence",
+      "description": "Confidence",
+      "status": null
+   },
+   "options__performance__confidence__description": {
+      "message": "Determines how similar detections in two different frames must be to perform interpolation between them.",
+      "description": "Determines how similar detections in two different frames must be to perform interpolation between them.",
+      "status": null
+   },
+   "options__performance__extra-interpolation": {
+      "message": "Extra Interpolation",
+      "description": "Extra Interpolation",
+      "status": null
+   },
+   "options__performance__extra-interpolation__description": {
+      "message": "Performs interpolation for this many frames beyond the needed to cover for frames not scanned. This can help cover for the model briefly failing to detect some content.",
+      "description": "Performs interpolation for this many frames beyond the needed to cover for frames not scanned. This can help cover for the model briefly failing to detect some content.",
+      "status": null
+   },
+   "options__filetypes__concurrent-processes": {
+      "message": "Concurrent Processes",
+      "description": "Concurrent Processes",
+      "status": null
+   },
+   "options__filetypes__video-file-processor": {
+      "message": "File Processor",
+      "description": "File Processor",
+      "status": null
+   },
+   "popup__missing-video-processor-app": {
+      "message": "Requires our Video Processor app to be installed on your desktop.",
+      "description": "Requires our Video Processor app to be installed on your desktop.",
+      "status": null
+   },
+   "popup__upgrade-required-video-processor-app": {
+      "message": "The installed Video Processor app is incompatible, please upgrade to ${0}.",
+      "description": "The installed Video Processor app is incompatible, please upgrade to ${0}.",
+      "status": null
+   },
+   "popup__downgrade-required-video-processor-app": {
+      "message": "The installed Video Processor app is incompatible, please downgrade to ${0}.",
+      "description": "The installed Video Processor app is incompatible, please downgrade to ${0}.",
+      "status": null
+   },
+   "popup__upgrade-recommended-video-processor-app": {
+      "message": "The installed Video Processor app is outdated, please upgrade to ${0}.",
+      "description": "The installed Video Processor app is outdated, please upgrade to ${0}.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__not-supported-device-message": {
+      "message": "Available only on 64 bits Windows desktop.",
+      "description": "Available only on 64 bits Windows desktop.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__glitch-type-for-pixel-not-supported": {
+      "message": "Glitch type for Pixel is not yet supported.",
+      "description": "Glitch type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__halftone-type-for-pixel-not-supported": {
+      "message": "Halftone type for Pixel is not yet supported.",
+      "description": "Halftone type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__super-random-mode-for-random-not-supported": {
+      "message": "Super random mode for Random is not yet supported.",
+      "description": "Super random mode for Random is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__random-entries-in-mixed-not-supported": {
+      "message": "Random entries in Mixed are not yet supported.",
+      "description": "Random entries in Mixed are not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__general": {
+      "message": "General",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps": {
+      "message": "Max. FPS",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps__description": {
+      "message": "Drops frames in videos over this FPS for processing.",
+      "description": "Drops frames in videos over this FPS for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution": {
+      "message": "Max. Resolution",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution__description": {
+      "message": "Downscales videos over this resolution for processing.",
+      "description": "Downscales videos over this resolution for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality": {
+      "message": "Quality",
+      "description": "Quality",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__worst": {
+      "message": "Poor",
+      "description": "Poor",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__balanced": {
+      "message": "Balanced",
+      "description": "Balanced",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__good": {
+      "message": "Good",
+      "description": "Good",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__best": {
+      "message": "Best",
+      "description": "Best",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__description": {
+      "message": "Sets the output quality for encoders with no lossless option, such as libvpx.",
+      "description": "Sets the output quality for encoders with no lossless option, such as libvpx.",
+      "status": null
+   },
+   "options__filetypes__video-overlay": {
+      "message": "Overlay",
+      "description": "Overlay",
+      "status": null
+   },
+   "options__filetypes__video-overlay__not-supported-device-message": {
+      "message": "Available only on desktop.",
+      "description": "Available only on desktop.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__general": {
+      "message": "General",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-overlay__gif-exporting": {
+      "message": "GIF Exporting",
+      "description": "GIF Exporting",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode": {
+      "message": "Processing Mode",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__sync": {
+      "message": "Sync",
+      "description": "Sync",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__async": {
+      "message": "Async",
+      "description": "Async",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__description": {
+      "message": "Whether to process frames one at a time [Sync] or to simultaneously process frames until the FPS limit is met [Async].",
+      "description": "Whether to process frames one at a time [Sync] or to simultaneously process frames until the FPS limit is met [Async].",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit": {
+      "message": "Max. FPS",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit__description": {
+      "message": "Processes no more than this many FPS when async processing.",
+      "description": "Processes no more than this many FPS when async processing.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution": {
+      "message": "Max. Resolution",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution__description": {
+      "message": "Downscales frames over this resolution when exporting a GIF. Can be set to zero to disable.",
+      "description": "Downscales frames over this resolution when exporting a GIF. Can be set to zero to disable.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size": {
+      "message": "Cache Size",
+      "description": "Cache Size",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size__description": {
+      "message": "The size of the cache for storing processed frames, and consequently, the total frames that can be exported as a GIF.",
+      "description": "The size of the cache for storing processed frames, and consequently, the total frames that can be exported as a GIF.",
+      "status": null
+   },
+   "options__settings__scan": {
+      "message": "Scan",
+      "description": "Scan",
+      "status": null
+   },
+   "options__settings__appearance": {
+      "message": "Appearance",
+      "description": "Appearance",
+      "status": null
+   },
+   "options__help__unfreeze": {
+      "message": "Unfreeze",
+      "description": "Unfreeze",
+      "status": null
+   },
+   "options__performance__downscale-input__description": {
+      "message": "Downscales images to the model input size before turning them into tensors. This improves speed and memory usage at no measurable output difference.",
+      "description": "Downscales images to the model input size before turning them into tensors. This improves speed and memory usage at no measurable output difference.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads": {
+      "message": "Threads",
+      "description": "Threads",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads__description": {
+      "message": "The number of threads to use for scanning and painting frames.",
+      "description": "The number of threads to use for scanning and painting frames.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout": {
+      "message": "Inactivity Timeout",
+      "description": "Inactivity Timeout",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout__description": {
+      "message": "Puts the video processsor app to sleep after this period of inactivity.",
+      "description": "Puts the video processsor app to sleep after this period of inactivity.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity__none": {
+      "message": "None",
+      "description": "None",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1m": {
+      "message": "1 min",
+      "description": "1 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2m": {
+      "message": "2 min",
+      "description": "2 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__3m": {
+      "message": "3 min",
+      "description": "3 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__5m": {
+      "message": "5 min",
+      "description": "5 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__10m": {
+      "message": "10 min",
+      "description": "10 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__15m": {
+      "message": "15 min",
+      "description": "15 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__20m": {
+      "message": "20 min",
+      "description": "20 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__30m": {
+      "message": "30 min",
+      "description": "30 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1h": {
+      "message": "1 hr",
+      "description": "1 hr",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2h": {
+      "message": "2 hr",
+      "description": "2 hr",
+      "status": "new"
    }
 }

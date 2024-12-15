@@ -105,8 +105,8 @@
       "status": null
    },
    "options__sidebar__advanced": {
-      "message": "고급",
-      "description": "Advanced",
+      "message": "외관",
+      "description": "Appearance",
       "status": null
    },
    "options__content__header": {
@@ -115,8 +115,8 @@
       "status": null
    },
    "options__content__description": {
-      "message": "검열할 콘텐츠를 결정합니다:",
-      "description": "Determine which content to censor:",
+      "message": "검열할 콘텐츠를 구성하세요:",
+      "description": "Configure what content to censor:",
       "status": null
    },
    "options__content__experimental-content": {
@@ -230,8 +230,8 @@
       "status": null
    },
    "options__filetypes__description": {
-      "message": "처리할 파일 유형 및 방법을 결정합니다:",
-      "description": "Determine which file types to process and how:",
+      "message": "처리할 파일 유형과 처리 방법을 구성합니다:",
+      "description": "Configure what file types to process and how:",
       "status": null
    },
    "options__filetypes__gif__thumb": {
@@ -285,138 +285,13 @@
       "status": null
    },
    "options__filetypes__gif__thumbnail-fallback__description": {
-      "message": "GIF가 최대 파일 크기 또는 프레임 수를 초과하면 검열하고 썸네일을 표시합니다. 최소 파일 크기 미만의 GIF는 무시됩니다.",
-      "description": "Censors and displays the thumbnail if the GIF happens to exceed the maximum file size or frame count. GIFs under the minimum file size remain ignored.",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode": {
-      "message": "처리 모드",
-      "description": "Processing Mode",
-      "status": null
-   },
-   "options__filetypes__gif__sync-slow": {
-      "message": "동기 (느림)",
-      "description": "Sync (slow)",
-      "status": null
-   },
-   "options__filetypes__gif__sync-fast": {
-      "message": "비동기 (빠름)",
-      "description": "Async (fast)",
-      "status": null
-   },
-   "options__filetypes__gif__processing-mode__description": {
-      "message": "모든 프레임을 비동기적으로 처리하여 처리 시간을 단축하지만 충분히 큰 GIF가 처리될 경우 브라우저가 멈추거나 충돌할 위험이 있습니다.",
-      "description": "Cuts processing times by processing all frames asynchonously at the risk of freezing or crashing the browser if large enough GIFs are processed.",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping": {
-      "message": "AI 프레임 건너뛰기",
-      "description": "AI Frame Skipping",
-      "status": null
-   },
-   "options__filetypes__gif__frame-skipping__description": {
-      "message": "AI를 실행한 후 설정된 프레임 수만큼 AI 실행을 건너뛰어 처리 시간을 단축합니다. AI가 실행되지 않는 프레임의 감지는 실행된 프레임에서 추론됩니다.",
-      "description": "Cuts processing times by skipping running the AI for the set amount of frames after having ran it. Detections in frames where the AI isn't run get deduced from frames in which it is.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending": {
-      "message": "감지 확장",
-      "description": "Detection Extending",
-      "status": null
-   },
-   "options__filetypes__gif__detection-extending__description": {
-      "message": "AI가 신체 부위를 잠시 감지하지 못하는 경우를 감지하여 이전 및 이후 프레임의 설정된 양만큼 모든 감지를 확장하여 감춥니다.",
-      "description": "Covers up instances of the AI briefly failing to detect a body part by extending all detections by the set amount of previous and upcoming frames.",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity": {
-      "message": "감지 유사성 임계값",
-      "description": "Detection Similarity Threshold",
-      "status": null
-   },
-   "options__filetypes__gif__detection-similarity__description": {
-      "message": "두 개의 서로 다른 프레임에서 얼마나 유사하게 위치하고 크기가 조정된 감지가 동일한 신체 부위를 감지했다고 가정해야 하는지를 설정합니다. 이 정보는 AI가 실행되지 않는 프레임에서 감지를 추론하는 데 사용됩니다.",
-      "description": "Sets how similarly positioned and sized detections in two different frames must be in order to assume they detected the same body part. This information is used to deduce detections in frames where the AI isn't run.",
+      "message": "GIF가 최대 파일 크기 또는 프레임 수를 초과하면 축소판을 검열하는 방식으로 전환합니다.",
+      "description": "Fall back to censoring the thumbnail if the GIF exceeds the max. file size or frame count.",
       "status": null
    },
    "options__filetypes__gif__frames-max": {
       "message": "프레임 (최대)",
       "description": "Frames (Max)",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay": {
-      "message": "비디오 자동 오버레이",
-      "description": "Automatically Overlay Videos",
-      "status": null
-   },
-   "options__filetypes__video__auto-overlay__description": {
-      "message": "비디오 위에 검열된 오버레이를 만듭니다. 프레임은 실시간으로 처리되므로 결과 FPS는 하드웨어 기능에 따라 크게 달라집니다. 이것은 실제 비디오를 검열하지 않습니다.",
-      "description": "Creates a censored overlay over videos. Since frames are processed in realtime, the resulting FPS will depend greatly on your hardware capabilities. Note how this doesn't censor the actual video.",
-      "status": null
-   },
-   "options__general__note": {
-      "message": "참고:",
-      "description": "Note:",
-      "status": null
-   },
-   "options__filetypes__video__note__description": {
-      "message": "불필요한 오버레이를 생성하면 리소스 낭비가 심할 수 있으므로 이 옵션을 활성화하는 대신 상황에 맞는 메뉴를 사용하여 필요에 따라 오버레이를 만드는 것이 좋습니다.",
-      "description": "It's recommend to use the context menu to create overlays on demand instead of enabling this option, as spawning unnecessary overlays can be highly resource wasteful!",
-      "status": null
-   },
-   "options__filetypes__video__note__account": {
-      "message": "작동하지 않나요?",
-      "description": "Not Working?",
-      "status": null
-   },
-   "options__filetypes__video__note__account__description": {
-      "message": "이 기능을 사용하려면 무료 PuryFi 계정이 필요하므로 로그인하십시오.",
-      "description": "This feature requires a free PuryFi account, so please, login!",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode": {
-      "message": "처리 모드:",
-      "description": "Processing Mode:",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__stable": {
-      "message": "안정",
-      "description": "Stable",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__overdrive": {
-      "message": "오버드라이브",
-      "description": "Overdrive",
-      "status": null
-   },
-   "options__filetypes__video__processing-mode__fps-limit": {
-      "message": "FPS 제한",
-      "description": "FPS-Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export": {
-      "message": "GIF 내보내기",
-      "description": "GIF-Export",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit": {
-      "message": "GIF 크기 제한",
-      "description": "GIF Size Limit",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__size-limit__description": {
-      "message": "내보낸 GIF의 이미지 크기를 최대 높이 또는 너비로 제한하며 가로 세로 비율을 유지합니다. GIF 축소 비활성화를 위해 값을 0으로 설정할 수 있습니다.",
-      "description": "Limits the image size of the exported GIF to the maximum height or width while maintaining aspect ratio. Value can be set to 0 to disable downscaling of GIFs.",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory": {
-      "message": "캐시 메모리",
-      "description": "Cache Memory",
-      "status": null
-   },
-   "options__filetypes__video__gif-export__cache-memory__description": {
-      "message": "비디오 오버레이가 캐시할 수 있는 프레임 수를 정의합니다. 주어진 비디오에서 한 번에 최대 몇 개의 프레임을 내보낼 수 있는지에 영향을 미칩니다. 모든 프레임 캐싱을 비활성화하려면 값을 0으로 설정할 수 있습니다(GIF 내보내기에는 프레임 캐싱이 필요합니다).",
-      "description": "Defines how many frames the video overlay is allowed to cache. Affects how many frames you can maximally export from a given video at once. Value can be set to 0 to disable all frame caching (GIF-Export requires frame caching).",
       "status": null
    },
    "options__censor__header": {
@@ -425,8 +300,8 @@
       "status": null
    },
    "options__censor__description": {
-      "message": "결과 검열 결정:",
-      "description": "Determine the resulting censor:",
+      "message": "결과 검열기를 구성합니다:",
+      "description": "Configure the resulting censor:",
       "status": null
    },
    "popup__censor__mode": {
@@ -509,9 +384,9 @@
       "description": "Opacity",
       "status": null
    },
-   "options__censor__modes__border-width": {
-      "message": "테두리 두께",
-      "description": "Border Width",
+   "options__censor__modes__border": {
+      "message": "테두리",
+      "description": "Border",
       "status": null
    },
    "options__censor__modes__border-color": {
@@ -614,19 +489,9 @@
       "description": "Simple",
       "status": null
    },
-   "options__censor__modes__grid-width": {
-      "message": "격자 너비",
-      "description": "Grid Width",
-      "status": null
-   },
-   "options__censor__modes__grid-color": {
-      "message": "격자 색상",
-      "description": "Grid Color",
-      "status": null
-   },
-   "options__censor__modes__background-color": {
-      "message": "배경 색상",
-      "description": "Background Color",
+   "options__censor__modes__grid": {
+      "message": "그리드",
+      "description": "Grid",
       "status": null
    },
    "options__censor__modes__vertext-count": {
@@ -1009,11 +874,6 @@
       "description": "Content",
       "status": null
    },
-   "options__censor__reverse": {
-      "message": "반대로",
-      "description": "Reverse",
-      "status": null
-   },
    "options__censor__censor-extras": {
       "message": "추가 검열",
       "description": "Censor Extras",
@@ -1124,34 +984,14 @@
       "description": "Angle",
       "status": null
    },
-   "options__censor__reverse__censor": {
-      "message": "검열",
-      "description": "Censor",
+   "options__appearance__header": {
+      "message": "외관",
+      "description": "Appearance",
       "status": null
    },
-   "options__censor__reverse__all-images": {
-      "message": "모든 이미지",
-      "description": "all images",
-      "status": null
-   },
-   "options__censor__reverse__images-with-content": {
-      "message": "내용이 있는 이미지",
-      "description": "images with content",
-      "status": null
-   },
-   "options__censor__reverse__images-with-censor-content": {
-      "message": "검열할 콘텐츠가 있는 이미지",
-      "description": "images with content to censor",
-      "status": null
-   },
-   "options__advanced__header": {
-      "message": "고급",
-      "description": "Advanced",
-      "status": null
-   },
-   "options__advanced__description": {
-      "message": "고급 및 기타 설정:",
-      "description": "Advanced and miscellaneous settings:",
+   "options__appearance__description": {
+      "message": "확장의 외관을 구성합니다:",
+      "description": "Configure the appearance of the extension:",
       "status": null
    },
    "options__advanced__extension-icon": {
@@ -1174,54 +1014,34 @@
       "description": "Minimalistic",
       "status": null
    },
-   "options__advanced__advanced-options": {
-      "message": "고급 옵션",
-      "description": "Advanced Options",
+   "options__performance__downscale-input": {
+      "message": "입력 축소",
+      "description": "Downscale Input",
       "status": null
    },
-   "options__advanced__pre-scaling": {
-      "message": "사전 스케일링",
-      "description": "Pre-Scaling",
+   "options__performance__downscale-input__description": {
+      "message": "이미지를 텐서로 변환하기 전에 모델 입력 크기로 축소합니다. 이는 출력 차이에 영향을 주지 않으면서 속도와 메모리 사용을 향상시킵니다.",
+      "description": "Downscales images to the model input size before turning them into tensors. This improves speed and memory usage at no measurable output difference.",
       "status": null
    },
-   "options__advanced__pre-scaling__description": {
-      "message": "처리를 위해 이미지의 크기를 두 번째로 줄입니다. 테스트 결과 모든 이미지에서 약간의 속도 향상을 제공하는 동시에 대량 처리 시 약간의 메모리 절약 효과가 있는 것으로 나타났습니다. 대용량 이미지.",
-      "description": "Downscales images a second time for processing. Tests have shown comparable outputs while providing minor speed gains in all as well as considerable <b>memory</b> savings when bulk processing large images.",
-      "status": null
-   },
-   "options__advanced__pre-scaling__description__note": {
-      "message": "일괄 처리 시 메모리 문제가 발생하는 경우 이 옵션을 활성화하는 것이 좋습니다. 변환기 또는 비디오 오버레이.",
-      "description": "It's highly recommended enabling this option when experiencing memory issues with the batch converter or video overlays.",
-      "status": null
-   },
-   "options__advanced__prefer-edited-detections": {
+   "options__performance__prefer-edited-detections": {
       "message": "편집된 감지 선호",
       "description": "Prefer Edited Detections",
       "status": null
    },
-   "options__advanced__prefer-edited-detections__description": {
-      "message": "모델을 실행하기 전에 사용자가 편집기를 사용하여 이미지에 대한 감지를 편집하고 저장했는지 확인하고 그렇다면 모델 감지보다 해당 감지를 사용하는 것을 선호합니다.",
-      "description": "Before running the model, looks up whether the user has used the editor to edit and save detections for the image, and if so, prefers using those over the model ones.",
+   "options__performance__prefer-edited-detections__description": {
+      "message": "이미지에 대해 편집된 감지가 있는지 확인하고, 존재할 경우 모델 감지보다 이를 우선 사용합니다.",
+      "description": "Checks whether edited detections for images exist, and if they do, prefers using those over of the model ones.",
       "status": null
    },
-   "options__advanced__base64_support": {
-      "message": "Base64 지원",
-      "description": "Base64 Support",
+   "options__performance__warm-up": {
+      "message": "워밍업",
+      "description": "Warm Up",
       "status": null
    },
-   "options__advanced__base64_support__description": {
-      "message": "Firefox 확장 API에서 감지되지 않으므로 Base64 인코딩 이미지에 대해서도 웹 페이지를 검사하여 검열합니다.",
-      "description": "Also scans webpages for Base64 encoded images to censor since these are not detected by the Firefox Extensions API.",
-      "status": null
-   },
-   "options__advanced__ai-warmup": {
-      "message": "AI 워밍업",
-      "description": "AI Warm-Up",
-      "status": null
-   },
-   "options__advanced__ai-warmup__description": {
-      "message": "Firefox 시작 시 AI를 초기화합니다. 이 경우 브라우저가 잠시 멈출 수 있습니다.",
-      "description": "Initialises the AI when Firefox starts. Your browser might experience a short freeze when this happens.",
+   "options__performance__warm-up__description": {
+      "message": "확장 프로그램 시작 시 모델을 준비합니다.",
+      "description": "Warms up the model when the extension starts up.",
       "status": null
    },
    "options__advanced__theme__teal": {
@@ -1340,8 +1160,8 @@
       "status": null
    },
    "options__settings__description": {
-      "message": "설정 컬렉션 관리:",
-      "description": "Manage your settings collections:",
+      "message": "설정을 관리, 가져오기 및 내보내기:",
+      "description": "Manage, import, and export settings:",
       "status": null
    },
    "options__settings__import-settings": {
@@ -1514,34 +1334,9 @@
       "description": "W/B List",
       "status": null
    },
-   "options__settings__advanced": {
-      "message": "고급",
-      "description": "Advanced",
-      "status": null
-   },
    "options__settings__icons": {
       "message": "아이콘",
       "description": "Icons",
-      "status": null
-   },
-   "options__settings__pre-scaling": {
-      "message": "사전 크기 조정",
-      "description": "Pre-Scaling",
-      "status": null
-   },
-   "options__settings__prefer-edited-detections": {
-      "message": "편집된 감지 선호",
-      "description": "Prefer Edited Detections",
-      "status": null
-   },
-   "options__settings__base64_support": {
-      "message": "Base64 지원",
-      "description": "Base64 Support",
-      "status": null
-   },
-   "options__settings__ai-warm-up": {
-      "message": "AI 워밍업",
-      "description": "AI Warm-Up",
       "status": null
    },
    "options__settings__theme": {
@@ -1575,8 +1370,8 @@
       "status": null
    },
    "options__help__reset-cache": {
-      "message": "캐시 초기화",
-      "description": "Reset Cache",
+      "message": "캐시 지우기",
+      "description": "Clear Cache",
       "status": null
    },
    "options__help__storage": {
@@ -1672,21 +1467,6 @@
    "options__help__debug": {
       "message": "디버그",
       "description": "Debug",
-      "status": null
-   },
-   "options__help__default-settings": {
-      "message": "기본 설정",
-      "description": "Default Settings",
-      "status": null
-   },
-   "options__help__restore-defaults": {
-      "message": "기본값 복원",
-      "description": "Restore Defaults",
-      "status": null
-   },
-   "options__help__restore-defaults__description": {
-      "message": "스티커 또는 저장된 설정과 같은 로컬 데이터는 삭제되지 않습니다.",
-      "description": "Will not delete any local data such as stickers or stored settings.",
       "status": null
    },
    "options__oom__header": {
@@ -1849,9 +1629,9 @@
       "description": "Genitals Covered",
       "status": null
    },
-   "options__oom__lock-settings": {
-      "message": "설정 잠금",
-      "description": "Lock Settings",
+   "options__oom__block-settings": {
+      "message": "설정 차단",
+      "description": "Block Settings",
       "status": null
    },
    "options__oom__date-time-format": {
@@ -1870,8 +1650,8 @@
       "status": null
    },
    "options__oom__block-message": {
-      "message": "메시지 차단",
-      "description": "Block Message",
+      "message": "메시지 차단:",
+      "description": "Block Message:",
       "status": null
    },
    "options__oom__list-image-content": {
@@ -1884,9 +1664,9 @@
       "description": "Timer",
       "status": null
    },
-   "options__oom__auto-refresh": {
+   "options__oom__automatic-refresh": {
       "message": "자동 새로 고침",
-      "description": "Auto Refresh",
+      "description": "Automatic Refresh",
       "status": null
    },
    "options__oom__min-duration": {
@@ -2265,8 +2045,8 @@
       "status": null
    },
    "options__security__emergency-unlock__description__1": {
-      "message": "<b>1.</b> 관련 <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> 등급에 가입하세요. 완료되면, 원하실 때 회원 자격을 취소하거나 다운그레이드할 수 있습니다.",
-      "description": "<b>1.</b> Join our relevant <a href=\"https://www.patreon.com/puryfi/membership\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
+      "message": "<b>1.</b> 관련 <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> 계층에 가입하세요. 완료 후에는 회원 자격을 취소하거나 다운그레이드할 수 있습니다.",
+      "description": "<b>1.</b> Join our relevant <a href=\"https://www.subscribestar.adult/puryfi\" target=\"_blank\">Patreon</a> tier. Once you're done, you might cancel or downgrade your membership as you wish.",
       "status": null
    },
    "options__security__emergency-unlock__description__2": {
@@ -2460,8 +2240,8 @@
       "status": null
    },
    "tooltip__experimental-content-label": {
-      "message": "이 콘텐츠는 실험적이며 현재 AI 모델에 의해 <b>감지되지 않습니다</b>. 편집기를 통해서만 이미지에 할당할 수 있습니다.",
-      "description": "This content is experimental and <b>not</b> currently detected by the AI model. It can <b>only</b> be assigned to images through the editor.",
+      "message": "이 콘텐츠는 실험적이며 현재 AI 모델에서 감지되지 않습니다. 편집기를 통해서만 이미지에 할당할 수 있습니다.",
+      "description": "This content is experimental and not currently detected by the AI model. It can only be assigned to images through the editor.",
       "status": null
    },
    "tooltip__cluster-only-matching-content": {
@@ -2496,7 +2276,7 @@
    },
    "tooltip__pixel-detection-size-aware": {
       "message": "감지 크기에 따라 효과의 강도를 조정합니다.",
-      "description": "Scales the strength of the effect according to the detection size",
+      "description": "Scales the strength of the effect according to the detection size.",
       "status": null
    },
    "tooltip__triangle-threshold": {
@@ -2512,11 +2292,6 @@
    "tooltip__triangle-blurring": {
       "message": "삼각형화하기 전에 효과 영역을 얼마나 흐리게 할지.",
       "description": "How much to blur the effect area prior to triangulazing it.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-width": {
-      "message": "이미지 크기에 따라 스케일링하기 전의 스트로크 너비로, 1024px x 1024px 이미지 크기에서는 스케일링되지 않습니다.",
-      "description": "The stroke width prior to scaling according to the image size, where an image size of 1024px x 1024px would result in no scaling.",
       "status": null
    },
    "tooltip__triangle-gradients": {
@@ -2619,104 +2394,24 @@
       "description": "Mode not supported in video overlays.",
       "status": null
    },
-   "tooltip__bar-type__paint": {
-      "message": "[그리기]: ",
-      "description": "[Paint]: ",
+   "tooltip__bar-type": {
+      "message": "[그리기]: 지정된 색상으로 효과 영역을 그립니다.<br/>[지우기]: 지정된 불투명도로 효과 영역을 지웁니다.",
+      "description": "[Paint]: Paint the effect area with the given color.<br/>[Erase]: Erase the effect area at the given opacity.",
       "status": null
    },
-   "tooltip__bar-type__paint__description": {
-      "message": "지정된 색상으로 효과 영역을 그립니다.",
-      "description": "Paint the effect area with the given color.",
+   "tooltip__triangle-fill-color-mode": {
+      "message": "[자동]: 효과 영역에서 채우기 색상을 샘플링합니다.<br/>[사용자 정의]: 사용자 정의 채우기 색상을 사용합니다.",
+      "description": "[Auto]: Samples the fill color from the effect area.<br/>[Custom]: Uses a custom fill color.",
       "status": null
    },
-   "tooltip__bar-type__erase": {
-      "message": "[지우기]: ",
-      "description": "[Erase]: ",
+   "tooltip__sticker-pick-mode": {
+      "message": "[신체 부위별]: 각 신체 부위의 모든 인식에 대한 스티커를 선택합니다.<br/>[인식별]: 각 인식에 대한 스티커를 선택합니다.",
+      "description": "[Per Body Part]: Picks a sticker for all detections of each body part.<br/>[Per Detection]: Picks a sticker for each detection.",
       "status": null
    },
-   "tooltip__bar-type__erase__description": {
-      "message": "지정된 불투명도로 효과 영역을 지웁니다.",
-      "description": "Erase the effect area at the given opacity.",
-      "status": null
-   },
-   "tooltip__bar-type__note": {
-      "message": "참고: ",
-      "description": "NOTE: ",
-      "status": null
-   },
-   "tooltip__bar-type__note__description": {
-      "message": "JPEG와 같이 투명성을 지원하지 않는 출력 파일 형식에서는 지우기가 예상대로 작동하지 않을 수 있습니다.",
-      "description": "Erasing might not work as expected on output file types which don't support transparency, such as JPEG.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto": {
-      "message": "[자동]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__auto__description": {
-      "message": "효과 영역에서 채우기 색상을 샘플링합니다.",
-      "description": "Samples the fill color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom": {
-      "message": "[사용자 정의]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-fill-color-mode__custom__description": {
-      "message": "사용자 정의 채우기 색상을 사용합니다.",
-      "description": "Uses a custom fill color.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part": {
-      "message": "[신체 부위별]: ",
-      "description": "[Per Body Part]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-body-part__description": {
-      "message": "각 신체 부위의 모든 인식에 대한 스티커를 선택합니다.",
-      "description": "Picks a sticker for all detections of each body part.",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection": {
-      "message": "[인식별]: ",
-      "description": "[Per Detection]: ",
-      "status": null
-   },
-   "tooltip__sticker-pick-mode__per-detection__description": {
-      "message": "각 인식에 대한 스티커를 선택합니다.",
-      "description": "Picks a sticker for each detection.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto": {
-      "message": "[자동]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__auto__description": {
-      "message": "효과 영역에서 색을 샘플링합니다.",
-      "description": "Samples the splatter color from the effect area.",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom": {
-      "message": "[사용자 정의]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__splatter-color-mode__custom__description": {
-      "message": "사용자 정의 색상 중에서 색을 선택합니다.",
-      "description": "Picks a splatter color from a pool of custom colors.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__1": {
-      "message": "각 섹션에 대한 검열 모드 및 프리셋입니다.",
-      "description": "The censor modes and preset for each section that can be censored.",
-      "status": null
-   },
-   "tooltip__mixed-entries__description__2": {
-      "message": "여러 항목을 한 번에 편집하려면 Shift/Ctrl + 클릭을 사용하세요.",
-      "description": "Use shift/ctrl + click to select multiple entries for editing at once.",
+   "tooltip__splatter-color-mode": {
+      "message": "[자동]: 효과 영역에서 색을 샘플링합니다.<br/>[사용자 정의]: 사용자 정의 색상 중에서 색을 선택합니다.",
+      "description": "[Auto]: Samples the splatter color from the effect area.<br/>[Custom]: Picks a splatter color from a pool of custom colors.",
       "status": null
    },
    "on-add-caption-tag__count-limit-error": {
@@ -2734,69 +2429,24 @@
       "description": "Select some entries to assign tags to!",
       "status": null
    },
-   "tooltip__word-wall-color-mode__cutout": {
-      "message": "[잘라내기]: ",
-      "description": "[Cutout]: ",
+   "tooltip__word-wall-color-mode": {
+      "message": "[잘라내기]: 텍스트의 잘라내기를 생성합니다.<br/>[페인트]: 텍스트를 사용자 지정 색상으로 칠합니다.",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
       "status": null
    },
-   "tooltip__word-wall-color-mode__cutout__description": {
-      "message": "텍스트의 잘라내기를 생성합니다.",
-      "description": "Creates a cutout of the text.",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint": {
-      "message": "[페인트]: ",
-      "description": "[Paint]: ",
-      "status": null
-   },
-   "tooltip__word-wall-color-mode__paint__description": {
-      "message": "텍스트를 사용자 지정 색상으로 칠합니다.",
-      "description": "Paints the text in a custom color.",
-      "status": null
-   },
-   "tooltip__oom__description__1": {
-      "message": "이미지를 한 번 본 후 영구적으로 차단합니다.",
-      "description": "Permanently blocks images after they've been viewed once.",
-      "status": null
-   },
-   "tooltip__oom__description__2": {
-      "message": "이미지 해시를 계산하고 비교하여 작동하며, 이미지가 한 번 차단되면 웹 전체에서 발생하는 다른 모든 경우도 차단됩니다.",
-      "description": "This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
+   "tooltip__oom__description": {
+      "message": "이미지를 한 번 본 후 영구적으로 차단합니다.<br/><br/>이미지 해시를 계산하고 비교하여 작동하며, 이미지가 한 번 차단되면 웹 전체에서 발생하는 다른 모든 경우도 차단됩니다.",
+      "description": "Permanently blocks images after they've been viewed once.<br/><br/>This works by computing and comparing image hashes, which means that once an image is blocked, any other occurrence of it across the web will also be blocked from there on.",
       "status": null
    },
    "tooltip__remote-control__description": {
-      "message": "다른 사용자의 확장 프로그램을 원격으로 제어할 수 있습니다.",
-      "description": "Allows you to remotely control other users extensions.",
-      "status": null
-   },
-   "tooltip__remote-control__description__1": {
-      "message": "<b>1.</b> 새로운 리모컨을 만드세요.",
-      "description": "<b>1.</b> Create a new remote control.",
-      "status": null
-   },
-   "tooltip__remote-control__description__2": {
-      "message": "<b>2.</b> 클라우드 설정 ID를 리모컨에 연결하세요.",
-      "description": "<b>2.</b> Bind a cloud settings ID to your remote.",
-      "status": null
-   },
-   "tooltip__remote-control__description__3": {
-      "message": "<b>3.</b> 원격으로 제어될 사용자가 설정 페이지에서 리모컨을 구독하게 하세요.",
-      "description": "<b>3.</b> Have the users to be remotely controlled subscribe to your remote from the settings page.",
-      "status": null
-   },
-   "tooltip__remote-control__description__4": {
-      "message": "<b>4.</b> 원하는 대로 언제든지 연결된 설정을 변경하세요. 모든 구독자가 자동으로 업데이트될 것입니다!",
-      "description": "<b>4.</b> Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
+      "message": "다른 사용자의 확장 프로그램을 원격으로 제어할 수 있습니다.<br/><br/>1. 새로운 리모컨을 만드세요.<br/>2. 클라우드 설정 ID를 리모컨에 연결하세요.<br/>3. 원격으로 제어될 사용자가 설정 페이지에서 리모컨을 구독하게 하세요.<br/>4. 원하는 대로 언제든지 연결된 설정을 변경하세요. 모든 구독자가 자동으로 업데이트될 것입니다!",
+      "description": "Allows you to remotely control other users extensions.<br/><br/>1. Create a new remote control.<br/>2. Bind a cloud settings ID to your remote.<br/>3. Have the users to be remotely controlled subscribe to your remote from the settings page.<br/>4. Change the binded settings to whatever you please, when you please, all subscribers will be automatically updated!",
       "status": null
    },
    "tooltip__remote-lock": {
-      "message": "구독이 잠겼습니다!",
-      "description": "Your subscription is locked!",
-      "status": null
-   },
-   "tooltip__remote-lock__description": {
-      "message": "이를 잠금 해제하는 <b>유일한</b> 방법은 원격 소유자에게 요청하거나, Discord 서버의 직원에게 요청하거나, 이 옵션들이 마음에 들지 않는 경우, 스스로 잠금을 해제할 수 있는 관련 <b>Patreon 등급</b>에 가입하는 것입니다.",
-      "description": "Your <b>only<b/> way to unlock it would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant <b>Patreon tier</b> which allows you to unlock it yourself.",
+      "message": "구독이 잠겼습니다!<br/><br/>이를 잠금 해제하는 <b>유일한</b> 방법은 원격 소유자에게 요청하거나, Discord 서버의 직원에게 요청하거나, 이 옵션들이 마음에 들지 않는 경우, 스스로 잠금을 해제할 수 있는 관련 Patreon 등급 에 가입하는 것입니다.",
+      "description": "Your subscription is locked.<br/><br/>Your only way to unsubscribe would be by requesting so from either the remote owner, or from staff at our Discord server, or if these options aren't desirable, by joining our relevant Patreon tier.",
       "status": null
    },
    "tooltip__remote-identifier": {
@@ -2805,53 +2455,18 @@
       "status": null
    },
    "tooltip__patreon-cache": {
-      "message": "Patreon 보상이 ${0}일 후에 만료됩니다.",
-      "description": "Your Patreon rewards will expire in ${0} days.",
+      "message": "Patreon 보상이 ${0}일 후에 만료됩니다.<br/><br/>아직 Patreon 구독자라면 여기에서 계정 상태를 새로 고치세요. 그렇지 않으면 계정을 Patreon에 다시 연결하세요.",
+      "description": "Your Patreon rewards will expire in ${0} days.<br/><br/>If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon.",
       "status": null
    },
-   "tooltip__patreon-cache__description": {
-      "message": "아직 Patreon 구독자라면 여기에서 계정 상태를 새로 고치세요. 그렇지 않으면 계정을 Patreon에 다시 연결하세요.",
-      "description": "If you're still a Patreon subscriber, please refresh your account status through here, or if that doesn't work, rebind your account to Patreon",
+   "tooltip__timer-mode": {
+      "message": "[기간]: 잠글 때, 지정된 기간으로 타이머를 설정하십시오.<br/>[날짜]: 잠글 때, 지정된 날짜까지 남은 시간으로 타이머를 설정하십시오.",
+      "description": "[Duration]: Upon locking, set the timer to the duration specified.<br/>[Date]: Upon locking, set the timer to the time remaining until the specified date.",
       "status": null
    },
-   "tooltip__timer-mode__duration": {
-      "message": "[기간]: ",
-      "description": "[Duration]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__duration__description": {
-      "message": "잠글 때, 지정된 기간으로 타이머를 설정하십시오.",
-      "description": "Upon locking, set the timer to the duration specified.",
-      "status": null
-   },
-   "tooltip__timer-mode__date": {
-      "message": "[날짜]: ",
-      "description": "[Date]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__date__description": {
-      "message": "잠글 때, 지정된 날짜까지 남은 시간으로 타이머를 설정하십시오.",
-      "description": "Upon locking, set the timer to the time remaining until the specified date.",
-      "status": null
-   },
-   "tooltip__timer-mode__stable": {
-      "message": "[안정]: ",
-      "description": "[Stable]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__stable__description": {
-      "message": "최신 프레임이 처리된 후에야 새로운 프레임을 처리합니다.",
-      "description": "Waits until the latest frame has been processed before processing a new frame.",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive": {
-      "message": "[오버드라이브]: ",
-      "description": "[Overdrive]: ",
-      "status": null
-   },
-   "tooltip__timer-mode__overdrive__description": {
-      "message": "하드웨어 한계나 특정 fps 속도에 도달할 때까지 여러 프레임을 한 번에 처리합니다.",
-      "description": "Processes multiple frames at once until the hardware limit or a certain fps rate is reached.",
+   "tooltip__overlay-mode": {
+      "message": "[안정]: 최신 프레임이 처리된 후에야 새로운 프레임을 처리합니다.<br/>[오버드라이브]: 하드웨어 한계나 특정 fps 속도에 도달할 때까지 여러 프레임을 한 번에 처리합니다.",
+      "description": "[Stable]: Waits until the latest frame has been processed before processing a new frame.<br/>[Overdrive]: Processes multiple frames at once until the hardware limit or a certain FPS rate is reached.",
       "status": null
    },
    "popup__timer-container__locked-until": {
@@ -2862,16 +2477,6 @@
    "popup__reverse-mode": {
       "message": "역방향 모드:",
       "description": "Reverse Mode:",
-      "status": null
-   },
-   "options__censor__word-wall__shadow-size": {
-      "message": "그림자 크기",
-      "description": "Shadow Size",
-      "status": null
-   },
-   "options__censor__caption__shadow-color": {
-      "message": "그림자 색상",
-      "description": "Shadow Color",
       "status": null
    },
    "tooltip__censor__modes__caption__add-tag": {
@@ -3075,8 +2680,8 @@
       "status": null
    },
    "on-settings-import__missing-censor-presets-warning": {
-      "message": "이 설정은 존재하지 않는 검열 프리셋을 참조하는 혼합 구성을 남길 것입니다!",
-      "description": "These settings will leave your Mixed configuration referencing non-existent censor presets!",
+      "message": "이 설정은 일부 구성이 존재하지 않는 검열 프리셋을 참조하도록 남겨둘 것입니다!",
+      "description": "These settings will leave some of your configurations referencing non-existent censor presets!",
       "status": null
    },
    "on-settings-import__missing-patreon-features-warning": {
@@ -3090,13 +2695,13 @@
       "status": null
    },
    "on-bind-settings-to-remote__success": {
-      "message": "${0} ID가 있는 클라우드 설정이 원격 제어에 성공적으로 연결되었습니다!",
-      "description": "Cloud settings with an ID of ${0} successfully bound to remote control!",
+      "message": "${0} ID가 있는 클라우드 설정이 원격 제어에 성공적으로 연결되었습니다",
+      "description": "Cloud settings with an ID of ${0} successfully bound to remote control",
       "status": null
    },
    "on-update-remote-subscription__success": {
-      "message": "설정이 원격 제어와 성공적으로 동기화되었습니다!",
-      "description": "Settings successfully synced with remote!",
+      "message": "설정이 원격 제어와 성공적으로 동기화되었습니다",
+      "description": "Settings successfully synced with remote",
       "status": null
    },
    "on-update-remote-subscription__new-remote-settings-alert": {
@@ -3105,28 +2710,28 @@
       "status": null
    },
    "on-load-default-settings__success": {
-      "message": "기본 설정이 성공적으로 로드되었습니다!",
-      "description": "Default settings successfully loaded!",
+      "message": "기본 설정이 성공적으로 로드되었습니다",
+      "description": "Default settings successfully loaded",
       "status": null
    },
    "on-load-settings__success": {
-      "message": "설정 ${0}이(가) 성공적으로 로드되었습니다!",
-      "description": "Settings ${0} successfully loaded!",
+      "message": "설정 ${0}이(가) 성공적으로 로드되었습니다",
+      "description": "Settings ${0} successfully loaded",
       "status": null
    },
    "on-import-settings__success": {
-      "message": "설정이 성공적으로 가져왔습니다!",
-      "description": "Settings successfully imported!",
+      "message": "설정이 성공적으로 가져왔습니다",
+      "description": "Settings successfully imported",
       "status": null
    },
    "on-delete-settings__success": {
-      "message": "설정 ${0}이(가) 성공적으로 삭제되었습니다!",
-      "description": "Settings ${0} successfully deleted!",
+      "message": "설정 ${0}이(가) 성공적으로 삭제되었습니다",
+      "description": "Settings ${0} successfully deleted",
       "status": null
    },
    "on-save-settings__success": {
-      "message": "설정 ${0}이(가) 성공적으로 저장되었습니다!",
-      "description": "Settings ${0} successfully saved!",
+      "message": "설정 ${0}이(가) 성공적으로 저장되었습니다",
+      "description": "Settings ${0} successfully saved",
       "status": null
    },
    "bar-type": {
@@ -3134,29 +2739,559 @@
       "description": "Paint the effect area with the given color.",
       "status": null
    },
-   "tooltip__triangle-stroke-color-mode__auto": {
-      "message": "[자동]: ",
-      "description": "[Auto]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__auto__description": {
-      "message": "효과 영역에서 스트로크 색상을 샘플링합니다.",
-      "description": "Samples the stroke color from the effect area.",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom": {
-      "message": "[사용자 지정]: ",
-      "description": "[Custom]: ",
-      "status": null
-   },
-   "tooltip__triangle-stroke-color-mode__custom__description": {
-      "message": "사용자 지정 스트로크 색상을 사용합니다.",
-      "description": "Uses a custom stroke color.",
+   "tooltip__triangle-stroke-color-mode": {
+      "message": "[자동]: 효과 영역에서 스트로크 색상을 샘플링합니다.<br/>[사용자 지정]: 사용자 지정 스트로크 색상을 사용합니다.",
+      "description": "[Auto]: Samples the stroke color from the effect area.<br/>[Custom]: Uses a custom stroke color.",
       "status": null
    },
    "popup__censor__content": {
       "message": "검열된 콘텐츠",
       "description": "Censored Content",
       "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-all-content": {
+      "message": "모든 콘텐츠에 활성화",
+      "description": "Enable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__toggle-none-content": {
+      "message": "모든 콘텐츠에 비활성화",
+      "description": "Disable On All Content",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__export-entries": {
+      "message": "내보내기",
+      "description": "Export",
+      "status": null
+   },
+   "tooltip__censor__modes__caption__import-entries": {
+      "message": "가져오기",
+      "description": "Import",
+      "status": null
+   },
+   "on-export-caption-collection__success": {
+      "message": "${0}개의 항목과 ${1}개의 태그가 포함된 캡션 컬렉션이 성공적으로 내보내졌습니다",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully exported",
+      "status": null
+   },
+   "on-import-caption-collection__success": {
+      "message": "${0}개의 항목과 ${1}개의 태그가 포함된 캡션 컬렉션이 성공적으로 가져와졌습니다",
+      "description": "Caption collection with ${0} entries and ${1} tags succesfully imported",
+      "status": null
+   },
+   "on-import-caption-collection__entry-count-limit-error": {
+      "message": "${0}개의 항목이 포함된 캡션 컬렉션을 가져올 수 없습니다: ${1}개의 총 항목을 초과했습니다!",
+      "description": "Caption collection with ${0} entries could not be imported: ${1} total entries exceeded!",
+      "status": null
+   },
+   "on-import-caption-collection__tag-count-limit-error": {
+      "message": "${0}개의 태그가 포함된 캡션 컬렉션을 가져올 수 없습니다: ${1}개의 총 태그를 초과했습니다!",
+      "description": "Caption collection with ${0} tags could not be imported: ${1} total tags exceeded!",
+      "status": null
+   },
+   "on-export-caption-collection__no-entries-or-tags-selected-error": {
+      "message": "내보낼 항목과 태그를 선택하세요!",
+      "description": "Select some entries and tags to export!",
+      "status": null
+   },
+   "options__unaddressed-issues__text": {
+      "message": "미해결 문제",
+      "description": "unaddressed issues",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__title": {
+      "message": "브라우저 설정이 일부 데이터 저장 및 로드를 방해할 수 있습니다!",
+      "description": "Your browser settings might be preventing some data from saving and loading!",
+      "status": null
+   },
+   "on-unaddressed-issue__failed-to-open-indexed-db__description": {
+      "message": "스티커 컬렉션과 편집된 탐지가 저장되거나 로드되지 않습니다.</br></br>이는 Firefox의 현재 버그로 인해 발생할 수 있으며, <b>[기록을 절대 기억하지 않음]</b>을 선택하거나 <b>[사용자 정의 기록 설정 사용]</b>을 선택한 후 <b>[항상 프라이빗 브라우징 모드 사용]</b>을 활성화한 설정으로 인해 저희와 모든 다른 확장 프로그램이 Indexed DB를 열지 못하게 되어 앞서 언급한 데이터를 저장하는 데 사용됩니다.</br></br>이전 설정 중 하나를 실제로 적용한 경우, 다른 설정을 적용하고 브라우저를 다시 시작하면 이 문제가 해결될 수 있습니다. 그렇지 않거나 처음부터 해당 설정을 적용하지 않은 경우, <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> 또는 <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a>를 통해 개발자에게 연락하여 추가 지원을 받으십시오.</br></br>조치를 취하지 않기로 선택할 수도 있으며, 이 경우 확장은 정상적으로 작동하지만 스티커 컬렉션과 편집된 탐지는 세션 간에 기억되지 않습니다.",
+      "description": "Your stickers collections and edited detections cannot be saved nor loaded.</br></br>This might be due to a current Firefox bug in which selecting <b>[Never remember history]</b> or selecting <b>[Use custom settings for history]</b> with <b>[Always use private browsing mode]</b> enabled in your settings prevents ours and all other extensions from opening Indexed DBs, which we use to store the aforementioned data.</br></br>If you indeed have either of the previous settings applied, applying something else and restarting your browser should resolve this issue. If it doesn't or if you didn't have said settings applied to begin with, please get in contact with a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\"target=\"_blank\" style=\"color:inherit\">Github</a> who will assist you further.</br></br>You can also choose not to take action, in which case the extension will continue to operate as usual except for sticker collections and edited detections not being remembered between sessions.",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__title": {
+      "message": "비디오 처리 중 예외가 발생했습니다!",
+      "description": "Exceptions have been encountered while processing videos!",
+      "status": null
+   },
+   "on-unaddressed-issue__video-processing-exception__description": {
+      "message": "처리 중 예외가 발생하여 일부 비디오가 검열되지 않았을 수 있습니다.<br/><br/>이 예외는 확장 프로그램이나 비디오 처리기의 버그 또는 손상된 상태로 인해 발생한 가능성이 높으며, 사용자의 잘못으로 인한 것이 아닙니다. 문제를 보고하려면 <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> 또는 <a href=\"https://github.com/pury-fi\" target=\"_blank\" style=\"color:inherit\">Github</a>를 통해 개발자에게 연락하는 것이 좋습니다. 개발자가 문제 해결을 돕겠습니다. 만약 원하지 않으시면, 확장 프로그램과/또는 비디오 처리기를 다시 시작하거나 재설치하여 문제가 계속 발생하는지 확인할 수 있습니다.",
+      "description": "Some videos might have failed to censor due to exceptions encountered during processing.<br/><br/>These exceptions are likely the fault of bugs or corrupted state in either the extension or the video processor and not caused by your doing. Contacting a developer through <a href=\"https://discord.gg/9aBBJNEJGC\" target=\"_blank\" style=\"color:inherit\">Discord</a> or <a href=\"https://github.com/pury-fi\" target=\"_blank\" style=\"color:inherit\">Github</a> to report the issue would be greatly appreciated and they would personally assist you in resolving the issue, but if you'd rather not, you could still try restarting or reinstalling the extension and/or video processor and see if the issue comes up again.",
+      "status": null
+   },
+   "on-modal__acknowledge-and-dismiss-checkbox": {
+      "message": "확인하고 닫기",
+      "description": "Acknowledge and Dismiss.",
+      "status": null
+   },
+   "options__help__export-data": {
+      "message": "데이터 내보내기",
+      "description": "Export Data",
+      "status": null
+   },
+   "options__help__import-data": {
+      "message": "데이터 가져오기",
+      "description": "Import Data",
+      "status": null
+   },
+   "on-clear-data__confirm": {
+      "message": "모든 데이터가 삭제되며 <b>설정</b>, <b>스티커 컬렉션</b>, <b>편집된 탐지</b>, <b>잠금 타이머 로그</b> 및 <b>OOM 데이터</b>가 포함됩니다.<br/><br/>또한 로그아웃되며 원격 제어에서 로컬 구독이 해제됩니다.",
+      "description": "All of your data will be cleared including <b>Settings</b>, <b>Sticker Collections</b>, <b>Edited Detections</b>, <b>Lock Timer Logs</b>, and <b>OOM Data</b>.<br/><br/>You will also be logged out and locally unsubscribed from any remote control.",
+      "status": null
+   },
+   "on-create-report__permissions-request": {
+      "message": "브라우저가 이제 확장 프로그램에 <b>관리</b> 및 <b>개인 정보</b> 권한을 부여하도록 요청할 것입니다.<br/><br/>이 권한은 설치된 브라우저 확장 프로그램 및 브라우저 설정에 대한 정보를 수집하는 데 사용됩니다.<br/><br/>계속하려면 권한을 부여하세요...",
+      "description": "Your browser should now be prompting you to grant the extension <b>management</b> and <b>privacy</b> permissions.<br/><br/>These will be used to collect information about installed browser extensions and about browser settings respectively.<br/><br/>Grant the permissions to proceed...",
+      "status": null
+   },
+   "options__help__clear-data": {
+      "message": "데이터 삭제",
+      "description": "Clear Data",
+      "status": null
+   },
+   "options__help__create-report": {
+      "message": "보고서 생성",
+      "description": "Create Report",
+      "status": null
+   },
+   "options__help__create-report__description": {
+      "message": "확장 프로그램, 브라우저 및 시스템에 대한 정보를 수집 및 내보내어 개발자와 공유합니다.",
+      "description": "Collects and exports information about your extension, browser, and system for sharing with developers when requested.",
+      "status": null
+   },
+   "options__censor__reverse-mode__all-images": {
+      "message": "모든 이미지 검열",
+      "description": "Censor All Images",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content": {
+      "message": "콘텐츠가 있는 이미지 검열",
+      "description": "Censor Images With Content",
+      "status": null
+   },
+   "options__censor__reverse-mode__images-with-content-to-censor": {
+      "message": "검열할 콘텐츠가 있는 이미지 검열",
+      "description": "Censor Images With Content To Censor",
+      "status": null
+   },
+   "options__censor__reverse-mode": {
+      "message": "역방향 모드",
+      "description": "Reverse Mode",
+      "status": null
+   },
+   "options__censor__modes__blur-gaussian": {
+      "message": "가우시안",
+      "description": "Gaussian",
+      "status": null
+   },
+   "options__censor__modes__blur-diffusion": {
+      "message": "확산",
+      "description": "Diffusion",
+      "status": null
+   },
+   "options__censor__cluster__rotation": {
+      "message": "회전",
+      "description": "Rotation",
+      "status": null
+   },
+   "options__censor__modes__shadow": {
+      "message": "그림자",
+      "description": "Shadow",
+      "status": null
+   },
+   "on-import-data__invalid-file": {
+      "message": "데이터를 가져올 수 없습니다: 파일이 손상되었거나 다른 버전용입니다!",
+      "description": "No data could be imported: File is either corrupted or for a different version!",
+      "status": null
+   },
+   "on-enable-lock-remote-subscription__not-easily-reversable-warning": {
+      "message": "이 작업은 쉽게 되돌릴 수 없습니다!",
+      "description": "This action is not easily reversable!",
+      "status": null
+   },
+   "tooltip__cluster-rotation": {
+      "message": "결합된 감지를 효율적으로 커버하기 위해 필요한 경우 결과 감지를 회전할 수 있습니다.",
+      "description": "Allows rotating the resulting detections as needed to efficiently cover the joined detections.",
+      "status": null
+   },
+   "tooltip__oom-timer": {
+      "message": "두 번째 보기에서 이미지를 차단하는 대신 첫 번째로 본 후 경과된 시간 이후의 보기를 차단합니다.",
+      "description": "Instead of blocking the image from the second view, blocks it for views past a given ellapsed time from when first viewed.",
+      "status": null
+   },
+   "tooltip__oom-automatic-refresh": {
+      "message": "타이머가 켜져 있을 때, 타이머가 종료되면 열린 탭의 이미지가 자동으로 새로 고쳐지며, 차단된 이미지가 즉시 자리를 차지합니다.",
+      "description": "When timer is on, automatically refreshes images in opened tabs when their timer runs down, having the blocked image to immediately take its place.",
+      "status": null
+   },
+   "on-import-caption-collection__invalid-file-error": {
+      "message": "캡션 모음을 가져올 수 없습니다: 파일이 유효하지 않습니다!",
+      "description": "No caption collection could be imported: Invalid file!",
+      "status": null
+   },
+   "tooltip__reverse-mode__description": {
+      "message": "감지된 활성 콘텐츠를 검열하는 대신 해당 콘텐츠를 제외한 전체 이미지를 검열합니다.",
+      "description": "Instead of censoring the enabled content detected, censors the entire image except for said content.",
+      "status": null
+   },
+   "tooltip__caption-mode": {
+      "message": "[잘라내기]: 텍스트의 잘라내기를 만듭니다.<br/>[페인트]: 텍스트를 사용자 지정 색상으로 칠합니다.",
+      "description": "[Cutout]: Creates a cutout of the text.<br/>[Paint]: Paints the text in a custom color.",
+      "status": null
+   },
+   "tooltip__caption-tags": {
+      "message": "각 이미지에 태그가 선택되고 해당 태그가 있는 항목만 이미지에 선택됩니다.",
+      "description": "On each image a tag is picked and only entries with said tag are then picked for the image.",
+      "status": null
+   },
+   "tooltip__performance__interpolation": {
+      "message": "애니메이션 미디어의 처리 시간을 단축시키기 위해 몇 개의 프레임만 스캔하고 보간법을 사용해 공백을 채웁니다.",
+      "description": "Cuts processing times of animated media by scanning only every few frames and performing interpolation to fill the gaps.",
+      "status": null
+   },
+   "tooltip__download": {
+      "message": "다운로드",
+      "description": "Download",
+      "status": null
+   },
+   "tooltip__concurrent-processes": {
+      "message": "동시에 처리되는 최대 이미지 수.",
+      "description": "The maximum number of images that get processed concurrently.",
+      "status": null
+   },
+   "options__sidebar__performance": {
+      "message": "성능",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__header": {
+      "message": "성능",
+      "description": "Performance",
+      "status": null
+   },
+   "options__performance__description": {
+      "message": "확장의 성능을 구성하세요:",
+      "description": "Configure the extension's performance:",
+      "status": null
+   },
+   "options__performance__ai-model": {
+      "message": "AI 모델",
+      "description": "AI Model",
+      "status": null
+   },
+   "options__performance__editor": {
+      "message": "편집기",
+      "description": "Editor",
+      "status": null
+   },
+   "options__performance__animated-media": {
+      "message": "애니메이션 미디어",
+      "description": "Animated Media",
+      "status": null
+   },
+   "options__performance_interpolation": {
+      "message": "보간법",
+      "description": "Interpolation",
+      "status": null
+   },
+   "options__performance__scan-rate": {
+      "message": "스캔 속도",
+      "description": "Scan Rate",
+      "status": null
+   },
+   "options__performance__scan-rate__description": {
+      "message": "이 많은 프레임마다 스캔을 수행합니다.",
+      "description": "Performs a scan every this many frames.",
+      "status": null
+   },
+   "options__performance__confidence": {
+      "message": "신뢰도",
+      "description": "Confidence",
+      "status": null
+   },
+   "options__performance__confidence__description": {
+      "message": "두 개의 다른 프레임에서 보간을 수행하기 위해 감지가 얼마나 유사해야 하는지 결정합니다.",
+      "description": "Determines how similar detections in two different frames must be to perform interpolation between them.",
+      "status": null
+   },
+   "options__performance__extra-interpolation": {
+      "message": "추가 보간법",
+      "description": "Extra Interpolation",
+      "status": null
+   },
+   "options__performance__extra-interpolation__description": {
+      "message": "스캔되지 않은 프레임을 처리하기 위해 필요한 것보다 더 많은 프레임을 보간합니다. 이는 모델이 잠시 동안 일부 콘텐츠를 감지하지 못할 때 이를 커버하는 데 도움이 될 수 있습니다.",
+      "description": "Performs interpolation for this many frames beyond the needed to cover for frames not scanned. This can help cover for the model briefly failing to detect some content.",
+      "status": null
+   },
+   "options__filetypes__concurrent-processes": {
+      "message": "동시 처리",
+      "description": "Concurrent Processes",
+      "status": null
+   },
+   "options__filetypes__video-file-processor": {
+      "message": "파일 프로세서",
+      "description": "File Processor",
+      "status": null
+   },
+   "popup__missing-video-processor-app": {
+      "message": "데스크톱에 비디오 프로세서 앱을 설치해야 합니다.",
+      "description": "Requires our Video Processor app to be installed on your desktop.",
+      "status": null
+   },
+   "popup__upgrade-required-video-processor-app": {
+      "message": "설치된 비디오 프로세서 앱이 호환되지 않습니다. ${0}(으)로 업그레이드하세요.",
+      "description": "The installed Video Processor app is incompatible, please upgrade to ${0}.",
+      "status": null
+   },
+   "popup__downgrade-required-video-processor-app": {
+      "message": "설치된 비디오 프로세서 앱이 호환되지 않습니다. ${0}(으)로 다운그레이드하세요.",
+      "description": "The installed Video Processor app is incompatible, please downgrade to ${0}.",
+      "status": null
+   },
+   "popup__upgrade-recommended-video-processor-app": {
+      "message": "설치된 비디오 프로세서 앱이 오래되었습니다. ${0}(으)로 업그레이드하세요.",
+      "description": "The installed Video Processor app is outdated, please upgrade to ${0}.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__not-supported-device-message": {
+      "message": "64비트 Windows 데스크탑에서만 사용 가능합니다.",
+      "description": "Available only on 64 bits Windows desktop.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__glitch-type-for-pixel-not-supported": {
+      "message": "Pixel에 대한 글리치 유형은 아직 지원되지 않습니다.",
+      "description": "Glitch type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__halftone-type-for-pixel-not-supported": {
+      "message": "Pixel에 대한 반점 유형은 아직 지원되지 않습니다.",
+      "description": "Halftone type for Pixel is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__super-random-mode-for-random-not-supported": {
+      "message": "Random에 대한 슈퍼 랜덤 모드는 아직 지원되지 않습니다.",
+      "description": "Super random mode for Random is not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__random-entries-in-mixed-not-supported": {
+      "message": "Mixed에 대한 랜덤 항목은 아직 지원되지 않습니다.",
+      "description": "Random entries in Mixed are not yet supported.",
+      "status": null
+   },
+   "options__filetypes__video-file-processor__general": {
+      "message": "일반",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps": {
+      "message": "최대 FPS",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-fps__description": {
+      "message": "이 FPS를 초과하는 비디오 프레임은 처리 시 삭제됩니다.",
+      "description": "Drops frames in videos over this FPS for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution": {
+      "message": "최대 해상도",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__max-resolution__description": {
+      "message": "이 해상도를 초과하는 비디오의 해상도를 처리용으로 다운스케일합니다.",
+      "description": "Downscales videos over this resolution for processing.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality": {
+      "message": "품질",
+      "description": "Quality",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__worst": {
+      "message": "최악",
+      "description": "Poor",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__balanced": {
+      "message": "균형",
+      "description": "Balanced",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__good": {
+      "message": "좋음",
+      "description": "Good",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__best": {
+      "message": "최고",
+      "description": "Best",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__quality__description": {
+      "message": "손실 없는 옵션이 없는 인코더의 출력 품질을 설정합니다.",
+      "description": "Sets the output quality for encoders with no lossless option, such as libvpx.",
+      "status": null
+   },
+   "options__filetypes__video-overlay": {
+      "message": "오버레이",
+      "description": "Overlay",
+      "status": null
+   },
+   "options__filetypes__video-overlay__not-supported-device-message": {
+      "message": "데스크탑에서만 사용 가능합니다.",
+      "description": "Available only on desktop.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__general": {
+      "message": "일반",
+      "description": "General",
+      "status": null
+   },
+   "options__filetypes__video-overlay__gif-exporting": {
+      "message": "GIF 내보내기",
+      "description": "GIF Exporting",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode": {
+      "message": "처리 모드",
+      "description": "Processing Mode",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__sync": {
+      "message": "동기",
+      "description": "Sync",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__async": {
+      "message": "비동기",
+      "description": "Async",
+      "status": null
+   },
+   "options__filetypes__video-overlay__processing-mode__description": {
+      "message": "프레임을 하나씩 처리할지 [동기] 아니면 FPS 한도를 초과할 때까지 동시에 처리할지 [비동기]를 결정합니다.",
+      "description": "Whether to process frames one at a time [Sync] or to simultaneously process frames until the FPS limit is met [Async].",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit": {
+      "message": "최대 FPS",
+      "description": "Max. FPS",
+      "status": null
+   },
+   "options__filetypes__video-overlay__fps-limit__description": {
+      "message": "비동기 처리 시 이만큼의 FPS만 처리합니다.",
+      "description": "Processes no more than this many FPS when async processing.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution": {
+      "message": "최대 해상도",
+      "description": "Max. Resolution",
+      "status": null
+   },
+   "options__filetypes__video-overlay__max-resolution__description": {
+      "message": "GIF를 내보낼 때 이 해상도를 초과하는 프레임은 다운스케일됩니다. 이 값을 0으로 설정하면 비활성화됩니다.",
+      "description": "Downscales frames over this resolution when exporting a GIF. Can be set to zero to disable.",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size": {
+      "message": "캐시 크기",
+      "description": "Cache Size",
+      "status": null
+   },
+   "options__filetypes__video-overlay__cache-size__description": {
+      "message": "처리된 프레임을 저장하는 캐시 크기이며, 따라서 GIF로 내보낼 수 있는 총 프레임 수를 결정합니다.",
+      "description": "The size of the cache for storing processed frames, and consequently, the total frames that can be exported as a GIF.",
+      "status": null
+   },
+   "options__settings__scan": {
+      "message": "스캔",
+      "description": "Scan",
+      "status": null
+   },
+   "options__settings__appearance": {
+      "message": "모양",
+      "description": "Appearance",
+      "status": null
+   },
+   "options__help__unfreeze": {
+      "message": "해제",
+      "description": "Unfreeze",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads": {
+      "message": "스레드",
+      "description": "Threads",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__threads__description": {
+      "message": "프레임을 스캔하고 그리는 데 사용할 스레드 수입니다.",
+      "description": "The number of threads to use for scanning and painting frames.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout": {
+      "message": "비활성화 시간 초과",
+      "description": "Inactivity Timeout",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity-timeout__description": {
+      "message": "이 비활성 기간 후에 비디오 처리 앱을 절전 모드로 전환합니다.",
+      "description": "Puts the video processsor app to sleep after this period of inactivity.",
+      "status": null
+   },
+   "options__filetypes__video-file-processing__inactivity__none": {
+      "message": "없음",
+      "description": "None",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1m": {
+      "message": "1분",
+      "description": "1 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2m": {
+      "message": "2분",
+      "description": "2 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__3m": {
+      "message": "3분",
+      "description": "3 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__5m": {
+      "message": "5분",
+      "description": "5 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__10m": {
+      "message": "10분",
+      "description": "10 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__15m": {
+      "message": "15분",
+      "description": "15 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__20m": {
+      "message": "20분",
+      "description": "20 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__30m": {
+      "message": "30분",
+      "description": "30 min",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__1h": {
+      "message": "1시간",
+      "description": "1 hr",
+      "status": "new"
+   },
+   "options__filetypes__video-file-processing__inactivity__2h": {
+      "message": "2시간",
+      "description": "2 hr",
+      "status": "new"
    }
 }
