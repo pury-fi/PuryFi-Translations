@@ -669,8 +669,8 @@
       "description": "Scatter",
       "status": null
    },
-   "options__censor__modes__glitch__split-chance": { // TO DO
-      "message": "Split Chance",
+   "options__censor__modes__glitch__split-chance": {
+      "message": "Chance de Division",
       "description": "Split Chance",
       "status": null
    },
@@ -779,8 +779,8 @@
       "description": "Enabled Sources",
       "status": null
    },
-   "options__censor__modes__sticker__entries-description": { // TO DO
-      "message": "- Entries are collection or group names separated by semicolons",
+   "options__censor__modes__sticker__entries-description": {
+      "message": "- les entrées sont des noms de collection ou de groupe, séparés par des points-virgules",
       "description": "- Entries are collection or group names separated by semicolons",
       "status": null
    },
@@ -839,13 +839,13 @@
       "description": "Size",
       "status": null
    },
-   "options__censor__modes__splatter__sub-size": { // TO DO
-      "message": "Sub Size",
+   "options__censor__modes__splatter__sub-size": {
+      "message": "Taille des Sous-Éclats",
       "description": "Sub Size",
       "status": null
    },
-   "options__censor__modes__splatter__sub-amount": { // TO DO
-      "message": "Sub Amount",
+   "options__censor__modes__splatter__sub-amount": {
+      "message": "Nombre de Sous-Éclats",
       "description": "Sub Amount",
       "status": null
    },
@@ -1029,8 +1029,8 @@
       "description": "Minimalistic",
       "status": null
    },
-   "options__performance__downscale-input": { // TO DO
-      "message": "Downscale Input",
+   "options__performance__downscale-input": {
+      "message": "Réduire la Taille des Entrées",
       "description": "Downscale Input",
       "status": null
    },
@@ -2349,8 +2349,8 @@
       "description": "All of your data will be cleared including <b>Settings</b>, <b>Sticker Collections</b>, <b>Edited Detections</b>, <b>Lock Timer Logs</b>, and <b>OOM Data</b>.<br/><br/>You will also be logged out and locally unsubscribed from any remote control.",
       "status": null
    },
-   "on-create-report__permissions-request": { // TO DO
-      "message": "",
+   "on-create-report__permissions-request": {
+      "message": "Votre navigateur devrait maintenant vous demander les autorisations de <b>Gestion</b> et de <b>Vie Privée</b>.<br/><br/>Ces persimmions seront utilisées pour collecter des informations à propos des extensions installées et des paramètres du navigateur.<br/><br/>Autorisez pour continuer...",
       "description": "Your browser should now be prompting you to grant the extension <b>management</b> and <b>privacy</b> permissions.<br/><br/>These will be used to collect information about installed browser extensions and about browser settings respectively.<br/><br/>Grant the permissions to proceed...",
       "status": null
    },
@@ -2474,13 +2474,13 @@
       "description": "These settings will lock your extension!",
       "status": null
    },
-   "on-settings-import__missing-censor-extra-presets-warning": { // TO DO
-      "message": "",
+   "on-settings-import__missing-censor-extra-presets-warning": {
+      "message": "Ces paramètres laisseront une ou plusieurs de vos configurations de censure référençant des paramètres de cluster, de légende et/ou de mur de mots inexistants!",
       "description": "These settings will leave one or more of your censor configurations referencing non-existent Cluster, Caption and/or Word Wall presets!",
       "status": null
    },
-   "on-settings-import__missing-censor-presets-warning": { // TO DO
-      "message": "",
+   "on-settings-import__missing-censor-presets-warning": {
+      "message": "Ces paramètres laisseront certaines de vos configurations référençant des paramètres de censure inexistants!",
       "description": "These settings will leave some of your configurations referencing non-existent censor presets!",
       "status": null
    },
@@ -2619,8 +2619,8 @@
       "description": "The maximum possible panel size relative to the effect area size.",
       "status": null
    },
-   "tooltip__glitch-multiple-panels-scatter": { // TO DO
-      "message": "The maximum possible distance a panel can be shifted by, measured in the height or width of the effect area.",
+   "tooltip__glitch-multiple-panels-scatter": {
+      "message": "La distance macimale à laquelle un panneau peut être décallé, mesuré avec la largeur ou la hauteur de la zone de l'effet.",
       "description": "The maximum possible distance a panel can be shifted by, measured in the height or width of the effect area.",
       "status": null
    },
